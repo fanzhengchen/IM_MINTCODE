@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WorkHub-IM</string>
+
+
+    <string name="user_name">username</string>
+    <string name="password">password</string>
+</resources>
