@@ -1,14 +1,15 @@
 package mintcode.com.workhub_im;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends Activity {
+/**
+ * Created by mark on 16-6-8.
+ */
+public class CompanyListActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
     }
 }
