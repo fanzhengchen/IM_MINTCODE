@@ -1,6 +1,7 @@
 package mintcode.com.workhub_im;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +9,9 @@ import android.util.Log;
 import android.widget.EditText;
 
 import com.alibaba.fastjson.JSON;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -33,7 +37,7 @@ public class LoginActivity extends Activity {
     EditText passwordEditText;
 
     private APIService service;
-
+    private List<LoginResponse.BodyBean.ResponseBean.DataBean.CompanyListBean> listBeen;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -72,12 +76,18 @@ public class LoginActivity extends Activity {
         request.setHeader(headerBean);
 
         String requestStr = JSON.toJSONString(request);
-        Log.e("FUCK",requestStr);
+        Log.e("FUCK", requestStr);
         try {
             service.login(request).enqueue(new Callback<LoginResponse>() {
                 @Override
                 public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
                     String rawString = response.body().toString();
+                    listBeen = response.body()
+                            .getBody()
+                            .getResponse()
+                            .getData()
+                            .getCompanyList();
+                    accessCompanyList();
                 }
 
                 @Override
@@ -88,6 +98,12 @@ public class LoginActivity extends Activity {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
 
+    private void accessCompanyList() {
+        Intent intent = new Intent(this, CompanyListActivity.class);
+        String jsonStr = JSON.toJSONString(listBeen);
+        intent.putExtra("CompanyList", jsonStr);
+        startActivity(intent);
     }
 }
