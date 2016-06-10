@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.widget.EditText;
 
 import com.alibaba.fastjson.JSON;
@@ -41,7 +40,7 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(LoginActivity.this);
-        service = App.getRetrofit().create(APIService.class);
+        service = App.getApiService();
     }
 
     @OnClick(R.id.login)
@@ -59,7 +58,7 @@ public class LoginActivity extends Activity {
         headerBean.setUserName(userName);
         headerBean.setType("POST");
         headerBean.setLoginName(userName);
-        headerBean.setCompanyCode("mintcode");
+        headerBean.setCompanyCode("");
         headerBean.setAsync(false);
 
         LoginRequest.BodyBean bodyBean = new LoginRequest.BodyBean();
@@ -72,8 +71,8 @@ public class LoginActivity extends Activity {
         request.setBody(bodyBean);
         request.setHeader(headerBean);
 
-        String requestStr = JSON.toJSONString(request);
-        Log.e("FUCK", requestStr);
+//        String requestStr = JSON.toJSONString(request);
+//        Log.e("FUCK", requestStr);
         try {
             service.userLogin(request).enqueue(new Callback<LoginResponse>() {
                 @Override

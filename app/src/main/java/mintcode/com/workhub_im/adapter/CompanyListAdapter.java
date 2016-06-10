@@ -9,8 +9,14 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import mintcode.com.workhub_im.App;
+import mintcode.com.workhub_im.Http.APIService;
 import mintcode.com.workhub_im.R;
+import mintcode.com.workhub_im.pojo.LoginRequest;
 import mintcode.com.workhub_im.pojo.LoginResponse;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 /**
  * Created by mark on 16-6-8.
@@ -20,9 +26,12 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
 
     private List<LoginResponse.BodyBean.ResponseBean.DataBean.CompanyListBean> list;
     private LoginResponse.BodyBean.ResponseBean.DataBean.CompanyListBean bean;
+    private static APIService service;
+    private static String token = null;
 
     public CompanyListAdapter(List<LoginResponse.BodyBean.ResponseBean.DataBean.CompanyListBean> listBeen) {
         this.list = listBeen;
+        service = App.getApiService();
     }
 
     @Override
@@ -39,6 +48,7 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
     public void onBindViewHolder(CompanyListViewHolder holder, int position) {
         holder.companyNameTV.setText(list.get(position).getCName());
         holder.companyCodeTV.setText(list.get(position).getCCode());
+        holder.showId = list.get(position).getShowId();
     }
 
     @Override
@@ -54,10 +64,61 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
         @BindView(R.id.company_code)
         TextView companyCodeTV;
 
+        String showId;
+
 
         public CompanyListViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    companyLogin(v);
+                }
+            });
         }
+
+        public void companyLogin(View view) {
+            String userName = "markfan@mintcode.com";
+            String password = "xuejunzhongxue8";
+
+
+            LoginRequest request = new LoginRequest();
+            LoginRequest.HeaderBean headerBean = new LoginRequest.HeaderBean();
+
+            headerBean.setResourceUri(APIService.USER_LOGIN);
+            headerBean.setUserName(userName);
+            headerBean.setType("POST");
+            headerBean.setLoginName(userName);
+            headerBean.setCompanyCode(companyCodeTV.getText().toString());
+            headerBean.setAsync(false);
+
+            LoginRequest.BodyBean bodyBean = new LoginRequest.BodyBean();
+            LoginRequest.BodyBean.ParamBean paramBean = new LoginRequest.BodyBean.ParamBean();
+
+            paramBean.setUserLoginName(userName);
+            paramBean.setUserPassword(password);
+            bodyBean.setParam(paramBean);
+
+            request.setBody(bodyBean);
+            request.setHeader(headerBean);
+
+            service.companyLogin(request).enqueue(new Callback<LoginResponse>() {
+                @Override
+                public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
+                    LoginResponse.BodyBean.ResponseBean.DataBean dataBean = response.body().
+                            getBody().getResponse().getData();
+                    token = dataBean.getValidatorToken();
+
+                }
+
+                @Override
+                public void onFailure(Call<LoginResponse> call, Throwable t) {
+
+                }
+            });
+        }
+
+
     }
 }
