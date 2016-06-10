@@ -4,13 +4,11 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.EditText;
 
 import com.alibaba.fastjson.JSON;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
@@ -19,7 +17,6 @@ import butterknife.OnClick;
 import mintcode.com.workhub_im.Http.APIService;
 import mintcode.com.workhub_im.pojo.LoginRequest;
 import mintcode.com.workhub_im.pojo.LoginResponse;
-import mintcode.com.workhub_im.pojo.Request;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -58,7 +55,7 @@ public class LoginActivity extends Activity {
         LoginRequest request = new LoginRequest();
         LoginRequest.HeaderBean headerBean = new LoginRequest.HeaderBean();
 
-        headerBean.setResourceUri(APIService.LOGIN);
+        headerBean.setResourceUri(APIService.USER_LOGIN);
         headerBean.setUserName(userName);
         headerBean.setType("POST");
         headerBean.setLoginName(userName);
@@ -78,7 +75,7 @@ public class LoginActivity extends Activity {
         String requestStr = JSON.toJSONString(request);
         Log.e("FUCK", requestStr);
         try {
-            service.login(request).enqueue(new Callback<LoginResponse>() {
+            service.userLogin(request).enqueue(new Callback<LoginResponse>() {
                 @Override
                 public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
                     String rawString = response.body().toString();

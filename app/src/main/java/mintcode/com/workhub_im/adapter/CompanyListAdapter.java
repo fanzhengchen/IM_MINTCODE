@@ -1,6 +1,5 @@
 package mintcode.com.workhub_im.adapter;
 
-import android.service.voice.VoiceInteractionService;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,7 +19,7 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
 
 
     private List<LoginResponse.BodyBean.ResponseBean.DataBean.CompanyListBean> list;
-
+    private LoginResponse.BodyBean.ResponseBean.DataBean.CompanyListBean bean;
 
     public CompanyListAdapter(List<LoginResponse.BodyBean.ResponseBean.DataBean.CompanyListBean> listBeen) {
         this.list = listBeen;
