@@ -2,7 +2,6 @@ package mintcode.com.workhub_im.Http;
 
 import mintcode.com.workhub_im.pojo.LoginRequest;
 import mintcode.com.workhub_im.pojo.LoginResponse;
-import mintcode.com.workhub_im.pojo.Request;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.POST;
@@ -12,8 +11,13 @@ import retrofit2.http.POST;
  */
 public interface APIService {
 
-    public static final String LOGIN = "/Base-Module/CompanyUserLogin/CompanyUserValidate";
+    public static final String USER_LOGIN = "/Base-Module/CompanyUserLogin/CompanyUserValidate";
 
-    @POST(LOGIN)
-    Call<LoginResponse> login(@Body LoginRequest request);
+    public static final String COMPANY_LOGIN = "/Base-Module/CompanyUserLogin";
+
+    @POST(USER_LOGIN)
+    Call<LoginResponse> userLogin(@Body LoginRequest request);
+
+    @POST(COMPANY_LOGIN)
+    Call<LoginResponse> companyLogin(@Body LoginRequest request);
 }

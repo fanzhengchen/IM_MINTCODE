@@ -37,36 +37,6 @@ public class LoginResponse {
         this.Body = Body;
     }
 
-    public static class HeaderBean {
-        private boolean IsSuccess;
-        private int ResCode;
-        private String Reason;
-
-        public boolean isIsSuccess() {
-            return IsSuccess;
-        }
-
-        public void setIsSuccess(boolean IsSuccess) {
-            this.IsSuccess = IsSuccess;
-        }
-
-        public int getResCode() {
-            return ResCode;
-        }
-
-        public void setResCode(int ResCode) {
-            this.ResCode = ResCode;
-        }
-
-        public String getReason() {
-            return Reason;
-        }
-
-        public void setReason(String Reason) {
-            this.Reason = Reason;
-        }
-    }
-
     public static class BodyBean {
         /**
          * Data : {"validatorToken":"YYG77y8ndysr3vNB","isIpLogined":1,"companyList":[{"showId":"35b11f42f4522d8924","cCode":"mt","cName":"Mintcode"},{"showId":"evJxevzeOJcBrlAj","cCode":"test","cName":"test"}]}

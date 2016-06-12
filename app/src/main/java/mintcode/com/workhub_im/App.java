@@ -2,11 +2,12 @@ package mintcode.com.workhub_im;
 
 import android.app.Application;
 
+import mintcode.com.workhub_im.Http.APIService;
 import mintcode.com.workhub_im.Http.LogJsonInterceptor;
+import mintcode.com.workhub_im.beans.UserPrefer;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import retrofit2.http.PUT;
 
 /**
  * Created by mark on 16-6-8.
@@ -20,11 +21,12 @@ public class App extends Application {
     private static Retrofit retrofitClient = null;
     private static String baseUrl = SERVER_PATH;
     private static OkHttpClient httpClient = null;
+    private static APIService apiService = null;
 
     @Override
     public void onCreate() {
         super.onCreate();
-
+        UserPrefer.init(getApplicationContext());
     }
 
     public static Retrofit getRetrofit() {
@@ -42,4 +44,10 @@ public class App extends Application {
         return retrofitClient;
     }
 
+    public static APIService getApiService() {
+        if (apiService == null) {
+            apiService = getRetrofit().create(APIService.class);
+        }
+        return apiService;
+    }
 }
