@@ -7,7 +7,7 @@ import retrofit2.http.POST;
 import retrofit2.http.Query;
 
 /**
- * Created by fanzhengchen on 6/12/16.
+ * Created by mark on 16-6-13.
  */
 public interface IMService {
 
