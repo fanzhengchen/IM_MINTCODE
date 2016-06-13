@@ -22,14 +22,10 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * Created by mark on 16-6-8.
  */
 public class App extends IMKitApplication {
-    private static final String SERVER_PATH = "http://api.mintcode.com";
-    private static final String ATTACH_PATH = "http://a.mintcode.com";
-    private static final String ip = "ws://imws.mintcode.com:20000";
-    private static final String httpIp = "http://imhttp.mintcode.com/launchr/";
+
 
     private static Retrofit retrofitClient = null;
     private static Retrofit imRetrofitClient = null;
-    private static String baseUrl = SERVER_PATH;
     private static OkHttpClient httpClient = null;
     private static APIService apiService = null;
     private static IMService imService = null;
@@ -44,41 +40,41 @@ public class App extends IMKitApplication {
                 .build();
     }
 
-    public static Retrofit getRetrofit() {
-        if (retrofitClient == null) {
-            retrofitClient = new Retrofit.Builder()
-                    .baseUrl(baseUrl)
-                    .addConverterFactory(GsonConverterFactory.create())
-                    .client(httpClient)
-                    .build();
-        }
-        return retrofitClient;
-    }
-
-    public static Retrofit getImRetrofitClient() {
-        if (imRetrofitClient == null) {
-            imRetrofitClient = new Retrofit.Builder()
-                    .baseUrl(httpIp)
-                    .addConverterFactory(GsonConverterFactory.create())
-                    .client(httpClient)
-                    .build();
-        }
-        return imRetrofitClient;
-    }
-
-    public static APIService getApiService() {
-        if (apiService == null) {
-            apiService = getRetrofit().create(APIService.class);
-        }
-        return apiService;
-    }
-
-    public static IMService getImService() {
-        if (imService == null) {
-            imService = getImRetrofitClient().create(IMService.class);
-        }
-        return imService;
-    }
+//    public static Retrofit getRetrofit() {
+//        if (retrofitClient == null) {
+//            retrofitClient = new Retrofit.Builder()
+//                    .baseUrl(baseUrl)
+//                    .addConverterFactory(GsonConverterFactory.create())
+//                    .client(httpClient)
+//                    .build();
+//        }
+//        return retrofitClient;
+//    }
+//
+//    public static Retrofit getImRetrofitClient() {
+//        if (imRetrofitClient == null) {
+//            imRetrofitClient = new Retrofit.Builder()
+//                    .baseUrl(httpIp)
+//                    .addConverterFactory(GsonConverterFactory.create())
+//                    .client(httpClient)
+//                    .build();
+//        }
+//        return imRetrofitClient;
+//    }
+//
+//    public static APIService getApiService() {
+//        if (apiService == null) {
+//            apiService = getRetrofit().create(APIService.class);
+//        }
+//        return apiService;
+//    }
+//
+//    public static IMService getImService() {
+//        if (imService == null) {
+//            imService = getImRetrofitClient().create(IMService.class);
+//        }
+//        return imService;
+//    }
 
     public static String getDeviceUUID(Context context) {
         int sdk = Build.VERSION.SDK_INT;

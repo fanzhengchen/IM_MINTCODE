@@ -21,7 +21,7 @@ public class LogJsonInterceptor implements Interceptor {
         Response response = chain.proceed(request);
         String rawJson = response.body().string();
 
-        Log.e(BuildConfig.APPLICATION_ID, String.format("raw JSON response is: %s", rawJson));
+        Log.e(BuildConfig.APPLICATION_ID, String.format("raw JSON response is: %s %s", rawJson, response.request().toString()));
 
 // Re-create the response before returning it because body can be read only once
         return response.newBuilder()

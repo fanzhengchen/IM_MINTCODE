@@ -9,6 +9,7 @@ import mintcode.com.workhub_im.App;
 import mintcode.com.workhub_im.Http.IMService;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.beans.UserPrefer;
+import mintcode.com.workhub_im.pojo.IMLoginRequest;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -26,30 +27,32 @@ public class SessionActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_session_list);
-        imService = App.getImService();
         showId = UserPrefer.getShowId();
         login();
     }
 
     private void login() {
-      imService.IMLogin("IM DEMO",
-                "verify-code",
-                showId,
-                App.getDeviceUUID(this),
-                App.getDeviceName(),
-                "android",
-                App.getOsVer(),
-                App.getAppVer(this)).enqueue(new Callback<LoginResultPOJO>() {
-          @Override
-          public void onResponse(Call<LoginResultPOJO> call, Response<LoginResultPOJO> response) {
-
-          }
-
-          @Override
-          public void onFailure(Call<LoginResultPOJO> call, Throwable t) {
-
-          }
-      });
+//        showId = "Ga7DmQ0QkOTLnlPP";
+//        IMLoginRequest request = new IMLoginRequest();
+//        request.setAppName("launchr");
+//        request.setAppToken("verify-code");
+//        request.setUserName(showId);
+//        request.setDeviceUUID(App.getDeviceUUID(this));
+//        request.setDeviceName(App.getDeviceName());
+//        request.setOs("android");
+//        request.setOsVer(App.getOsVer());
+//        request.setAppVer(App.getOsVer());
+//        imService.IMLogin(request).enqueue(new Callback<LoginResultPOJO>() {
+//            @Override
+//            public void onResponse(Call<LoginResultPOJO> call, Response<LoginResultPOJO> response) {
+//
+//            }
+//
+//            @Override
+//            public void onFailure(Call<LoginResultPOJO> call, Throwable t) {
+//
+//            }
+//        });
 
     }
 }

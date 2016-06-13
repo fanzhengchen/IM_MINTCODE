@@ -6,18 +6,19 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.widget.EditText;
 
-import com.alibaba.fastjson.JSON;
-
-import java.util.List;
+import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import mintcode.com.workhub_im.App;
+import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.Http.APIService;
+import mintcode.com.workhub_im.Http.RequestProvider;
 import mintcode.com.workhub_im.R;
-import mintcode.com.workhub_im.pojo.LoginRequest;
-import mintcode.com.workhub_im.pojo.LoginResponse;
+import mintcode.com.workhub_im.pojo.CompanyEntity;
+import mintcode.com.workhub_im.pojo.HttpResponse;
+import mintcode.com.workhub_im.pojo.LoginCompanyData;
+import mintcode.com.workhub_im.pojo.UserLoginData;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -35,73 +36,45 @@ public class LoginActivity extends Activity {
     EditText passwordEditText;
 
     private APIService service;
-    private List<LoginResponse.BodyBean.ResponseBean.DataBean.CompanyListBean> listBeen;
+    private ArrayList<CompanyEntity> list = null;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(LoginActivity.this);
-        service = App.getApiService();
+        userNameEditText.setText("markfan@mintcode.com");
+        passwordEditText.setText("xuejunzhongxue8");
     }
 
     @OnClick(R.id.login)
     public void login() {
         String userName = userNameEditText.getText().toString();
         String password = passwordEditText.getText().toString();
-        userName = "markfan@mintcode.com";
-        password = "xuejunzhongxue8";
 
+        RequestProvider.userLogin(userName, password, new Callback<HttpResponse<LoginCompanyData>>() {
+            @Override
+            public void onResponse(Call<HttpResponse<LoginCompanyData>> call, Response<HttpResponse<LoginCompanyData>> response) {
+                list = response.body().
+                        getBody().
+                        getResponse().
+                        getData().
+                        getEntities();
+                accessCompanyList();
+                System.out.println("fuck");
+            }
 
-        LoginRequest request = new LoginRequest();
-        LoginRequest.HeaderBean headerBean = new LoginRequest.HeaderBean();
+            @Override
+            public void onFailure(Call<HttpResponse<LoginCompanyData>> call, Throwable t) {
 
-        headerBean.setResourceUri(APIService.USER_LOGIN);
-        headerBean.setUserName(userName);
-        headerBean.setType("POST");
-        headerBean.setLoginName(userName);
-        headerBean.setCompanyCode("");
-        headerBean.setAsync(false);
-
-        LoginRequest.BodyBean bodyBean = new LoginRequest.BodyBean();
-        LoginRequest.BodyBean.ParamBean paramBean = new LoginRequest.BodyBean.ParamBean();
-
-        paramBean.setUserLoginName(userName);
-        paramBean.setUserPassword(password);
-        bodyBean.setParam(paramBean);
-
-        request.setBody(bodyBean);
-        request.setHeader(headerBean);
-
-//        String requestStr = JSON.toJSONString(request);
-//        Log.e("FUCK", requestStr);
-        try {
-            service.userLogin(request).enqueue(new Callback<LoginResponse>() {
-                @Override
-                public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
-                    String rawString = response.body().toString();
-                    listBeen = response.body()
-                            .getBody()
-                            .getResponse()
-                            .getData()
-                            .getCompanyList();
-                    accessCompanyList();
-                }
-
-                @Override
-                public void onFailure(Call<LoginResponse> call, Throwable t) {
-
-                }
-            });
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+            }
+        });
     }
 
     private void accessCompanyList() {
         Intent intent = new Intent(this, CompanyListActivity.class);
-        String jsonStr = JSON.toJSONString(listBeen);
-        intent.putExtra("CompanyList", jsonStr);
+        intent.putParcelableArrayListExtra(AppConsts.COMPANY_LIST, list);
         startActivity(intent);
     }
 }

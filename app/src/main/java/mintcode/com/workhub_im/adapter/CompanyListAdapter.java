@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
@@ -16,7 +17,7 @@ import mintcode.com.workhub_im.Http.APIService;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.activities.SessionActivity;
 import mintcode.com.workhub_im.beans.UserPrefer;
-import mintcode.com.workhub_im.pojo.LoginRequest;
+import mintcode.com.workhub_im.pojo.CompanyEntity;
 import mintcode.com.workhub_im.pojo.LoginResponse;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -28,15 +29,15 @@ import retrofit2.Response;
 public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.CompanyListViewHolder> {
 
 
-    private List<LoginResponse.BodyBean.ResponseBean.DataBean.CompanyListBean> list;
-    private LoginResponse.BodyBean.ResponseBean.DataBean.CompanyListBean bean;
     private static APIService service;
     private static String token = null;
 
-    public CompanyListAdapter(List<LoginResponse.BodyBean.ResponseBean.DataBean.CompanyListBean> listBeen) {
-        this.list = listBeen;
-        service = App.getApiService();
+    private ArrayList<CompanyEntity> companyEntities;
+
+    public CompanyListAdapter(ArrayList<CompanyEntity> companyEntities) {
+        this.companyEntities = companyEntities;
     }
+
 
     @Override
     public CompanyListViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -50,14 +51,15 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
 
     @Override
     public void onBindViewHolder(CompanyListViewHolder holder, int position) {
-        holder.companyNameTV.setText(list.get(position).getCName());
-        holder.companyCodeTV.setText(list.get(position).getCCode());
-        holder.showId = list.get(position).getShowId();
+        CompanyEntity entity = companyEntities.get(position);
+        holder.companyNameTV.setText(entity.getcName());
+        holder.companyCodeTV.setText(entity.getcCode());
+        holder.showId = entity.getShowId();
     }
 
     @Override
     public int getItemCount() {
-        return (list == null) ? 0 : list.size();
+        return (companyEntities == null) ? 0 : companyEntities.size();
     }
 
 
@@ -87,42 +89,6 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
             String password = "xuejunzhongxue8";
 
 
-            LoginRequest request = new LoginRequest();
-            LoginRequest.HeaderBean headerBean = new LoginRequest.HeaderBean();
-
-            headerBean.setResourceUri(APIService.USER_LOGIN);
-            headerBean.setUserName(userName);
-            headerBean.setType("POST");
-            headerBean.setLoginName(userName);
-            headerBean.setCompanyCode(companyCodeTV.getText().toString());
-            headerBean.setAsync(false);
-
-            LoginRequest.BodyBean bodyBean = new LoginRequest.BodyBean();
-            LoginRequest.BodyBean.ParamBean paramBean = new LoginRequest.BodyBean.ParamBean();
-
-            paramBean.setUserLoginName(userName);
-            paramBean.setUserPassword(password);
-            bodyBean.setParam(paramBean);
-
-            request.setBody(bodyBean);
-            request.setHeader(headerBean);
-
-            service.companyLogin(request).enqueue(new Callback<LoginResponse>() {
-                @Override
-                public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
-                    LoginResponse.BodyBean.ResponseBean.DataBean dataBean = response.body().
-                            getBody().getResponse().getData();
-                    token = dataBean.getValidatorToken();
-                    Context context = view.getContext();
-                    UserPrefer.setShowId(showId);
-                    UserPrefer.setImToken(token);
-                    context.startActivity(new Intent(context, SessionActivity.class));
-                }
-
-                @Override
-                public void onFailure(Call<LoginResponse> call, Throwable t) {
-                }
-            });
         }
 
 //        private void imLogin() {

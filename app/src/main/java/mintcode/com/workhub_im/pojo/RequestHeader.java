@@ -1,12 +1,11 @@
 package mintcode.com.workhub_im.pojo;
 
-import com.alibaba.fastjson.annotation.JSONField;
 import com.google.gson.annotations.SerializedName;
 
 /**
  * Created by mark on 16-6-8.
  */
-public class HeadParameters {
+public class RequestHeader {
 
     @SerializedName("LoginName")
     private String loginName;
@@ -31,6 +30,17 @@ public class HeadParameters {
 
     @SerializedName("Language")
     private String language;
+
+    @SerializedName("CompanyCode")
+    private String companyCode;
+
+    public String getCompanyCode() {
+        return companyCode;
+    }
+
+    public void setCompanyCode(String companyCode) {
+        this.companyCode = companyCode;
+    }
 
     public String getLoginName() {
         return loginName;
@@ -94,5 +104,64 @@ public class HeadParameters {
 
     public void setLanguage(String language) {
         this.language = language;
+    }
+
+    public static class Builder {
+
+        private RequestHeader param;
+
+        public Builder() {
+            param = new RequestHeader();
+        }
+
+        public Builder setUserName(String userName) {
+            param.setUserName(userName);
+            return this;
+        }
+
+        public Builder setLoginName(String loginName) {
+            param.setLoginName(loginName);
+            return this;
+        }
+
+        public Builder setCompanyShowId(String showId) {
+            param.setCompanyShowId(showId);
+            return this;
+        }
+
+        public Builder setAuthToken(String token) {
+            param.setAuthToken(token);
+            return this;
+        }
+
+        public Builder setResourceUri(String uri) {
+            param.setResourceUri(uri);
+            return this;
+        }
+
+        public Builder setAsync(boolean async) {
+            param.setAsync(async);
+            return this;
+        }
+
+        public Builder setType(String type) {
+            param.setType(type);
+            return this;
+        }
+
+        public Builder setLanguage(String language) {
+            param.setLanguage(language);
+            return this;
+        }
+
+        public Builder setCompanyCode(String companyCode) {
+            param.setCompanyCode(companyCode);
+            return this;
+        }
+
+        public RequestHeader builder() {
+            return param;
+        }
+
     }
 }
