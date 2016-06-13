@@ -1,5 +1,7 @@
 package mintcode.com.workhub_im.adapter;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +14,8 @@ import butterknife.ButterKnife;
 import mintcode.com.workhub_im.App;
 import mintcode.com.workhub_im.Http.APIService;
 import mintcode.com.workhub_im.R;
+import mintcode.com.workhub_im.activities.SessionActivity;
+import mintcode.com.workhub_im.beans.UserPrefer;
 import mintcode.com.workhub_im.pojo.LoginRequest;
 import mintcode.com.workhub_im.pojo.LoginResponse;
 import retrofit2.Call;
@@ -78,7 +82,7 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
             });
         }
 
-        public void companyLogin(View view) {
+        public void companyLogin(final View view) {
             String userName = "markfan@mintcode.com";
             String password = "xuejunzhongxue8";
 
@@ -109,15 +113,21 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
                     LoginResponse.BodyBean.ResponseBean.DataBean dataBean = response.body().
                             getBody().getResponse().getData();
                     token = dataBean.getValidatorToken();
-
+                    Context context = view.getContext();
+                    UserPrefer.setShowId(showId);
+                    UserPrefer.setImToken(token);
+                    context.startActivity(new Intent(context, SessionActivity.class));
                 }
 
                 @Override
                 public void onFailure(Call<LoginResponse> call, Throwable t) {
-
                 }
             });
         }
+
+//        private void imLogin() {
+//            IMNewApi.getInstance().
+//        }
 
 
     }

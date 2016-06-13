@@ -6,7 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/WorkHub-IM-Demo.iml" filepath="$PROJECT_DIR$/WorkHub-IM-Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/greendao/greendao.iml" filepath="$PROJECT_DIR$/greendao/greendao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/greendao/greendao.iml" filepath="$PROJECT_DIR$/greendao/greendao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imkit/imkit.iml" filepath="$PROJECT_DIR$/imkit/imkit.iml" />
       <module fileurl="file://$PROJECT_DIR$/mintcode_im_sdk/mintcode_im_sdk.iml" filepath="$PROJECT_DIR$/mintcode_im_sdk/mintcode_im_sdk.iml" />
     </modules>
   </component>

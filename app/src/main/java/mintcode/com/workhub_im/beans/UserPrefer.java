@@ -15,6 +15,8 @@ public class UserPrefer {
 
     public static final String USER_NAME = "user_name";
     public static final String PASSWORD = "password";
+    public static final String SHOW_ID = "show_id";
+    public static final String IM_TOKEN = "im_token";
 
     public static void init(Context ctx) {
         context = ctx;
@@ -32,11 +34,29 @@ public class UserPrefer {
                 .commit();
     }
 
+    public static void setShowId(String showId) {
+        editor.putString(SHOW_ID, showId)
+                .commit();
+    }
+
+    public static void setImToken(String imToken) {
+        editor.putString(IM_TOKEN, imToken)
+                .commit();
+    }
+
     public static String getUserName() {
         return preferences.getString(USER_NAME, "");
     }
 
     public static String getPassword() {
         return preferences.getString(PASSWORD, "");
+    }
+
+    public static String getShowId() {
+        return preferences.getString(SHOW_ID, "");
+    }
+
+    public static String getImToken() {
+        return preferences.getString(IM_TOKEN, "");
     }
 }

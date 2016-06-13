@@ -15,9 +15,12 @@ public interface APIService {
 
     public static final String COMPANY_LOGIN = "/Base-Module/CompanyUserLogin";
 
+    public static final String IM_LOGIN = "";
+
     @POST(USER_LOGIN)
     Call<LoginResponse> userLogin(@Body LoginRequest request);
 
     @POST(COMPANY_LOGIN)
     Call<LoginResponse> companyLogin(@Body LoginRequest request);
+
 }

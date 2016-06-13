@@ -1,4 +1,4 @@
-package mintcode.com.workhub_im;
+package mintcode.com.workhub_im.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -13,7 +13,9 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import mintcode.com.workhub_im.App;
 import mintcode.com.workhub_im.Http.APIService;
+import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.pojo.LoginRequest;
 import mintcode.com.workhub_im.pojo.LoginResponse;
 import retrofit2.Call;

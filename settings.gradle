@@ -1,1 +1,1 @@
-include ':app', ':greendao', ':mintcode_im_sdk'
+include ':app', ':greendao', ':mintcode_im_sdk', ':imkit'

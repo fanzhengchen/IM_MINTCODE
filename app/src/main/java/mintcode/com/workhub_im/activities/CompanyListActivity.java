@@ -1,4 +1,4 @@
-package mintcode.com.workhub_im;
+package mintcode.com.workhub_im.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,6 +12,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.adapter.CompanyListAdapter;
 import mintcode.com.workhub_im.pojo.LoginResponse;
 
