@@ -1,4 +1,4 @@
-package mintcode.com.workhub_im.pojo;
+package mintcode.com.workhub_im.im.pojo;
 
 /**
  * Created by mark on 16-6-13.
@@ -75,5 +75,57 @@ public class IMLoginRequest {
 
     public void setAppVer(String appVer) {
         this.appVer = appVer;
+    }
+
+    public static class Builder {
+        IMLoginRequest request;
+
+        public Builder() {
+            request = new IMLoginRequest();
+        }
+
+        public Builder setAppName(String appName) {
+            request.setAppName(appName);
+            return this;
+        }
+
+        public Builder setAppToken(String appToken) {
+            request.setAppToken(appToken);
+            return this;
+        }
+
+        public Builder setUserName(String userName) {
+            request.setUserName(userName);
+            return this;
+        }
+
+        public Builder setDeviceUUID(String deviceUUID) {
+            request.setDeviceUUID(deviceUUID);
+            return this;
+        }
+
+        public Builder setDeviceName(String deviceName) {
+            request.setDeviceName(deviceName);
+            return this;
+        }
+
+        public Builder setOS(String os) {
+            request.setOs(os);
+            return this;
+        }
+
+        public Builder setOsVer(String osVer) {
+            request.setOsVer(osVer);
+            return this;
+        }
+
+        public Builder setAppVer(String appVer) {
+            request.setAppVer(appVer);
+            return this;
+        }
+
+        public IMLoginRequest builder() {
+            return request;
+        }
     }
 }

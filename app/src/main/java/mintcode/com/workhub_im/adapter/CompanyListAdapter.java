@@ -14,11 +14,14 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import mintcode.com.workhub_im.App;
 import mintcode.com.workhub_im.Http.APIService;
+import mintcode.com.workhub_im.Http.RequestProvider;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.activities.SessionActivity;
 import mintcode.com.workhub_im.beans.UserPrefer;
 import mintcode.com.workhub_im.pojo.CompanyEntity;
+import mintcode.com.workhub_im.pojo.HttpResponse;
 import mintcode.com.workhub_im.pojo.LoginResponse;
+import mintcode.com.workhub_im.pojo.LoginUserData;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -54,6 +57,7 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
         CompanyEntity entity = companyEntities.get(position);
         holder.companyNameTV.setText(entity.getcName());
         holder.companyCodeTV.setText(entity.getcCode());
+        holder.cCode = entity.getcCode();
         holder.showId = entity.getShowId();
     }
 
@@ -71,6 +75,7 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
         TextView companyCodeTV;
 
         String showId;
+        String cCode;
 
 
         public CompanyListViewHolder(View itemView) {
@@ -85,15 +90,28 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
         }
 
         public void companyLogin(final View view) {
-            String userName = "markfan@mintcode.com";
-            String password = "xuejunzhongxue8";
+            String userName = UserPrefer.getUserName();
+            String password = UserPrefer.getPassword();
+            RequestProvider.companyLogin(userName, password, cCode, new Callback<HttpResponse<LoginUserData>>() {
+                @Override
+                public void onResponse(Call<HttpResponse<LoginUserData>> call, Response<HttpResponse<LoginUserData>> response) {
+                    String IMUserName = response.body()
+                            .getBody()
+                            .getResponse()
+                            .getData()
+                            .getUserShowId();
+                    UserPrefer.setShowId(IMUserName);
+                    Context context = view.getContext();
+                    context.startActivity(new Intent(context, SessionActivity.class));
+                }
 
+                @Override
+                public void onFailure(Call<HttpResponse<LoginUserData>> call, Throwable t) {
+
+                }
+            });
 
         }
-
-//        private void imLogin() {
-//            IMNewApi.getInstance().
-//        }
 
 
     }

@@ -15,10 +15,10 @@ import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.Http.APIService;
 import mintcode.com.workhub_im.Http.RequestProvider;
 import mintcode.com.workhub_im.R;
+import mintcode.com.workhub_im.beans.UserPrefer;
 import mintcode.com.workhub_im.pojo.CompanyEntity;
 import mintcode.com.workhub_im.pojo.HttpResponse;
 import mintcode.com.workhub_im.pojo.LoginCompanyData;
-import mintcode.com.workhub_im.pojo.UserLoginData;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -52,7 +52,8 @@ public class LoginActivity extends Activity {
     public void login() {
         String userName = userNameEditText.getText().toString();
         String password = passwordEditText.getText().toString();
-
+        UserPrefer.setUserName(userName);
+        UserPrefer.setPassword(password);
         RequestProvider.userLogin(userName, password, new Callback<HttpResponse<LoginCompanyData>>() {
             @Override
             public void onResponse(Call<HttpResponse<LoginCompanyData>> call, Response<HttpResponse<LoginCompanyData>> response) {
@@ -62,7 +63,6 @@ public class LoginActivity extends Activity {
                         getData().
                         getEntities();
                 accessCompanyList();
-                System.out.println("fuck");
             }
 
             @Override

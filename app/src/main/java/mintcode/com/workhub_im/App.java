@@ -14,6 +14,7 @@ import mintcode.com.workhub_im.Http.APIService;
 import mintcode.com.workhub_im.Http.IMService;
 import mintcode.com.workhub_im.Http.LogJsonInterceptor;
 import mintcode.com.workhub_im.beans.UserPrefer;
+import mintcode.com.workhub_im.im.IMAPIProvider;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -35,6 +36,8 @@ public class App extends IMKitApplication {
         super.onCreate();
         UserPrefer.init(getApplicationContext());
         IMUtil.getInstance().saveAppName("WorkHub-IM");
+        IMAPIProvider.init(getApplicationContext());
+
         httpClient = new OkHttpClient.Builder()
                 .addInterceptor(new LogJsonInterceptor())
                 .build();
@@ -83,7 +86,7 @@ public class App extends IMKitApplication {
                 .getSystemService(Context.TELEPHONY_SERVICE);
         try {
             deviceUUID = telephonyManager.getDeviceId();// got imei
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
         if (TextUtils.isEmpty(deviceUUID)) {

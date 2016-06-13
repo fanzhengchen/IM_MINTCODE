@@ -7,7 +7,7 @@ import java.lang.ref.PhantomReference;
 /**
  * Created by mark on 16-6-13.
  */
-public class UserLoginData {
+public class LoginUserData {
     @SerializedName("U_SHOW_ID")
     private String userShowId;
     @SerializedName("LAST_LOGIN_TOKEN")

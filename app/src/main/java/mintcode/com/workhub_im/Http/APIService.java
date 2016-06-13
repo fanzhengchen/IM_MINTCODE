@@ -4,8 +4,7 @@ import mintcode.com.workhub_im.pojo.HttpRequest;
 import mintcode.com.workhub_im.pojo.HttpResponse;
 import mintcode.com.workhub_im.pojo.LoginCompanyData;
 import mintcode.com.workhub_im.pojo.LoginRequestBody;
-import mintcode.com.workhub_im.pojo.LoginResponse;
-import mintcode.com.workhub_im.pojo.UserLoginData;
+import mintcode.com.workhub_im.pojo.LoginUserData;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.POST;
@@ -24,7 +23,7 @@ public interface APIService {
     @POST(USER_LOGIN)
     Call<HttpResponse<LoginCompanyData>> userLogin(@Body HttpRequest<LoginRequestBody> request);
 
-//    @POST(COMPANY_LOGIN)
-//    Call<LoginResponse> companyLogin(@Body LoginRequest request);
+    @POST(COMPANY_LOGIN)
+    Call<HttpResponse<LoginUserData>> companyLogin(@Body HttpRequest<LoginRequestBody> request);
 
 }

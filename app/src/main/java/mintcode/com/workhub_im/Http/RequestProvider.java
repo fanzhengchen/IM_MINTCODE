@@ -1,15 +1,13 @@
 package mintcode.com.workhub_im.Http;
 
 import mintcode.com.workhub_im.pojo.LoginCompanyData;
+import mintcode.com.workhub_im.pojo.LoginUserData;
 import mintcode.com.workhub_im.pojo.RequestHeader;
 import mintcode.com.workhub_im.pojo.HttpRequest;
 import mintcode.com.workhub_im.pojo.HttpResponse;
 import mintcode.com.workhub_im.pojo.LoginParameters;
 import mintcode.com.workhub_im.pojo.LoginRequestBody;
-import mintcode.com.workhub_im.pojo.UserLoginData;
-import retrofit2.Call;
 import retrofit2.Callback;
-import retrofit2.Response;
 
 /**
  * Created by mark on 16-6-13.
@@ -38,5 +36,28 @@ public class RequestProvider {
         loginReq.setHeader(head);
         loginReq.setBody(body);
         apiService.userLogin(loginReq).enqueue(call);
+    }
+
+    public static void companyLogin(String userName, String password, String companyCode,
+                                    Callback<HttpResponse<LoginUserData>> callback) {
+        HttpRequest<LoginRequestBody> loginReq = new HttpRequest<>();
+        RequestHeader header = new RequestHeader.Builder()
+                .setType(POST)
+                .setResourceUri(APIService.COMPANY_LOGIN)
+                .setCompanyCode(companyCode)
+                .builder();
+
+        LoginParameters param = new LoginParameters();
+        param.setUserLoginName(userName);
+        param.setUserPassword(password);
+
+        LoginRequestBody body = new LoginRequestBody();
+        body.setParam(param);
+
+        loginReq.setHeader(header);
+        loginReq.setBody(body);
+
+        apiService.companyLogin(loginReq).enqueue(callback);
+
     }
 }
