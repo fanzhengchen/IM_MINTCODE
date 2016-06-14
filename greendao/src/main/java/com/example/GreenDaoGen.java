@@ -11,11 +11,13 @@ public class GreenDaoGen {
     public static void main(String args[]) throws Exception {
         Schema schema = new Schema(1, "mintcode.com.workhub_im.db");
         DaoGenerator daoGenerator = new DaoGenerator();
+        addSessionItem(schema);
+        addMessageItem(schema);
         daoGenerator.generateAll(schema, "./app/src/main/java");
     }
 
 
-    private Entity addSessionItem(Schema schema) {
+    private static void addSessionItem(Schema schema) {
         Entity sessionItem = schema.addEntity("SessionItem");
         sessionItem.addIdProperty();
         sessionItem.addStringProperty("userName");
@@ -31,10 +33,9 @@ public class GreenDaoGen {
         sessionItem.addIntProperty("drafts");
         sessionItem.addLongProperty("clientMsgId");
         sessionItem.addLongProperty("sessionTime");
-        return sessionItem;
     }
 
-    private Entity addMessageItem(Schema schema) {
+    private static void addMessageItem(Schema schema) {
         Entity messageItem = schema.addEntity("MessageItem");
         messageItem.addIdProperty();
         messageItem.addStringProperty("appName");
@@ -60,6 +61,5 @@ public class GreenDaoGen {
         messageItem.addLongProperty("send_time");
         messageItem.addStringProperty("toNickName");
         messageItem.addStringProperty("percent");
-        return messageItem;
     }
 }
