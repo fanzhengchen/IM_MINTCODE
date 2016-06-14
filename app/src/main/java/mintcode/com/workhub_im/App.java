@@ -43,41 +43,7 @@ public class App extends IMKitApplication {
                 .build();
     }
 
-//    public static Retrofit getRetrofit() {
-//        if (retrofitClient == null) {
-//            retrofitClient = new Retrofit.Builder()
-//                    .baseUrl(baseUrl)
-//                    .addConverterFactory(GsonConverterFactory.create())
-//                    .client(httpClient)
-//                    .build();
-//        }
-//        return retrofitClient;
-//    }
-//
-//    public static Retrofit getImRetrofitClient() {
-//        if (imRetrofitClient == null) {
-//            imRetrofitClient = new Retrofit.Builder()
-//                    .baseUrl(httpIp)
-//                    .addConverterFactory(GsonConverterFactory.create())
-//                    .client(httpClient)
-//                    .build();
-//        }
-//        return imRetrofitClient;
-//    }
-//
-//    public static APIService getApiService() {
-//        if (apiService == null) {
-//            apiService = getRetrofit().create(APIService.class);
-//        }
-//        return apiService;
-//    }
-//
-//    public static IMService getImService() {
-//        if (imService == null) {
-//            imService = getImRetrofitClient().create(IMService.class);
-//        }
-//        return imService;
-//    }
+
 
     public static String getDeviceUUID(Context context) {
         int sdk = Build.VERSION.SDK_INT;

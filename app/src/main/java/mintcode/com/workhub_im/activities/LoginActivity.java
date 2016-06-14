@@ -1,9 +1,13 @@
 package mintcode.com.workhub_im.activities;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.widget.EditText;
 
 import java.util.ArrayList;
@@ -46,6 +50,7 @@ public class LoginActivity extends Activity {
         ButterKnife.bind(LoginActivity.this);
         userNameEditText.setText("markfan@mintcode.com");
         passwordEditText.setText("xuejunzhongxue8");
+        requirePermission();
     }
 
     @OnClick(R.id.login)
@@ -76,5 +81,22 @@ public class LoginActivity extends Activity {
         Intent intent = new Intent(this, CompanyListActivity.class);
         intent.putParcelableArrayListExtra(AppConsts.COMPANY_LIST, list);
         startActivity(intent);
+    }
+
+    private void requirePermission() {
+//        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE)
+//                != PackageManager.PERMISSION_GRANTED) {
+//            if(ActivityCompat.sh)
+//        }
+        ActivityCompat.requestPermissions(
+                this,
+                new String[]{Manifest.permission.READ_PHONE_STATE, Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                AppConsts.REQUEST_CODE
+        );
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 }

@@ -3,6 +3,7 @@ package mintcode.com.workhub_im.adapter;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -13,11 +14,15 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import mintcode.com.workhub_im.App;
+import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.Http.APIService;
 import mintcode.com.workhub_im.Http.RequestProvider;
 import mintcode.com.workhub_im.R;
+import mintcode.com.workhub_im.activities.MainActivity;
 import mintcode.com.workhub_im.activities.SessionActivity;
 import mintcode.com.workhub_im.beans.UserPrefer;
+import mintcode.com.workhub_im.im.IMAPIProvider;
+import mintcode.com.workhub_im.im.pojo.IMLoginResponse;
 import mintcode.com.workhub_im.pojo.CompanyEntity;
 import mintcode.com.workhub_im.pojo.HttpResponse;
 import mintcode.com.workhub_im.pojo.LoginResponse;
@@ -101,8 +106,7 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
                             .getData()
                             .getUserShowId();
                     UserPrefer.setShowId(IMUserName);
-                    Context context = view.getContext();
-                    context.startActivity(new Intent(context, SessionActivity.class));
+                    login(IMUserName, view.getContext());
                 }
 
                 @Override
@@ -113,6 +117,27 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
 
         }
 
+        private void login(String showId, final Context context) {
+            IMAPIProvider.imLogin(showId, new Callback<IMLoginResponse>() {
+                @Override
+                public void onResponse(Call<IMLoginResponse> call, Response<IMLoginResponse> response) {
+                    if (TextUtils.equals(response.body().getMessage(), AppConsts.SUCCESS)) {
+                        startActivity(context, new Intent(context, MainActivity.class));
+                    }
+                }
+
+                @Override
+                public void onFailure(Call<IMLoginResponse> call, Throwable t) {
+
+                }
+            });
+        }
+
+        void startActivity(Context context, Intent intent) {
+            context.startActivity(intent);
+        }
 
     }
+
+
 }

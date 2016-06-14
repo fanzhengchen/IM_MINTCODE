@@ -35,6 +35,5 @@ public class IMAPIProvider {
                 .builder();
 
         imService.IMLogin(request).enqueue(callback);
-
     }
 }

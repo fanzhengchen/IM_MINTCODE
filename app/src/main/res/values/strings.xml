@@ -5,4 +5,7 @@
     <string name="user_name">username</string>
     <string name="password">password</string>
     <string name="login">login</string>
+
+    <string name="message">message</string>
+    <string name="contacts">contacts</string>
 </resources>

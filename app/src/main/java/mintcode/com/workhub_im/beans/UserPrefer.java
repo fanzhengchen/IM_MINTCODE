@@ -3,6 +3,9 @@ package mintcode.com.workhub_im.beans;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+import retrofit2.Retrofit;
+import retrofit2.http.PUT;
+
 /**
  * Created by fanzhengchen on 6/10/16.
  */
@@ -17,6 +20,7 @@ public class UserPrefer {
     public static final String PASSWORD = "password";
     public static final String SHOW_ID = "show_id";
     public static final String IM_TOKEN = "im_token";
+    public static final String IP_ADDRESS = "ip_address";
 
     public static void init(Context ctx) {
         context = ctx;
@@ -44,6 +48,12 @@ public class UserPrefer {
                 .commit();
     }
 
+    public static void setIP(String ip) {
+        editor.putString(IP_ADDRESS, ip)
+                .commit();
+    }
+
+
     public static String getUserName() {
         return preferences.getString(USER_NAME, "");
     }
@@ -58,5 +68,9 @@ public class UserPrefer {
 
     public static String getImToken() {
         return preferences.getString(IM_TOKEN, "");
+    }
+
+    public static String getIpAddress() {
+        return preferences.getString(IP_ADDRESS, "");
     }
 }

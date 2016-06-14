@@ -17,30 +17,11 @@ import retrofit2.Response;
  */
 public class SessionActivity extends Activity {
 
-
-    private IMService imService;
-    private String showId;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_session_list);
-        showId = UserPrefer.getShowId();
-        login();
     }
 
-    private void login() {
-        IMAPIProvider.imLogin(showId, new Callback<IMLoginResponse>() {
-            @Override
-            public void onResponse(Call<IMLoginResponse> call, Response<IMLoginResponse> response) {
 
-            }
-
-            @Override
-            public void onFailure(Call<IMLoginResponse> call, Throwable t) {
-
-            }
-        });
-
-    }
 }
