@@ -21,6 +21,9 @@ public class UserPrefer {
     public static final String SHOW_ID = "show_id";
     public static final String IM_TOKEN = "im_token";
     public static final String IP_ADDRESS = "ip_address";
+    public static final String COMPANY_CODE = "company_code";
+    public static final String AES_KEY = "aes_key";
+    public static final String IM_USERNAME = "im_username";
 
     public static void init(Context ctx) {
         context = ctx;
@@ -53,6 +56,20 @@ public class UserPrefer {
                 .commit();
     }
 
+    public static void setCompanyCode(String companyCode) {
+        editor.putString(COMPANY_CODE, companyCode)
+                .commit();
+    }
+
+    public static void setAesKey(String aesKey) {
+        editor.putString(AES_KEY, aesKey)
+                .commit();
+    }
+
+    public static void setImUsername(String username) {
+        editor.putString(IM_USERNAME, username)
+                .commit();
+    }
 
     public static String getUserName() {
         return preferences.getString(USER_NAME, "");
@@ -72,5 +89,17 @@ public class UserPrefer {
 
     public static String getIpAddress() {
         return preferences.getString(IP_ADDRESS, "");
+    }
+
+    public static String getCompanyCode() {
+        return preferences.getString(COMPANY_CODE, "");
+    }
+
+    public static String getAesKey() {
+        return preferences.getString(AES_KEY, "");
+    }
+
+    public static String getImUsername() {
+        return preferences.getString(IM_USERNAME, "");
     }
 }

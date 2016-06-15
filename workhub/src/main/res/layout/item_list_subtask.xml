@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+	android:orientation="vertical"
+	android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout android:layout_width="match_parent"
+				    android:layout_height="60dp"
+				    android:layout_centerVertical="true"
+				    android:background="@color/white" >
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:layout_alignParentTop="true"
+	        android:background="@color/line_color" />
+	
+	    <ImageView
+	        android:id="@+id/img_avatar"
+	        android:layout_width="28dp"
+	        android:layout_height="28dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="14dp"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/icon_launchr"
+			android:visibility="gone"/>
+
+		<CheckBox
+			android:id="@+id/ch_finish_sub_task"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:background="@drawable/bg_finish_task_state"
+			android:button="@null"
+			android:layout_gravity="center_vertical"
+			android:layout_marginRight="7dp"
+			android:layout_marginLeft="15dp"/>
+	
+	    <LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_toRightOf="@id/ch_finish_sub_task"
+			android:orientation="vertical">
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1">
+				<TextView
+					android:id="@+id/tv_subtask"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:layout_marginLeft="15dp"
+					android:layout_centerVertical="true"
+					android:gravity="center_vertical"
+					android:textSize="15sp"
+					android:textColor="@color/black"
+					android:text="首页设计" />
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_marginLeft="15dp"
+				android:layout_weight="1">
+
+				<ImageView
+					android:id="@+id/clock"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:src="@drawable/gray_clock"/>
+
+				<TextView
+					android:id="@+id/sub_task_time"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:gravity="center_vertical"
+					android:layout_toRightOf="@id/clock"
+					android:layout_marginLeft="5dp"
+					android:textColor="@color/gray_launchr"
+					android:text=""/>
+
+				<TextView
+					android:id="@+id/sub_task_name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_alignParentRight="true"
+					android:layout_marginRight="10dp"
+					android:textColor="@color/gray_launchr"
+					android:text=""/>
+			</RelativeLayout>
+		</LinearLayout>
+	
+	    <ImageView
+	        android:id="@+id/iv_item_subtaskmore"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:paddingLeft="10dp"
+	        android:paddingRight="20dp"
+	        android:src="@drawable/icon_much_gray"
+			android:visibility="gone"/>
+    </RelativeLayout>
+    
+    
+
+</LinearLayout>

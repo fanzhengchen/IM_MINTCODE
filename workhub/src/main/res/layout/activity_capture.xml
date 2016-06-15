@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<RelativeLayout
+        android:id="@+id/rel_top"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/setting_title"
+        android:background="@color/my_head_background" >
+
+        <ImageView
+			android:id="@+id/iv_back"
+			android:layout_width="40dp"
+			android:layout_height="50dp"
+			android:layout_alignParentLeft="true"
+			android:scaleType="center"
+			android:src="@drawable/icon_white_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/scan_qr_code"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <RelativeLayout 
+        android:id="@+id/layout_part1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel_top"
+        >
+        <SurfaceView
+	        android:id="@+id/surfaceview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" >
+		    </SurfaceView>
+	
+	    <com.zxing.android.view.ViewfinderView
+	        android:id="@+id/viewfinderview"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="#00000000" >
+	    	</com.zxing.android.view.ViewfinderView>
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginBottom="100dp"
+	        android:gravity="center"
+	        android:text="@string/qr_code_inside"
+	        android:textColor="@color/white"
+	        android:textSize="15sp" />
+	</RelativeLayout>
+    <LinearLayout 
+        android:id="@+id/layout_part2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel_top"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        >
+	    <ImageView 
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginTop="92dp"
+	        android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:src="@drawable/mac_machine"
+	        />
+	    <TextView 
+	        android:layout_marginTop="30dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:text="网页登录确认"
+	        android:textColor="@color/black"
+	        android:textSize="12sp"
+	        />
+	    <Button 
+	        android:id="@+id/login"
+	        android:layout_marginLeft="12dp"
+	        android:layout_marginRight="12dp"
+	        android:layout_marginTop="80dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="43dp"
+	        android:text="登录"
+	        android:textColor="@color/white"
+	        android:textSize="14sp"
+	        android:background="@color/my_head_background"
+	        />
+	    <TextView 
+	        android:id="@+id/cancel"
+	        android:layout_marginTop="42dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:text="取消登录"
+	        android:textColor="@color/blue"
+	        android:textSize="12sp"
+	        />
+	</LinearLayout>
+
+</RelativeLayout>

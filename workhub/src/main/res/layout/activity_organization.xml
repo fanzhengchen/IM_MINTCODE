@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+ 	<LinearLayout android:layout_width="match_parent"
+        		  android:layout_height="wrap_content"
+        		  android:id="@+id/ll_fragment"
+        		  android:orientation="vertical">
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        		  android:layout_height="wrap_content"
+        		  android:orientation="vertical">
+        <RelativeLayout android:layout_width="match_parent"
+		       		      android:layout_height="50dp"
+		       		      >
+		    
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:scaleType="center"
+                android:src="@drawable/icon_back" />		      
+            
+       		<TextView android:text="@string/search"
+       		    	  android:textSize="16sp"
+       		    	  android:textColor="@color/blue_launchr"
+       		    	  android:layout_centerInParent="true"
+       		    	  android:layout_width="wrap_content"
+       		    	  android:layout_height="wrap_content"/>
+   		</RelativeLayout>
+   		<ImageView android:layout_width="match_parent"
+   		    	   android:layout_height="1px"
+   		    	   android:background="@color/line_color"/>
+   		
+   		<RelativeLayout android:layout_width="match_parent"
+   		    		  android:layout_height="@dimen/meeting_item_height"
+   		    		  android:focusable="true"
+   		    		  android:visibility="gone"
+   		    		  android:id="@+id/rel_search"
+   		    		  android:focusableInTouchMode="true"
+   		    		  >
+   		    <TextView android:layout_width="wrap_content"
+   		          android:layout_height="wrap_content"
+   		          android:text="@string/search"
+   		          android:textSize="12sp"
+   		          android:textColor="@color/white"
+   		          android:layout_centerVertical="true"
+   		          android:paddingLeft="4dp"
+   		          android:paddingRight="4dp"
+   		          android:paddingTop="5dp"
+   		          android:paddingBottom="5dp"
+   		          android:id="@+id/tv_search"
+   		          android:layout_alignParentRight="true"
+   		          android:layout_marginRight="10dp"
+   		          android:background="@color/blue_launchr"/>
+   		
+   		<EditText android:layout_width="match_parent"
+   	        	  android:layout_height="@dimen/meeting_item_height"
+   	        	  
+   	        	  android:hint="@string/search_hint"
+   	        	  android:textSize="@dimen/meeting_text_size"
+   	        	  android:paddingLeft="@dimen/meeting_left_margin"
+   	        	  android:textColor="@color/black"
+   	        	  android:id="@+id/et_search"
+   	        	  android:layout_toLeftOf="@id/tv_search"
+   	        	  android:paddingRight="10dp"
+   	        	  android:singleLine="true"
+   	        	  />
+   		</RelativeLayout>
+   		
+   		
+    </LinearLayout>
+   
+    
+
+    
+    <ListView
+        android:id="@+id/lv_organize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/line_color"
+        android:dividerHeight="1px"
+        />
+    
+ 	
+</LinearLayout>

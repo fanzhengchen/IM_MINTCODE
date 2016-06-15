@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub1"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub2"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub3"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub4"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub5"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub6"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub7"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub8"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub9"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub10"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub11"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub12"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub13"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub14"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub15"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub16"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub17"
+        android:duration="50"/>
+
+
+
+
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub16"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub15"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub14"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub13"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub12"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub11"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub10"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub9"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub8"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub7"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub6"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub5"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub4"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub3"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub2"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_workhub1"
+        android:duration="50"/>
+</animation-list>

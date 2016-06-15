@@ -1,6 +1,7 @@
 package mintcode.com.workhub_im;
 
 import android.content.Context;
+import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Build;
@@ -30,19 +31,19 @@ public class App extends IMKitApplication {
     private static OkHttpClient httpClient = null;
     private static APIService apiService = null;
     private static IMService imService = null;
+    private static Context context;
 
     @Override
     public void onCreate() {
         super.onCreate();
         UserPrefer.init(getApplicationContext());
         IMUtil.getInstance().saveAppName("WorkHub-IM");
-        IMAPIProvider.init(getApplicationContext());
-
+        context = getApplicationContext();
+        IMAPIProvider.init(context);
         httpClient = new OkHttpClient.Builder()
                 .addInterceptor(new LogJsonInterceptor())
                 .build();
     }
-
 
 
     public static String getDeviceUUID(Context context) {
@@ -101,6 +102,10 @@ public class App extends IMKitApplication {
      */
     public static String getOsVer() {
         return Build.VERSION.RELEASE;
+    }
+
+    public static Context getGlobalContext() {
+        return context;
     }
 
 }

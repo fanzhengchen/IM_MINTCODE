@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/tv_grid_week"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="14dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:text="24" />
+    <LinearLayout 
+        android:id="@+id/LinearLayout_null"
+        android:layout_width="23dp"
+        android:layout_height="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_grid_week"
+        >
+       <ImageView 
+        android:id="@+id/iv_day_circle_event_red_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:src="@drawable/icon_circle_red"
+        android:visibility="gone"
+        />
+        <ImageView 
+        android:id="@+id/iv_day_circle_event_gray_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:src="@drawable/icon_circle_gray"
+        android:visibility="gone"
+        />
+    </LinearLayout>
+
+</RelativeLayout>

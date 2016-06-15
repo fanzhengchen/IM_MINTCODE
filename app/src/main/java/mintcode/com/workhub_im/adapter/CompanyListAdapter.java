@@ -22,11 +22,13 @@ import mintcode.com.workhub_im.activities.MainActivity;
 import mintcode.com.workhub_im.activities.SessionActivity;
 import mintcode.com.workhub_im.beans.UserPrefer;
 import mintcode.com.workhub_im.im.IMAPIProvider;
+import mintcode.com.workhub_im.im.IMManager;
 import mintcode.com.workhub_im.im.pojo.IMLoginResponse;
 import mintcode.com.workhub_im.pojo.CompanyEntity;
 import mintcode.com.workhub_im.pojo.HttpResponse;
 import mintcode.com.workhub_im.pojo.LoginResponse;
 import mintcode.com.workhub_im.pojo.LoginUserData;
+import mintcode.com.workhub_im.service.PushService;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -105,7 +107,8 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
                             .getResponse()
                             .getData()
                             .getUserShowId();
-                    UserPrefer.setShowId(IMUserName);
+                    UserPrefer.setImUsername(IMUserName);
+                    UserPrefer.setCompanyCode(cCode);
                     login(IMUserName, view.getContext());
                 }
 
@@ -122,6 +125,9 @@ public class CompanyListAdapter extends RecyclerView.Adapter<CompanyListAdapter.
                 @Override
                 public void onResponse(Call<IMLoginResponse> call, Response<IMLoginResponse> response) {
                     if (TextUtils.equals(response.body().getMessage(), AppConsts.SUCCESS)) {
+                        String token = response.body().getUserToken();
+                        UserPrefer.setImToken(token);
+                        IMManager.getInstance().startService(PushService.class, PushService.ACTION_CONNECT);
                         startActivity(context, new Intent(context, MainActivity.class));
                     }
                 }

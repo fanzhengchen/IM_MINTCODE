@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+   <RelativeLayout android:layout_width="match_parent"
+       				android:background="@color/my_team_title"
+       			   android:layout_height="50dp">
+       
+       <TextView android:id="@+id/tv_team"
+           		 android:layout_width="wrap_content"
+           		 android:layout_height="wrap_content"
+           		 android:textSize="14sp"
+           		 android:textColor="@color/white"
+           		 android:layout_marginLeft="20dp"
+           		 android:layout_marginTop="10dp"
+           		 android:text="猫一"/>
+       
+       
+       <TextView android:id="@+id/tv_team_ip"
+           		 android:layout_width="wrap_content"
+           		 android:layout_height="wrap_content"
+           		 android:textSize="10sp"
+           		 android:textColor="#add9fe"
+           		 android:layout_below="@id/tv_team"
+           		 android:layout_alignLeft="@id/tv_team"
+           		 android:layout_marginTop="2dp"
+
+           		 android:text="launchr.jp"/>
+       
+   </RelativeLayout>
+    
+ 	
+</LinearLayout>

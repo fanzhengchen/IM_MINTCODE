@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_launchr"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rel_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/setting_title"
+        android:background="@color/blue_launchr">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/icon_white_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/phone_back"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="15dp"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="27dp"
+            android:src="@drawable/icon_login_back_phone" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_text_launchr" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:id="@+id/tv_phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:text="@string/phone_number"
+                android:textColor="@color/chat_below_text"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edit_phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="12dp"
+                android:layout_toRightOf="@id/tv_phone_number"
+                android:background="@null"
+                android:hint="@string/input_phone_number"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:textColorHint="@color/deep_gray_launchr"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_text_launchr" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:id="@+id/tv_identify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:text="@string/my_change_number"
+                android:textColor="@color/chat_below_text"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edit_identify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@+id/line_identify"
+                android:layout_toRightOf="@id/tv_identify"
+                android:background="@null"
+                android:hint="@string/input_identify"
+                android:inputType="number"
+                android:textColorHint="@color/deep_gray_launchr"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/line_identify"
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/tv_get_identify"
+                android:background="@color/gray_text_launchr" />
+
+            <TextView
+                android:id="@+id/tv_get_identify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/my_change_get_number"
+                android:textColor="@color/blue_launchr" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_text_launchr" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:id="@+id/tv_new_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:text="@string/my_change_password_new"
+                android:textColor="@color/chat_below_text"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edit_new_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="12dp"
+                android:layout_toRightOf="@id/tv_new_password"
+                android:background="@null"
+                android:hint="@string/input_new_password"
+                android:inputType="textPassword"
+                android:textColorHint="@color/deep_gray_launchr"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/bg_blue_round"
+        android:text="@string/right_and_login"
+        android:textColor="@color/white" />
+</LinearLayout>

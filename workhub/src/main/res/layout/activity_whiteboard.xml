@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        >
+        <TextView 
+            android:id="@+id/tv_whiteboard_canel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingLeft="15dp"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textSize="15sp"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/whiteboard_edit"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"           
+            />
+        <ImageView 
+            android:id="@+id/iv_whiteboard_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:src="@drawable/icon_blue_checked"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+	<com.mintcode.launchr.app.task.activity.view.DragGridView
+        android:id="@+id/gv_whiteboard_list"
+        android:listSelector="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:columnWidth="90dp"
+  	    android:gravity="center" 
+        android:numColumns="auto_fit" >
+    </com.mintcode.launchr.app.task.activity.view.DragGridView>
+</LinearLayout>

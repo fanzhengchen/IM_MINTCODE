@@ -4,6 +4,7 @@ import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 
+import mintcode.com.workhub_im.App;
 import mintcode.com.workhub_im.service.PushService;
 
 /**
@@ -15,19 +16,21 @@ public class IMManager {
     private Context context;
     private static IMManager instance;
 
-    public IMManager() {
-        startService(PushService.class);
+    public IMManager(Context context) {
+        this.context = context;
+//        startService(PushService.class);
     }
 
     public static IMManager getInstance() {
         if (instance == null) {
-            instance = new IMManager();
+            instance = new IMManager(App.getGlobalContext());
         }
         return instance;
     }
 
-    public void startService(Class<? extends Service> service) {
+    public void startService(Class<? extends Service> service, String action) {
         Intent intent = new Intent(context, service);
+        intent.setAction(action);
         context.startService(intent);
     }
 }

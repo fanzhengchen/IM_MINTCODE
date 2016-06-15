@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	>
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/msg_record"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:paddingRight="10dp"
+                android:paddingLeft="20dp" 
+                android:src="@drawable/icon_back"/>
+            <TextView
+                android:id="@+id/info_count"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/iv_back"
+                android:gravity="center"
+                android:text=""/>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_color" />
+    </LinearLayout>
+  	<LinearLayout 
+  	    android:layout_height="26dp"
+  	    android:layout_width="match_parent"
+  	    android:layout_marginLeft="10dp"
+  	    android:layout_marginRight="10dp"
+  	    android:layout_marginTop="16dp"
+  	    android:layout_marginBottom="20dp"
+  	    android:background="@drawable/bg_msg_record"
+  	    android:orientation="horizontal">
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_marginLeft="1dp"
+			android:layout_marginTop="1dp"
+			android:layout_marginBottom="1dp"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:textSize="12sp"
+			android:text="@string/send_to_me"
+			android:id="@+id/tv_send_to_me"
+			android:background="@drawable/msg_record_left_bg_color"
+			android:gravity="center"
+			android:textColor="@color/msg_record_color"
+			/>
+  	    <TextView 
+  	        android:layout_height="match_parent"
+  	        android:layout_marginLeft="1dp"
+  	        android:layout_marginTop="1dp"
+  	        android:layout_marginBottom="1dp"
+  	        android:layout_marginRight="1dp"
+  	        android:layout_width="0dp"
+  	        android:layout_weight="1"
+  	        android:textSize="12sp"
+  	        android:text="@string/impt_msg"
+  	        android:id="@+id/tv_impt_msg"
+  	        android:background="@drawable/msg_record_bg_color"
+  	        android:gravity="center"
+  	        android:textColor="@color/msg_record_color"
+  	        />
+  	    <TextView 
+  	        android:layout_marginLeft="0dp"
+  	        android:layout_marginTop="1dp"
+  	        android:layout_marginBottom="1dp"
+  	        android:layout_marginRight="1dp"
+  	        android:layout_height="match_parent"
+  	        android:layout_width="0dp"
+  	        android:layout_weight="1"
+  	        android:textSize="12sp"
+  	        android:text="@string/file_msg"
+  	        android:id="@+id/tv_file_msg"
+  	        android:background="@drawable/msg_record_bg_color"
+  	        android:gravity="center"
+  	        android:textColor="@color/msg_record_color"
+  	        />
+  	    <TextView 
+  	        android:layout_marginLeft="0dp"
+  	        android:layout_marginTop="1dp"
+  	        android:layout_marginBottom="1dp"
+  	        android:layout_marginRight="1dp"
+  	        android:layout_height="match_parent"
+  	        android:layout_width="0dp"
+  	        android:layout_weight="1"
+  	        android:textSize="12sp"
+  	        android:text="@string/pic_msg"
+  	        android:id="@+id/tv_pic_msg"
+  	        android:background="@drawable/msg_record_bg_color"
+  	        android:gravity="center"
+  	        android:textColor="@color/msg_record_color"
+  	        />
+  	    <TextView 
+  	        android:layout_marginLeft="0dp"
+  	        android:layout_marginTop="1dp"
+  	        android:layout_marginBottom="1dp"
+  	        android:layout_marginRight="1dp"
+  	        android:layout_height="match_parent"
+  	        android:layout_width="0dp"
+  	        android:layout_weight="1"
+  	        android:textSize="12sp"
+  	        android:text="@string/app_msg"
+  	        android:id="@+id/tv_app_msg"
+  	        android:background="@drawable/msg_record_right_bg_color"
+  	        android:gravity="center"
+  	        android:textColor="@color/msg_record_color"
+  	        />
+  	</LinearLayout>
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/rel_no_data_show"
+		android:visibility="gone"
+		android:layout_marginBottom="50dp"
+		>
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			>
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/icon_no_data_message"
+				android:scaleType="center"
+				android:layout_centerHorizontal="true"
+				android:id="@+id/iv_no_data_msg"
+				/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/chat"
+				android:textColor="@color/blue_launchr"
+				android:textSize="18sp"
+				android:layout_centerHorizontal="true"
+				android:layout_below="@id/iv_no_data_msg"
+				android:layout_marginTop="20dp"
+				android:id="@+id/tv_no_data_msg"
+				/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="您被@的对话将显示在这里"
+				android:textColor="@color/gray"
+				android:textSize="14sp"
+				android:layout_centerHorizontal="true"
+				android:layout_below="@id/tv_no_data_msg"
+				android:layout_marginTop="10dp"
+				android:id="@+id/tv_no_data_msg_show"
+				/>
+
+		</RelativeLayout>
+	</RelativeLayout>
+  	<FrameLayout 
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    android:id="@+id/container"></FrameLayout>
+  	<RelativeLayout 
+  	    android:id="@+id/rel_message_record_bottom"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"/>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

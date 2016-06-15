@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/blue_launchr"
+    >
+    
+    
+    <ScrollView android:layout_width="match_parent"
+        		android:id="@+id/sc"
+                android:scrollbars="none"
+        		android:layout_height="wrap_content">
+        <LinearLayout 
+        android:id="@+id/ll_user_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        >
+        
+            <ImageView 
+        android:id="@+id/iv_launchr_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/icon_launchr_big_logo"
+        android:layout_marginTop="25dp"
+        />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:text="@string/easy_fast"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                />
+            
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            >
+            
+            <EditText 
+                android:id="@+id/edt_user_acount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/icon_user_mail"   
+				android:hint="@string/login_name"
+				android:textColorHint="@color/gray_login_text_color"
+				android:textSize="18sp"
+                android:textCursorDrawable="@drawable/login_cursor"
+				android:textColor="@color/white"
+				android:drawablePadding="15dp"
+				android:background="@null" />
+<!--        android:text="kevinqiao@mintcode.com"     kevinqiao@mintcode.com -->
+            <ImageView 
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/edt_user_acount"
+                />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+            <CheckBox 
+                android:id="@+id/cb_show_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="20dp"
+                android:button="@null"
+            	android:drawableLeft="@drawable/my_change_see_password_login"
+                />
+            <EditText 
+                android:id="@+id/edt_user_passwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/cb_show_password"
+				android:drawableLeft="@drawable/icon_user_password"   
+				android:hint="@string/my_password"
+                android:textCursorDrawable="@drawable/login_cursor"
+				android:textColorHint="@color/gray_login_text_color"
+				android:textSize="18sp"
+				android:textColor="@color/white"
+				android:drawablePadding="15dp"
+				android:background="@null"      
+				android:inputType="textPassword" />
+            
+            <ImageView 
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/edt_user_passwd"
+                />
+        </RelativeLayout>
+        <Button 
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="@string/login"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/white_border"
+            />
+
+            <TextView
+                android:id="@+id/tv_try_apply"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:text="@string/try_apply"
+                />
+
+        <TextView 
+            android:id="@+id/tv_forget_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/forget_password"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            />
+        
+        <LinearLayout android:layout_width="match_parent"
+            		 android:id="@+id/ll_coach"
+            		 android:layout_height="200dp"
+            		 android:orientation="horizontal"/>
+    </LinearLayout>
+    </ScrollView>
+    
+    
+    <ImageView 
+        android:id="@+id/iv_launchr_icloud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-25dp"
+        android:src="@drawable/icon_icloud"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/reserved"
+        android:textColor="@color/gray"
+        android:textSize="10sp"
+        />
+
+</RelativeLayout>

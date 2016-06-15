@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+  	<ImageView 
+  	    android:id="@+id/iv_head_search2"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="15dp"
+  	    android:background="@color/task_gray_color"
+  	    android:layout_alignParentTop="true"
+  	    />
+    
+    
+    <LinearLayout 
+         android:layout_width="match_parent"
+		    android:layout_height="40dp"
+		    android:layout_below="@+id/iv_head_search2"
+		    android:background="@color/white"
+		    android:orientation="horizontal"
+		    android:paddingLeft="10dp" 
+        >
+         <TextView
+        android:id="@+id/tv_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:text="sid"
+        android:textColor="@color/black" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/task_approver_approval"
+        android:textColor="@color/gray" />
+        
+    </LinearLayout>
+   
+
+</RelativeLayout>
+

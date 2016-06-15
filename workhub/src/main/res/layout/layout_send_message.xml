@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:focusableInTouchMode="true"
+    android:background="@color/white"
+    >
+
+
+    <ImageView
+        android:id="@+id/iv_accpet_detail_add"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_height="35dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/btn_chat_send"
+        />
+    <EditText
+        android:id="@+id/edt_approval_sendmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/bg_chat_input"
+        android:inputType="textMultiLine"
+        android:maxLines="4"
+        android:singleLine="false"
+        android:hint="@string/accpect_send_hit"
+        android:textSize="15sp"
+        >
+
+    </EditText>
+    <ImageView
+        android:id="@+id/btn_accpect_detail_send"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:textColor="@color/gray_launchr"
+        android:src="@drawable/btn_chat_text_send"
+        android:textSize="15sp"/>
+</LinearLayout>

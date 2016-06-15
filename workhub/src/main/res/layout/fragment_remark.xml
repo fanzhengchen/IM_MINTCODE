@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_launchr"
+    >
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/standard_image_side"
+            android:layout_height="@dimen/standard_image_side"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@null"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="center"
+            android:src="@drawable/icon_back" />
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="@string/make_remark" />
+
+        <TextView
+            android:id="@+id/tv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:singleLine="true"
+            android:textSize="15sp"
+            android:textColor="@color/blue_launchr"
+            android:text="@string/finish" />
+    </RelativeLayout>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/edt_remark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:background="@color/white"
+        />
+</LinearLayout>

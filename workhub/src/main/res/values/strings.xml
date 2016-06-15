@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Launchr Mintcode   内网测试-->
+    <!--Launchr MT   MT正式-->
+    <!--WorkHubTest   日本测试-->
+    <!--WorkHub   日本正式-->
+    <string name="app_name">WorkHub</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="workhub_name">WorkHub</string>
+
+    <!-- system toast -->
+    <string name="no_network">无法访问网络</string>
+    <string name="network_exception">数据获取异常</string>
+    <string name="onclick_more">再按一次退出</string>
+
+    <!-- 登录 -->
+    <string name="login_name">用户名</string>
+    <string name="my_password">密码</string>
+    <string name="login">登录</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="other_way">其他方式</string>
+    <string name="loading">正在加载...</string>
+    <string name="toast_login_name_null">用户名输入为空，请重新输入</string>
+    <string name="toast_pass_word_not_safe">密码安全性不高</string>
+    <string name="toast_pass_word_null">密码输入为空，请重新输入</string>
+    <string name="toast_pass_cantsame">旧密码和新密码不能一样</string>
+    <string name="reserved">Coypright © 2016 mintcode, Inc. All Rights Reserved</string>
+    <string name="try_apply">试用版申请</string>
+
+
+    <string name="create_team">创建团队</string>
+    <string name="team_name">输入团队名称</string>
+    <string name="team_net">输入团队域名</string>
+    <string name="team_create_name">输入姓名</string>
+    <string name="next">下一步</string>
+    <string name="team_check_info">确认信息</string>
+    <string name="team_address">团队地址</string>
+    <string name="team_name_info">团队名称</string>
+
+    <string name="phone_sign">手机注册</string>
+    <string name="mail_sign">邮箱注册</string>
+    <string name="nation_local">国家地区</string>
+    <string name="password_setting">设置登录密码</string>
+    <string name="input_phone">请输入手机号</string>
+    <string name="sign_success">注册成功！</string>
+    <string name="comany_isexist">公司已存在</string>
+    <string name="is_exist">已被注册</string>
+    <string name="just_login">直接登陆</string>
+    <string name="change_mail">修改邮箱</string>
+    <string name="i_am_agree">我已阅读并同意相关</string>
+    <string name="service_item">相关服务条款</string>
+    <string name="privacy_item">隐私政策</string>
+    <string name="i_am_agree_service_privacy">我已阅读并同意相关服务条款和隐私政策</string>
+    <string name="get_mail_info">同意接收运营邮件</string>
+    <!-- 模块名称 -->
+    <string name="main_message">消息</string>
+    <string name="main_contact">通讯录</string>
+    <string name="main_app">应用</string>
+    <string name="main_more">其他</string>
+
+    <!-- 应用名称 -->
+    <string name="app_task">任务</string>
+    <string name="app_record">记录</string>
+    <string name="app_schedule">日程</string>
+    <string name="app_meetting">会议</string>
+    <string name="app_apply">申请</string>
+
+    <string name="app_task_notify">任务通知</string>
+    <string name="app_schedule_notify">日程通知</string>
+    <string name="app_apply_notify">审批通知</string>
+
+    <!-- 会议 -->
+    <string name="meeting_new">新建会议</string>
+    <string name="meeting_time_cancel">取消</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_meeting">取消理由</string>
+    <string name="meeting_inner">内部会议</string>
+    <string name="meeting_out">外部会议</string>
+    <string name="meeting_have_to">必须出席</string>
+    <string name="meeting_choose">选择出席</string>
+    <string name="is_all_day">全天</string>
+    <string name="select_time_meeting_room">会议时间和地点</string>
+    <string name="is_repeat">重复</string>
+    <string name="is_notice">提醒</string>
+    <string name="title">标题</string>
+    <string name="remark">备注</string>
+    <string name="star_time">开始时间</string>
+    <string name="end_time">结束时间</string>
+    <string name="meeting_time_hint">*此时间段中有%1$d名成员已有其他事件安排</string>
+    <string name="meeting_preview">冲突事件详情</string>
+    <string name="meeting_room_choose">会议室的选择</string>
+    <string name="meeting_place_man">会议室以外的地方</string>
+    <string name="meeting_out_of_room">会议室以外的地方</string>
+    <string name="meeting_confirm">会议详情</string>
+    <string name="meeting_attend">参加</string>
+    <string name="meeting_no_attend">不参加</string>
+    <string name="places_or_address">输入名称或者地址</string>
+    <string name="confirm">确定</string>
+    <string name="room_empty">会议室为空,请选择</string>
+    <string name="title_empty">标题为空,请填写</string>
+    <string name="add_meeting_member_empty">必须参会人员为空,请选择</string>
+    <string name="who_schedule">的日程</string>
+    <string name="end_time_must_not_be_later_than_begin_time">结束时间必须晚于开始时间</string>
+    <string name="begin_time_must_not_be_later_than_current_time">开始时间必须晚于当前时间</string>
+    <string name="contorl_meeting_del">是否取消该会议</string>
+    <string name="del">删除</string>
+    <string name="del_custom">仅删除此会议</string>
+    <string name="del_all">删除将来所有会议</string>
+    <string name="choose_hint">请选择会议室</string>
+    <string name="project_empty">请选择任务所属项目</string>
+    <string name="final_time_empty">截止时间未选择</string>
+    <string name="meeting_enter_people">请输入出席人员</string>
+    <string name="version_num">2.4</string>
+    <string name="calendar_order">事件</string>
+
+    <!-- 消息记录 -->
+	<string name="impt_msg">重点</string>
+	<string name="file_msg">文件</string>
+	<string name="pic_msg">图片</string>
+	<string name="app_msg">应用</string>
+    <string name="send_to_me">\&#064;我</string>
+    <!-- 通讯录 -->
+    <string name="organization">组织架构</string>
+    <string name="search">搜索</string>
+    <string name="search_hint">请输入搜索条件</string>
+    <string name="selected_dept">按部门</string>
+    <string name="selected_name">按名字</string>
+    <string name="search_user">&#160;字样的用户</string>
+    <string name="search_dept">&#160;字样的部门</string>
+    <string name="search_in">包含&#160;</string>
+    <string name="launchr_id">Launchr ID</string>
+    <string name="workhub_id">WorkHub ID</string>
+    <!-- 通讯录 -->
+
+
+    <!-- 拓拓移植部分 -->
+    <string name="my_phone_is_null">手机号输入为空</string>
+    <string name="my_phone_is_error">手机号格式错误</string>
+    <string name="my_phone_is_success">手机号修改成功</string>
+    <string name="my_tele_is_null">电话输入为空</string>
+    <string name="my_tele_is_error">电话格式错误</string>
+    <string name="my_tele_is_success">电话修改成功</string>
+    <string name="my_colleague_circle">姓名</string>
+    <string name="my_album">手机</string>
+    <string name="my_collection">邮箱</string>
+    <string name="cancel_collection">取消收藏</string>
+    <string name="my_comment">办公电话</string>
+    <string name="virtrual_num">虚拟号</string>
+
+    <string name="my_dept">部门</string>
+    <string name="my_job">职位</string>
+    <string name="my_my_team">我的团队</string>
+    <string name="my_calling_card">二维码名片</string>
+    <string name="my_share">分享</string>
+    <string name="my_setting">设置</string>
+    <string name="my_phone">手机</string>
+    <string name="message_order">消息通知</string>
+    <string name="my_change_password">修改密码</string>
+    <string name="my_change_gesture_password">修改手势密码</string>
+    <string name="sound">声音</string>
+    <string name="vibration">振动</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="bind_mobile">绑定手机号码</string>
+    <string name="modify_gesure_password">修改手势密码</string>
+    <string name="feed_back">意见反馈</string>
+    <string name="feed_back_hint">请在此输入反馈内容</string>
+    <string name="feed_back_empty">反馈内容为空</string>
+    <string name="feed_back_content">输入反馈内容</string>
+    <string name="feed_back_title">输入反馈标题</string>
+    <string name="feed_back_recode">反馈记录</string>
+    <string name="feed_back_thank">谢谢您的反馈,我们将尽快处理</string>
+    <string name="about_software">关于软件</string>
+    <string name="language">多语言</string>
+    <string name="about_us">关于我们</string>
+    <string name="sign_out">退出当前账号</string>
+    <string name="contact_organization">组织架构</string>
+    <string name="contact_mySector">我的部门</string>
+    <string name="contact_favorite">收藏</string>
+    <string name="favorited">已收藏</string>
+    <string name="contact_group">已有群</string>
+    <string name="contact_recent">最近联系人</string>
+
+    <!-- 拓拓移植部分 -->
+
+    <!-- 手势锁屏 -->
+    <string name="set_pattern_pwd">设置手势密码</string>
+    <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+    <string name="lockpattern_retry_button_text">"重试"</string>
+    <string name="lockpattern_continue_button_text">"继续"</string>
+    <string name="lockpattern_confirm_button_text">"确认"</string>
+    <string name="lockpattern_recording_intro_header">"绘制解锁图案"</string>
+    <string name="lockpattern_settings_help_how_to_record">"如何绘制解锁图案"</string>
+    <string name="lockpattern_recording_incorrect_too_short">"至少连接4个点，请重试"</string>
+    <string name="lockpattern_pattern_entered_header">"图案已记录"</string>
+    <string name="lockpattern_need_to_confirm">"再次绘制解锁图案"</string>
+    <string name="lockpattern_need_to_unlock_wrong">"与上次输入不一致，请重试"</string>
+    <string name="lockpattern_pattern_confirmed_header">"确认保存新解锁图案"</string>
+    <string name="lockpattern_recording_inprogress">"完成后松开手指"</string>
+    <string name="gesture_password_guide_text">你可以创建一个解锁图案，这样他人在借用你的手机时，将无法打开应用。</string>
+    <string name="gesture_password_guide_creat_btn">创建手势密码</string>
+    <string name="forget_gesture_then_login_again">忘记手势密码</string>
+    <string name="logout_message">当前账号已在其他设备上登录</string>
+    <string name="gesture_login_again">重新登录</string>
+    <string name="gesture_cancel">取消</string>
+    <string name="skip">跳过</string>
+    <string name="inout_to_phone">导出到手机</string>
+    <string name="send_msg">发消息</string>
+    <string name="add_to_favorite">收藏联系人</string>
+    <string name="my_tel">固定电话</string>
+    <string name="dummy_net">虚拟网</string>
+    <string name="my_email_address">邮箱</string>
+    <string name="my_department">部门</string>
+    <string name="department">科室</string>
+    <string name="my_position">职位</string>
+    <string name="my_null_setting">未设置</string>
+
+    <item name="group_id" type="id">0x11111111</item>
+    <item name="child_id" type="id">0x11111112</item>
+    <item name="group_setting_id" type="id">0x11111113</item>
+    <!-- 手势锁屏 -->
+    <string name="unlock_gesture_success">解锁成功</string>
+
+    <!-- 日程部分 -->
+    <string name="sbumit_choose_time">确定此时间为候补时间</string>
+    <string name="comeback_myschedule">回我的日程</string>
+    <string name="new_meeting">新建会议</string>
+    <string name="new_event">新建事件</string>
+    <string name="see_other_shedule">查看他人日程</string>
+    <string name="google_shedule">同步谷歌日历</string>
+
+    <string name="time_hour">时</string>
+    <string name="no_event">无事件</string>
+    <string name="event_duration_day">%1$d天</string>
+    <string name="event_duration_hour">%1$d小时</string>
+    <string name="event_duration_minute">%1$d分钟</string>
+
+    <string name="caleandar_year">年</string>
+    <string name="caleandar_month">月</string>
+    <string name="calendar_sunday">日</string>
+    <string name="calendar_mongday">一</string>
+    <string name="calendar_tuesday">二</string>
+    <string name="calendar_wednesday">三</string>
+    <string name="calendar_thursday">四</string>
+    <string name="calendar_friday">五</string>
+    <string name="calendar_saturday">六</string>
+
+    <!-- view schedle detail -->
+    <string name="calendar_confirmOrder">事件详情</string>
+    <string name="calendar_edit">编辑</string>
+    <string name="calendar_takeoutcertificate">领取盖有公章的证明书</string>
+    <string name="calendar_wholeday">整天</string>
+    <string name="calendar_alternate1">时间1</string>
+    <string name="calendar_alternate2">时间2</string>
+    <string name="calendar_alternate3">时间3</string>
+    <string name="calendar_copy">复制</string>
+    <string name="calendar_deleteorder">删除事件</string>
+
+    <!-- scheduleByWeek -->
+    <string name="calendar_schedule_week">周</string>
+    <string name="calendar_schedule_time">时间</string>
+    <string name="calendar_schedule_noorder">没有预定</string>
+    <string name="calendar_schedule_add">新增</string>
+    <string name="calendar_schedule_my_schedule">我的日程</string>
+    <string name="calendar_schedule_today">今日</string>
+
+    <!-- add schedule 1 -->
+    <string name="calendar_addorder">新建事件</string>
+    <string name="calendar_save">保存</string>
+    <string name="calendar_title">标题</string>
+    <string name="calendar_place">场所</string>
+    <string name="calendar_improtant">重要</string>
+    <string name="calendar_allDay">全天</string>
+    <string name="calendar_end">结束</string>
+    <string name="calendar_orderWholeDay">全天事件</string>
+    <string name="calendar_chooseTime">时间选择</string>
+    <string name="calendar_repeat">重复</string>
+    <string name="calendar_notification">提醒</string>
+    <string name="calendar_nothing">无</string>
+    <string name="calendar_not_remind">不提醒</string>
+    <string name="calendar_happen">事件开始前</string>
+    <string name="calendar_before_5">5分钟前</string>
+    <string name="calendar_before_10">10分钟前</string>
+    <string name="calendar_before_15">15分钟前</string>
+    <string name="calendar_before_30">30分钟前</string>
+    <string name="calendar_before_one_hour">1小时前</string>
+    <string name="calendar_before_two_hour">2小时前</string>
+    <string name="calendar_before_two_day">2天前</string>
+    <string name="calendar_before_one_week">1周前</string>
+    <string name="calendar_the_day">当天</string>
+    <string name="calendar_before_one_day">1天前</string>
+    <string name="calendar_before_two_week">2天前</string>
+    <!-- add schedule 2 -->
+    <string name="calendar_timepicker_choosetime">日期选择</string>
+    <string name="calendar_timepicker_date1">候补1</string>
+    <string name="calendar_timepicker_date2">候补2</string>
+    <string name="calendar_timepicker_date3">候补3</string>
+    <string name="calendar_timepicker_starttime">开始时间</string>
+    <string name="calendar_timepicker_endtime">终止时间</string>
+    <string name="calendar_timepicker_addalternatedata">添加候补时间</string>
+    <string name="calendar_timepicker_copyAlternatedata">复制候补时间</string>
+    <string name="calendar_timelist_copy">已复制时间到剪切板</string>
+    <string name="calendar_timepicker_title">选择候选时间</string>
+
+    <!-- schedule by month -->
+    <string name="calendar_schedule_search">检索</string>
+
+    <!-- view schedule detail1 -->
+    <string name="calendar_view_detail_fail">失败</string>
+    <string name="calendar_view_detail_faildetail">无法连接到服务器，请重新登录</string>
+
+    <!-- view schedule detail3 -->
+    <string name="calender_delete_alerttile">真的要删除吗</string>
+    <string name="calender_delete_alertdetail">正在编辑的内容不会被保存</string>
+    <string name="calender_delete_no">否</string>
+    <string name="calender_delete_yes">是</string>
+
+    <!-- common -->
+    <string name="calendar_tel">电话</string>
+    <string name="calendar_url">URL</string>
+    <string name="calendar_detail">备注</string>
+    <string name="calendar_canel">取消</string>
+    <string name="easy_fast">轻松管理  敏捷工作</string>
+
+
+    <!-- restart -->
+    <string name="calendar_never">不重复</string>
+    <string name="calendar_everyday">每天</string>
+    <string name="calendar_everyweek">每周</string>
+    <string name="calendar_eveymonth">每月</string>
+    <string name="calendar_everyyear">每年</string>
+    <string name="delect_delect_this">是否删除该事件</string>
+    <string name="repeact_delect_only">仅删除此事件</string>
+    <string name="repeact_delect_all">删除将来所有事件</string>
+    <string name="repeact_update_only">仅针对该事件编辑</string>
+    <string name="repeact_update_all">针对将来所有事件编辑</string>
+    <string name="delect_event">删除事件</string>
+    <string name="calendar_title_toast">标题不能为空</string>
+    <string name="calendar_place_toast">地点不能为空</string>
+    <string name="calendar_time_toast">时间不能为空</string>
+    <!-- 日程部分 -->
+
+    <!-- 审批 -->
+
+    <string name="approval_all">所有审批</string>
+    <string name="approval_should_do">待我审批</string>
+    <string name="approval_send_to">我发出的</string>
+    <string name="approval_copy_me">抄送给我</string>
+    <string name="approval_finish">审批完成</string>
+    <string name="approval_type">选择审批类型</string>
+
+    <string name="approval_new_cost_title">请输入报销内容</string>
+    <string name="approval_new_leave_title">请输入请假内容</string>
+
+    <string name="approval_agree">通过</string>
+    <string name="approval_agree_transalte">通过并转交</string>
+    <string name="approval_last_time_text">截止</string>
+    <string name="approval_appect">接收</string>
+    <string name="approval_send">发出</string>
+    <string name="approval_add">新增</string>
+    <string name="approval_promise">审批</string>
+    <string name="approval_copy_to">抄送</string>
+    <string name="approval_apply">申请</string>
+    <string name="approval_deal">已处理</string>
+    <string name="approval_should_deal">待处理</string>
+    <string name="approval_apply_leave">请假申请</string>
+    <string name="approval_apply_cost">费用申请</string>
+    <string name="accpect_detail">申请确认</string>
+    <string name="accpect_promise_person">审批人</string>
+    <string name="accpect_promise_copy">CC</string>
+    <string name="accpect_last_time">审批截止日期</string>
+    <string name="accpect_new_last_time">审批期限</string>
+    <string name="accpect_apply_add">添加</string>
+    <string name="accpect_cost">金额</string>
+    <string name="accpect_time">时间</string>
+    <string name="accpect_attachment">附件</string>
+    <string name="accpect_refuse">拒绝</string>
+    <string name="accpect_recall">打回</string>
+    <string name="accpect_pass">通过</string>
+    <string name="accpect_accpecting">审批中</string>
+    <string name="accpect_unaccpect">待审批</string>
+    <string name="accpect_send_message">发送</string>
+    <string name="accpect_send_hit">评论</string>
+    <string name="accpect_state">紧急</string>
+    <string name="apply_edit">修改审批</string>
+    <string name="apply_save">保存</string>
+    <string name="apply_new">新建审批</string>
+    <string name="apply_new_leave">新建请假</string>
+    <string name="apply_new_cost">新建费用</string>
+    <string name="apply_allday">全天</string>
+    <string name="apply_details">审批详情</string>
+    <string name="approval_remark">审批评语</string>
+    <string name="approval_select_next">选择下一审批人</string>
+    <string name="approval_next">下一审批人</string>
+    <string name="apply_addnew_toast">新建审批成功</string>
+    <string name="apply_edit_toast">编辑审批成功</string>
+    <string name="apply_unedit_toast">不可编辑</string>
+    <string name="apply_undelect_toast">不可删除</string>
+    <string name="apply_title_toast">标题不能为空</string>
+    <string name="apply_promise_toast">审批者不能为空</string>
+    <string name="apply_leave_time_toast">请假时间不能为空</string>
+    <string name="apply_cost_toast">申请金额不能为空</string>
+    <string name="approval_comment_is_space">请输入评论内容</string>
+    <string name="approval_comment_send_success">评论发送成功</string>
+    <string name="approval_comment_send_error">评论发送失败</string>
+    <string name="approval_promiser_null_toast">审批者为空</string>
+    <string name="apply_message_send_toast">评论内容不能为空</string>
+    <string name="apply_list_unloading_toast">不能加载更多</string>
+    <string name="apply_comment_delect_success_toast">删除成功</string>
+    <string name="money_symbol">&#165;</string>
+    <string name="message_is_delect">评论已被删除</string>
+    <string name="message_pic_is_delect">照片已被删除</string>
+    <string name="approval_message_all">全部</string>
+    <string name="approval_message_speach">评论</string>
+    <string name="approval_message_attament">附件</string>
+    <string name="approval_message_operate">操作</string>
+    <!-- 审批 -->
+
+    <!-- 任务 -->
+    <string name="task_detail">任务详情</string>
+    <string name="task_close">关闭</string>
+    <string name="task_project">项目</string>
+    <string name="task_add_project">添加一个项目</string>
+    <string name="task_annex">附件</string>
+    <string name="task_subtask">子任务</string>
+    <string name="task_tag">tag</string>
+    <string name="task_menu">menu</string>
+    <string name="task_add">新增</string>
+    <string name="task_today">今天</string>
+    <string name="task_tomorrow">明天</string>
+    <string name="task_dayoftomorrow">后天</string>
+    <string name="task_oneweek">一周后</string>
+    <string name="task_onemonth">一月后</string>
+    <string name="task_selector">选择&#8230;</string>
+    <string name="task_rank_high">高</string>
+    <string name="task_rank_medium">中</string>
+    <string name="task_rank_low">低</string>
+    <string name="task_deadline_time">截止</string>
+    <string name="task_restart_everyday">每天循环</string>
+    <string name="task_restart_everyweek">每周循环</string>
+    <string name="task_restart_everymonth">每月循环</string>
+    <string name="task_restart_everyyear">每年循环</string>
+    <string name="task_pop_edit_subtask">编辑子任务</string>
+    <string name="task_pop_delect_subtask">删除子任务</string>
+    <string name="task_pop_change_subtask">转化为父任务</string>
+    <string name="parent_task">主任务</string>
+    <string name="task_one_day">无开始时间</string>
+    <string name="task_all">所有任务</string>
+    <string name="task_my_send">我发出的</string>
+    <string name="task_finish">已完成</string>
+    <!-- 任务 -->
+    <!-- 任务卡片 -->
+    <string name="msg_task_card_time_limit">截止：</string>
+    <string name="msg_task_card_project">项目：</string>
+    <string name="msg_task_card_property">优先级：</string>
+    <string name="msg_task_card_state">状态：</string>
+    <string name="msg_task_card_child_task">子任务：</string>
+    <!-- 任务卡片 -->
+    <!-- 照片 -->
+    <string name="photo_preview">预览</string>
+    <string name="photo_null">相册为空</string>
+    <string name="photo_camer">拍照</string>
+    <string name="photo_ablum">相册</string>
+    <string name="photo_finish">完成</string>
+    <string name="finish">完成</string>
+    <string name="photo_only_nine_more">最多长传九张照片</string>
+    <string name="phoyo_update_fail">照片上传失败</string>
+    <string name="photo_unget_photo">拍照失败</string>
+    <string name="photo_download_fail_taost">下载照片失败</string>
+    <!-- 照片 -->
+    <!-- 下拉刷新 -->
+
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_release_label">松开立即刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新数据中…</string>
+    <string name="pull_load_more">上拉加载更多</string>
+    <string name="no_more">没有更多内容了</string>
+
+    <!-- XListView -->
+    <string name="save">保存</string>
+    <string name="more_9">最多选择9张</string>
+    <string name="send">发送</string>
+    <string name="whiteboard_edit">编辑白板</string>
+    <string name="whiteboard_new">新增白板</string>
+    <string name="whiteboard_addtext">请输入白板标题</string>
+    <string name="whiteboard_edit_title">编辑白板标题</string>
+
+    <!-- 任务 -->
+    <string name="task_not_todo">赞！没有未完成的任务</string>
+    <string name="task_project_past_due">已过期</string>
+    <string name="task_project_delect">删除此项目</string>
+    <string name="task_project_memeber">项目成员</string>
+    <string name="task_project_edit">编辑项目</string>
+    <string name="task_alltask_title_string">项目</string>
+    <string name="task_alltask_choose_filter">过滤</string>
+    <string name="task_alltask_choose_tag">tag</string>
+    <string name="task_alltask_menu">menu</string>
+    <string name="task_alltask_add">新增</string>
+    <string name="task_add_project_member">成员</string>
+    <string name="task_add_search">更多选项</string>
+    <string name="task_add_search_edit">请输入任务标题</string>
+    <string name="task_include">包含</string>
+    <string name="task_filed_approval">字样的申请</string>
+    <string name="task_include_filed_approval"><Date><![CDATA[包含 <font color="#000000">%1$s</font> 字样的申请]]></Date></string>
+    <string name="task_approver_approval">为审批人的申请</string>
+    <string name="new_task_back">取消</string>
+    <string name="new_task_new">新增任务</string>
+    <string name="new_task_save">保存</string>
+    <string name="new_task_title">标题</string>
+    <string name="new_task_task">项目</string>
+    <string name="task_project_dialog_delete">是否删除该项目</string>
+    <string name="task_add_project_title">请输入标题</string>
+    <string name="task_add_project_add_members">请添加成员</string>
+    <string name="task_add_project_repeat">该项目已存在，请重新创建</string>
+    <string name="new_task_assign">参与者</string>
+    <string name="new_task_finaltime">截止时间</string>
+    <string name="new_task_prior">优先度</string>
+    <string name="new_task_tag">tag</string>
+    <string name="new_task_repeat">重复</string>
+    <string name="new_task_remind">提醒</string>
+    <string name="new_task_attach">附件</string>
+    <string name="new_task_detail">详情</string>
+    <string name="new_task_prior_height">高</string>
+    <string name="new_task_prior_middle">中</string>
+    <string name="new_task_prior_low">低</string>
+    <string name="new_task_newproject">新建项目</string>
+    <string name="task_new_tag">新建Tag</string>
+    <string name="task_change_to_parent_task">已成功转化为父任务</string>
+    <string name="task_delete_sub_task">已成功删除子任务</string>
+    <string name="task_detail_delete_task">是否删除该任务</string>
+    <string name="task_detail_delete_message">是否删除该评论</string>
+    <string name="filter_attend">我参与的任务</string>
+    <string name="filter_send">我发出的任务</string>
+    <string name="filter_end_today">今天截止</string>
+    <string name="filter_end_week">一周内截止</string>
+    <!-- 任务 -->
+    
+    
+    <!-- 时间戳 -->
+    <string name="timestamp_lessminute">1分钟</string>
+    <string name="timestamp_minutes">分钟</string>
+    <string name="timestamp_lastday">昨天</string>
+    <string name="message_show_one_minute">1分钟前</string>
+    <string name="message_show_minute_before">分钟前</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <!-- 设置 -->
+    <string name="setting_device_manage">设备管理</string>
+    <string name="setting_delete_account">删除账号</string>
+    <string name="setting_abount_software">关于Launchr</string>
+    <string name="setting_help_center">帮助中心</string>
+    <string name="setting_language">语言</string>
+    <string name="setting_input">输入习惯设置</string>
+    <string name="input_return">换行</string>
+    <string name="input_send">发送</string>
+    <string name="language_system">跟随系统</string>
+    <string name="language_japan">日本語</string>
+    <string name="language_english">English</string>
+    <string name="language_chinese">简体中文</string>
+    <string name="setting_device_use">正在使用</string>
+    <string name="user_agreement">用户协议</string>
+    <string name="privacy_policy">privacy policy</string>
+    <string name="current_version">当前版本:</string>
+    <string name="last_version">最新版本:</string>
+    <string name="check_update">检查更新</string>
+    <string name="new_msg_remind">新消息提醒</string>
+    <!-- 我 -->
+    <string name="my_change_phone_number">修改手机号</string>
+    <string name="my_change_password_login">登陆密码</string>
+    <string name="my_change_phone_new">新手机号</string>
+    <string name="my_change_number">验证码</string>
+    <string name="my_change_get_number">获取验证码</string>
+    <string name="my_change_send_number">发送验证码</string>
+    <string name="my_change_ok">确认修改</string>
+    <string name="my_change_mail">修改邮箱</string>
+    <string name="my_change_mail_password">登陆密码</string>
+    <string name="my_change_mail_new">新邮箱</string>
+    <string name="my_change_password_before">原密码</string>
+    <string name="my_change_password_new">新密码</string>
+    <string name="my_change_password_small">小写字母</string>
+    <string name="my_change_password_big">大写字母</string>
+    <string name="my_change_password_number">数字</string>
+    <string name="my_change_password_special">特殊字符</string>
+    <string name="my_change_password_min">至少8位</string>
+    <string name="my_change_password_ok">确认密码</string>
+    <string name="my_change_password_old_is_null">原密码为空</string>
+    <string name="my_change_password_new_is_null">新密码为空</string>
+    <string name="my_change_password_confir_is_null">确认密码为空</string>
+    <string name="my_change_number_is_null">验证码为空</string>
+    <string name="my_change_password_new_no_same">新密码不一致，请重新输入</string>
+	<string name="my_change_password_new_no_requite">新密码不符合要求</string>
+	<string name="my_change_password_change_success">密码修改成功</string>
+    <!-- 消息 -->
+    <string name="message_no_data_point">重点</string>
+    <string name="message_no_data_point_toast">被您标记为重点的对话将显示在这里</string>
+    <string name="message_no_data_send_to_me">\&#064;</string>
+    <string name="message_no_data_send_to_me_toast">您被@的对话将显示在这里</string>
+    <string name="message_no_data_pic">图片</string>
+    <string name="message_no_data_pic_toast">您收到的图片将显示在这里</string>
+    <string name="message_no_data_file">文件</string>
+    <string name="message_no_data_file_toast">您收到的文件将显示在这里</string>
+    <string name="message_no_data_app">应用</string>
+    <string name="message_no_data_app_toast">您收到的任务或日程等将显示在这里</string>
+    <string name="chat">聊天</string>
+    <string name="first_chat_guide">请先从web版添加用户以开始聊天</string>
+    <string name="first_chat_guide2">请从以下地址登陆https://workhub.jp/a/@#,点击画面右下角的“系统设置”添加用户和部门。（我们推荐您使用电脑进行操作）</string>
+    <string name="message_setting">聊天设置</string>
+    <string name="message_group_name">群聊名称</string>
+    <string name="message_not_disturb">消息免打扰</string>
+    <string name="message_del_history">清空消息记录</string>
+    <string name="message_exit_group">删除并退出</string>
+    <string name="message_has_del">消息记录已清空</string>
+    <string name="message_creat_group">发起群聊</string>
+    <string name="message_mark_point">标记为重点</string>
+    <string name="message_unmark_point">取消标记</string>
+    <string name="message_history">消息记录</string>
+    <string name="msg_record">消息记录</string>
+	<string name="message_end_time">截止</string>
+	<string name="message_project_name">项目</string>
+	<string name="message_priority">优先级</string>
+	<string name="message_priority_low">低</string>
+	<string name="message_priority_medium">中</string>
+	<string name="message_priority_high">高</string>
+    <string name="message_status">状态</string>
+    <string name="message_task">子任务</string>
+    <string name="message_from">来自</string>
+    <string name="im_session_audio">[语音]</string>
+    <string name="im_session_image">[图片]</string>
+    <string name="im_session_video">[小视频]</string>
+    <string name="im_session_file">[文件]</string>
+    <string name="event_join">参加</string>
+    <string name="event_refuse">拒绝</string>
+    <string name="event_give_back">打回</string>
+    <string name="event_reject">否决</string>
+    <string name="event_ok">同意</string>
+    <string name="message_come_from">来自</string>
+    <string name="message_add_task_project">请选择项目</string>
+    <string name="chat_search_history_title">搜索内容消息</string>
+    <string name="chat_search_history_no_content">未查到消息记录</string>
+    <string name="image_preview_save">成功保存到相册</string>
+    <string name="contacts_person_detail">对话</string>
+    <string name="download_file">点击下载</string>
+    <string name="open_file">打开文件</string>
+    <string name="download_field">下载失败，请重试</string>
+    <string name="press_down_speak">按住 说话</string>
+    <string name="press_up_speak">松开 结束</string>
+    <string name="chat_task_bottom">任务一览</string>
+    <string name="chat_schedule_bottom">日程一览</string>
+    <string name="chat_approvel_bottom">申请一览</string>
+    <string name="hour">小时</string>
+    <string name="single_day">天</string>
+    <string name="username_null">请输入用户名</string>
+    <string name="scan_qr_code">扫描二维码</string>
+    <string name="qr_code_inside">将二维码放入框中，即可自动扫描</string>
+    <!-- 卡片消息-->
+    <string name="im_comment">在^#留下评论</string>
+    <string name="im_meetingAttend">确定参加</string>
+    <string name="im_meetingAttendDefinite">^#，^@确认参加</string>
+    <string name="im_meetingRefuseAttend">拒绝参加，^#</string>
+    <string name="im_delete">删除了^#</string>
+    <string name="im_taskEditStatus">修改了^#的状态</string>
+    <string name="im_approvePass">通过了^#</string>
+    <string name="im_approveBack">打回了^#</string>
+    <string name="im_approveRefuse">拒绝了^#</string>
+    <string name="im_approveTranspond">转交给^#</string>
+    <string name="im_task_remind">将在^# 结束</string>
+    <string name="im_task_schedule">将在^#开始</string>
+    <string name="im_meeting_refuse_attend_define">^#，^@拒绝参加</string>
+    <string name="im_approve_back_define">^@ 打回了 ^#</string>
+    <string name="im_approve_back_define_reason">^@ 打回了 ^#,^%</string>
+    <string name="im_approve_refuse_define">^@ 拒绝了 ^#</string>
+    <string name="im_approve_refuse_define_reason">^@ 拒绝了 ^#,^%</string>
+    <string name="im_approve_transpond">^@ 转交给^#</string>
+    <string name="im_approve_transpond_reason">转交给^#，审批意见：^%</string>
+    <string name="im_task_edit_status">修改任务状态为 ^#</string>
+    <string name="im_approve_put">发起审批</string>
+    <string name="im_approve_post">编辑审批</string>
+    <string name="refuse_attend">拒绝参加</string>
+    <string name="comment_meeting_attend">确定参加</string>
+    <string name="approve_pass">通过了 ^#</string>
+    <string name="approve_back_define">^# 打回了 ^%</string>
+    <string name="approve_back_define_reason">打回审批，审批意见:^%</string>
+    <string name="approve_refuse_define">拒绝了 ^#</string>
+    <string name="approve_refuse_define_reason">否决审批，审批意见:^%</string>
+    <string name="approve_transpond">^# 转交了 ^%。</string>
+    <string name="approve_transpond_reason">转交给^#，审批意见：^%</string>
+    <string name="approve_passit">通过审批</string>
+    <string name="approve_put">发起审批</string>
+    <string name="approve_post">编辑审批</string>
+    <string name="task_edit_status_definite">修改任务状态为^#</string>
+    <string name="meeting_message_attend">^@确定参加</string>
+    <string name="meeting_message_attend_define">确定参加</string>
+    <string name="meeting_message_refuse_attend">^@拒绝参加，^#</string>
+    <string name="meeting_message_refuse_attend_define">^#，^@拒绝参加</string>
+    <string name="task_message_delect">^@删除了^#</string>
+    <string name="task_message_edit">^@修改了^#的状态</string>
+    <string name="task_message_edit_define">^@修改^#任务内容</string>
+    <string name="meeting_edit_content">修改了会议内容</string>
+    <string name="meeting_cancel_one">会议已取消</string>
+    <string name="meeting_cancel">会议已取消，^@</string>
+    <string name="task_done_status">修改任务状态为已完成</string>
+    <string name="task_doing_status">修改任务状态为待处理</string>
+    <string name="task_update_content">修改了任务内容</string>
+    <string name="task_create_v2">创建任务</string>
+    <string name="approvel_back">打回审批</string>
+    <string name="approvel_comment">审批</string>
+    <string name="address_list_select_person">已选择 ^@ 人</string>
+    <!-- 卡片消息-->
+    <string name="msg_change_to_task">消息转任务</string>
+    <string name="msg_change_to_schedule">消息转日程</string>
+    <string name="msg_add_schedule">新增日程</string>
+    <string name="msg_change__schedule_success">成功</string>
+    <string name="msg_change_task_success">消息转任务成功</string>
+    <string name="send_task_success">发送成功</string>
+    <string name="send_to_other">转发</string>
+    <string name="show_more_text">更多</string>
+    <string name="show_less_text">收起</string>
+    <string name="message_new_chat">新建聊天</string>
+    <string name="message_scan">扫一扫</string>
+    <string name="message_new_task">新建任务</string>
+    <string name="message_new_schedule">新建日程</string>
+    <string name="sb_send_to_me">[有人@我]</string>
+    <string name="msg_drafts">[草稿]</string>
+
+    <string name="more_text_view">更多</string>
+    <string name="less_text_view">收起</string>
+    <string name="msg_have_read">已读</string>
+    <string name="msg_have_accept">已送达</string>
+    <string name="show_deal_finish">显示已处理</string>
+    <string name="show_deal_un_finish">显示未处理</string>
+    <string name="please_take_a_break">点的太快，休息一下吧！！</string>
+    <string name="change_to_other_person">切换</string>
+    <string name="please_choose_photo">请选择图片</string>
+    <string name="msg_resend">消息撤回</string>
+    <string name="msg_resend_success">消息撤回成功</string>
+    <string name="other_msg_resend_success">撤回了一条消息</string>
+    <string name="me_msg_resend_success">我撤回了一条消息</string>
+
+    <string name="look_more_friend">查看更多联系人</string>
+    <string name="delete_this_session">删除该聊天</string>
+    <string name="new_task_label">标签</string>
+    <string name="new_task_set_label">设置标签</string>
+    <string name="input_label_name">输入标签名称</string>
+    <string name="add_label_from_in">从已有标签中添加</string>
+    <string name="choose_time">选择时间</string>
+    <string name="choose_start_time">选择开始时间</string>
+    <string name="choose_stop_time">选择结束时间</string>
+    <string name="some_day">无</string>
+    <string name="no_set_time">无</string>
+    <string name="add_sub_task">添加子任务</string>
+    <string name="choose_photo">选择图片</string>
+    <string name="no_start_end">无开始、结束时间</string>
+    <string name="no_end">无结束时间</string>
+    <string name="project_name_not_space">请输入项目名称</string>
+
+    <string name="menu">菜单</string>
+    <string name="edit_task">编辑任务</string>
+    <string name="delete_task">删除任务</string>
+    <string name="enter_people_not_void">请选择参与人</string>
+    <string name="photo_not_in">图片不存在,请从新选择</string>
+    <string name="task_waiting_finish">待办</string>
+    <string name="select_place">选择场所</string>
+    <string name="place">位置</string>
+    <string name="current_place">当前位置</string>
+    <string name="only_me_see">仅自己可见</string>
+    <string name="schedule_event_title">填写事件标题</string>
+    <string name="new_event_place">地点</string>
+    <string name="add_place_xy">添加坐标?</string>
+    <string name="delete_place_xy">删除坐标</string>
+
+    <string name="my_group">我的群组</string>
+    <string name="my_friend">我的好友</string>
+    <string name="search_phone_number">手机号或Workhub ID</string>
+    <string name="phone_number">手机号</string>
+    <string name="make_remark">设置备注</string>
+    <string name="delect_friend_relation">解除好友关系</string>
+    <string name="remark_no_null">备注不能为空</string>
+    <string name="verify_no_null">申请验证不能为空</string>
+    <string name="want_make_yourfriend">请求加您为好友</string>
+    <string name="friend_verify_info">你需要发送验证申请，等待对方通过</string>
+    <string name="friend_verify">好友验证</string>
+    <string name="friend_add">添加好友</string>
+    <string name="my_friend_add">添加</string>
+    <string name="new_sub_task">新增子任务</string>
+    <string name="you_connt_see">权限不足</string>
+    <string name="approval_not_agree">不通过</string>
+    <string name="approval_enter">已参加</string>
+    <string name="approval_refuse">已拒绝</string>
+    <string name="approval_levae">请假</string>
+    <string name="approval_cost">费用</string>
+    <string name="refuse_reason">拒绝理由</string>
+    <string name="no_finish">未完成</string>
+    <string name="task_no_live">任务不存在</string>
+    <string name="approvel_no_live">审批不存在</string>
+    <string name="meeting_no_live">会议不存在</string>
+    <string name="send_other_people">转交</string>
+    <string name="add_member">添加成员</string>
+    <string name="meeting_enter">确定参加</string>
+
+    <string name="chat_msg_mark_point">标记重点</string>
+    <string name="chat_msg_one_forword">逐条转发</string>
+    <string name="chat_msg_list_forword">合并转发</string>
+    <string name="chat_msg_record">的聊天记录</string>
+    <string name="choose_msg">请选择消息</string>
+    <string name="msg_not_live">消息不存在</string>
+    <string name="activity_not_cunzai">系统不能打开该类型文件，请下载相应阅读器!</string>
+
+    <!-- 西湖区专属  -->
+    <string name="login_xihu_support">西湖区政府信息中心技术支持</string>
+    <string name="login_xihu_business">西湖区政务通</string>
+    <string name="setting_abount">关于</string>
+    <string name="app_name_xihu">西湖区政务通</string>
+    <string name="about_xihu">关于西湖区政务通</string>
+    <string name="msg_change_to_log">转为日志</string>
+
+    <!-- WorkHub专属  -->
+    <string name="about_workhub">关于WorkHub</string>
+    <string name="workhub_reserved">Copyright © 2016 WorkHub, Inc.All Rights Reserved</string>
+    <string name="app_name_workhub">WorkHub</string>
+    <string name="workhub_back_mail">WorkHub邮件验证</string>
+
+    <string name="workhub_user_login">账号登录</string>
+    <string name="identify_code_login">验证码登录</string>
+    <string name="input_phone_mail_hit">输入邮箱账号</string>
+    <string name="input_phone_mail">输入邮箱账号</string>
+    <string name="input_password">输入登录密码</string>
+    <string name="input_password_hit">输入登录密码</string>
+    <string name="register_account">注册账号</string>
+    <string name="input_identify">输入验证码</string>
+    <string name="input_phone_number">输入手机号</string>
+    <string name="mail_back">邮箱找回</string>
+    <string name="phone_back">手机找回</string>
+    <string name="password_back">找回密码</string>
+    <string name="back_login">返回登录</string>
+    <string name="right_and_login">确认并登录</string>
+    <string name="send_mail_back_password">发送邮件找回密码</string>
+    <string name="input_new_password">输入新密码</string>
+    <string name="input_mail_address">输入邮箱地址</string>
+    <string name="input_mail_find_hit">输入邮箱地址</string>
+    <string name="mail_address_error">邮箱格式错误</string>
+    <string name="findmail_send_success_info">我们已经向您注册的邮箱发送一封密码找回邮件，请您注意接收邮件。</string>
+    <string name="again_send">重新发送</string>
+    <string name="get">获取</string>
+    <string name="mail_not_space">邮箱不能为空</string>
+    <string name="send_mail_again">xx秒后重新发送</string>
+    <string name="merge_msg_onebyone">语音、卡片类消息不能转发,继续转发吗?</string>
+    <string name="merge_msg_onetime">语音、卡片类消息不能合并转发,继续转发吗?</string>
+    <string name="and">和</string>
+    <string name="somebodys_chatinfo">#@1和#@2的聊天记录</string>
+    <string name="company_is_exist">该企业已存在</string>
+    <string name="choose_group">请选择群组</string>
+
+    <string name="team_name_not_space">请输入团队名称</string>
+    <string name="team_net_not_space">请输入域名</string>
+    <string name="team_uName_not_space">请输入姓名</string>
+
+
+    <string name="decide_to_delect">确定删除么?</string>
+    <string name="is_ok">确定</string>
+    <string name="is_no">取消</string>
+
+</resources>

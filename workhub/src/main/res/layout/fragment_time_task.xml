@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/rel_no_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/in_no_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/no_task_notifcation"
+                android:layout_marginLeft="35dp"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/tv_no_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:text="@string/task_not_todo"
+                android:textColor="@color/blue_launchr"
+                android:layout_below="@id/in_no_task"
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/tv_over_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/task_project_past_due"
+                    />
+                <com.mintcode.launchr.view.NoscrollExpandListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cacheColorHint="#00000000"
+                    android:listSelector="#00000000"
+                    android:id="@+id/lv_timelistview"
+                    android:groupIndicator="@null"
+                    android:dividerHeight="0px"
+                    android:divider="@color/line_color"
+                    >
+                </com.mintcode.launchr.view.NoscrollExpandListView>
+                <TextView
+                    android:id="@+id/tv_today_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/task_today"
+                    />
+                <com.mintcode.launchr.view.NoscrollExpandListView
+                    android:id="@+id/elv_today_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:groupIndicator="@null"
+                    android:visibility="gone"
+                    android:cacheColorHint="#00000000"
+                    android:listSelector="#00000000"
+                    android:dividerHeight="0px"
+                    android:divider="@color/line_color"
+                    >
+                </com.mintcode.launchr.view.NoscrollExpandListView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
