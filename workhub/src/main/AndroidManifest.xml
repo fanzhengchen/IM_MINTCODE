@@ -355,7 +355,7 @@
 
         <!-- 消息记录 -->
         <activity
-            android:name=".message.activity.MessageRecordActivity"
+            android:name=".lastMsg.activity.MessageRecordActivity"
             android:screenOrientation="portrait"></activity>
         <!-- IM注册 -->
         <service
@@ -376,26 +376,26 @@
         </receiver>
 
         <activity
-            android:name=".message.activity.GroupSettingActivity"
+            android:name=".lastMsg.activity.GroupSettingActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".message.activity.PersonSettingActivity"
+            android:name=".lastMsg.activity.PersonSettingActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".message.activity.HistorySearchActivity"
+            android:name=".lastMsg.activity.HistorySearchActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".message.activity.SearchResultActiviy"
+            android:name=".lastMsg.activity.SearchResultActiviy"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name=".message.activity.CreateGroupActivity"
+            android:name=".lastMsg.activity.CreateGroupActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".message.activity.ChooseMemberActivity"
+            android:name=".lastMsg.activity.ChooseMemberActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".message.activity.FileDetailActivity"
+            android:name=".lastMsg.activity.FileDetailActivity"
             android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.mintcode.launchr.app.my.MyChangeMobileActivity"
@@ -404,11 +404,11 @@
             android:name="com.mintcode.launchr.app.my.MyChangeUserNameActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".message.activity.LookMoreFriendsActivity"
+            android:name=".lastMsg.activity.LookMoreFriendsActivity"
             android:screenOrientation="portrait"></activity>
         <!-- 好友验证页面-->
         <activity
-            android:name=".message.activity.VerifyFriendMessageActivity"
+            android:name=".lastMsg.activity.VerifyFriendMessageActivity"
             android:screenOrientation="portrait"></activity>
         <!-- 我的群组-->
         <activity

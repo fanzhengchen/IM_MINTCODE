@@ -117,4 +117,9 @@ public class AppConsts {
     }
 
     public static final String APP_NAME = (DEVICE_CODE == MT) ? LAUNCHR : WORKHUB;
+
+
+    public static final String CHAT_ROOM = "@ChatRoom";
+
+    public static final String SUPER_GROUP = "@SuperGroup";
 }

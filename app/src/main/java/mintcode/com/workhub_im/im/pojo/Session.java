@@ -8,12 +8,21 @@ import com.google.gson.annotations.SerializedName;
 public class Session {
     private String nickName;
     private String sessionName;
+//    private String opp
     private String tag;
     private String avatar;
     private String muteNotification;
-    @SerializedName("lastMsg")
-    private Message message;
+    private LastMsg lastMsg;
+    private long modified;
     private int count;
+
+    public long getModified() {
+        return modified;
+    }
+
+    public void setModified(long modified) {
+        this.modified = modified;
+    }
 
     public String getNickName() {
         return nickName;
@@ -55,12 +64,12 @@ public class Session {
         this.muteNotification = muteNotification;
     }
 
-    public Message getMessage() {
-        return message;
+    public LastMsg getLastMsg() {
+        return lastMsg;
     }
 
-    public void setMessage(Message message) {
-        this.message = message;
+    public void setLastMsg(LastMsg lastMsg) {
+        this.lastMsg = lastMsg;
     }
 
     public int getCount() {

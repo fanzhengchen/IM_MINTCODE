@@ -3,7 +3,7 @@ package mintcode.com.workhub_im.im.pojo;
 /**
  * Created by mark on 16-6-15.
  */
-public class Message {
+public class LastMsg {
     private String from;
     private String to;
     private String content;

@@ -1,19 +1,26 @@
 package mintcode.com.workhub_im.daohelper;
 
+import de.greenrobot.dao.query.QueryBuilder;
+import mintcode.com.workhub_im.db.MessageItemDao;
+
 /**
  * Created by mark on 16-6-15.
  */
 public class MessageItemHelper extends BaseDaoHelper {
 
-    public static MessageItemHelper messageItemHelper = null;
+    private static MessageItemHelper messageItemHelper = null;
+    private MessageItemDao messageItemDao;
+    private QueryBuilder queryBuilder;
+    private MessageItemDao.Properties properties;
 
-    public MessageItemHelper(String name) {
-        super(name);
+    public MessageItemHelper() {
+        messageItemDao = daoSession.getMessageItemDao();
+
     }
 
-    public static MessageItemHelper getInstance(String dbName) {
+    public static MessageItemHelper getInstance() {
         if (messageItemHelper == null) {
-            messageItemHelper = new MessageItemHelper(dbName);
+            messageItemHelper = new MessageItemHelper();
         }
         return messageItemHelper;
     }

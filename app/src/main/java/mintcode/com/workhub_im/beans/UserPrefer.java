@@ -24,6 +24,8 @@ public class UserPrefer {
     public static final String COMPANY_CODE = "company_code";
     public static final String AES_KEY = "aes_key";
     public static final String IM_USERNAME = "im_username";
+    public static final String LAST_MESSAGE_ID = "last_message_id";
+    public static final String DB_NAME = "db_name";
 
     public static void init(Context ctx) {
         context = ctx;
@@ -71,6 +73,16 @@ public class UserPrefer {
                 .commit();
     }
 
+    public static void setLastMessageId(long messageId) {
+        editor.putLong(LAST_MESSAGE_ID, messageId)
+                .commit();
+    }
+
+    public static void setDbName(String dbName) {
+        editor.putString(DB_NAME, dbName)
+                .commit();
+    }
+
     public static String getUserName() {
         return preferences.getString(USER_NAME, "");
     }
@@ -101,5 +113,13 @@ public class UserPrefer {
 
     public static String getImUsername() {
         return preferences.getString(IM_USERNAME, "");
+    }
+
+    public static long getLastMessageId() {
+        return preferences.getLong(LAST_MESSAGE_ID, -1);
+    }
+
+    public static String getDbName() {
+        return preferences.getString(DB_NAME, "db_name");
     }
 }

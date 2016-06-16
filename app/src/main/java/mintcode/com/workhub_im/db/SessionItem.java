@@ -14,6 +14,7 @@ public class SessionItem {
     private Long time;
     private String info;
     private Integer unread;
+    private Long modified;
     private Integer chatRoom;
     private Integer sort;
     private Integer recieve;
@@ -28,7 +29,7 @@ public class SessionItem {
         this.id = id;
     }
 
-    public SessionItem(Long id, String userName, String nickName, String oppositeName, String content, Long time, String info, Integer unread, Integer chatRoom, Integer sort, Integer recieve, Integer drafts, Long clientMsgId, Long sessionTime) {
+    public SessionItem(Long id, String userName, String nickName, String oppositeName, String content, Long time, String info, Integer unread, Long modified, Integer chatRoom, Integer sort, Integer recieve, Integer drafts, Long clientMsgId, Long sessionTime) {
         this.id = id;
         this.userName = userName;
         this.nickName = nickName;
@@ -37,6 +38,7 @@ public class SessionItem {
         this.time = time;
         this.info = info;
         this.unread = unread;
+        this.modified = modified;
         this.chatRoom = chatRoom;
         this.sort = sort;
         this.recieve = recieve;
@@ -107,6 +109,14 @@ public class SessionItem {
 
     public void setUnread(Integer unread) {
         this.unread = unread;
+    }
+
+    public Long getModified() {
+        return modified;
+    }
+
+    public void setModified(Long modified) {
+        this.modified = modified;
     }
 
     public Integer getChatRoom() {

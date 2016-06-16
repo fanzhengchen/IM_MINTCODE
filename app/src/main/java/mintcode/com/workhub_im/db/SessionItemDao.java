@@ -31,12 +31,13 @@ public class SessionItemDao extends AbstractDao<SessionItem, Long> {
         public final static Property Time = new Property(5, Long.class, "time", false, "TIME");
         public final static Property Info = new Property(6, String.class, "info", false, "INFO");
         public final static Property Unread = new Property(7, Integer.class, "unread", false, "UNREAD");
-        public final static Property ChatRoom = new Property(8, Integer.class, "chatRoom", false, "CHAT_ROOM");
-        public final static Property Sort = new Property(9, Integer.class, "sort", false, "SORT");
-        public final static Property Recieve = new Property(10, Integer.class, "recieve", false, "RECIEVE");
-        public final static Property Drafts = new Property(11, Integer.class, "drafts", false, "DRAFTS");
-        public final static Property ClientMsgId = new Property(12, Long.class, "clientMsgId", false, "CLIENT_MSG_ID");
-        public final static Property SessionTime = new Property(13, Long.class, "sessionTime", false, "SESSION_TIME");
+        public final static Property Modified = new Property(8, Long.class, "modified", false, "MODIFIED");
+        public final static Property ChatRoom = new Property(9, Integer.class, "chatRoom", false, "CHAT_ROOM");
+        public final static Property Sort = new Property(10, Integer.class, "sort", false, "SORT");
+        public final static Property Recieve = new Property(11, Integer.class, "recieve", false, "RECIEVE");
+        public final static Property Drafts = new Property(12, Integer.class, "drafts", false, "DRAFTS");
+        public final static Property ClientMsgId = new Property(13, Long.class, "clientMsgId", false, "CLIENT_MSG_ID");
+        public final static Property SessionTime = new Property(14, Long.class, "sessionTime", false, "SESSION_TIME");
     };
 
 
@@ -60,12 +61,13 @@ public class SessionItemDao extends AbstractDao<SessionItem, Long> {
                 "\"TIME\" INTEGER," + // 5: time
                 "\"INFO\" TEXT," + // 6: info
                 "\"UNREAD\" INTEGER," + // 7: unread
-                "\"CHAT_ROOM\" INTEGER," + // 8: chatRoom
-                "\"SORT\" INTEGER," + // 9: sort
-                "\"RECIEVE\" INTEGER," + // 10: recieve
-                "\"DRAFTS\" INTEGER," + // 11: drafts
-                "\"CLIENT_MSG_ID\" INTEGER," + // 12: clientMsgId
-                "\"SESSION_TIME\" INTEGER);"); // 13: sessionTime
+                "\"MODIFIED\" INTEGER," + // 8: modified
+                "\"CHAT_ROOM\" INTEGER," + // 9: chatRoom
+                "\"SORT\" INTEGER," + // 10: sort
+                "\"RECIEVE\" INTEGER," + // 11: recieve
+                "\"DRAFTS\" INTEGER," + // 12: drafts
+                "\"CLIENT_MSG_ID\" INTEGER," + // 13: clientMsgId
+                "\"SESSION_TIME\" INTEGER);"); // 14: sessionTime
     }
 
     /** Drops the underlying database table. */
@@ -119,34 +121,39 @@ public class SessionItemDao extends AbstractDao<SessionItem, Long> {
             stmt.bindLong(8, unread);
         }
  
+        Long modified = entity.getModified();
+        if (modified != null) {
+            stmt.bindLong(9, modified);
+        }
+ 
         Integer chatRoom = entity.getChatRoom();
         if (chatRoom != null) {
-            stmt.bindLong(9, chatRoom);
+            stmt.bindLong(10, chatRoom);
         }
  
         Integer sort = entity.getSort();
         if (sort != null) {
-            stmt.bindLong(10, sort);
+            stmt.bindLong(11, sort);
         }
  
         Integer recieve = entity.getRecieve();
         if (recieve != null) {
-            stmt.bindLong(11, recieve);
+            stmt.bindLong(12, recieve);
         }
  
         Integer drafts = entity.getDrafts();
         if (drafts != null) {
-            stmt.bindLong(12, drafts);
+            stmt.bindLong(13, drafts);
         }
  
         Long clientMsgId = entity.getClientMsgId();
         if (clientMsgId != null) {
-            stmt.bindLong(13, clientMsgId);
+            stmt.bindLong(14, clientMsgId);
         }
  
         Long sessionTime = entity.getSessionTime();
         if (sessionTime != null) {
-            stmt.bindLong(14, sessionTime);
+            stmt.bindLong(15, sessionTime);
         }
     }
 
@@ -168,12 +175,13 @@ public class SessionItemDao extends AbstractDao<SessionItem, Long> {
             cursor.isNull(offset + 5) ? null : cursor.getLong(offset + 5), // time
             cursor.isNull(offset + 6) ? null : cursor.getString(offset + 6), // info
             cursor.isNull(offset + 7) ? null : cursor.getInt(offset + 7), // unread
-            cursor.isNull(offset + 8) ? null : cursor.getInt(offset + 8), // chatRoom
-            cursor.isNull(offset + 9) ? null : cursor.getInt(offset + 9), // sort
-            cursor.isNull(offset + 10) ? null : cursor.getInt(offset + 10), // recieve
-            cursor.isNull(offset + 11) ? null : cursor.getInt(offset + 11), // drafts
-            cursor.isNull(offset + 12) ? null : cursor.getLong(offset + 12), // clientMsgId
-            cursor.isNull(offset + 13) ? null : cursor.getLong(offset + 13) // sessionTime
+            cursor.isNull(offset + 8) ? null : cursor.getLong(offset + 8), // modified
+            cursor.isNull(offset + 9) ? null : cursor.getInt(offset + 9), // chatRoom
+            cursor.isNull(offset + 10) ? null : cursor.getInt(offset + 10), // sort
+            cursor.isNull(offset + 11) ? null : cursor.getInt(offset + 11), // recieve
+            cursor.isNull(offset + 12) ? null : cursor.getInt(offset + 12), // drafts
+            cursor.isNull(offset + 13) ? null : cursor.getLong(offset + 13), // clientMsgId
+            cursor.isNull(offset + 14) ? null : cursor.getLong(offset + 14) // sessionTime
         );
         return entity;
     }
@@ -189,12 +197,13 @@ public class SessionItemDao extends AbstractDao<SessionItem, Long> {
         entity.setTime(cursor.isNull(offset + 5) ? null : cursor.getLong(offset + 5));
         entity.setInfo(cursor.isNull(offset + 6) ? null : cursor.getString(offset + 6));
         entity.setUnread(cursor.isNull(offset + 7) ? null : cursor.getInt(offset + 7));
-        entity.setChatRoom(cursor.isNull(offset + 8) ? null : cursor.getInt(offset + 8));
-        entity.setSort(cursor.isNull(offset + 9) ? null : cursor.getInt(offset + 9));
-        entity.setRecieve(cursor.isNull(offset + 10) ? null : cursor.getInt(offset + 10));
-        entity.setDrafts(cursor.isNull(offset + 11) ? null : cursor.getInt(offset + 11));
-        entity.setClientMsgId(cursor.isNull(offset + 12) ? null : cursor.getLong(offset + 12));
-        entity.setSessionTime(cursor.isNull(offset + 13) ? null : cursor.getLong(offset + 13));
+        entity.setModified(cursor.isNull(offset + 8) ? null : cursor.getLong(offset + 8));
+        entity.setChatRoom(cursor.isNull(offset + 9) ? null : cursor.getInt(offset + 9));
+        entity.setSort(cursor.isNull(offset + 10) ? null : cursor.getInt(offset + 10));
+        entity.setRecieve(cursor.isNull(offset + 11) ? null : cursor.getInt(offset + 11));
+        entity.setDrafts(cursor.isNull(offset + 12) ? null : cursor.getInt(offset + 12));
+        entity.setClientMsgId(cursor.isNull(offset + 13) ? null : cursor.getLong(offset + 13));
+        entity.setSessionTime(cursor.isNull(offset + 14) ? null : cursor.getLong(offset + 14));
      }
     
     /** @inheritdoc */

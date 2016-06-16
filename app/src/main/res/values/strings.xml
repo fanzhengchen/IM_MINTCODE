@@ -8,4 +8,9 @@
 
     <string name="message">message</string>
     <string name="contacts">contacts</string>
+
+    <string name="im_session_audio">[语音]</string>
+    <string name="im_session_image">[图片]</string>
+    <string name="im_session_video">[小视频]</string>
+    <string name="im_session_file">[文件]</string>
 </resources>

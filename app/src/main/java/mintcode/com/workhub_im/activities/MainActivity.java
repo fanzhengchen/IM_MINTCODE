@@ -51,7 +51,7 @@ public class MainActivity extends FragmentActivity implements TabHost.OnTabChang
     private static final ArrayList<TabDesc> tabs = new ArrayList<TabDesc>() {
         {
 
-            add(TabDesc.create("Message", R.string.message, R.drawable.icon_message,
+            add(TabDesc.create("LastMsg", R.string.message, R.drawable.icon_message,
                     R.drawable.icon_message_checked, MessageFragment.class));
             add(TabDesc.create("Contacts", R.string.contacts, R.drawable.icon_contact,
                     R.drawable.icon_contact_checked, ContactsFragment.class));

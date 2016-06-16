@@ -18,6 +18,8 @@ public class PushService extends Service {
 
 
     private ServiceManager serviceManager;
+    private String imUserName;
+    private String companyCode;
 
     @Nullable
     @Override

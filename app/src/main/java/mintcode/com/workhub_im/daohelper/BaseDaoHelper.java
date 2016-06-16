@@ -11,14 +11,14 @@ import mintcode.com.workhub_im.db.DaoSession;
  */
 public class BaseDaoHelper {
 
-    protected DaoMaster.DevOpenHelper devOpenHelper;
-    protected String dbName;
-    protected SQLiteDatabase database;
-    protected DaoMaster daoMaster;
-    protected DaoSession daoSession;
+    protected static DaoMaster.DevOpenHelper devOpenHelper;
+    protected static String dbName;
+    protected static SQLiteDatabase database;
+    protected static DaoMaster daoMaster;
+    protected static DaoSession daoSession;
 
-    public BaseDaoHelper(String name) {
-        this.dbName = dbName;
+    public static void createDB(String name) {
+        dbName = name;
         devOpenHelper = new DaoMaster.DevOpenHelper(App.getGlobalContext(), dbName, null);
         database = devOpenHelper.getWritableDatabase();
         daoMaster = new DaoMaster(database);
