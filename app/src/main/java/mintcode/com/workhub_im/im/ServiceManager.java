@@ -1,7 +1,6 @@
 package mintcode.com.workhub_im.im;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 
 import com.alibaba.fastjson.JSON;
@@ -10,19 +9,13 @@ import java.net.URI;
 import java.util.ArrayList;
 
 import mintcode.com.workhub_im.App;
-import mintcode.com.workhub_im.AppConsts;
-import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.beans.UserPrefer;
 import mintcode.com.workhub_im.daohelper.SessionItemDaoHelper;
 import mintcode.com.workhub_im.db.MessageItem;
-import mintcode.com.workhub_im.db.SessionItem;
 import mintcode.com.workhub_im.im.codebutler.WebSocketClient;
 import mintcode.com.workhub_im.im.pojo.IMSessionResponse;
-import mintcode.com.workhub_im.im.pojo.Info;
-import mintcode.com.workhub_im.im.pojo.LastMsg;
 import mintcode.com.workhub_im.im.pojo.Session;
-import mintcode.com.workhub_im.pojo.MergeCard;
-import mintcode.com.workhub_im.pojo.MessageEventEntity;
+import mintcode.com.workhub_im.util.AESUtil;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -33,7 +26,7 @@ import retrofit2.Response;
 public class ServiceManager {
 
     private Context context;
-    private WebSocketClient socketClient;
+    private WebSocketClient webSocketClient;
     private WebSocketClient.Listener listener;
     private String IP;
     private static ServiceManager serviceManager;
@@ -62,25 +55,25 @@ public class ServiceManager {
         }
 
         URI uri = URI.create(IP);
-        if (socketClient != null) {
-            synchronized (socketClient) {
-                socketClient.disconnect();
+        if (webSocketClient != null) {
+            synchronized (webSocketClient) {
+                webSocketClient.disconnect();
                 try {
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                socketClient.setListener(null);
-                socketClient = null;
-                socketClient = new WebSocketClient(context, uri, listener, null);
-                socketClient.setListener(listener);
-                socketClient.connect();
+                webSocketClient.setListener(null);
+                webSocketClient = null;
+                webSocketClient = new WebSocketClient(context, uri, listener, null);
+                webSocketClient.setListener(listener);
+                webSocketClient.connect();
             }
         } else {
-            socketClient = new WebSocketClient(context, uri, listener, null);
+            webSocketClient = new WebSocketClient(context, uri, listener, null);
         }
-        socketClient.setListener(listener);
-        socketClient.connect();
+        webSocketClient.setListener(listener);
+        webSocketClient.connect();
     }
 
     public void connect() {
@@ -88,7 +81,10 @@ public class ServiceManager {
             @Override
             public void onResponse(Call<IMSessionResponse> call, Response<IMSessionResponse> response) {
                 sessions = response.body().getSessions();
-                updateSessions(sessions);
+                if (sessions == null) {
+                    socketConnect();
+                }
+                SessionItemDaoHelper.getInstance().updateSessions(sessions);
             }
 
             @Override
@@ -98,101 +94,25 @@ public class ServiceManager {
         });
     }
 
-    private void updateSessions(ArrayList<Session> sessions) {
-        SessionItemDaoHelper daoHelper = SessionItemDaoHelper.getInstance();
-        for (Session session : sessions) {
-            if (session == null || session.getLastMsg() == null) {
-                socketConnect();
-                continue;
-            }
-            LastMsg lastMsg = session.getLastMsg();
-            SessionItem sessionItem = daoHelper.getSession(session.getSessionName());
-            if (sessionItem == null) {
-                sessionItem = new SessionItem();
-            }
-            String sessionName = session.getSessionName();
-            Info info = null;
-            /*
-            1 denotes this is a group session 0 otherwise
-            * */
-            if (isGroupSession(sessionName)) {
-                info = JSON.parseObject(lastMsg.getInfo(), Info.class);
-                if (info != null) {
-                    sessionItem.setNickName(info.getSessionName());
-                }
-                sessionItem.setChatRoom(1);
-            } else {
-                sessionItem.setNickName(session.getNickName());
-            }
-            sessionItem.setOppositeName(session.getSessionName());
-            if (session.getModified() > 0) {
-                sessionItem.setModified(session.getModified());
-            }
-            sessionItem.setTime(lastMsg.getCreateDate());
-            sessionItem.setUserName(UserPrefer.getUserName());
-            sessionItem.setContent(setSessionContent(lastMsg, sessionItem, info));
-            sessionItem.setUnread(0);
-            daoHelper.insert(sessionItem);
+    public void keepBeet() {
+
+    }
+
+
+    public void sendMsg(MessageItem messageItem) {
+        if (webSocketClient == null) {
+            return;
         }
-    }
-
-    public String setSessionContent(LastMsg item, SessionItem sessionItem, Info info) {
-        String content = null;
-        boolean isSystemMsg = false;
-        String type = item.getType();
-        if (TextUtils.equals(Command.AUDIO, type)) {
-            content = getString(R.string.im_session_audio);
-        } else if (TextUtils.equals(Command.IMAGE, type)) {
-            content = getString(R.string.im_session_image);
-        } else if (TextUtils.equals(Command.VIDEO, type)) {
-            content = getString(R.string.im_session_video);
-        } else if (TextUtils.equals(Command.EVENT, type)) {
-            content = getTaskMessageContent(item);
-        } else if (TextUtils.equals(Command.MERGE, type)) {
-            content = getMergeMsgTitle(item.getContent());
-        } else {
-            content = item.getContent();
-            if (TextUtils.equals(Command.TEXT, type)) {
-                isSystemMsg = true;
-            }
+        String jsonStr = JSON.toJSONString(messageItem);
+        String aesKey = UserPrefer.getAesKey();
+        if (aesKey != null) {
+            jsonStr = AESUtil.EncryptIM(jsonStr, aesKey);
         }
-
-        if (isGroupSession(sessionItem.getOppositeName())) {
-            if (info != null) {
-                content = info.getNickName() + ":" + content;
-            }
-        }
-        return content;
+        send(jsonStr);
     }
 
-    private static boolean isGroupSession(String sessionName) {
-        return (sessionName.contains(AppConsts.CHAT_ROOM) || sessionName.contains(AppConsts.SUPER_GROUP));
-    }
-
-    private static String getFileName(MessageItem item) {
-        Info info = JSON.parseObject(item.getInfo(), Info.class);
-        if (info == null) {
-            return "";
-        }
-        return info.getNickName() + ":";
-    }
-
-    private static String getTaskMessageContent(LastMsg item) {
-        String result = null;
-        MessageEventEntity eventEntity = JSON.parseObject(item.getContent(), MessageEventEntity.class);
-        if (eventEntity != null) {
-            result = eventEntity.getMsgTitle();
-        }
-        return result;
-    }
-
-    private static String getMergeMsgTitle(String content) {
-        MergeCard card = JSON.parseObject(content, MergeCard.class);
-        return card.getTitle();
-    }
-
-    private String getString(int resId) {
-        return context.getResources().getString(resId);
+    public void send(String msg) {
+        webSocketClient.send(msg);
     }
 
 

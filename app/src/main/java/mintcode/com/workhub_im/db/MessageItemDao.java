@@ -37,16 +37,17 @@ public class MessageItemDao extends AbstractDao<MessageItem, Long> {
         public final static Property CreateDate = new Property(11, Long.class, "createDate", false, "CREATE_DATE");
         public final static Property Type = new Property(12, String.class, "type", false, "TYPE");
         public final static Property Cmd = new Property(13, Integer.class, "cmd", false, "CMD");
-        public final static Property TimeText = new Property(14, String.class, "timeText", false, "TIME_TEXT");
-        public final static Property FileName = new Property(15, String.class, "fileName", false, "FILE_NAME");
-        public final static Property FileSize = new Property(16, String.class, "fileSize", false, "FILE_SIZE");
-        public final static Property IsRead = new Property(17, String.class, "isRead", false, "IS_READ");
-        public final static Property ActionSend = new Property(18, Integer.class, "actionSend", false, "ACTION_SEND");
-        public final static Property IsMarkPoint = new Property(19, Integer.class, "isMarkPoint", false, "IS_MARK_POINT");
-        public final static Property IsResp = new Property(20, Integer.class, "isResp", false, "IS_RESP");
-        public final static Property Send_time = new Property(21, Long.class, "send_time", false, "SEND_TIME");
-        public final static Property ToNickName = new Property(22, String.class, "toNickName", false, "TO_NICK_NAME");
-        public final static Property Percent = new Property(23, String.class, "percent", false, "PERCENT");
+        public final static Property Sent = new Property(14, Integer.class, "sent", false, "SENT");
+        public final static Property TimeText = new Property(15, String.class, "timeText", false, "TIME_TEXT");
+        public final static Property FileName = new Property(16, String.class, "fileName", false, "FILE_NAME");
+        public final static Property FileSize = new Property(17, String.class, "fileSize", false, "FILE_SIZE");
+        public final static Property IsRead = new Property(18, String.class, "isRead", false, "IS_READ");
+        public final static Property ActionSend = new Property(19, Integer.class, "actionSend", false, "ACTION_SEND");
+        public final static Property IsMarkPoint = new Property(20, Integer.class, "isMarkPoint", false, "IS_MARK_POINT");
+        public final static Property IsResp = new Property(21, Integer.class, "isResp", false, "IS_RESP");
+        public final static Property Send_time = new Property(22, Long.class, "send_time", false, "SEND_TIME");
+        public final static Property ToNickName = new Property(23, String.class, "toNickName", false, "TO_NICK_NAME");
+        public final static Property Percent = new Property(24, String.class, "percent", false, "PERCENT");
     };
 
 
@@ -76,16 +77,17 @@ public class MessageItemDao extends AbstractDao<MessageItem, Long> {
                 "\"CREATE_DATE\" INTEGER," + // 11: createDate
                 "\"TYPE\" TEXT," + // 12: type
                 "\"CMD\" INTEGER," + // 13: cmd
-                "\"TIME_TEXT\" TEXT," + // 14: timeText
-                "\"FILE_NAME\" TEXT," + // 15: fileName
-                "\"FILE_SIZE\" TEXT," + // 16: fileSize
-                "\"IS_READ\" TEXT," + // 17: isRead
-                "\"ACTION_SEND\" INTEGER," + // 18: actionSend
-                "\"IS_MARK_POINT\" INTEGER," + // 19: isMarkPoint
-                "\"IS_RESP\" INTEGER," + // 20: isResp
-                "\"SEND_TIME\" INTEGER," + // 21: send_time
-                "\"TO_NICK_NAME\" TEXT," + // 22: toNickName
-                "\"PERCENT\" TEXT);"); // 23: percent
+                "\"SENT\" INTEGER," + // 14: sent
+                "\"TIME_TEXT\" TEXT," + // 15: timeText
+                "\"FILE_NAME\" TEXT," + // 16: fileName
+                "\"FILE_SIZE\" TEXT," + // 17: fileSize
+                "\"IS_READ\" TEXT," + // 18: isRead
+                "\"ACTION_SEND\" INTEGER," + // 19: actionSend
+                "\"IS_MARK_POINT\" INTEGER," + // 20: isMarkPoint
+                "\"IS_RESP\" INTEGER," + // 21: isResp
+                "\"SEND_TIME\" INTEGER," + // 22: send_time
+                "\"TO_NICK_NAME\" TEXT," + // 23: toNickName
+                "\"PERCENT\" TEXT);"); // 24: percent
     }
 
     /** Drops the underlying database table. */
@@ -169,54 +171,59 @@ public class MessageItemDao extends AbstractDao<MessageItem, Long> {
             stmt.bindLong(14, cmd);
         }
  
+        Integer sent = entity.getSent();
+        if (sent != null) {
+            stmt.bindLong(15, sent);
+        }
+ 
         String timeText = entity.getTimeText();
         if (timeText != null) {
-            stmt.bindString(15, timeText);
+            stmt.bindString(16, timeText);
         }
  
         String fileName = entity.getFileName();
         if (fileName != null) {
-            stmt.bindString(16, fileName);
+            stmt.bindString(17, fileName);
         }
  
         String fileSize = entity.getFileSize();
         if (fileSize != null) {
-            stmt.bindString(17, fileSize);
+            stmt.bindString(18, fileSize);
         }
  
         String isRead = entity.getIsRead();
         if (isRead != null) {
-            stmt.bindString(18, isRead);
+            stmt.bindString(19, isRead);
         }
  
         Integer actionSend = entity.getActionSend();
         if (actionSend != null) {
-            stmt.bindLong(19, actionSend);
+            stmt.bindLong(20, actionSend);
         }
  
         Integer isMarkPoint = entity.getIsMarkPoint();
         if (isMarkPoint != null) {
-            stmt.bindLong(20, isMarkPoint);
+            stmt.bindLong(21, isMarkPoint);
         }
  
         Integer isResp = entity.getIsResp();
         if (isResp != null) {
-            stmt.bindLong(21, isResp);
+            stmt.bindLong(22, isResp);
         }
  
         Long send_time = entity.getSend_time();
         if (send_time != null) {
-            stmt.bindLong(22, send_time);
+            stmt.bindLong(23, send_time);
         }
  
         String toNickName = entity.getToNickName();
         if (toNickName != null) {
-            stmt.bindString(23, toNickName);
+            stmt.bindString(24, toNickName);
         }
  
         String percent = entity.getPercent();
         if (percent != null) {
-            stmt.bindString(24, percent);
+            stmt.bindString(25, percent);
         }
     }
 
@@ -244,16 +251,17 @@ public class MessageItemDao extends AbstractDao<MessageItem, Long> {
             cursor.isNull(offset + 11) ? null : cursor.getLong(offset + 11), // createDate
             cursor.isNull(offset + 12) ? null : cursor.getString(offset + 12), // type
             cursor.isNull(offset + 13) ? null : cursor.getInt(offset + 13), // cmd
-            cursor.isNull(offset + 14) ? null : cursor.getString(offset + 14), // timeText
-            cursor.isNull(offset + 15) ? null : cursor.getString(offset + 15), // fileName
-            cursor.isNull(offset + 16) ? null : cursor.getString(offset + 16), // fileSize
-            cursor.isNull(offset + 17) ? null : cursor.getString(offset + 17), // isRead
-            cursor.isNull(offset + 18) ? null : cursor.getInt(offset + 18), // actionSend
-            cursor.isNull(offset + 19) ? null : cursor.getInt(offset + 19), // isMarkPoint
-            cursor.isNull(offset + 20) ? null : cursor.getInt(offset + 20), // isResp
-            cursor.isNull(offset + 21) ? null : cursor.getLong(offset + 21), // send_time
-            cursor.isNull(offset + 22) ? null : cursor.getString(offset + 22), // toNickName
-            cursor.isNull(offset + 23) ? null : cursor.getString(offset + 23) // percent
+            cursor.isNull(offset + 14) ? null : cursor.getInt(offset + 14), // sent
+            cursor.isNull(offset + 15) ? null : cursor.getString(offset + 15), // timeText
+            cursor.isNull(offset + 16) ? null : cursor.getString(offset + 16), // fileName
+            cursor.isNull(offset + 17) ? null : cursor.getString(offset + 17), // fileSize
+            cursor.isNull(offset + 18) ? null : cursor.getString(offset + 18), // isRead
+            cursor.isNull(offset + 19) ? null : cursor.getInt(offset + 19), // actionSend
+            cursor.isNull(offset + 20) ? null : cursor.getInt(offset + 20), // isMarkPoint
+            cursor.isNull(offset + 21) ? null : cursor.getInt(offset + 21), // isResp
+            cursor.isNull(offset + 22) ? null : cursor.getLong(offset + 22), // send_time
+            cursor.isNull(offset + 23) ? null : cursor.getString(offset + 23), // toNickName
+            cursor.isNull(offset + 24) ? null : cursor.getString(offset + 24) // percent
         );
         return entity;
     }
@@ -275,16 +283,17 @@ public class MessageItemDao extends AbstractDao<MessageItem, Long> {
         entity.setCreateDate(cursor.isNull(offset + 11) ? null : cursor.getLong(offset + 11));
         entity.setType(cursor.isNull(offset + 12) ? null : cursor.getString(offset + 12));
         entity.setCmd(cursor.isNull(offset + 13) ? null : cursor.getInt(offset + 13));
-        entity.setTimeText(cursor.isNull(offset + 14) ? null : cursor.getString(offset + 14));
-        entity.setFileName(cursor.isNull(offset + 15) ? null : cursor.getString(offset + 15));
-        entity.setFileSize(cursor.isNull(offset + 16) ? null : cursor.getString(offset + 16));
-        entity.setIsRead(cursor.isNull(offset + 17) ? null : cursor.getString(offset + 17));
-        entity.setActionSend(cursor.isNull(offset + 18) ? null : cursor.getInt(offset + 18));
-        entity.setIsMarkPoint(cursor.isNull(offset + 19) ? null : cursor.getInt(offset + 19));
-        entity.setIsResp(cursor.isNull(offset + 20) ? null : cursor.getInt(offset + 20));
-        entity.setSend_time(cursor.isNull(offset + 21) ? null : cursor.getLong(offset + 21));
-        entity.setToNickName(cursor.isNull(offset + 22) ? null : cursor.getString(offset + 22));
-        entity.setPercent(cursor.isNull(offset + 23) ? null : cursor.getString(offset + 23));
+        entity.setSent(cursor.isNull(offset + 14) ? null : cursor.getInt(offset + 14));
+        entity.setTimeText(cursor.isNull(offset + 15) ? null : cursor.getString(offset + 15));
+        entity.setFileName(cursor.isNull(offset + 16) ? null : cursor.getString(offset + 16));
+        entity.setFileSize(cursor.isNull(offset + 17) ? null : cursor.getString(offset + 17));
+        entity.setIsRead(cursor.isNull(offset + 18) ? null : cursor.getString(offset + 18));
+        entity.setActionSend(cursor.isNull(offset + 19) ? null : cursor.getInt(offset + 19));
+        entity.setIsMarkPoint(cursor.isNull(offset + 20) ? null : cursor.getInt(offset + 20));
+        entity.setIsResp(cursor.isNull(offset + 21) ? null : cursor.getInt(offset + 21));
+        entity.setSend_time(cursor.isNull(offset + 22) ? null : cursor.getLong(offset + 22));
+        entity.setToNickName(cursor.isNull(offset + 23) ? null : cursor.getString(offset + 23));
+        entity.setPercent(cursor.isNull(offset + 24) ? null : cursor.getString(offset + 24));
      }
     
     /** @inheritdoc */

@@ -20,6 +20,7 @@ public class MessageItem {
     private Long createDate;
     private String type;
     private Integer cmd;
+    private Integer sent;
     private String timeText;
     private String fileName;
     private String fileSize;
@@ -38,7 +39,7 @@ public class MessageItem {
         this.id = id;
     }
 
-    public MessageItem(Long id, String appName, String userName, Long modified, String nickName, Long msgId, String fromLoginName, String toLoginName, String info, String content, Long clientMsgId, Long createDate, String type, Integer cmd, String timeText, String fileName, String fileSize, String isRead, Integer actionSend, Integer isMarkPoint, Integer isResp, Long send_time, String toNickName, String percent) {
+    public MessageItem(Long id, String appName, String userName, Long modified, String nickName, Long msgId, String fromLoginName, String toLoginName, String info, String content, Long clientMsgId, Long createDate, String type, Integer cmd, Integer sent, String timeText, String fileName, String fileSize, String isRead, Integer actionSend, Integer isMarkPoint, Integer isResp, Long send_time, String toNickName, String percent) {
         this.id = id;
         this.appName = appName;
         this.userName = userName;
@@ -53,6 +54,7 @@ public class MessageItem {
         this.createDate = createDate;
         this.type = type;
         this.cmd = cmd;
+        this.sent = sent;
         this.timeText = timeText;
         this.fileName = fileName;
         this.fileSize = fileSize;
@@ -175,6 +177,14 @@ public class MessageItem {
 
     public void setCmd(Integer cmd) {
         this.cmd = cmd;
+    }
+
+    public Integer getSent() {
+        return sent;
+    }
+
+    public void setSent(Integer sent) {
+        this.sent = sent;
     }
 
     public String getTimeText() {

@@ -42,7 +42,7 @@ public class PushService extends Service {
         if (TextUtils.equals(action, ACTION_CONNECT)) {
             serviceManager.connect();
         } else if (TextUtils.equals(action, ACTION_SEND)) {
-
+            serviceManager.send(intent.getStringExtra(ACTION_SEND));
         }
 //        return super.onStartCommand(intent, flags, startId);
         return Service.START_STICKY;
