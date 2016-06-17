@@ -8,6 +8,7 @@ import android.os.Build;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 
+import com.alibaba.fastjson.JSON;
 import com.mintcode.imkit.application.IMKitApplication;
 import com.mintcode.imkit.util.IMUtil;
 
@@ -44,6 +45,7 @@ public class App extends IMKitApplication {
         httpClient = new OkHttpClient.Builder()
                 .addInterceptor(new LogJsonInterceptor())
                 .build();
+        UserPrefer.setIP(AppConsts.ip);
 
         DensityUtil.init();
     }

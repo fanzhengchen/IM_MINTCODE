@@ -94,7 +94,16 @@ public class ServiceManager {
         });
     }
 
+
+    public void login() {
+
+    }
+
     public void keepBeet() {
+
+    }
+
+    public void stopBeet() {
 
     }
 

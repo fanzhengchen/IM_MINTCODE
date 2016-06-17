@@ -147,8 +147,6 @@ public class Command {
     public static final int MSG_RETURN = 10000;
 
     public static final int RCV = 10008;
-
-
     /**
      * 消息设置 状态 on off
      */
