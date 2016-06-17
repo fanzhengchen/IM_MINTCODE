@@ -56,6 +56,17 @@ public class SessionItemDaoHelper extends BaseDaoHelper {
         return items.get(0);
     }
 
+    public SessionItem getSession(Long sessionId) {
+        List<SessionItem> items = sessionItemDao.queryBuilder().where(
+                properties.UserName.eq(UserPrefer.getUserName()),
+                properties.Id.eq(sessionId)
+        ).list();
+        if (items == null || items.isEmpty()) {
+            return null;
+        }
+        return items.get(0);
+    }
+
     public List<SessionItem> getListByDesc() {
         return sessionItemDao.queryBuilder()
                 .where(properties.UserName.eq(UserPrefer.getUserName()))

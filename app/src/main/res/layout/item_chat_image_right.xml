@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="7.5dp"
+    android:paddingBottom="7.5dp" >
+
+    <CheckBox
+        android:id="@+id/cb_merge_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/setting_language_checkbox"
+        android:layout_marginLeft="5dp"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/cb_merge_msg">
+
+
+        <ImageView
+            android:id="@+id/iv_mark_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/rl_image"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark_point"
+            android:layout_alignTop="@id/rl_image"
+            android:layout_alignBottom="@id/rl_image"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/iv_failed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rl_image"
+            android:layout_alignTop="@+id/rl_image"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/iv_mark_point"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/failed"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/pb_sending_bar"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignTop="@+id/rl_image"
+            android:layout_toLeftOf="@+id/rl_image"
+            android:indeterminateDrawable="@drawable/common_loading3" />
+
+
+        <RelativeLayout
+            android:id="@+id/rl_image"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content">
+            <com.mintcode.chat.widget.DirectImageView
+                android:id="@+id/iv_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:maxWidth="265dp"
+                android:maxHeight="180dp" />
+            <TextView
+                android:id="@+id/tv_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/we_title_alpha"
+                android:textColor="@null"
+                android:textSize="12sp"
+                android:layout_centerInParent="true"
+                android:singleLine="true"
+                android:text=""/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/iv_read"
+            android:layout_alignRight="@+id/rl_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_image"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"
+            android:paddingTop="5dp"
+            android:text="@string/msg_have_read"
+            android:textColor="@color/deep_gray_launchr"
+            />
+    </RelativeLayout>
+</RelativeLayout>

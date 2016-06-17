@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="7.5dp"
+    >
+
+        <ImageView
+            android:id="@+id/iv_head_icon"
+            android:layout_width="@dimen/icon_head_size"
+            android:layout_height="@dimen/icon_head_size"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:layout_marginTop="7.5dp"
+            android:src="@drawable/icon_default"/>
+
+        <TextView
+            android:id="@+id/tv_chat_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/iv_head_icon"
+            android:layout_marginLeft="@dimen/chat_name_margin_left"
+            android:layout_marginBottom="2dp"
+            android:layout_toRightOf="@+id/iv_head_icon"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv_chat_name"
+            android:layout_toRightOf="@+id/iv_head_icon"
+            android:background="@drawable/bg_chat_bubble_left"
+            android:gravity="left|center_vertical"
+            android:layout_marginLeft="5dp"
+            android:minHeight="35dp"
+            android:minWidth="70dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_sound_image"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@+id/tv_text"
+            android:layout_alignLeft="@+id/tv_text"
+            android:layout_alignTop="@+id/tv_text"
+            android:layout_marginLeft="16.67dp"
+            />
+
+        <ImageView
+            android:id="@+id/iv_read_mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_circle_red"
+            android:layout_alignRight="@+id/tv_text"
+            android:layout_alignTop="@+id/tv_text"
+            android:layout_marginTop="-2dp"
+            android:layout_marginRight="-2dp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_sound_time"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignRight="@id/tv_text"
+            android:layout_alignTop="@+id/tv_text"
+            android:layout_marginRight="14dp"
+            android:gravity="center_vertical"
+            android:text="12&apos;&apos;"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+        <ImageView
+            android:id="@+id/iv_mark_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark_point"
+            android:contentDescription="@null"
+            android:visibility="visible"
+            android:layout_alignTop="@id/tv_text"
+            android:layout_alignBottom="@id/tv_text"
+            android:layout_toRightOf="@id/tv_text"
+            android:layout_marginLeft="10dp" />
+
+
+
+    <CheckBox
+        android:id="@+id/cb_merge_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/setting_language_checkbox"
+        android:layout_marginRight="5dp"
+        android:visibility="gone"/>
+
+
+    </RelativeLayout>

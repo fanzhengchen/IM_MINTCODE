@@ -22,6 +22,7 @@ public class PushService extends Service {
 
     public static final String ACTION_CONNECT = "action_connect";
     public static final String ACTION_SEND = "action_send";
+    public static final String KEY_MSG = "KEY_MSG";
 
 
     private ServiceManager serviceManager;
@@ -147,4 +148,7 @@ public class PushService extends Service {
             serviceManager.login();
         }
     };
+
+
+
 }

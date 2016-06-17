@@ -30,8 +30,8 @@ public class SessionViewHolder extends RecyclerView.ViewHolder {
     TextView nicknameTextView;
     @BindView(R.id.session_content)
     TextView contentTextView;
-
     private Context context;
+    protected SessionItem mItem;
 
     public SessionViewHolder(View itemView) {
         super(itemView);
@@ -50,14 +50,15 @@ public class SessionViewHolder extends RecyclerView.ViewHolder {
         nicknameTextView.setText(item.getNickName());
         contentTextView.setText(item.getContent());
         setAvatar(item);
-
 //        String url = getUrl(item.getOppositeName());
 //        Glide.with(context).load(url).into(portrait);
 //        String url = AppConsts.ATTACH_PATH
+        this.mItem = item;
     }
 
     public void accessChat(Context context) {
         Intent intent = new Intent(context, ChatActivity.class);
+        intent.putExtra(ChatActivity.SESSTION,mItem.getId());
         context.startActivity(intent);
     }
 
