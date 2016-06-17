@@ -3,6 +3,7 @@ package mintcode.com.workhub_im.fragments;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +14,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import mintcode.com.workhub_im.R;
+import mintcode.com.workhub_im.adapter.SessionAdapter;
 import mintcode.com.workhub_im.daohelper.SessionItemDaoHelper;
 import mintcode.com.workhub_im.db.SessionItem;
 
@@ -23,6 +25,7 @@ public class MessageFragment extends Fragment {
     private List<SessionItem> sessionItems = null;
     private SessionItemDaoHelper daoHelper = null;
     private View rootView;
+    private SessionAdapter adapter;
 
     @BindView(R.id.session_recycler_view)
     RecyclerView recyclerView;
@@ -32,6 +35,7 @@ public class MessageFragment extends Fragment {
         super.onCreate(savedInstanceState);
         daoHelper = SessionItemDaoHelper.getInstance();
         sessionItems = daoHelper.getListByDesc();
+        adapter = new SessionAdapter(sessionItems);
 //        daoHelper.deleteAll();
     }
 
@@ -41,8 +45,9 @@ public class MessageFragment extends Fragment {
 //        return super.onCreateView(inflater, container, savedInstanceState);
         rootView = inflater.inflate(R.layout.fragment_message, container, false);
         ButterKnife.bind(this, rootView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        recyclerView.setAdapter(adapter);
         return rootView;
     }
-
 
 }

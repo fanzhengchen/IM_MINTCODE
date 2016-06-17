@@ -26,6 +26,7 @@
         <activity android:name=".activities.MainActivity" />
         <activity android:name=".activities.CompanyListActivity" />
         <activity android:name=".activities.SessionActivity" />
+        <activity android:name=".activities.ChatActivity" />
 
         <service android:name=".service.PushService" />
         <service android:name=".service.GuardService" />

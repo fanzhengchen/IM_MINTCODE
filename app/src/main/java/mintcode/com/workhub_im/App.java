@@ -16,6 +16,7 @@ import mintcode.com.workhub_im.Http.IMService;
 import mintcode.com.workhub_im.Http.LogJsonInterceptor;
 import mintcode.com.workhub_im.beans.UserPrefer;
 import mintcode.com.workhub_im.im.IMAPIProvider;
+import mintcode.com.workhub_im.util.DensityUtil;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -43,6 +44,8 @@ public class App extends IMKitApplication {
         httpClient = new OkHttpClient.Builder()
                 .addInterceptor(new LogJsonInterceptor())
                 .build();
+
+        DensityUtil.init();
     }
 
 

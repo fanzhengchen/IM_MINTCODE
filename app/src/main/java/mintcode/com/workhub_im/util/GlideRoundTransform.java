@@ -1,4 +1,4 @@
-package com.mintcode.launchr.util;
+package mintcode.com.workhub_im.util;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -7,11 +7,13 @@ import android.graphics.BitmapShader;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.RectF;
-import android.util.Log;
 
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
 
+/**
+ * Created by mark on 16-6-17.
+ */
 public class GlideRoundTransform extends BitmapTransformation {
     private static float radius = 0f;
 
