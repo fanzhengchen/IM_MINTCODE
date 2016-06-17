@@ -6,6 +6,9 @@ package mintcode.com.workhub_im.db;
  */
 public class MessageItem {
 
+
+
+
     private Long id;
     private String appName;
     private String userName;

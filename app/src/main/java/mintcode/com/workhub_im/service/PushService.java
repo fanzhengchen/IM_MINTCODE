@@ -15,6 +15,7 @@ public class PushService extends Service {
 
     public static final String ACTION_CONNECT = "action_connect";
     public static final String ACTION_SEND = "action_send";
+    public static final String KEY_MSG = "KEY_MSG";
 
 
     private ServiceManager serviceManager;
@@ -42,9 +43,12 @@ public class PushService extends Service {
         if (TextUtils.equals(action, ACTION_CONNECT)) {
             serviceManager.connect();
         } else if (TextUtils.equals(action, ACTION_SEND)) {
-
         }
 //        return super.onStartCommand(intent, flags, startId);
         return Service.START_STICKY;
     }
+
+
+
+
 }

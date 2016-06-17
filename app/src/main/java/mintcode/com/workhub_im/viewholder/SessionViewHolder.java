@@ -24,7 +24,7 @@ public class SessionViewHolder extends RecyclerView.ViewHolder {
     TextView nicknameTextView;
     @BindView(R.id.session_content)
     TextView contentTextView;
-
+    protected SessionItem mItem;
     public SessionViewHolder(View itemView) {
         super(itemView);
         ButterKnife.bind(this, itemView);
@@ -39,10 +39,12 @@ public class SessionViewHolder extends RecyclerView.ViewHolder {
     public void fillData(SessionItem item) {
         nicknameTextView.setText(item.getNickName());
         contentTextView.setText(item.getContent());
+        this.mItem = item;
     }
 
     public void accessChat(Context context) {
         Intent intent = new Intent(context, ChatActivity.class);
+        intent.putExtra(ChatActivity.SESSTION,mItem.getId());
         context.startActivity(intent);
     }
 

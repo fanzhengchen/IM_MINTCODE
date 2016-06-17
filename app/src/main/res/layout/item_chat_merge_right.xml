@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_launchr"
+    android:paddingBottom="5dp">
+
+    <CheckBox
+        android:id="@+id/cb_merge_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_marginTop="20dp"
+        android:button="@drawable/setting_language_checkbox"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cb_merge_msg">
+
+        <ImageView
+            android:id="@+id/iv_mark_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/mark_point"
+            android:contentDescription="@null"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/layout_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_mark_point"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/icon_chat_card_merge_right"
+            android:orientation="vertical">
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:maxWidth="200dp"
+                    android:paddingLeft="@dimen/standard_chat_left"
+                    android:paddingRight="@dimen/standard_chat_right"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/standard_title_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/standard_chat_left"
+                android:paddingRight="@dimen/standard_chat_right"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/tv_content1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="@color/chat_text_gray"
+                    android:textSize="@dimen/standard_content_size" />
+                <TextView
+                    android:id="@+id/tv_content2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="@color/chat_text_gray"
+                    android:textSize="@dimen/standard_content_size" />
+                <TextView
+                    android:id="@+id/tv_content3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="@color/chat_text_gray"
+                    android:textSize="@dimen/standard_content_size" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_failed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/failed"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/pb_sending_bar"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_centerHorizontal="true"
+            android:indeterminateDrawable="@drawable/common_loading3"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

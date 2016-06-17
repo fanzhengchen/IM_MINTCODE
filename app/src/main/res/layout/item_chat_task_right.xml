@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_launchr"
+    android:paddingBottom="5dp">
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/layout_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_chat_name"
+        android:layout_toLeftOf="@+id/cb_merge_msg"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/iv_head_icon"
+        android:background="@drawable/icon_chat_card_task_right"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxWidth="200dp"
+                android:paddingLeft="@dimen/standard_chat_left"
+                android:paddingRight="@dimen/standard_chat_right"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/standard_title_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:paddingRight="@dimen/standard_chat_right"
+                android:text="@string/app_task"
+                android:textColor="@color/chat_card_yellow"
+                android:textSize="@dimen/standard_title_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="@dimen/standard_chat_left"
+            android:paddingRight="@dimen/standard_chat_right">
+
+            <TextView
+                android:id="@+id/tv_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/red_clock"
+                android:drawablePadding="10dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/red_launchr"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/standard_content_size" />
+
+            <TextView
+                android:id="@+id/tv_project_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_task_for_project"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/standard_content_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="@dimen/standard_chat_left"
+            android:paddingRight="@dimen/standard_chat_right">
+
+            <TextView
+                android:id="@+id/tv_state_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_check_wait"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/standard_content_size" />
+
+            <TextView
+                android:id="@+id/tv_task_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:drawableLeft="@drawable/icon_task_sub_project"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/standard_content_size"
+                />
+
+            <TextView
+                android:id="@+id/tv_priority"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="@color/task_priority_yellow"/>
+
+            <TextView
+                android:id="@+id/tv_priority_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/standard_content_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_card_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_card"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="14dp"
+        android:paddingRight="5dp"
+        android:text=""
+        android:textColor="@color/text_gray"
+        android:textSize="12sp"
+        android:visibility="visible" />
+
+    <CheckBox
+        android:id="@+id/cb_merge_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/setting_language_checkbox"
+        android:layout_marginRight="5dp"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>

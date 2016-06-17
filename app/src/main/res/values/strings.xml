@@ -13,4 +13,32 @@
     <string name="im_session_image">[图片]</string>
     <string name="im_session_video">[小视频]</string>
     <string name="im_session_file">[文件]</string>
+
+
+    <string name="msg_have_read">已读</string>
+    <string name="msg_have_accept">已送达</string>
+
+    <string name="app_task">任务</string>
+    <string name="app_record">记录</string>
+    <string name="app_schedule">日程</string>
+    <string name="app_meetting">会议</string>
+    <string name="app_apply">申请</string>
+    <string name="accpect_send_hit">评论</string>
+
+    <string name="press_down_speak">按住 说话</string>
+    <string name="press_up_speak">松开 结束</string>
+    <string name="chat_msg_mark_point">标记重点</string>
+    <string name="send_to_other">转发</string>
+    <string name="impt_msg">重点</string>
+    <string name="file_msg">文件</string>
+    <string name="pic_msg">图片</string>
+    <string name="app_msg">应用</string>
+    <string name="send_to_me">\&#064;我</string>
+    <string name="photo_camer">拍照</string>
+
+    <string name="approval_agree">通过</string>
+    <string name="approval_not_agree">不通过</string>
+    <string name="event_give_back">打回</string>
+    <string name="event_join">参加</string>
+    <string name="meeting_no_attend">不参加</string>
 </resources>
