@@ -21,6 +21,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.model.GlideUrl;
 import com.mintcode.chat.util.BitmapUtil;
 import com.mintcode.im.database.FriendDBService;
+import com.mintcode.launchr.App;
 import com.mintcode.launchr.R;
 import com.mintcode.launchr.base.BaseActivity;
 import com.mintcode.launchr.consts.LauchrConst;
@@ -60,9 +61,9 @@ public class HeadImageUtil {
 	}
 
 
-	public static HeadImageUtil getInstance(Context context){
+	public static HeadImageUtil getInstance(){
 		if (mInstance == null) {
-			mInstance = new HeadImageUtil(context);
+			mInstance = new HeadImageUtil(App.getContext());
 		}
 		return mInstance;
 	}

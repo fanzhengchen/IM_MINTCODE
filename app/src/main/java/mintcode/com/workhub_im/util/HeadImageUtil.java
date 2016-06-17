@@ -15,6 +15,7 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
+import mintcode.com.workhub_im.App;
 import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.beans.UserPrefer;
@@ -45,9 +46,9 @@ public class HeadImageUtil {
     }
 
 
-    public static HeadImageUtil getInstance(Context context) {
+    public static HeadImageUtil getInstance() {
         if (mInstance == null) {
-            mInstance = new HeadImageUtil(context);
+            mInstance = new HeadImageUtil(App.getGlobalContext());
         }
         return mInstance;
     }
