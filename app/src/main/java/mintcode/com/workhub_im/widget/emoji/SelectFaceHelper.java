@@ -206,7 +206,7 @@ public class SelectFaceHelper implements OnItemClickListener {
         try {
             int len = MsgFaceUtils.faceImgs.length;
             for (int i = 0; i < len; i++) {
-                int resID = RM.getRId( MsgFaceUtils.faceImgs[i]);
+                int resID = RM.getRId(context, MsgFaceUtils.faceImgs[i]);
                 if (resID != 0) {
                     emojEentry = new MsgEmojiModle();
                     emojEentry.setId(resID);

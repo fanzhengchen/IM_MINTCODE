@@ -204,7 +204,7 @@ public class EmojiView extends LinearLayout implements AdapterView.OnItemClickLi
         try {
             int len = MsgFaceUtils.faceImgs.length;
             for (int i = 0; i < len; i++) {
-                int resID = RM.getRId(MsgFaceUtils.faceImgs[i]);
+                int resID = RM.getRId(mContext,MsgFaceUtils.faceImgs[i]);
                 if (resID != 0) {
                     emojEentry = new MsgEmojiModle();
                     emojEentry.setId(resID);

@@ -1,7 +1,9 @@
 package mintcode.com.workhub_im.widget.emoji;
 
+import android.content.Context;
+
 public class RM {
-	   public static int getRId( String rStr) {
+	   public static int getRId(Context context,String rStr) {
 	    	String[] resStr = rStr.split("\\.");
 	    	if(resStr.length != 3){
 	    		return 0;
@@ -11,7 +13,7 @@ public class RM {
 	    	}
 	    	String className = resStr[1];
 	    	String name = resStr[2];
-	        String packageName = "com.mintcode.launchr";//context.getPackageName();
+	        String packageName = context.getPackageName();//context.getPackageName();
 	        Class<?> r = null;  
 	        int id = 0;  
 	        try {  

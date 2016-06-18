@@ -20,6 +20,6 @@
     <mintcode.com.workhub_im.view.custom.MsgSendView
         android:id="@+id/view_send_bar"
         android:layout_width="match_parent"
-        android:layout_height="50dp"/>
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

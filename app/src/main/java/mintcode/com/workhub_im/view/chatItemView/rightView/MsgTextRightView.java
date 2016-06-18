@@ -7,6 +7,7 @@ import android.widget.TextView;
 import butterknife.BindView;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.db.MessageItem;
+import mintcode.com.workhub_im.view.chatItemView.ChatViewUtil;
 import mintcode.com.workhub_im.view.chatItemView.baseView.BaseRightChatView;
 import mintcode.com.workhub_im.widget.IMChatManager;
 
@@ -26,6 +27,7 @@ public class MsgTextRightView extends BaseRightChatView {
     @Override
     public void setData(MessageItem item) {
         super.setData(item);
+        ChatViewUtil.setTextDisplay(mContext,item,mTvText,false);
     }
 
     @Override

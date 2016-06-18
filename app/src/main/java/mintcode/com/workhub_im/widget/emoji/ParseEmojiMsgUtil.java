@@ -32,7 +32,7 @@ public class ParseEmojiMsgUtil {
                 continue;
             }
 //            String tmp = key.substring(key.indexOf(']') + 1, key.lastIndexOf('['));
-            int resId = RM.getRId( "R.drawable." + "emoji_"
+            int resId = RM.getRId(context, "R.drawable." + "emoji_"
                     + key.substring(key.indexOf("]") + 1, key.lastIndexOf("[")));
 
             if (resId != 0) {
