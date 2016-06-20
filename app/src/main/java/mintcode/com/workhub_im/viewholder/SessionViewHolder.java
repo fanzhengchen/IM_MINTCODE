@@ -35,7 +35,6 @@ public class SessionViewHolder extends RecyclerView.ViewHolder {
 
     public SessionViewHolder(View itemView) {
         super(itemView);
-//        System.currentTimeMillis();
         ButterKnife.bind(this, itemView);
         context = itemView.getContext();
         itemView.setOnClickListener(new View.OnClickListener() {
@@ -50,23 +49,17 @@ public class SessionViewHolder extends RecyclerView.ViewHolder {
         nicknameTextView.setText(item.getNickName());
         contentTextView.setText(item.getContent());
         setAvatar(item);
-//        String url = getUrl(item.getOppositeName());
-//        Glide.with(context).load(url).into(portrait);
-//        String url = AppConsts.ATTACH_PATH
         this.mItem = item;
     }
 
     public void accessChat(Context context) {
         Intent intent = new Intent(context, ChatActivity.class);
-        intent.putExtra(ChatActivity.SESSTION,mItem.getId());
+        intent.putExtra(ChatActivity.SESSTION, mItem.getId());
         context.startActivity(intent);
     }
 
     private void setAvatar(SessionItem item) {
-//        String url = AppConsts.ATTACH_PATH + PATH;
-//        url += "companyCode=" + UserPrefer.getCompanyCode() + "&";
-//        url += "width=60&height=60&userName=" + userName + "&";
-//        url += "t=" + System.currentTimeMillis();
+
         HeadImageUtil.getInstance().setAvatarResourceAppendUrl(portrait, item.getOppositeName(), 3, 60, 60);
     }
 
