@@ -1,6 +1,7 @@
 package mintcode.com.workhub_im.activities;
 
 import android.app.Activity;
+import android.app.Service;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -20,13 +21,14 @@ import mintcode.com.workhub_im.daohelper.SessionItemDaoHelper;
 import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.db.SessionItem;
 import mintcode.com.workhub_im.im.IMManager;
+import mintcode.com.workhub_im.im.ServiceManager;
 import mintcode.com.workhub_im.view.custom.MsgSendView;
 import mintcode.com.workhub_im.widget.IMChatManager;
 
 /**
  * Created by mark on 16-6-17.
  */
-public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListener{
+public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListener {
 
 
     public static final String SESSTION = "sesstion";
@@ -57,7 +59,7 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
         initData();
 
         mChatAdapter = new UserChatAdapter(mMessageItems);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false));
+        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         recyclerView.setAdapter(mChatAdapter);
         mSendBar.setOnMsgSendListener(this);
 
@@ -68,9 +70,9 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
         mStrUid = UserPrefer.getShowId();
         mStrMyName = UserPrefer.getUserName();
         mStrToken = UserPrefer.getImToken();
-        Long SessionId = getIntent().getLongExtra(SESSTION,0);
+        Long SessionId = getIntent().getLongExtra(SESSTION, 0);
         SessionItem item = SessionItemDaoHelper.getInstance().getSession(SessionId);
-        if(item != null){
+        if (item != null) {
             mStrTo = item.getOppositeName();
             mStrToNikeName = item.getNickName();
             mTool.setTitle(mStrToNikeName);
@@ -79,16 +81,19 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
 
     @Override
     public void textMsgSend(String msg) {
-        if(TextUtils.isEmpty(msg)){
-            Toast.makeText(this,"消息为空",Toast.LENGTH_SHORT).show();
+        if (TextUtils.isEmpty(msg)) {
+            Toast.makeText(this, "消息为空", Toast.LENGTH_SHORT).show();
         }
-        MessageItem textMessage = IMChatManager.getInstance().sendTextMsg(this,msg,mStrUid,mStrMyName,mStrTo,mStrToNikeName);
-        if(TextUtils.isEmpty(msg)){
-            Toast.makeText(this,"消息为空",Toast.LENGTH_SHORT).show();
-        }else{
+        MessageItem textMessage = IMChatManager.getInstance().sendTextMsg(this, msg, mStrUid, mStrMyName, mStrTo, mStrToNikeName);
+        if (TextUtils.isEmpty(msg)) {
+            Toast.makeText(this, "消息为空", Toast.LENGTH_SHORT).show();
+        } else {
             mMessageItems.add(textMessage);
             mChatAdapter.notifyDataSetChanged();
         }
+        Toast.makeText(ChatActivity.this, "sending", Toast.LENGTH_SHORT).show();
+        ServiceManager.getInstance().sendMsg(textMessage);
+
     }
 
     @Override
