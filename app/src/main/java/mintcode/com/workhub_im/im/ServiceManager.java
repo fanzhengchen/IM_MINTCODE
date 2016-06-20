@@ -146,7 +146,9 @@ public class ServiceManager {
 
     public void keepBeet() {
         HeartBeat heartBeat = new HeartBeat();
-//        heartBeat.setMsgId();
+        heartBeat.setMsgId(UserPrefer.getLastMessageId() + 1);
+        heartBeat.setType(Command.LOGIN_KEEP);
+        send(JSON.toJSONString(heartBeat), 1);
     }
 
     public void stopBeet() {

@@ -4,14 +4,14 @@ package mintcode.com.workhub_im.pojo;
  * Created by mark on 16-6-20.
  */
 public class HeartBeat {
-    private String msgId;
+    private long msgId;
     private String type;
 
-    public String getMsgId() {
+    public long getMsgId() {
         return msgId;
     }
 
-    public void setMsgId(String msgId) {
+    public void setMsgId(long msgId) {
         this.msgId = msgId;
     }
 
