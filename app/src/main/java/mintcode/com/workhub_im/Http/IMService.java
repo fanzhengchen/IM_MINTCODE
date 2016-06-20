@@ -2,8 +2,10 @@ package mintcode.com.workhub_im.Http;
 
 import com.mintcode.imkit.pojo.LoginResultPOJO;
 
+import mintcode.com.workhub_im.im.pojo.IMHistoryMessageRequest;
 import mintcode.com.workhub_im.im.pojo.IMLoginRequest;
 import mintcode.com.workhub_im.im.pojo.IMLoginResponse;
+import mintcode.com.workhub_im.im.pojo.IMMessageResponse;
 import mintcode.com.workhub_im.im.pojo.IMSessionResponse;
 import mintcode.com.workhub_im.im.pojo.IMUnreadSessionRequest;
 import retrofit2.Call;
@@ -21,10 +23,14 @@ public interface IMService {
 
     public static final String IM_UNREAD_SESSION = "api/unreadsession";
 
+    public static final String IM_HISTORY_MESSAGE = "api/historymessage";
+
     @POST(IM_LOGIN)
     public Call<IMLoginResponse> IMLogin(@Body IMLoginRequest request);
 
     @POST(IM_UNREAD_SESSION)
     public Call<IMSessionResponse> getIMUnreadSession(@Body IMUnreadSessionRequest request);
 
+    @POST(IM_HISTORY_MESSAGE)
+    public Call<IMMessageResponse> getHistoryMessage(@Body IMHistoryMessageRequest request);
 }

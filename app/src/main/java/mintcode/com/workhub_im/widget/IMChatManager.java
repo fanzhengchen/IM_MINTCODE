@@ -30,6 +30,7 @@ public class IMChatManager {
 
     private static IMChatManager instance;
     private HashSet<MessageInfoEntity> mSet;
+
     public static synchronized IMChatManager getInstance() {
         if (instance == null) {
             instance = new IMChatManager();
@@ -43,42 +44,42 @@ public class IMChatManager {
 
     public MessageItem sendTextMsg(Context context, String text, String uid, String myName, String to, String toNickName) {
 
-        String message = ParseEmojiMsgUtil.convertDraToMsg(text,context);
-        if(TextUtils.isEmpty(message)){
+        String message = ParseEmojiMsgUtil.convertDraToMsg(text, context);
+        if (TextUtils.isEmpty(message)) {
             return null;
         }
-            MessageItem item = new MessageItem();
-            item.setCmd(ChatViewUtil.TYPE_SEND);
-            item.setContent(message);
-            item.setType(Command.TEXT);
-//            item.setSent(Command.STATE_SEND);
-            item.setClientMsgId(System.currentTimeMillis());
-            item.setCreateDate(System.currentTimeMillis());
-            item.setMsgId(item.getCreateDate());
-            item.setFromLoginName(uid);
-            item.setToLoginName(to);
-            item.setToNickName(toNickName);
-            item.setNickName(myName);
-            if (!mSet.isEmpty()) {
-                Iterator it = mSet.iterator();
-                List<String> list = new ArrayList<String>();
-                while (it.hasNext()) {
-                    MessageInfoEntity entity = (MessageInfoEntity) it.next();
-                    String nickName = entity.getNickName();
-                    if(message.contains("@" + nickName + " ")){
-                        String atPerson = entity.getUserName() + "@" + entity.getNickName();
-                        if(!list.contains(atPerson)){
-                            list.add(atPerson);
-                        }
+        MessageItem item = new MessageItem();
+        item.setCmd(ChatViewUtil.TYPE_SEND);
+        item.setContent(message);
+        item.setType(Command.TEXT);
+        item.setSent(Command.SEND_FAILED);
+        item.setClientMsgId(System.currentTimeMillis());
+        item.setCreateDate(System.currentTimeMillis());
+        item.setMsgId(item.getCreateDate());
+        item.setFrom(uid);
+        item.setTo(to);
+        item.setToNickName(toNickName);
+        item.setNickName(myName);
+        if (!mSet.isEmpty()) {
+            Iterator it = mSet.iterator();
+            List<String> list = new ArrayList<String>();
+            while (it.hasNext()) {
+                MessageInfoEntity entity = (MessageInfoEntity) it.next();
+                String nickName = entity.getNickName();
+                if (message.contains("@" + nickName + " ")) {
+                    String atPerson = entity.getUserName() + "@" + entity.getNickName();
+                    if (!list.contains(atPerson)) {
+                        list.add(atPerson);
                     }
                 }
-                Map<String,Object> map = new HashMap<>();
-                map.put("atUsers", list);
+            }
+            Map<String, Object> map = new HashMap<>();
+            map.put("atUsers", list);
 //                MTHttpParameters p = new MTHttpParameters();
 //                p.setParameter("atUsers", list);
-                item.setInfo(JSON.toJSONString(map));
-            }
-            mSet.clear();
+            item.setInfo(JSON.toJSONString(map));
+        }
+        mSet.clear();
         if (TextUtils.isEmpty(item.getType())) {
             item.setType(Command.TEXT);
         }
@@ -87,23 +88,31 @@ public class IMChatManager {
     }
 
 
-    /** 是否添加新的@人员*/
-    public boolean addAtMessageInfoEntity(MessageInfoEntity entity){
-        if(mSet.contains(entity)){
+    /**
+     * 是否添加新的@人员
+     */
+    public boolean addAtMessageInfoEntity(MessageInfoEntity entity) {
+        if (mSet.contains(entity)) {
             return false;
-        }else{
+        } else {
             mSet.add(entity);
             return true;
         }
     }
-    /** 清空@人员*/
-    public void clearMessageInfoEntity(){
-        if(mSet != null){
+
+    /**
+     * 清空@人员
+     */
+    public void clearMessageInfoEntity() {
+        if (mSet != null) {
             mSet.clear();
         }
     }
-    /** 删除@人员*/
-    public boolean delectAtMessageInfoEntity(Editable editable){
+
+    /**
+     * 删除@人员
+     */
+    public boolean delectAtMessageInfoEntity(Editable editable) {
         if (!mSet.isEmpty()) {
             int len = editable.length();
             Iterator it = mSet.iterator();

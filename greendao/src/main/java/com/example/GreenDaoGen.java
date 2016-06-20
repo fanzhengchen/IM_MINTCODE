@@ -9,7 +9,7 @@ import de.greenrobot.daogenerator.Schema;
 public class GreenDaoGen {
 
     public static void main(String args[]) throws Exception {
-        Schema schema = new Schema(2, "mintcode.com.workhub_im.db");
+        Schema schema = new Schema(3, "mintcode.com.workhub_im.db");
         DaoGenerator daoGenerator = new DaoGenerator();
         addSessionItem(schema);
         addMessageItem(schema);
@@ -52,8 +52,8 @@ public class GreenDaoGen {
         messageItem.addLongProperty("modified");
         messageItem.addStringProperty("nickName");
         messageItem.addLongProperty("msgId");
-        messageItem.addStringProperty("fromLoginName");
-        messageItem.addStringProperty("toLoginName");
+        messageItem.addStringProperty("from");
+        messageItem.addStringProperty("to");
         messageItem.addStringProperty("info");
         messageItem.addStringProperty("content");
         messageItem.addLongProperty("clientMsgId");

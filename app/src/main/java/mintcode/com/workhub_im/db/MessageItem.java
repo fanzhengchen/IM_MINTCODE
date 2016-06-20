@@ -12,8 +12,8 @@ public class MessageItem {
     private Long modified;
     private String nickName;
     private Long msgId;
-    private String fromLoginName;
-    private String toLoginName;
+    private String from;
+    private String to;
     private String info;
     private String content;
     private Long clientMsgId;
@@ -39,15 +39,15 @@ public class MessageItem {
         this.id = id;
     }
 
-    public MessageItem(Long id, String appName, String userName, Long modified, String nickName, Long msgId, String fromLoginName, String toLoginName, String info, String content, Long clientMsgId, Long createDate, String type, Integer cmd, Integer sent, String timeText, String fileName, String fileSize, String isRead, Integer actionSend, Integer isMarkPoint, Integer isResp, Long send_time, String toNickName, String percent) {
+    public MessageItem(Long id, String appName, String userName, Long modified, String nickName, Long msgId, String from, String to, String info, String content, Long clientMsgId, Long createDate, String type, Integer cmd, Integer sent, String timeText, String fileName, String fileSize, String isRead, Integer actionSend, Integer isMarkPoint, Integer isResp, Long send_time, String toNickName, String percent) {
         this.id = id;
         this.appName = appName;
         this.userName = userName;
         this.modified = modified;
         this.nickName = nickName;
         this.msgId = msgId;
-        this.fromLoginName = fromLoginName;
-        this.toLoginName = toLoginName;
+        this.from = from;
+        this.to = to;
         this.info = info;
         this.content = content;
         this.clientMsgId = clientMsgId;
@@ -115,20 +115,20 @@ public class MessageItem {
         this.msgId = msgId;
     }
 
-    public String getFromLoginName() {
-        return fromLoginName;
+    public String getFrom() {
+        return from;
     }
 
-    public void setFromLoginName(String fromLoginName) {
-        this.fromLoginName = fromLoginName;
+    public void setFrom(String from) {
+        this.from = from;
     }
 
-    public String getToLoginName() {
-        return toLoginName;
+    public String getTo() {
+        return to;
     }
 
-    public void setToLoginName(String toLoginName) {
-        this.toLoginName = toLoginName;
+    public void setTo(String to) {
+        this.to = to;
     }
 
     public String getInfo() {
