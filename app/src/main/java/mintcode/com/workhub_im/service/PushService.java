@@ -20,7 +20,9 @@ import mintcode.com.workhub_im.util.AESUtil;
  */
 public class PushService extends Service {
 
+    /** SerViceManager连接 动作*/
     public static final String ACTION_CONNECT = "action_connect";
+    /** 消息发送 动作*/
     public static final String ACTION_SEND = "action_send";
     public static final String KEY_MSG = "KEY_MSG";
 
@@ -128,18 +130,11 @@ public class PushService extends Service {
 
         @Override
         public void onError(Exception error) {
-//            Log.e(TAG, "ThreadName:" + Thread.currentThread().getName() + " "
-//                    + "onError " + error);
-//            IMLog.i("msgHandler", "onError----------" + error.getMessage());
             error.printStackTrace();
         }
 
         @Override
         public void onDisconnect(int code, String reason) {
-//            Log.w(TAG, "ThreadName:" + Thread.currentThread().getName() + " "
-//                    + "onDisConnect  code=" + code + " reason=" + reason);
-
-//            IMLog.i("msgHandler", "onDisconnect----------" + "onDisConnect  code=" + code + " reason=" + reason);
             BeetTimer.getInstance().stopBeet();
         }
 

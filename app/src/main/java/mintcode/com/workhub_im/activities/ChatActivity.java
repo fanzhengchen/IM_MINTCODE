@@ -7,8 +7,10 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
+import android.view.View;
 import android.widget.Toast;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,10 +27,13 @@ import mintcode.com.workhub_im.im.Command;
 import mintcode.com.workhub_im.im.IMAPIProvider;
 import mintcode.com.workhub_im.im.IMManager;
 import mintcode.com.workhub_im.im.ServiceManager;
+import mintcode.com.workhub_im.im.pojo.AttachDetailResponse;
 import mintcode.com.workhub_im.im.pojo.IMMessageResponse;
 import mintcode.com.workhub_im.view.chatItemView.ChatViewUtil;
 import mintcode.com.workhub_im.view.custom.MsgSendView;
 import mintcode.com.workhub_im.widget.IMChatManager;
+import mintcode.com.workhub_im.widget.auido.AudioItem;
+import mintcode.com.workhub_im.widget.auido.MutiSoundUpload;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -126,7 +131,27 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
 
     @Override
     public void voiceMsgSend(String path, String time) {
-
+        if(TextUtils.isEmpty(path)){
+            Toast.makeText(ChatActivity.this,"时间太短无法录音，请重试", Toast.LENGTH_SHORT).show();
+            return;
+        }
+//        mImageViewRecordingIndicator.setVisibility(View.GONE);
+//        File f = new File(path);
+//        if (f.exists()) {
+//            AttachDetailResponse detail = getDetail(path);
+//            MessageItem item = setupSendItem();
+//            item.setFileName(path);
+//            item.setTimeText(time);
+//            item.setType(Command.AUDIO);
+//            AudioItem audio = new AudioItem();
+//            audio.setAudioLength(Integer.parseInt(time));
+//            audio.setFileUrl(path);
+//            item.setContent(audio.toString());
+//            mListData.add(item);
+//            mChatListAdapter.notifyDataSetChanged();
+            // 开启上传语音文件 任务
+//            MutiSoundUpload.getInstance().sendSound(detail, f, context, mUIHandler, item);
+//        }
     }
 
     @Override
