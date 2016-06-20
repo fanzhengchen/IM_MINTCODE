@@ -7,6 +7,8 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
 
+import com.alibaba.fastjson.JSON;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import mintcode.com.workhub_im.AppConsts;
@@ -18,6 +20,7 @@ import mintcode.com.workhub_im.daohelper.BaseDaoHelper;
 import mintcode.com.workhub_im.im.IMAPIProvider;
 import mintcode.com.workhub_im.im.IMManager;
 import mintcode.com.workhub_im.im.pojo.IMLoginResponse;
+import mintcode.com.workhub_im.im.pojo.Info;
 import mintcode.com.workhub_im.pojo.HttpResponse;
 import mintcode.com.workhub_im.pojo.LoginUserData;
 import mintcode.com.workhub_im.service.PushService;
@@ -67,11 +70,18 @@ public class CompanyListViewHolder extends RecyclerView.ViewHolder {
     }
 
     private void handleCompanyLoginResponse(Response<HttpResponse<LoginUserData>> response, Context context) {
-        String IMUserName = response.body()
+        LoginUserData data = response.body()
                 .getBody()
                 .getResponse()
-                .getData()
-                .getUserShowId();
+                .getData();
+
+        Info info = new Info();
+        info.setNickName(data.getUserTrueName());
+        info.setUserName(data.getUserName());
+        String infoStr = JSON.toJSONString(info);
+        UserPrefer.setInfo(infoStr);
+
+        String IMUserName = data.getUserShowId();
         String dbName = IMUserName + "_" + cCode;
 
         UserPrefer.setImUsername(IMUserName);

@@ -89,8 +89,9 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
             @Override
             public void onResponse(Call<IMMessageResponse> call, Response<IMMessageResponse> response) {
                 List<MessageItem> items = response.body().getMsg();
-                for(MessageItem item: items){
+                for (MessageItem item : items) {
                     item.setCmd(ChatViewUtil.TYPE_RECV);
+                    UserPrefer.updateMsgId(item.getMsgId());
                 }
                 mMessageItems.addAll(items);
                 mChatAdapter.notifyDataSetChanged();
@@ -116,8 +117,6 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
             mChatAdapter.notifyDataSetChanged();
         }
         Toast.makeText(ChatActivity.this, "sending", Toast.LENGTH_SHORT).show();
-//        textMessage.setContent(msg);
-//        textMessage.setActionSend(ChatViewUtil.TYPE_SEND);
         textMessage.setUserName(UserPrefer.getUserName());
         textMessage.setFrom(UserPrefer.getImUsername());
         ServiceManager.getInstance().sendMsg(textMessage);

@@ -33,6 +33,10 @@ public class MessageItemHelper extends BaseDaoHelper {
     }
 
     public void insert(List<MessageItem> items) {
-        
+        if (items == null) {
+            return;
+        }
+
+
     }
 }

@@ -26,6 +26,8 @@ public class UserPrefer {
     public static final String IM_USERNAME = "im_username";
     public static final String LAST_MESSAGE_ID = "last_message_id";
     public static final String DB_NAME = "db_name";
+    public static final String MODIFIED = "modified";
+    public static final String INFO = "info";
 
     public static void init(Context ctx) {
         context = ctx;
@@ -83,6 +85,22 @@ public class UserPrefer {
                 .commit();
     }
 
+    public static void setModified(long modified) {
+        editor.putLong(MODIFIED, modified)
+                .commit();
+    }
+
+    public static void setInfo(String info) {
+        editor.putString(INFO, info)
+                .commit();
+    }
+
+    public static void updateMsgId(long nowMsgId) {
+        long oldMsgId = getLastMessageId();
+        nowMsgId = Math.max(oldMsgId, nowMsgId);
+        setLastMessageId(oldMsgId);
+    }
+
     public static String getUserName() {
         return preferences.getString(USER_NAME, "");
     }
@@ -121,5 +139,13 @@ public class UserPrefer {
 
     public static String getDbName() {
         return preferences.getString(DB_NAME, "db_name");
+    }
+
+    public static long getModified() {
+        return preferences.getLong(MODIFIED, 0);
+    }
+
+    public static String getInfo() {
+        return preferences.getString(INFO, "");
     }
 }

@@ -15,6 +15,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import mintcode.com.workhub_im.beans.UserPrefer;
 import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.im.Command;
 import mintcode.com.workhub_im.pojo.MessageInfoEntity;
@@ -58,6 +59,7 @@ public class IMChatManager {
         item.setMsgId(item.getCreateDate());
         item.setFrom(uid);
         item.setTo(to);
+        item.setMsgId(UserPrefer.getLastMessageId() + 1);
         item.setToNickName(toNickName);
         item.setNickName(myName);
         if (!mSet.isEmpty()) {

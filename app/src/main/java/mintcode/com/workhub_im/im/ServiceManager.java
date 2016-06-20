@@ -2,7 +2,6 @@ package mintcode.com.workhub_im.im;
 
 import android.content.Context;
 import android.text.TextUtils;
-import android.util.Log;
 
 import com.alibaba.fastjson.JSON;
 import com.orhanobut.logger.Logger;
@@ -11,12 +10,13 @@ import java.net.URI;
 import java.util.ArrayList;
 
 import mintcode.com.workhub_im.App;
+import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.beans.UserPrefer;
-import mintcode.com.workhub_im.daohelper.MessageItemHelper;
 import mintcode.com.workhub_im.daohelper.SessionItemDaoHelper;
 import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.im.codebutler.WebSocketClient;
 import mintcode.com.workhub_im.im.pojo.IMSessionResponse;
+import mintcode.com.workhub_im.im.pojo.Info;
 import mintcode.com.workhub_im.im.pojo.Session;
 import mintcode.com.workhub_im.pojo.HeartBeat;
 import mintcode.com.workhub_im.util.AESUtil;
@@ -130,8 +130,18 @@ public class ServiceManager {
 
     public void login() {
         long currentTime = System.currentTimeMillis();
-
-
+        long msgId = UserPrefer.getLastMessageId() + 1;
+        MessageItem item = new MessageItem();
+        item.setAppName(AppConsts.appName);
+        item.setUserName(UserPrefer.getImUsername());
+        item.setContent(UserPrefer.getImToken());
+        item.setMsgId(msgId);
+        item.setClientMsgId(currentTime);
+        item.setType(Command.LOGIN);
+        item.setInfo(UserPrefer.getInfo());
+        item.setModified(UserPrefer.getLastMessageId());
+        sendMsg(item);
+        Logger.e(" im socket login");
     }
 
     public void keepBeet() {
