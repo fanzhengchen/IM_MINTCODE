@@ -100,9 +100,8 @@ public class CompanyListViewHolder extends RecyclerView.ViewHolder {
     private void handleIMLoginResponse(Response<IMLoginResponse> response, Context context) {
         String token = response.body().getUserToken();
         UserPrefer.setImToken(token);
-        IMManager.getInstance().startService(PushService.class, PushService.ACTION_CONNECT);
-
-
+//        IMManager.getInstance().startService(PushService.class, PushService.ACTION_CONNECT);
+        IMManager.getInstance().startIM();
         startActivity(context, new Intent(context, MainActivity.class));
     }
 

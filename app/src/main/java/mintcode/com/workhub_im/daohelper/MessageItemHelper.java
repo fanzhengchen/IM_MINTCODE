@@ -1,6 +1,9 @@
 package mintcode.com.workhub_im.daohelper;
 
+import java.util.List;
+
 import de.greenrobot.dao.query.QueryBuilder;
+import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.db.MessageItemDao;
 
 /**
@@ -23,5 +26,13 @@ public class MessageItemHelper extends BaseDaoHelper {
             messageItemHelper = new MessageItemHelper();
         }
         return messageItemHelper;
+    }
+
+    public long getMsgId() {
+        return 0;
+    }
+
+    public void insert(List<MessageItem> items) {
+        
     }
 }

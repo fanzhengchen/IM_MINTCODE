@@ -29,8 +29,8 @@ public class MessageItemDao extends AbstractDao<MessageItem, Long> {
         public final static Property Modified = new Property(3, Long.class, "modified", false, "MODIFIED");
         public final static Property NickName = new Property(4, String.class, "nickName", false, "NICK_NAME");
         public final static Property MsgId = new Property(5, Long.class, "msgId", false, "MSG_ID");
-        public final static Property FromLoginName = new Property(6, String.class, "fromLoginName", false, "FROM_LOGIN_NAME");
-        public final static Property ToLoginName = new Property(7, String.class, "toLoginName", false, "TO_LOGIN_NAME");
+        public final static Property From = new Property(6, String.class, "from", false, "FROM");
+        public final static Property To = new Property(7, String.class, "to", false, "TO");
         public final static Property Info = new Property(8, String.class, "info", false, "INFO");
         public final static Property Content = new Property(9, String.class, "content", false, "CONTENT");
         public final static Property ClientMsgId = new Property(10, Long.class, "clientMsgId", false, "CLIENT_MSG_ID");
@@ -69,8 +69,8 @@ public class MessageItemDao extends AbstractDao<MessageItem, Long> {
                 "\"MODIFIED\" INTEGER," + // 3: modified
                 "\"NICK_NAME\" TEXT," + // 4: nickName
                 "\"MSG_ID\" INTEGER," + // 5: msgId
-                "\"FROM_LOGIN_NAME\" TEXT," + // 6: fromLoginName
-                "\"TO_LOGIN_NAME\" TEXT," + // 7: toLoginName
+                "\"FROM\" TEXT," + // 6: from
+                "\"TO\" TEXT," + // 7: to
                 "\"INFO\" TEXT," + // 8: info
                 "\"CONTENT\" TEXT," + // 9: content
                 "\"CLIENT_MSG_ID\" INTEGER," + // 10: clientMsgId
@@ -131,14 +131,14 @@ public class MessageItemDao extends AbstractDao<MessageItem, Long> {
             stmt.bindLong(6, msgId);
         }
  
-        String fromLoginName = entity.getFromLoginName();
-        if (fromLoginName != null) {
-            stmt.bindString(7, fromLoginName);
+        String from = entity.getFrom();
+        if (from != null) {
+            stmt.bindString(7, from);
         }
  
-        String toLoginName = entity.getToLoginName();
-        if (toLoginName != null) {
-            stmt.bindString(8, toLoginName);
+        String to = entity.getTo();
+        if (to != null) {
+            stmt.bindString(8, to);
         }
  
         String info = entity.getInfo();
@@ -243,8 +243,8 @@ public class MessageItemDao extends AbstractDao<MessageItem, Long> {
             cursor.isNull(offset + 3) ? null : cursor.getLong(offset + 3), // modified
             cursor.isNull(offset + 4) ? null : cursor.getString(offset + 4), // nickName
             cursor.isNull(offset + 5) ? null : cursor.getLong(offset + 5), // msgId
-            cursor.isNull(offset + 6) ? null : cursor.getString(offset + 6), // fromLoginName
-            cursor.isNull(offset + 7) ? null : cursor.getString(offset + 7), // toLoginName
+            cursor.isNull(offset + 6) ? null : cursor.getString(offset + 6), // from
+            cursor.isNull(offset + 7) ? null : cursor.getString(offset + 7), // to
             cursor.isNull(offset + 8) ? null : cursor.getString(offset + 8), // info
             cursor.isNull(offset + 9) ? null : cursor.getString(offset + 9), // content
             cursor.isNull(offset + 10) ? null : cursor.getLong(offset + 10), // clientMsgId
@@ -275,8 +275,8 @@ public class MessageItemDao extends AbstractDao<MessageItem, Long> {
         entity.setModified(cursor.isNull(offset + 3) ? null : cursor.getLong(offset + 3));
         entity.setNickName(cursor.isNull(offset + 4) ? null : cursor.getString(offset + 4));
         entity.setMsgId(cursor.isNull(offset + 5) ? null : cursor.getLong(offset + 5));
-        entity.setFromLoginName(cursor.isNull(offset + 6) ? null : cursor.getString(offset + 6));
-        entity.setToLoginName(cursor.isNull(offset + 7) ? null : cursor.getString(offset + 7));
+        entity.setFrom(cursor.isNull(offset + 6) ? null : cursor.getString(offset + 6));
+        entity.setTo(cursor.isNull(offset + 7) ? null : cursor.getString(offset + 7));
         entity.setInfo(cursor.isNull(offset + 8) ? null : cursor.getString(offset + 8));
         entity.setContent(cursor.isNull(offset + 9) ? null : cursor.getString(offset + 9));
         entity.setClientMsgId(cursor.isNull(offset + 10) ? null : cursor.getLong(offset + 10));

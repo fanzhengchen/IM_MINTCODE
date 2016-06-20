@@ -148,11 +148,13 @@ public class WebSocketClient {
                     } else if (statusLine.getStatusCode() != HttpStatus.SC_SWITCHING_PROTOCOLS) {
                         throw new HttpResponseException(statusLine
                                 .getStatusCode(), statusLine.getReasonPhrase());
+
                     }
 
                     // Read HTTP response headers.
-                    String line;
+                    String line = null;
                     while (!TextUtils.isEmpty(line = readLine(stream))) {
+
                         Header header = parseHeader(line);
                         if (header.getName().equals("Sec-WebSocket-Accept")) {
                             String expected = expectedKey(secretKey);
@@ -178,7 +180,8 @@ public class WebSocketClient {
                             // TODO 先注释一下
                             Log.d(TAG, "run:guid +===" + guid);
 //							KeyValueDBService.getInstance().put(Keys.AES_KEY,base.substring(0,16));
-                            UserPrefer.setCompanyCode(base.substring(0, 16));
+//                            System.out.println("fuck aes key");
+                            UserPrefer.setAesKey(base.substring(0, 16));
                         }
                     }
 

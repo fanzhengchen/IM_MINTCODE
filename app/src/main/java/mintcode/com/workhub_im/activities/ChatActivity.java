@@ -14,16 +14,24 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.adapter.UserChatAdapter;
 import mintcode.com.workhub_im.beans.UserPrefer;
 import mintcode.com.workhub_im.daohelper.SessionItemDaoHelper;
 import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.db.SessionItem;
+import mintcode.com.workhub_im.im.Command;
+import mintcode.com.workhub_im.im.IMAPIProvider;
 import mintcode.com.workhub_im.im.IMManager;
 import mintcode.com.workhub_im.im.ServiceManager;
+import mintcode.com.workhub_im.im.pojo.IMMessageResponse;
+import mintcode.com.workhub_im.view.chatItemView.ChatViewUtil;
 import mintcode.com.workhub_im.view.custom.MsgSendView;
 import mintcode.com.workhub_im.widget.IMChatManager;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 /**
  * Created by mark on 16-6-17.
@@ -31,7 +39,8 @@ import mintcode.com.workhub_im.widget.IMChatManager;
 public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListener {
 
 
-    public static final String SESSTION = "sesstion";
+    public static final String SESSION = "session";
+    private static final int LIMIT = 20;
 
     @BindView(R.id.tool)
     Toolbar mTool;
@@ -62,21 +71,36 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         recyclerView.setAdapter(mChatAdapter);
         mSendBar.setOnMsgSendListener(this);
-
-
     }
 
     private void initData() {
-        mStrUid = UserPrefer.getShowId();
+        mStrUid = UserPrefer.getImUsername();
         mStrMyName = UserPrefer.getUserName();
         mStrToken = UserPrefer.getImToken();
-        Long SessionId = getIntent().getLongExtra(SESSTION, 0);
+        Long SessionId = getIntent().getLongExtra(SESSION, 0);
         SessionItem item = SessionItemDaoHelper.getInstance().getSession(SessionId);
         if (item != null) {
             mStrTo = item.getOppositeName();
             mStrToNikeName = item.getNickName();
             mTool.setTitle(mStrToNikeName);
         }
+
+        IMAPIProvider.getHistoryMessage(mStrToken, mStrMyName, mStrUid, mStrTo, LIMIT, -1, new Callback<IMMessageResponse>() {
+            @Override
+            public void onResponse(Call<IMMessageResponse> call, Response<IMMessageResponse> response) {
+                List<MessageItem> items = response.body().getMsg();
+                for(MessageItem item: items){
+                    item.setCmd(ChatViewUtil.TYPE_RECV);
+                }
+                mMessageItems.addAll(items);
+                mChatAdapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onFailure(Call<IMMessageResponse> call, Throwable t) {
+
+            }
+        });
     }
 
     @Override
@@ -92,6 +116,10 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
             mChatAdapter.notifyDataSetChanged();
         }
         Toast.makeText(ChatActivity.this, "sending", Toast.LENGTH_SHORT).show();
+//        textMessage.setContent(msg);
+//        textMessage.setActionSend(ChatViewUtil.TYPE_SEND);
+        textMessage.setUserName(UserPrefer.getUserName());
+        textMessage.setFrom(UserPrefer.getImUsername());
         ServiceManager.getInstance().sendMsg(textMessage);
 
     }

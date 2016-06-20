@@ -54,7 +54,7 @@ public class SessionViewHolder extends RecyclerView.ViewHolder {
 
     public void accessChat(Context context) {
         Intent intent = new Intent(context, ChatActivity.class);
-        intent.putExtra(ChatActivity.SESSTION, mItem.getId());
+        intent.putExtra(ChatActivity.SESSION, mItem.getId());
         context.startActivity(intent);
     }
 

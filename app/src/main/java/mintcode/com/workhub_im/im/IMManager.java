@@ -8,6 +8,7 @@ import android.text.TextUtils;
 import com.alibaba.fastjson.JSON;
 
 import mintcode.com.workhub_im.App;
+import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.service.PushService;
 
@@ -30,6 +31,11 @@ public class IMManager {
             instance = new IMManager(App.getGlobalContext());
         }
         return instance;
+    }
+
+    public void startIM(){
+        startService(PushService.class, PushService.ACTION_CONNECT);
+
     }
 
     public void startService(Class<? extends Service> service, String action) {

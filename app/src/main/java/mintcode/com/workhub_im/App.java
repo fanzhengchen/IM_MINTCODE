@@ -11,6 +11,7 @@ import android.text.TextUtils;
 import com.alibaba.fastjson.JSON;
 import com.mintcode.imkit.application.IMKitApplication;
 import com.mintcode.imkit.util.IMUtil;
+import com.orhanobut.logger.Logger;
 
 import mintcode.com.workhub_im.Http.APIService;
 import mintcode.com.workhub_im.Http.IMService;
@@ -42,6 +43,7 @@ public class App extends IMKitApplication {
         IMUtil.getInstance().saveAppName("WorkHub-IM");
         context = getApplicationContext();
         IMAPIProvider.init(context);
+        Logger.init();
         httpClient = new OkHttpClient.Builder()
                 .addInterceptor(new LogJsonInterceptor())
                 .build();

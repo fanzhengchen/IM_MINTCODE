@@ -1,8 +1,6 @@
 package mintcode.com.workhub_im.im.codebutler;
 
 
-import android.util.Log;
-
 import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.IOException;
@@ -11,8 +9,12 @@ import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 import java.util.List;
 
+import android.util.Log;
+
 /**
- * Created by mark on 16-6-14.
+ * Hybi解析器
+ *
+ * @author ChristLu
  */
 public class HybiParser {
     private static final String TAG = "HybiParser";
@@ -21,52 +23,52 @@ public class HybiParser {
 
     private boolean mMasking = true;
 
-    private int     mStage;
+    private int mStage;
 
     private boolean mFinal;
     private boolean mMasked;
-    private int     mOpcode;
-    private int     mLengthSize;
-    private int     mLength;
-    private int     mMode;
+    private int mOpcode;
+    private int mLengthSize;
+    private int mLength;
+    private int mMode;
 
-    private byte[] mMask    = new byte[0];
+    private byte[] mMask = new byte[0];
     private byte[] mPayload = new byte[0];
 
     private boolean mClosed = false;
 
     private ByteArrayOutputStream mBuffer = new ByteArrayOutputStream();
 
-    private static final int BYTE   = 255;
-    private static final int FIN    = 128;
-    private static final int MASK   = 128;
-    private static final int RSV1   =  64;
-    private static final int RSV2   =  32;
-    private static final int RSV3   =  16;
-    private static final int OPCODE =  15;
+    private static final int BYTE = 255;
+    private static final int FIN = 128;
+    private static final int MASK = 128;
+    private static final int RSV1 = 64;
+    private static final int RSV2 = 32;
+    private static final int RSV3 = 16;
+    private static final int OPCODE = 15;
     private static final int LENGTH = 127;
 
-    private static final int MODE_TEXT   = 1;
+    private static final int MODE_TEXT = 1;
     private static final int MODE_BINARY = 2;
 
-    private static final int OP_CONTINUATION =  0;
-    private static final int OP_TEXT         =  1;
-    private static final int OP_BINARY       =  2;
-    private static final int OP_CLOSE        =  8;
-    private static final int OP_PING         =  9;
-    private static final int OP_PONG         = 10;
+    private static final int OP_CONTINUATION = 0;
+    private static final int OP_TEXT = 1;
+    private static final int OP_BINARY = 2;
+    private static final int OP_CLOSE = 8;
+    private static final int OP_PING = 9;
+    private static final int OP_PONG = 10;
 
     private static final List<Integer> OPCODES = Arrays.asList(
-        OP_CONTINUATION,
-        OP_TEXT,
-        OP_BINARY,
-        OP_CLOSE,
-        OP_PING,
-        OP_PONG
+            OP_CONTINUATION,
+            OP_TEXT,
+            OP_BINARY,
+            OP_CLOSE,
+            OP_PING,
+            OP_PONG
     );
 
     private static final List<Integer> FRAGMENTED_OPCODES = Arrays.asList(
-        OP_CONTINUATION, OP_TEXT, OP_BINARY
+            OP_CONTINUATION, OP_TEXT, OP_BINARY
     );
 
     public HybiParser(WebSocketClient client) {
@@ -77,7 +79,7 @@ public class HybiParser {
         if (mask.length == 0) return payload;
 
         for (int i = 0; i < payload.length - offset; i++) {
-            payload[offset + i] = (byte) (payload[offset + i] ^ mask[i % 4]);
+            payload[offset + i] = (byte) (payload[offset + i] ^ mask[i & 3]); // equivalent to % 4
         }
         return payload;
     }
@@ -118,9 +120,9 @@ public class HybiParser {
             throw new ProtocolError("RSV not zero");
         }
 
-        mFinal   = (data & FIN) == FIN;
-        mOpcode  = (data & OPCODE);
-        mMask    = new byte[0];
+        mFinal = (data & FIN) == FIN;
+        mOpcode = (data & OPCODE);
+        mMask = new byte[0];
         mPayload = new byte[0];
 
         if (!OPCODES.contains(mOpcode)) {
@@ -142,20 +144,20 @@ public class HybiParser {
             mStage = mMasked ? 3 : 4;
         } else {
             mLengthSize = (mLength == 126) ? 2 : 8;
-            mStage      = 2;
+            mStage = 2;
         }
     }
 
     private void parseExtendedLength(byte[] buffer) throws ProtocolError {
         mLength = getInteger(buffer);
-        mStage  = mMasked ? 3 : 4;
+        mStage = mMasked ? 3 : 4;
     }
 
     public byte[] frame(String data) {
         return frame(data, OP_TEXT, -1);
     }
 
-    public byte[] frame(String data,int ping) {
+    public byte[] frame(String data, int ping) {
         return frame(data, OP_PING, -1);
     }
 
@@ -163,12 +165,12 @@ public class HybiParser {
         return frame(data, OP_BINARY, -1);
     }
 
-    private byte[] frame(byte[] data, int opcode, int errorCode)  {
-        return frame((Object)data, opcode, errorCode);
+    private byte[] frame(byte[] data, int opcode, int errorCode) {
+        return frame((Object) data, opcode, errorCode);
     }
 
     private byte[] frame(String data, int opcode, int errorCode) {
-        return frame((Object)data, opcode, errorCode);
+        return frame((Object) data, opcode, errorCode);
     }
 
     private byte[] frame(Object data, int opcode, int errorCode) {
@@ -184,36 +186,36 @@ public class HybiParser {
         int masked = mMasking ? MASK : 0;
         byte[] frame = new byte[length + offset];
 
-        frame[0] = (byte) ((byte)FIN | (byte)opcode);
+        frame[0] = (byte) ((byte) FIN | (byte) opcode);
 
         if (length <= 125) {
             frame[1] = (byte) (masked | length);
         } else if (length <= 65535) {
             frame[1] = (byte) (masked | 126);
-            frame[2] = (byte) Math.floor(length / 256);
+            frame[2] = (byte) (length >> 8);
             frame[3] = (byte) (length & BYTE);
         } else {
             frame[1] = (byte) (masked | 127);
-            frame[2] = (byte) (((int) Math.floor(length / Math.pow(2, 56))) & BYTE);
-            frame[3] = (byte) (((int) Math.floor(length / Math.pow(2, 48))) & BYTE);
-            frame[4] = (byte) (((int) Math.floor(length / Math.pow(2, 40))) & BYTE);
-            frame[5] = (byte) (((int) Math.floor(length / Math.pow(2, 32))) & BYTE);
-            frame[6] = (byte) (((int) Math.floor(length / Math.pow(2, 24))) & BYTE);
-            frame[7] = (byte) (((int) Math.floor(length / Math.pow(2, 16))) & BYTE);
-            frame[8] = (byte) (((int) Math.floor(length / Math.pow(2, 8)))  & BYTE);
+            frame[2] = (byte) (0);
+            frame[3] = (byte) (0);
+            frame[4] = (byte) (0);
+            frame[5] = (byte) (0);
+            frame[6] = (byte) (length >> 24 & BYTE);
+            frame[7] = (byte) (length >> 16 & BYTE);
+            frame[8] = (byte) (length >> 8 & BYTE);
             frame[9] = (byte) (length & BYTE);
         }
 
         if (errorCode > 0) {
-            frame[offset] = (byte) (((int) Math.floor(errorCode / 256)) & BYTE);
-            frame[offset+1] = (byte) (errorCode & BYTE);
+            frame[offset] = (byte) (errorCode >> 8 & BYTE);
+            frame[offset + 1] = (byte) (errorCode & BYTE);
         }
         System.arraycopy(buffer, 0, frame, offset + insert, buffer.length);
 
         if (mMasking) {
             byte[] mask = {
-                (byte) Math.floor(Math.random() * 256), (byte) Math.floor(Math.random() * 256),
-                (byte) Math.floor(Math.random() * 256), (byte) Math.floor(Math.random() * 256)
+                    (byte) Math.floor(Math.random() * 256), (byte) Math.floor(Math.random() * 256),
+                    (byte) Math.floor(Math.random() * 256), (byte) Math.floor(Math.random() * 256)
             };
             System.arraycopy(mask, 0, frame, header, mask.length);
             mask(frame, mask, offset);
@@ -270,13 +272,15 @@ public class HybiParser {
             }
 
         } else if (opcode == OP_CLOSE) {
-            int    code   = (payload.length >= 2) ? 256 * payload[0] + payload[1] : 0;
-            String reason = (payload.length >  2) ? encode(slice(payload, 2))     : null;
+            int code = (payload.length >= 2) ? 256 * payload[0] + payload[1] : 0;
+            String reason = (payload.length > 2) ? encode(slice(payload, 2)) : null;
             Log.d(TAG, "Got close op! " + code + " " + reason);
             mClient.getListener().onDisconnect(code, reason);
 
         } else if (opcode == OP_PING) {
-            if (payload.length > 125) { throw new ProtocolError("Ping payload too large"); }
+            if (payload.length > 125) {
+                throw new ProtocolError("Ping payload too large");
+            }
             Log.d(TAG, "Sending pong!!");
             mClient.sendFrame(frame(payload, OP_PONG, -1));
 
@@ -331,12 +335,12 @@ public class HybiParser {
      * with the value {@code (byte) 0}.
      *
      * @param original the original array
-     * @param start the start index, inclusive
-     * @param end the end index, exclusive
+     * @param start    the start index, inclusive
+     * @param end      the end index, exclusive
      * @return the new array
      * @throws ArrayIndexOutOfBoundsException if {@code start < 0 || start > original.length}
-     * @throws IllegalArgumentException if {@code start > end}
-     * @throws NullPointerException if {@code original == null}
+     * @throws IllegalArgumentException       if {@code start > end}
+     * @throws NullPointerException           if {@code original == null}
      * @since 1.6
      */
     private static byte[] copyOfRange(byte[] original, int start, int end) {
