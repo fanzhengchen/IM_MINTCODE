@@ -1,5 +1,6 @@
 package mintcode.com.workhub_im.im;
 
+import android.Manifest;
 import android.content.Context;
 import android.text.TextUtils;
 
@@ -20,6 +21,7 @@ import mintcode.com.workhub_im.im.pojo.IMSessionResponse;
 import mintcode.com.workhub_im.im.pojo.Info;
 import mintcode.com.workhub_im.im.pojo.Session;
 import mintcode.com.workhub_im.pojo.HeartBeat;
+import mintcode.com.workhub_im.pojo.MergeCard;
 import mintcode.com.workhub_im.util.AESUtil;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -42,7 +44,8 @@ public class ServiceManager {
 
         @Override
         public void onMessage(String message) {
-            Logger.e(TAG + " on message " + message);
+            Logger.i(TAG, "message recevied " + message);
+            handleMessage(message);
         }
 
         @Override
@@ -123,7 +126,7 @@ public class ServiceManager {
 
             @Override
             public void onFailure(Call<IMSessionResponse> call, Throwable t) {
-
+                Logger.e(TAG, call.request());
             }
         });
         socketConnect();
@@ -189,6 +192,20 @@ public class ServiceManager {
             jsonStr = AESUtil.EncryptIM(jsonStr, aesKey);
         }
         return jsonStr;
+    }
+
+    private void handleMessage(String message) {
+        String aesKey = UserPrefer.getAesKey();
+        if (!TextUtils.isEmpty(aesKey)) {
+            message = AESUtil.EncryptIM(message, aesKey);
+        }
+        MessageItem item = JSON.parseObject(message, MessageItem.class);
+        String type = item.getType();
+        if (TextUtils.equals(Command.LOGIN_SUCCESS, type)) {
+            BeetTimer.getInstance().startBeet();
+        } else if (TextUtils.equals(Command.LOGIN_OUT, type)) {
+            BeetTimer.getInstance().stopBeet();
+        }
     }
 
 }
