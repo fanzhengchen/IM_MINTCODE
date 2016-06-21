@@ -56,7 +56,7 @@ public class AppConsts {
     /**
      * 最终版本
      */
-    public static int DEVICE_CODE = MT;
+    public static final int DEVICE_CODE = MT;
     public static final boolean IS_WORKHUB = true;
 
     static {
