@@ -1,14 +1,11 @@
 package mintcode.com.workhub_im.view.custom;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.text.Editable;
-import android.text.InputType;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
@@ -18,7 +15,6 @@ import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -37,6 +33,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import mintcode.com.workhub_im.R;
+import mintcode.com.workhub_im.widget.auido.AudioRecordPlayUtil;
 import mintcode.com.workhub_im.widget.IMChatManager;
 import mintcode.com.workhub_im.widget.emoji.ParseEmojiMsgUtil;
 
@@ -77,7 +74,7 @@ public class MsgSendView extends RelativeLayout implements View.OnTouchListener,
     /** 输入框操作监听*/
     private OnMsgSendListener mOnMsgSendListener;
     /*** 录音管理工具*/
-//    private AudioRecordPlayUtil mAudioRecordPlayerUtil;
+    private AudioRecordPlayUtil mAudioRecordPlayerUtil;
 
 
 
@@ -294,22 +291,22 @@ public class MsgSendView extends RelativeLayout implements View.OnTouchListener,
 
     /*** 录制声音*/
     private void recordSound() {
-//        mAudioRecordPlayerUtil.setFileName(UUID.randomUUID().toString()
-//                + ".amr");
-//        mAudioRecordPlayerUtil.startRecording();
+        mAudioRecordPlayerUtil.setFileName(UUID.randomUUID().toString()
+                + ".amr");
+        mAudioRecordPlayerUtil.startRecording();
 
     }
 
     /*** 发送语音消息*/
     protected void sendSoundFile() {
-//        mAudioRecordPlayerUtil.stopRecording();
-//        if (mAudioRecordPlayerUtil.getRecordMilliseconds() > 300 && mOnMsgSendListener != null) {
-//            String filePath = mAudioRecordPlayerUtil.getOutputFileName();
-//            String time = String.valueOf(Math.max(1, mAudioRecordPlayerUtil.getRecordMilliseconds() / 1000));
-//            mOnMsgSendListener.voiceMsgSend(filePath, time);
-//        }else{
-//            mOnMsgSendListener.voiceMsgSend(null,null);
-//        }
+        mAudioRecordPlayerUtil.stopRecording();
+        if (mAudioRecordPlayerUtil.getRecordMilliseconds() > 300 && mOnMsgSendListener != null) {
+            String filePath = mAudioRecordPlayerUtil.getOutputFileName();
+            String time = String.valueOf(Math.max(1, mAudioRecordPlayerUtil.getRecordMilliseconds() / 1000));
+            mOnMsgSendListener.voiceMsgSend(filePath, time);
+        }else{
+            mOnMsgSendListener.voiceMsgSend(null,null);
+        }
     }
 
     @Override

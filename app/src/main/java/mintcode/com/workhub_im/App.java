@@ -48,7 +48,7 @@ public class App extends IMKitApplication {
                 .addInterceptor(new LogJsonInterceptor())
                 .build();
         UserPrefer.setIP(AppConsts.ip);
-
+        AppConsts.initValues(this);
         DensityUtil.init();
     }
 

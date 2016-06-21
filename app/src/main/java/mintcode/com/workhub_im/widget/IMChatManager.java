@@ -8,6 +8,7 @@ import android.text.TextUtils;
 
 import com.alibaba.fastjson.JSON;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -18,9 +19,12 @@ import java.util.Map;
 import mintcode.com.workhub_im.beans.UserPrefer;
 import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.im.Command;
+import mintcode.com.workhub_im.im.pojo.AttachDetailResponse;
 import mintcode.com.workhub_im.pojo.MessageInfoEntity;
 import mintcode.com.workhub_im.service.PushService;
 import mintcode.com.workhub_im.view.chatItemView.ChatViewUtil;
+import mintcode.com.workhub_im.widget.auido.AudioItem;
+import mintcode.com.workhub_im.widget.auido.MutiSoundUpload;
 import mintcode.com.workhub_im.widget.emoji.ParseEmojiMsgUtil;
 
 /**
@@ -155,4 +159,37 @@ public class IMChatManager {
 //            }
 //        }
 //    }
+
+    /** 语音设置*/
+    public void sendAudio(Context contenxt ,String path,String time,String token,String uid,String to,String appName){
+        File f = new File(path);
+        if (f.exists()) {
+            AttachDetailResponse detail = new AttachDetailResponse();
+            detail.setFileName(f.getName());
+            detail.setFileStatus(1);
+            detail.setSrcOffset(0);
+            detail.setUserToken(token);
+            detail.setUserName(uid);
+            detail.setAppName(appName);
+
+            MessageItem item = new MessageItem();
+            item.setCmd(ChatViewUtil.TYPE_SEND);
+            item.setType(Command.IMAGE);
+            item.setSent(Command.STATE_SEND);
+            item.setClientMsgId(System.currentTimeMillis());
+            item.setCreateDate(System.currentTimeMillis());
+            item.setFrom(uid);
+            item.setTo(to);
+            item.setFileName(path);
+            item.setTimeText(time);
+            item.setType(Command.AUDIO);
+
+            AudioItem audio = new AudioItem();
+            audio.setAudioLength(Integer.parseInt(time));
+            audio.setFileUrl(path);
+            item.setContent(audio.toString());
+
+            MutiSoundUpload.getInstance().sendSound(detail,f,contenxt, null, item);
+        }
+    }
 }

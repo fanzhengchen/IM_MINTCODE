@@ -1,5 +1,10 @@
 package mintcode.com.workhub_im;
 
+import android.app.Application;
+import android.os.Environment;
+
+import java.io.File;
+
 import mintcode.com.workhub_im.im.codebutler.HybiParser;
 import retrofit2.http.PUT;
 
@@ -58,6 +63,22 @@ public class AppConsts {
      */
     public static final int DEVICE_CODE = MT;
     public static final boolean IS_WORKHUB = true;
+
+    public static String DOWNLOAD_FILE_PATH_DATA;
+    public static String DOWNLOAD_FILE_PATH_SDCARD;
+    public static String DOWNLOAD_AUDIO_PATH_SDCARD;
+
+    public static void initValues(Application app){
+
+        DOWNLOAD_FILE_PATH_DATA = app.getFilesDir().getAbsolutePath() + "/mintcode/file/";
+        DOWNLOAD_FILE_PATH_SDCARD = Environment.getExternalStorageDirectory().getPath() + "/mintcode/download/";
+        if (app.getExternalCacheDir() != null) {
+            DOWNLOAD_AUDIO_PATH_SDCARD = app.getExternalCacheDir().getAbsolutePath() + File.separator;
+        } else {
+            DOWNLOAD_AUDIO_PATH_SDCARD = app.getCacheDir().getAbsolutePath() + File.separator;
+        }
+    }
+
 
     static {
         switch (DEVICE_CODE) {

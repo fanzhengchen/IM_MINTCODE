@@ -124,6 +124,18 @@ public class ChatViewUtil {
     public static final int NUM_VIEW_TYPE = 0x012;// 总数必须必布局类型要大
 
 
+    public static final int TYPE_MSG_1 = 0x0001;
+    public static final int TYPE_SEND_IMAGE = 0x0002;
+    public static final int TYPE_REVIMAGE = 0x0003;
+    public static final int TYPE_SEND_AUDIO = 0x0004;
+    public static final int TYPE_REVAUDIO = 0x0005;
+    public static final int TYPE_RESEND_TEXT = 0x0006;
+    public static final int TYPE_SEND_VIDEO = 0x0007;
+    public static final int TYPE_REVVIDEO = 0x0008;
+    public static final int TYPE_FILE_UPLOAD = 0x0009;
+    public static final int TYPE_SEND_TO_TARGET = 0x0010;
+    public static final int TYPE_HANDLE_DATA_FINISH = 0x0020;
+
     /**
      * 获取聊天类型
      */
