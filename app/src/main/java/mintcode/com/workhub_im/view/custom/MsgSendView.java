@@ -113,7 +113,7 @@ public class MsgSendView extends RelativeLayout implements View.OnTouchListener,
         mEmojiSelectView.setFaceOpreateListener(this);
         mBtnSound.setOnTouchListener(this);
         mEdtSendText.setOnTouchListener(this);
-//        mAudioRecordPlayerUtil = new AudioRecordPlayUtil(null, getContext(), null);
+        mAudioRecordPlayerUtil = new AudioRecordPlayUtil(null, getContext(), null);
     }
     /** 设置输入内容并设置游标位置*/
     public void setTextContent(SpannableStringBuilder text){

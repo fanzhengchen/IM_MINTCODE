@@ -8,14 +8,27 @@
         android:id="@+id/tool"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/chat_recycler_view"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        >
+        android:layout_weight="1">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/chat_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
 
-    </android.support.v7.widget.RecyclerView>
+        </android.support.v7.widget.RecyclerView>
+        <ImageView
+            android:id="@+id/iv_record_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/anim_playing_sound"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
 
     <mintcode.com.workhub_im.view.custom.MsgSendView
         android:id="@+id/view_send_bar"

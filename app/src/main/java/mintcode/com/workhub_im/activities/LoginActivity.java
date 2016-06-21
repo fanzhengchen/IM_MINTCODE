@@ -93,7 +93,7 @@ public class LoginActivity extends Activity {
 //        }
         ActivityCompat.requestPermissions(
                 this,
-                new String[]{Manifest.permission.READ_PHONE_STATE, Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                new String[]{Manifest.permission.READ_PHONE_STATE, Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.RECORD_AUDIO},
                 AppConsts.REQUEST_CODE
         );
     }
