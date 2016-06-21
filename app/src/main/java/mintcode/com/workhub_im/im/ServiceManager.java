@@ -14,6 +14,7 @@ import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.beans.UserPrefer;
 import mintcode.com.workhub_im.daohelper.SessionItemDaoHelper;
 import mintcode.com.workhub_im.db.MessageItem;
+import mintcode.com.workhub_im.handler.BeetTimer;
 import mintcode.com.workhub_im.im.codebutler.WebSocketClient;
 import mintcode.com.workhub_im.im.pojo.IMSessionResponse;
 import mintcode.com.workhub_im.im.pojo.Info;
@@ -35,30 +36,31 @@ public class ServiceManager {
     private WebSocketClient.Listener listener = new WebSocketClient.Listener() {
         @Override
         public void onConnect() {
-            Logger.e("TAG connect");
+            Logger.e(TAG + " connect");
             login();
         }
 
         @Override
         public void onMessage(String message) {
-            Logger.e("TAG on message " + message);
+            Logger.e(TAG + " on message " + message);
         }
 
         @Override
         public void onMessage(byte[] data) {
-            Logger.e("TAG " + data.toString());
+            Logger.e(TAG + " " + data.toString());
         }
 
         @Override
         public void onDisconnect(int code, String reason) {
-            Logger.e("TAG " + "code " + code + " reason " + reason);
+            Logger.e(TAG + " " + "code " + code + " reason " + reason);
         }
 
         @Override
         public void onError(Exception error) {
-            Logger.e("TAG  error " + error);
+            Logger.e(TAG + "  error " + error);
         }
     };
+
     private String IP;
     private static ServiceManager serviceManager;
     private static int start = 0;
@@ -141,7 +143,7 @@ public class ServiceManager {
         item.setInfo(UserPrefer.getInfo());
         item.setModified(UserPrefer.getLastMessageId());
         sendMsg(item);
-        Logger.e(" im socket login");
+        Logger.i(" im socket login");
     }
 
     public void keepBeet() {
@@ -152,7 +154,12 @@ public class ServiceManager {
     }
 
     public void stopBeet() {
-
+        BeetTimer.getInstance().stopBeet();
+        if (webSocketClient != null) {
+            webSocketClient.setListener(null);
+            webSocketClient.disconnect();
+            webSocketClient = null;
+        }
     }
 
 

@@ -4,11 +4,14 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 
+import com.orhanobut.logger.Logger;
+
 import mintcode.com.workhub_im.im.ServiceManager;
 
 public class BeetTimer extends Handler {
 
 	public static final int BEET = 12;
+	public static final String TAG = "Beet Timer";
 	private static BeetTimer sInstance;
 	private boolean beetSwitch = false;
 
@@ -37,7 +40,7 @@ public class BeetTimer extends Handler {
 	@Override
 	public void handleMessage(Message msg) {
 		super.handleMessage(msg);
-		Log.d("handleMessage", "handleMessage===" + Thread.currentThread().getName());
+		Logger.i(TAG + " handle Message " + msg.what );
 		if (msg.what == BEET) {
 			Log.d("BeetTimerssssss", "beet!!!!!!");
 			ServiceManager.getInstance().keepBeet();
