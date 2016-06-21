@@ -1,6 +1,7 @@
 package mintcode.com.workhub_im.handler;
 
 import android.os.Handler;
+import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 
@@ -16,6 +17,7 @@ public class BeetTimer extends Handler {
 	private boolean beetSwitch = false;
 
 	private BeetTimer() {
+//		Looper.prepare();
 //		Log.d("handleMessage", "=BeetTimer==" + Thread.currentThread().getName());
 	}
 
@@ -32,17 +34,18 @@ public class BeetTimer extends Handler {
 	}
 
 	public void stopBeet() {
-		Log.d("BeetTimer", "StopBeet!!!!!!!!!!!!!!!!!!!!!");
+		Logger.d("BeetTimer", "StopBeet!!!!!!!!!!!!!!!!!!!!!");
 		beetSwitch = false;
 		removeMessages(BEET);
 	}
 
+
 	@Override
 	public void handleMessage(Message msg) {
 		super.handleMessage(msg);
-		Logger.i(TAG + " handle Message " + msg.what );
+//		Logger.i(TAG + " handle Message " + msg.what );
 		if (msg.what == BEET) {
-			Log.d("BeetTimerssssss", "beet!!!!!!");
+			Logger.d("BeetTimerssssss", "beet!!!!!!");
 			ServiceManager.getInstance().keepBeet();
 			if (beetSwitch) {
 				sendEmptyMessageDelayed(BEET, 60000);

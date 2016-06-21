@@ -98,7 +98,7 @@ public class UserPrefer {
     public static void updateMsgId(long nowMsgId) {
         long oldMsgId = getLastMessageId();
         nowMsgId = Math.max(oldMsgId, nowMsgId);
-        setLastMessageId(oldMsgId);
+        setLastMessageId(nowMsgId);
     }
 
     public static String getUserName() {

@@ -5,9 +5,6 @@ import android.os.Environment;
 
 import java.io.File;
 
-import mintcode.com.workhub_im.im.codebutler.HybiParser;
-import retrofit2.http.PUT;
-
 /**
  * Created by mark on 16-6-13.
  */

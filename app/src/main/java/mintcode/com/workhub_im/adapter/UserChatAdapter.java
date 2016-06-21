@@ -22,7 +22,6 @@ public class UserChatAdapter extends BaseChatAdapter<BaseChatViewHolder> {
         super(items);
     }
 
-
     public void appendData(List<MessageItem> messageItems) {
         if (mListData == null) {
             mListData = new ArrayList<>();
@@ -33,7 +32,6 @@ public class UserChatAdapter extends BaseChatAdapter<BaseChatViewHolder> {
 
     @Override
     public BaseChatViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-
         View view = ChatViewUtil.getChatTypeView(parent, viewType);
         view.setLayoutParams(new RecyclerView.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));

@@ -12,7 +12,7 @@ import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.handler.BeetTimer;
 import mintcode.com.workhub_im.im.Command;
 import mintcode.com.workhub_im.im.ServiceManager;
-import mintcode.com.workhub_im.im.codebutler.WebSocketClient;
+import mintcode.com.workhub_im.codebutler.WebSocketClient;
 import mintcode.com.workhub_im.util.AESUtil;
 
 /**

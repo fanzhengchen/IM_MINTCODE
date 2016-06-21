@@ -1,7 +1,7 @@
 package mintcode.com.workhub_im.im;
 
-import android.Manifest;
 import android.content.Context;
+import android.os.Looper;
 import android.text.TextUtils;
 
 import com.alibaba.fastjson.JSON;
@@ -16,12 +16,10 @@ import mintcode.com.workhub_im.beans.UserPrefer;
 import mintcode.com.workhub_im.daohelper.SessionItemDaoHelper;
 import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.handler.BeetTimer;
-import mintcode.com.workhub_im.im.codebutler.WebSocketClient;
+import mintcode.com.workhub_im.codebutler.WebSocketClient;
 import mintcode.com.workhub_im.im.pojo.IMSessionResponse;
-import mintcode.com.workhub_im.im.pojo.Info;
 import mintcode.com.workhub_im.im.pojo.Session;
 import mintcode.com.workhub_im.pojo.HeartBeat;
-import mintcode.com.workhub_im.pojo.MergeCard;
 import mintcode.com.workhub_im.util.AESUtil;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -44,23 +42,26 @@ public class ServiceManager {
 
         @Override
         public void onMessage(String message) {
-            Logger.i(TAG, "message recevied " + message);
+            Logger.e(TAG + " message recevied " + message);
             handleMessage(message);
         }
 
         @Override
         public void onMessage(byte[] data) {
-            Logger.e(TAG + " " + data.toString());
+            Logger.e(TAG + " on message data" + data.toString());
         }
 
         @Override
         public void onDisconnect(int code, String reason) {
             Logger.e(TAG + " " + "code " + code + " reason " + reason);
+            connect();
         }
 
         @Override
         public void onError(Exception error) {
             Logger.e(TAG + "  error " + error);
+            BeetTimer.getInstance().stopBeet();
+            connect();
         }
     };
 
@@ -104,6 +105,7 @@ public class ServiceManager {
                 webSocketClient = new WebSocketClient(context, uri, listener, null);
                 webSocketClient.setListener(listener);
                 webSocketClient.connect();
+                return;
             }
         } else {
             webSocketClient = new WebSocketClient(context, uri, listener, null);
@@ -146,14 +148,20 @@ public class ServiceManager {
         item.setInfo(UserPrefer.getInfo());
         item.setModified(UserPrefer.getLastMessageId());
         sendMsg(item);
-        Logger.i(" im socket login");
     }
 
     public void keepBeet() {
+        if (webSocketClient == null) {
+            socketConnect();
+            return;
+        }
         HeartBeat heartBeat = new HeartBeat();
-        heartBeat.setMsgId(UserPrefer.getLastMessageId() + 1);
+        long msgId = UserPrefer.getLastMessageId() + 1;
+        heartBeat.setMsgId(-1);
         heartBeat.setType(Command.LOGIN_KEEP);
-        send(JSON.toJSONString(heartBeat), 1);
+        String beatJson = JSON.toJSONString(heartBeat);
+        send(beatJson, 1);
+        UserPrefer.updateMsgId(msgId);
     }
 
     public void stopBeet() {
@@ -201,11 +209,15 @@ public class ServiceManager {
         }
         MessageItem item = JSON.parseObject(message, MessageItem.class);
         String type = item.getType();
+        long msgId = item.getMsgId();
+        UserPrefer.updateMsgId(msgId);
+////        Looper.prepare();
         if (TextUtils.equals(Command.LOGIN_SUCCESS, type)) {
             BeetTimer.getInstance().startBeet();
         } else if (TextUtils.equals(Command.LOGIN_OUT, type)) {
             BeetTimer.getInstance().stopBeet();
         }
+//        Looper.loop();
     }
 
 }
