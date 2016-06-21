@@ -8,6 +8,7 @@ import android.os.Message;
 import com.alibaba.fastjson.JSON;
 
 import mintcode.com.workhub_im.AppConsts;
+import mintcode.com.workhub_im.beans.UserPrefer;
 import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.im.Command;
 import mintcode.com.workhub_im.pojo.LoginUserData;
@@ -83,8 +84,7 @@ public class DownLoadAttachTask extends AsyncTask<Object, Integer, String> {
 //			HeaderParam mHeaderParam = LauchrConst.getHeader(context);
 //			String mUserName = mHeaderParam.getLoginName();
 			//TODO  userName
-			LoginUserData data = new LoginUserData();
-			String name = data.getUserName();
+			String name = UserPrefer.getUserName();
 			if(CacheUtil.downloadAudio(name, MD5.getMD5Str(url) + ".amr", url)){
 				item.setFileName(MD5.getMD5Str(url) + ".amr");
 				return audio.getFileUrl();

@@ -2,12 +2,15 @@ package mintcode.com.workhub_im.activities;
 
 import android.app.Activity;
 import android.app.Service;
+import android.graphics.drawable.AnimationDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.io.File;
@@ -54,6 +57,8 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
 
     @BindView(R.id.view_send_bar)
     protected MsgSendView mSendBar;
+    @BindView(R.id.iv_record_voice)
+    protected ImageView mIvRecordVoice;
 
     UserChatAdapter mChatAdapter;
     List<MessageItem> mMessageItems = new ArrayList<>();
@@ -135,6 +140,9 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
             Toast.makeText(ChatActivity.this,"时间太短无法录音，请重试", Toast.LENGTH_SHORT).show();
             return;
         }
+        MessageItem AudioMessage = IMChatManager.getInstance().sendAudio(ChatActivity.this,path,time,mStrToken,mStrUid,mStrTo,AppConsts.APP_NAME);
+        mMessageItems.add(AudioMessage);
+        mChatAdapter.notifyDataSetChanged();
 //        mImageViewRecordingIndicator.setVisibility(View.GONE);
 //        File f = new File(path);
 //        if (f.exists()) {
@@ -161,6 +169,13 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
 
     @Override
     public void recordSound(boolean isRecording) {
+        if(isRecording){
+            mIvRecordVoice.setVisibility(View.VISIBLE);
+            AnimationDrawable drawable = (AnimationDrawable)mIvRecordVoice.getBackground();
+            drawable.start();
+        }else{
+            mIvRecordVoice.setVisibility(View.GONE);
+        }
 
     }
 

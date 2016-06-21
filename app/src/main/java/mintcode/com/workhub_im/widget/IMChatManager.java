@@ -159,8 +159,9 @@ public class IMChatManager {
 //    }
 
     /** 语音设置*/
-    public void sendAudio(Context contenxt ,String path,String time,String token,String uid,String to,String appName){
+    public MessageItem sendAudio(Context contenxt ,String path,String time,String token,String uid,String to,String appName){
         File f = new File(path);
+        MessageItem item = null;
         if (f.exists()) {
             AttachDetailResponse detail = new AttachDetailResponse();
             detail.setFileName(f.getName());
@@ -170,7 +171,7 @@ public class IMChatManager {
             detail.setUserName(uid);
             detail.setAppName(appName);
 
-            MessageItem item = new MessageItem();
+            item = new MessageItem();
             item.setCmd(ChatViewUtil.TYPE_SEND);
             item.setType(Command.IMAGE);
             item.setSent(Command.STATE_SEND);
@@ -186,8 +187,8 @@ public class IMChatManager {
             audio.setAudioLength(Integer.parseInt(time));
             audio.setFileUrl(path);
             item.setContent(audio.toString());
-
-            MutiSoundUpload.getInstance().sendSound(detail,f,contenxt, null, item);
+//            MutiSoundUpload.getInstance().sendSound(detail,f,contenxt, null, item);
         }
+        return item;
     }
 }

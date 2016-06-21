@@ -7,8 +7,6 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Environment;
 
-import com.mintcode.cache.DiskLruCache.Snapshot;
-import com.mintcode.launchr.consts.LauchrConst;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -21,6 +19,8 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+
+import mintcode.com.workhub_im.AppConsts;
 
 public class CacheUtil {
 
@@ -104,7 +104,7 @@ public class CacheUtil {
 			return;
 		final String diskLruCacheKey = MD5.getMD5Str(key);
 		// 查找key对应的缓存
-		Snapshot snapShot = null;
+		DiskLruCache.Snapshot snapShot = null;
 		DiskLruCache.Editor editor = null;
 
 		BufferedOutputStream bufferedOutputStream = null;
@@ -149,7 +149,7 @@ public class CacheUtil {
 		FileDescriptor fileDescriptor = null;
 		Bitmap bitmap = null;
 		try {
-			Snapshot snapshot = diskLruCache.get(key);
+			DiskLruCache.Snapshot snapshot = diskLruCache.get(key);
 			if (snapshot == null) {
 				DiskLruCache.Editor editor = diskLruCache.edit(key);
 				OutputStream outputStream = editor.newOutputStream(0);
@@ -231,9 +231,9 @@ public class CacheUtil {
 	public static boolean downloadFile(String userName, String fileName, String fileUrl) {
 		String path = null;
 		if(Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)){
-			path = LauchrConst.DOWNLOAD_FILE_PATH_SDCARD;
+			path = AppConsts.DOWNLOAD_FILE_PATH_SDCARD;
 		}else{
-			path = LauchrConst.DOWNLOAD_FILE_PATH_DATA;
+			path = AppConsts.DOWNLOAD_FILE_PATH_DATA;
 		}
 		File file = new File(path);
 		if(!file.exists()){
@@ -274,7 +274,7 @@ public class CacheUtil {
 	
 	public static boolean downloadAudio(String userName, String fileName, String fileUrl) {
 		String path = null;
-		path = LauchrConst.DOWNLOAD_AUDIO_PATH_SDCARD;
+		path = AppConsts.DOWNLOAD_AUDIO_PATH_SDCARD;
 		File file = new File(path);
 		if(!file.exists()){
 			file.mkdirs();

@@ -61,7 +61,7 @@ public class UploadFileTask extends AsyncTask<Object, Integer, String> {
 			}
 			msg.obj = item;
 			Log.i("------task-load", "onPostExecute");
-			mHandler.sendMessage(msg);
+//			mHandler.sendMessage(msg);
 		}else{
 			item.setSent(Command.SEND_FAILED);
 			Message msg = Message.obtain();
@@ -73,7 +73,7 @@ public class UploadFileTask extends AsyncTask<Object, Integer, String> {
 				msg.what = ChatViewUtil.TYPE_SEND_IMAGE;
 			}
 			msg.obj = item;
-			mHandler.sendMessage(msg);
+//			mHandler.sendMessage(msg);
 		}
 	}
 
