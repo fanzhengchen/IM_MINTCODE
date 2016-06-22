@@ -6,6 +6,7 @@ import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -52,6 +53,7 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
 
     public static final String SESSION = "session";
     private static final int LIMIT = 20;
+    private RecyclerView.ItemAnimator itemAnimator;
 
     @BindView(R.id.tool)
     Toolbar mTool;
@@ -83,11 +85,12 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
         ButterKnife.bind(this);
         initData();
         fetchMessageItems();
+        itemAnimator = new DefaultItemAnimator();
         refreshLayout.setOnRefreshListener(this);
         mChatAdapter = new UserChatAdapter(mMessageItems);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, true);
-        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, true));
         recyclerView.setAdapter(mChatAdapter);
+        recyclerView.setItemAnimator(itemAnimator);
         mSendBar.setOnMsgSendListener(this);
     }
 
@@ -106,15 +109,15 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
         ServiceManager.getInstance().setChatMessageListener(new ChatMessageListener() {
             @Override
             public void receiveMessage(final MessageItem item) {
-                recyclerView.postDelayed(new Runnable() {
+                runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
                         mMessageItems.add(0, item);
-                        mChatAdapter.notifyDataSetChanged();
+//                        mChatAdapter.notifyDataSetChanged();
+                        mChatAdapter.notifyItemInserted(0);
                         recyclerView.scrollToPosition(0);
                     }
-                }, 100);
-
+                });
             }
         });
     }
@@ -146,9 +149,18 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
             }
             UserPrefer.updateMsgId(item.getMsgId());
         }
-        endTimeStamp = items.get(0).getCreateDate();
+
+        int start = mMessageItems.size() + 1;
+        int size = items.size();
+
         mMessageItems.addAll(items);
-        mChatAdapter.notifyDataSetChanged();
+        mChatAdapter.notifyItemRangeInserted(start, size);
+        if (endTimeStamp != -1) {
+            recyclerView.smoothScrollToPosition(mChatAdapter.getItemCount() - 1);
+        } else {
+            recyclerView.smoothScrollToPosition(0);
+        }
+        endTimeStamp = items.get(size - 1).getCreateDate();
     }
 
     @Override
@@ -161,13 +173,9 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
             Toast.makeText(this, "消息为空", Toast.LENGTH_SHORT).show();
         } else {
             mMessageItems.add(0, textMessage);
-            mChatAdapter.notifyDataSetChanged();
-            recyclerView.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    recyclerView.scrollToPosition(0);
-                }
-            }, 100);
+//            mChatAdapter.notifyDataSetChanged();
+            mChatAdapter.notifyItemInserted(0);
+            recyclerView.scrollToPosition(0);
         }
         Toast.makeText(ChatActivity.this, "sending", Toast.LENGTH_SHORT).show();
         textMessage.setUserName(UserPrefer.getUserName());
