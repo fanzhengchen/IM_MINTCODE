@@ -10,6 +10,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.model.GlideUrl;
+import com.mintcode.imkit.util.TTDensityUtil;
 
 import java.io.File;
 import java.util.HashMap;
@@ -386,23 +387,32 @@ public class HeadImageUtil {
      * @param iv
      * @param url
      */
-//    public void setChatImageFile(ImageView iv, String url, int placeholder, int width, int height) {
-//        int maxWidth = TTDensityUtil.dip2px(mContext, 140);
-//        int maxHeight = TTDensityUtil.dip2px(mContext, 260);
-//        if (width <= 0) {
-//            width = 1;
-//        }
-//        int h = maxWidth * height / width;
-//
-//        if (h > maxHeight) {
-//            h = maxHeight;
-//        }
-//        ViewGroup.LayoutParams p = iv.getLayoutParams();
-//        p.height = h;
-//        p.width = maxWidth;
-//        iv.setLayoutParams(p);
-//        Glide.with(mContext).load(new File(url)).into(iv);
-//    }
+    public void setChatImageFile(ImageView iv, String url, int placeholder, int width, int height) {
+        int maxWidth = TTDensityUtil.dip2px(mContext, 140);
+        int maxHeight = TTDensityUtil.dip2px(mContext, 260);
+        iv.setScaleType(ImageView.ScaleType.FIT_XY);
+        GlideUrl glideUrl = new GlideUrl(url) {
+            @Override
+            public Map<String, String> getHeaders() {
+                HashMap map = new HashMap();
+                map.put("Cookie", "AppName=launchr;UserName=" + UserPrefer.getImUsername());
+                return map;
+            }
+        };
+        if (width <= 0) {
+            width = 1;
+        }
+        int h = maxWidth * height / width;
+
+        if (h > maxHeight) {
+            h = maxHeight;
+        }
+        ViewGroup.LayoutParams p = iv.getLayoutParams();
+        p.height = h;
+        p.width = maxWidth;
+        iv.setLayoutParams(p);
+        Glide.with(mContext).load(glideUrl).into(iv);
+    }
 
     /**
      * 加载应用图标

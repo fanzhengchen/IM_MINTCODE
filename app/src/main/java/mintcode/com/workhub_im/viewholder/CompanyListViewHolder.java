@@ -82,12 +82,15 @@ public class CompanyListViewHolder extends RecyclerView.ViewHolder {
         UserPrefer.setInfo(infoStr);
 
         String IMUserName = data.getUserShowId();
+//        IMUserName = "GKmoR5PYxzTLWp5l";
         String dbName = IMUserName + "_" + cCode;
 
         UserPrefer.setImUsername(IMUserName);
         UserPrefer.setCompanyCode(cCode);
         UserPrefer.setDbName(dbName);
         BaseDaoHelper.createDB(dbName);
+
+
         login(IMUserName, context);
     }
 

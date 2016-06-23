@@ -1,6 +1,7 @@
 package mintcode.com.workhub_im.adapter;
 
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -43,5 +44,7 @@ public class UserChatAdapter extends BaseChatAdapter<BaseChatViewHolder> {
         super.onBindViewHolder(holder, position);
         MessageItem messageItem = mListData.get(position);
         ((BaseChatView) holder.mView).setData(messageItem);
+
+        final String type = messageItem.getType();
     }
 }

@@ -2,22 +2,22 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="7.5dp"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
-    android:paddingTop="7.5dp"
-    android:paddingBottom="7.5dp" >
+    android:paddingTop="7.5dp">
 
     <CheckBox
         android:id="@+id/cb_merge_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:focusable="false"
-        android:clickable="false"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="10dp"
         android:button="@drawable/setting_language_checkbox"
-        android:layout_marginLeft="5dp"
-        android:visibility="gone"/>
+        android:clickable="false"
+        android:focusable="false"
+        android:visibility="gone" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -29,14 +29,14 @@
             android:id="@+id/iv_mark_point"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rl_image"
+            android:layout_alignTop="@+id/rl_image"
+            android:layout_marginRight="10dp"
             android:layout_toLeftOf="@+id/rl_image"
             android:adjustViewBounds="true"
+            android:contentDescription="@null"
             android:scaleType="centerInside"
             android:src="@drawable/mark_point"
-            android:layout_alignTop="@id/rl_image"
-            android:layout_alignBottom="@id/rl_image"
-            android:layout_marginRight="10dp"
-            android:contentDescription="@null"
             android:visibility="visible" />
 
         <ImageView
@@ -64,42 +64,44 @@
         <RelativeLayout
             android:id="@+id/rl_image"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="5dp"
-            android:layout_height="wrap_content">
-            <com.mintcode.chat.widget.DirectImageView
+            android:layout_marginRight="5dp">
+
+            <mintcode.com.workhub_im.view.custom.DirectImageView
                 android:id="@+id/iv_image"
+                android:scaleType="fitXY"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:background="@null"
-                android:maxWidth="265dp"
-                android:maxHeight="180dp" />
+                android:maxHeight="180dp"
+                android:maxWidth="265dp" />
+
             <TextView
                 android:id="@+id/tv_percent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/we_title_alpha"
-                android:textColor="@null"
-                android:textSize="12sp"
                 android:layout_centerInParent="true"
+                android:background="@color/we_title_alpha"
                 android:singleLine="true"
-                android:text=""/>
+                android:text=""
+                android:textColor="@null"
+                android:textSize="12sp" />
         </RelativeLayout>
 
 
         <TextView
             android:id="@+id/iv_read"
-            android:layout_alignRight="@+id/rl_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/rl_image"
             android:layout_below="@+id/rl_image"
-            android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
-            android:visibility="gone"
+            android:layout_marginRight="10dp"
             android:paddingTop="5dp"
             android:text="@string/msg_have_read"
             android:textColor="@color/deep_gray_launchr"
-            />
+            android:visibility="gone" />
     </RelativeLayout>
 </RelativeLayout>

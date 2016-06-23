@@ -52,7 +52,7 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
 
 
     public static final String SESSION = "session";
-    private static final int LIMIT = 20;
+    private static final int LIMIT = 10;
     private RecyclerView.ItemAnimator itemAnimator;
 
     @BindView(R.id.tool)
@@ -160,7 +160,12 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
         } else {
             recyclerView.smoothScrollToPosition(0);
         }
-        endTimeStamp = items.get(size - 1).getCreateDate();
+
+        if (!items.isEmpty()) {
+            endTimeStamp = items.get(size - 1).getCreateDate();
+        } else {
+            endTimeStamp = -1;
+        }
     }
 
     @Override

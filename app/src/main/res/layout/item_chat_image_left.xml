@@ -2,69 +2,69 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:paddingBottom="7.5dp"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
-    android:paddingTop="7.5dp"
-    android:paddingBottom="7.5dp"
-    >
+    android:paddingTop="7.5dp">
 
 
+    <ImageView
+        android:id="@+id/iv_head_icon"
+        android:layout_width="@dimen/icon_head_size"
+        android:layout_height="@dimen/icon_head_size"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/icon_default" />
 
-        <ImageView
-            android:id="@+id/iv_head_icon"
-            android:layout_width="@dimen/icon_head_size"
-            android:layout_height="@dimen/icon_head_size"
-            android:layout_alignParentLeft="true"
-            android:src="@drawable/icon_default"
-            />
+    <TextView
+        android:id="@+id/tv_chat_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_head_icon"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="@dimen/chat_name_margin_left"
+        android:layout_toRightOf="@+id/iv_head_icon"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="10sp" />
 
-        <TextView
-            android:id="@+id/tv_chat_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/iv_head_icon"
-            android:layout_marginLeft="@dimen/chat_name_margin_left"
-            android:layout_marginBottom="2dp"
-            android:layout_toRightOf="@+id/iv_head_icon"
-            android:text=""
-            android:textSize="10sp"
-            android:textColor="@color/black"
-             />
     <mintcode.com.workhub_im.view.custom.DirectImageView
         android:id="@+id/iv_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_chat_name"
         android:layout_marginLeft="5dp"
+        android:scaleType="fitXY"
         android:layout_toRightOf="@+id/iv_head_icon"
         android:background="@null"
-        android:maxWidth="265dp"
-        android:maxHeight="180dp" />
-        <ImageView
-            android:id="@+id/iv_mark_point"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toRightOf="@+id/iv_image"
-            android:adjustViewBounds="true"
-            android:scaleType="centerInside"
-            android:src="@drawable/mark_point"
-            android:layout_alignTop="@id/iv_image"
-            android:layout_alignBottom="@id/iv_image"
-            android:layout_marginLeft="10dp"
-            android:contentDescription="@null"
-            android:visibility="visible" />
+        android:maxHeight="180dp"
+        android:maxWidth="265dp" />
+
+    <ImageView
+        android:id="@+id/iv_mark_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_image"
+        android:layout_alignTop="@id/iv_image"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iv_image"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/mark_point"
+        android:visibility="visible" />
+
     <CheckBox
         android:id="@+id/cb_merge_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_centerInParent="true"
-        android:focusable="false"
-        android:clickable="false"
+        android:layout_marginRight="5dp"
         android:layout_marginTop="10dp"
         android:button="@drawable/setting_language_checkbox"
-        android:layout_marginRight="5dp"
-        android:visibility="gone"/>
+        android:clickable="false"
+        android:focusable="false"
+        android:visibility="gone" />
 
 
 </RelativeLayout>

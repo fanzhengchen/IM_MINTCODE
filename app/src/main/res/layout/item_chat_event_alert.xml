@@ -64,7 +64,7 @@
                 android:paddingRight="@dimen/standard_chat_right"
                 android:text="@string/accpect_send_hit"
                 android:textSize="@dimen/standard_title_size"
-                android:visibility="gone"/>
+                android:visibility="gone" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -92,8 +92,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rel_card"
-        android:layout_marginTop="5dp"
         android:layout_gravity="center"
+        android:layout_marginTop="5dp"
         android:gravity="center"
         android:paddingLeft="14dp"
         android:paddingRight="5dp"
