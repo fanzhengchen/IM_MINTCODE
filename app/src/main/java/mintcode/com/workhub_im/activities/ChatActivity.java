@@ -162,7 +162,7 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
         }
 
         if (!items.isEmpty()) {
-            endTimeStamp = items.get(size - 1).getCreateDate();
+            endTimeStamp = items.get(size - 1).getCreateDate() + 1;
         } else {
             endTimeStamp = -1;
         }

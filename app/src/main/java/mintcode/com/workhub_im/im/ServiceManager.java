@@ -3,6 +3,7 @@ package mintcode.com.workhub_im.im;
 import android.content.Context;
 import android.os.Looper;
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.alibaba.fastjson.JSON;
 import com.orhanobut.logger.Logger;
@@ -50,7 +51,8 @@ public class ServiceManager {
 
         @Override
         public void onMessage(String message) {
-            Logger.i(TAG + " message recevied " + message);
+            Logger.d(TAG + " message recevied " + message);
+            Logger.json(message);
             handleMessage(message);
         }
 
@@ -61,7 +63,7 @@ public class ServiceManager {
 
         @Override
         public void onDisconnect(int code, String reason) {
-            Logger.d(TAG + " " + "code " + code + " reason " + reason);
+            Logger.w(TAG + " " + "code " + code + " reason " + reason);
             connect();
         }
 

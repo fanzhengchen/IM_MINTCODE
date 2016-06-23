@@ -48,7 +48,7 @@ public class LoginActivity extends Activity {
     private static final Pair<String, String> MarkFan = new Pair<>("markfan@mintcode.com", "xuejunzhongxue8");
     private static final Pair<String, String> julytest = new Pair<>("327549647@qq.com", "admin");
 
-    private static final Pair<String, String> User = julytest;
+    private static final Pair<String, String> User = Stephen;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
