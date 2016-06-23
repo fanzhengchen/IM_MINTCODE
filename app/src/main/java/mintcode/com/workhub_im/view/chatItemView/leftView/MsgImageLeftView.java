@@ -2,10 +2,17 @@ package mintcode.com.workhub_im.view.chatItemView.leftView;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.JsonReader;
+
+import com.alibaba.fastjson.JSON;
+import com.bumptech.glide.Glide;
 
 import butterknife.BindView;
+import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.db.MessageItem;
+import mintcode.com.workhub_im.pojo.AttachMsgContent;
+import mintcode.com.workhub_im.util.HeadImageUtil;
 import mintcode.com.workhub_im.view.chatItemView.baseView.BaseLeftChatView;
 import mintcode.com.workhub_im.view.custom.DirectImageView;
 
@@ -25,7 +32,13 @@ public class MsgImageLeftView extends BaseLeftChatView {
     @Override
     public void setData(MessageItem item) {
         super.setData(item);
-
+        String content = item.getContent();
+        AttachMsgContent msgContent = JSON.parseObject(content, AttachMsgContent.class);
+        String url = AppConsts.httpIp + "/launchr" + msgContent.getThumbnail();
+//        HeadImageUtil.setImageResuces(mIvImage.getContext(), mIvImage, msgContent.getThumbnailWidth(), msgContent.getThumbnailHeight());
+//        Glide.with(mIvImage.getContext()).load(url).into(mIvImage);
+        HeadImageUtil.getInstance().setChatImageFile(mIvImage, url, R.drawable.im_default_image,
+                msgContent.getThumbnailWidth(), msgContent.getThumbnailHeight());
     }
 
     @Override

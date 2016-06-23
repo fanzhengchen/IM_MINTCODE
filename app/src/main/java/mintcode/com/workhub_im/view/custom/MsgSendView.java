@@ -33,6 +33,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import mintcode.com.workhub_im.R;
+import mintcode.com.workhub_im.activities.PhotoActivity;
 import mintcode.com.workhub_im.widget.auido.AudioRecordPlayUtil;
 import mintcode.com.workhub_im.widget.IMChatManager;
 import mintcode.com.workhub_im.widget.emoji.ParseEmojiMsgUtil;
@@ -261,7 +262,8 @@ public class MsgSendView extends RelativeLayout implements View.OnTouchListener,
     }
     /** 选择相册照片*/
     private void AlbumPhoto() {
-//        Intent intent = new Intent(mContext, PhotoActivity.class);
+        Intent intent = new Intent(mContext, PhotoActivity.class);
+        mContext.startActivity(intent);
 //        ((Activity)mContext).startActivityForResult(intent,IMConst.REQ_FROM_GALLERY);
     }
     /** 拍照照片*/

@@ -44,13 +44,13 @@ public class MainActivity extends FragmentActivity implements TabHost.OnTabChang
             final TextView textView = (TextView) tabView.findViewById(R.id.tab_label);
             textView.setText(td.name);
             mTabHost.addTab(mTabHost.newTabSpec(td.tag).setIndicator(tabView), td.frgClass, null);
+            setTabSelected(i, false);
         }
 
     }
 
     private static final ArrayList<TabDesc> tabs = new ArrayList<TabDesc>() {
         {
-
             add(TabDesc.create("LastMsg", R.string.message, R.drawable.icon_message,
                     R.drawable.icon_message_checked, MessageFragment.class));
             add(TabDesc.create("Contacts", R.string.contacts, R.drawable.icon_contact,

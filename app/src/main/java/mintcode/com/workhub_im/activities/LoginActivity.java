@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -47,13 +48,16 @@ public class LoginActivity extends Activity {
     private static final Pair<String, String> MarkFan = new Pair<>("markfan@mintcode.com", "xuejunzhongxue8");
     private static final Pair<String, String> julytest = new Pair<>("327549647@qq.com", "admin");
 
+    private static final Pair<String, String> User = julytest;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(LoginActivity.this);
-        userNameEditText.setText(julytest.first);
-        passwordEditText.setText(julytest.second);
+
+        userNameEditText.setText(User.first);
+        passwordEditText.setText(User.second);
         requirePermission();
     }
 
@@ -94,7 +98,7 @@ public class LoginActivity extends Activity {
 //        }
         ActivityCompat.requestPermissions(
                 this,
-                new String[]{Manifest.permission.READ_PHONE_STATE, Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.RECORD_AUDIO},
+                new String[]{Manifest.permission.READ_PHONE_STATE, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO},
                 AppConsts.REQUEST_CODE
         );
     }

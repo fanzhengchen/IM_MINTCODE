@@ -1,7 +1,7 @@
 package mintcode.com.workhub_im.im;
 
-import android.Manifest;
 import android.content.Context;
+import android.os.Looper;
 import android.text.TextUtils;
 
 import com.alibaba.fastjson.JSON;
@@ -13,16 +13,16 @@ import java.util.ArrayList;
 import mintcode.com.workhub_im.App;
 import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.beans.UserPrefer;
+import mintcode.com.workhub_im.callback.ChatMessageListener;
 import mintcode.com.workhub_im.daohelper.SessionItemDaoHelper;
 import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.handler.BeetTimer;
-import mintcode.com.workhub_im.im.codebutler.WebSocketClient;
+import mintcode.com.workhub_im.codebutler.WebSocketClient;
 import mintcode.com.workhub_im.im.pojo.IMSessionResponse;
-import mintcode.com.workhub_im.im.pojo.Info;
 import mintcode.com.workhub_im.im.pojo.Session;
 import mintcode.com.workhub_im.pojo.HeartBeat;
-import mintcode.com.workhub_im.pojo.MergeCard;
 import mintcode.com.workhub_im.util.AESUtil;
+import mintcode.com.workhub_im.view.chatItemView.ChatViewUtil;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -35,40 +35,46 @@ public class ServiceManager {
     private static final String TAG = "ServiceManager";
     private Context context;
     private WebSocketClient webSocketClient;
-    private WebSocketClient.Listener listener = new WebSocketClient.Listener() {
-        @Override
-        public void onConnect() {
-            Logger.e(TAG + " connect");
-            login();
-        }
-
-        @Override
-        public void onMessage(String message) {
-            Logger.i(TAG, "message recevied " + message);
-            handleMessage(message);
-        }
-
-        @Override
-        public void onMessage(byte[] data) {
-            Logger.e(TAG + " " + data.toString());
-        }
-
-        @Override
-        public void onDisconnect(int code, String reason) {
-            Logger.e(TAG + " " + "code " + code + " reason " + reason);
-        }
-
-        @Override
-        public void onError(Exception error) {
-            Logger.e(TAG + "  error " + error);
-        }
-    };
-
     private String IP;
     private static ServiceManager serviceManager;
     private static int start = 0;
     private static int end = 200;
     private ArrayList<Session> sessions;
+
+    private WebSocketClient.Listener listener = new WebSocketClient.Listener() {
+        @Override
+        public void onConnect() {
+            Logger.i(TAG + " connect");
+            login();
+        }
+
+        @Override
+        public void onMessage(String message) {
+            Logger.i(TAG + " message recevied " + message);
+            handleMessage(message);
+        }
+
+        @Override
+        public void onMessage(byte[] data) {
+            Logger.i(TAG + " on message data" + data.toString());
+        }
+
+        @Override
+        public void onDisconnect(int code, String reason) {
+            Logger.d(TAG + " " + "code " + code + " reason " + reason);
+            connect();
+        }
+
+        @Override
+        public void onError(Exception error) {
+            Logger.e(TAG + "  error " + error);
+            BeetTimer.getInstance().stopBeet();
+            connect();
+        }
+    };
+
+
+    private ChatMessageListener chatMessageListener = null;
 
     private ServiceManager(Context context) {
         this.context = context;
@@ -79,6 +85,10 @@ public class ServiceManager {
             serviceManager = new ServiceManager(App.getGlobalContext());
         }
         return serviceManager;
+    }
+
+    public void setChatMessageListener(ChatMessageListener listener) {
+        chatMessageListener = listener;
     }
 
     public void socketConnect() {
@@ -104,6 +114,7 @@ public class ServiceManager {
                 webSocketClient = new WebSocketClient(context, uri, listener, null);
                 webSocketClient.setListener(listener);
                 webSocketClient.connect();
+                return;
             }
         } else {
             webSocketClient = new WebSocketClient(context, uri, listener, null);
@@ -146,14 +157,20 @@ public class ServiceManager {
         item.setInfo(UserPrefer.getInfo());
         item.setModified(UserPrefer.getLastMessageId());
         sendMsg(item);
-        Logger.i(" im socket login");
     }
 
     public void keepBeet() {
+        if (webSocketClient == null) {
+            socketConnect();
+            return;
+        }
         HeartBeat heartBeat = new HeartBeat();
-        heartBeat.setMsgId(UserPrefer.getLastMessageId() + 1);
+        long msgId = UserPrefer.getLastMessageId() + 1;
+        heartBeat.setMsgId(msgId);
         heartBeat.setType(Command.LOGIN_KEEP);
-        send(JSON.toJSONString(heartBeat), 1);
+        String beatJson = JSON.toJSONString(heartBeat);
+        send(beatJson, 1);
+        UserPrefer.updateMsgId(msgId);
     }
 
     public void stopBeet() {
@@ -164,7 +181,6 @@ public class ServiceManager {
             webSocketClient = null;
         }
     }
-
 
     public void setMsg(MessageItem item, int ping) {
         send(MsgToString(item), ping);
@@ -201,10 +217,17 @@ public class ServiceManager {
         }
         MessageItem item = JSON.parseObject(message, MessageItem.class);
         String type = item.getType();
+        long msgId = item.getMsgId();
+        UserPrefer.updateMsgId(msgId);
         if (TextUtils.equals(Command.LOGIN_SUCCESS, type)) {
             BeetTimer.getInstance().startBeet();
         } else if (TextUtils.equals(Command.LOGIN_OUT, type)) {
             BeetTimer.getInstance().stopBeet();
+        } else if (Command.isNormalMessage(type)) {
+            if (chatMessageListener != null) {
+                item.setCmd(ChatViewUtil.TYPE_RECV);
+                chatMessageListener.receiveMessage(item);
+            }
         }
     }
 

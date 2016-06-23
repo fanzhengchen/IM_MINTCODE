@@ -1,5 +1,8 @@
 package mintcode.com.workhub_im.im;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Created by mark on 16-6-16.
  */
@@ -96,6 +99,26 @@ public class Command {
      */
     public static final String MERGE = "MergeMessage";
 
+
+    public static final Set<String> normalMessageTypeSet;
+
+    static {
+        normalMessageTypeSet = new HashSet<>();
+        normalMessageTypeSet.add(TEXT);
+        normalMessageTypeSet.add(AUDIO);
+        normalMessageTypeSet.add(IMAGE);
+        normalMessageTypeSet.add(ALERT);
+        normalMessageTypeSet.add(VIDEO);
+        normalMessageTypeSet.add(READ_SESSION);
+        normalMessageTypeSet.add(EVENT);
+        normalMessageTypeSet.add(FILE);
+        normalMessageTypeSet.add(RESEND);
+        normalMessageTypeSet.add(MERGE);
+    }
+
+    public static boolean isNormalMessage(String messageType) {
+        return normalMessageTypeSet.contains(messageType);
+    }
 
     public static final String CLEAR = "Clear";
 
