@@ -8,10 +8,14 @@ import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.alibaba.fastjson.JSON;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.db.MessageItem;
+import mintcode.com.workhub_im.im.pojo.Info;
+import mintcode.com.workhub_im.util.HeadImageUtil;
 
 /**
  * Created by JulyYu on 2016/6/14.
@@ -41,6 +45,21 @@ public abstract class BaseLeftChatView extends BaseChatView{
     @Override
     public void setData(MessageItem item) {
         super.setData(item);
+        String from = item.getFrom();
+        if(from.contains("@ChatRoom")){ //聊天群个人信息
+            Info info = JSON.parseObject(item.getInfo(),Info.class);
+            if(info != null){
+                mTvUserName.setText(info.getNickName());
+                HeadImageUtil.getInstance().setAvatarResourceWithUserId(mIvUserHead,info.getUserName(),0,60,60);
+            }
+        }else{// 单聊信息
+            HeadImageUtil.getInstance().setAvatarResourceWithUserId(mIvUserHead,item.getFrom(),0,60,60);
+            Info info = JSON.parseObject(item.getInfo(),Info.class);
+            if(info != null){
+                mTvUserName.setText(info.getNickName());
+            }
+        }
+
     }
 
     public abstract int getLayoutId();

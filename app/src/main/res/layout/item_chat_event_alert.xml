@@ -64,7 +64,7 @@
                 android:paddingRight="@dimen/standard_chat_right"
                 android:text="@string/accpect_send_hit"
                 android:textSize="@dimen/standard_title_size"
-                android:visibility="gone" />
+                 />
         </RelativeLayout>
 
         <RelativeLayout
