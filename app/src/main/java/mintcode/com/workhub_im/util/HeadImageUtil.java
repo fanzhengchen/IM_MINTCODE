@@ -241,7 +241,7 @@ public class HeadImageUtil {
     /**
      * 根据用户ID获取好友或同事用户头像
      */
-//    public void setAvatarResourceWithUserId(ImageView iv, String strUser, int radis, int width, int height) {
+    public void setAvatarResourceWithUserId(ImageView iv, String strUser, int radis, int width, int height) {
 //        String friendAvtarUrl = getValue(strUser);
 //        if (!TextUtils.isEmpty(friendAvtarUrl)) {
 //            setAvatarResource(iv, strUser, friendAvtarUrl, radis, width, height);
@@ -249,11 +249,11 @@ public class HeadImageUtil {
 //        }
 //        friendAvtarUrl = FriendDBService.getInstance().getFriendAvtarUrl(strUser);
 //        if (TextUtils.isEmpty(friendAvtarUrl)) {
-//            setAvatarResourceAppendUrl(iv, strUser, radis, width, height);
+            setAvatarResourceAppendUrl(iv, strUser, radis, width, height);
 //        } else {
 //            setAvatarResource(iv, strUser, friendAvtarUrl, radis, width, height);
 //        }
-//    }
+    }
 
     /**
      * 根据用户ID重新获取好友或同事用户头像
@@ -387,7 +387,7 @@ public class HeadImageUtil {
      * @param iv
      * @param url
      */
-    public void setChatImageFile(ImageView iv, String url, int placeholder, int width, int height) {
+    public void setChatImageFile(ImageView iv, String url, int width, int height) {
         int maxWidth = TTDensityUtil.dip2px(mContext, 140);
         int maxHeight = TTDensityUtil.dip2px(mContext, 260);
         iv.setScaleType(ImageView.ScaleType.FIT_XY);

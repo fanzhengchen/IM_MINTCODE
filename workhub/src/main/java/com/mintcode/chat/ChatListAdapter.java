@@ -884,7 +884,7 @@ public class ChatListAdapter extends BaseAdapter implements AgreePopWindow.ItemS
             holder.ivAvatar.setImageDrawable(mContext.getResources().getDrawable(R.drawable.icon_system));
             holder.ivAvatar.setVisibility(View.VISIBLE);
         } else if (userName != null) {
-            HeadImageUtil.getInstance(mContext).setAvatarResourceWithUserId(holder.ivAvatar, userName, 0, 60, 60);
+            HeadImageUtil.getInstance().setAvatarResourceWithUserId(holder.ivAvatar, userName, 0, 60, 60);
             holder.ivAvatar.setVisibility(View.VISIBLE);
         }
 
@@ -1731,17 +1731,17 @@ public class ChatListAdapter extends BaseAdapter implements AgreePopWindow.ItemS
             AttachItem attach = JsonUtil.convertJsonToCommonObj(item.getContent(), AttachItem.class);
             if (filename != null && !filename.equals("")) {
                 if (attach != null) {
-                    HeadImageUtil.getInstance(mContext).setChatImageFile(holder.imageView, filename, placehodler, attach.getThumbnailWidth(), attach.getThumbnailHeight());
+                    HeadImageUtil.getInstance().setChatImageFile(holder.imageView, filename, placehodler, attach.getThumbnailWidth(), attach.getThumbnailHeight());
                 } else {
                     BitmapFactory.Options options = new BitmapFactory.Options();
                     options.inJustDecodeBounds = true;
                     Bitmap bitmap = BitmapFactory.decodeFile(filename, options);// 此时返回的bitmap为null
-                    HeadImageUtil.getInstance(mContext).setChatImageFile(holder.imageView, filename, placehodler, options.outWidth, options.outHeight);
+                    HeadImageUtil.getInstance().setChatImageFile(holder.imageView, filename, placehodler, options.outWidth, options.outHeight);
                 }
             } else {
                 String url = LauchrConst.httpIp + "/launchr" + attach.getThumbnail();
 
-                HeadImageUtil.getInstance(mContext).setChatImage(holder.imageView, url, placehodler, attach.getThumbnailWidth(), attach.getThumbnailHeight());
+                HeadImageUtil.getInstance().setChatImage(holder.imageView, url, placehodler, attach.getThumbnailWidth(), attach.getThumbnailHeight());
 ////
             }
 

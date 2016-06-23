@@ -11,6 +11,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.db.MessageItem;
+import mintcode.com.workhub_im.util.TimeFormatlUtil;
 
 /**
  * Created by JulyYu on 2016/6/14.
@@ -20,13 +21,13 @@ public abstract class BaseNormalChatView extends BaseChatView {
 
     /** 名字*/
     @BindView(R.id.tv_chat_name)
-     TextView mTvUserName;
+    protected TextView mTvUserName;
     /** 头像*/
     @BindView(R.id.iv_head_icon)
-     ImageView mIvUserHead;
+    protected ImageView mIvUserHead;
     /** 时间*/
     @BindView(R.id.tv_time)
-     TextView mTvTime;
+    protected TextView mTvTime;
 
     public BaseNormalChatView(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -38,6 +39,8 @@ public abstract class BaseNormalChatView extends BaseChatView {
     @Override
     public void setData(MessageItem item) {
         super.setData(item);
+        Long time = item.getCreateDate();
+        mTvTime.setText(TimeFormatlUtil.formatTime(time));
     }
 
     public abstract int getLayoutId();

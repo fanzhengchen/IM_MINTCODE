@@ -17,6 +17,16 @@ public class MessageEventEntity {
     private String msgFromID;
     private String msgRemark;
     private String msgRMShowID;
+    private String msgInfo;
+
+
+    public String getMsgInfo() {
+        return msgInfo;
+    }
+
+    public void setMsgInfo(String msgInfo) {
+        this.msgInfo = msgInfo;
+    }
 
     public String getMsgTitle() {
         return msgTitle;

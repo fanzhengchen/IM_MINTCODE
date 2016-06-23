@@ -9,6 +9,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.db.MessageItem;
+import mintcode.com.workhub_im.im.Command;
+import mintcode.com.workhub_im.pojo.MessageEventEntity;
 import mintcode.com.workhub_im.view.chatItemView.baseView.BaseChatView;
 
 /**
@@ -28,5 +30,6 @@ public class MsgAlartView extends BaseChatView {
     @Override
     public void setData(MessageItem item) {
         super.setData(item);
+        mTvAlart.setText(item.getContent());
     }
 }
