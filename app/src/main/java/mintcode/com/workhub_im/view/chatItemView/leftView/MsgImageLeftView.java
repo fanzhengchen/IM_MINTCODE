@@ -25,6 +25,7 @@ public class MsgImageLeftView extends BaseLeftChatView {
     @Override
     public void setData(MessageItem item) {
         super.setData(item);
+
     }
 
     @Override

@@ -15,6 +15,7 @@ import com.alibaba.fastjson.JSON;
 
 import java.util.List;
 
+import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.im.Command;
@@ -31,6 +32,7 @@ import mintcode.com.workhub_im.view.chatItemView.rightView.MsgImageRightView;
 import mintcode.com.workhub_im.view.chatItemView.rightView.MsgMergeRightView;
 import mintcode.com.workhub_im.view.chatItemView.rightView.MsgTextRightView;
 import mintcode.com.workhub_im.widget.RoundBackgroundColorSpan;
+import mintcode.com.workhub_im.widget.upload.AttachItem;
 
 /**
  * Created by JulyYu on 2016/6/14.
@@ -387,6 +389,21 @@ public class ChatViewUtil {
     }
 
     public static void setChatAuido() {
+
+    }
+
+    public static void setChatImageDisplay(MessageItem item){
+
+        String content = item.getContent();
+        AttachItem attach = JSON.parseObject(content,AttachItem.class);
+        String imgUrl = AppConsts.httpIp + "/" + AppConsts.APP_NAME + attach.getThumbnail();
+        int placehodler = R.drawable.im_default_image;
+        if(TYPE_RECV == item.getCmd()){
+
+        }else{
+
+        }
+
 
     }
 

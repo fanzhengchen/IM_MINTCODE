@@ -45,14 +45,15 @@ public class LoginActivity extends Activity {
 
     private static final Pair<String, String> Stephen = new Pair<>("1712776213@qq.com", "admin");
     private static final Pair<String, String> MarkFan = new Pair<>("markfan@mintcode.com", "xuejunzhongxue8");
+    private static final Pair<String, String> julytest = new Pair<>("327549647@qq.com", "admin");
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(LoginActivity.this);
-        userNameEditText.setText(Stephen.first);
-        passwordEditText.setText(Stephen.second);
+        userNameEditText.setText(julytest.first);
+        passwordEditText.setText(julytest.second);
         requirePermission();
     }
 
