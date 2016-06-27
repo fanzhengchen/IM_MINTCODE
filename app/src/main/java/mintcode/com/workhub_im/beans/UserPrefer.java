@@ -28,6 +28,7 @@ public class UserPrefer {
     public static final String DB_NAME = "db_name";
     public static final String MODIFIED = "modified";
     public static final String INFO = "info";
+    public static final String SEND_TO_IM_UID = "send_to_uid";
 
     public static void init(Context ctx) {
         context = ctx;
@@ -147,5 +148,14 @@ public class UserPrefer {
 
     public static String getInfo() {
         return preferences.getString(INFO, "");
+    }
+
+    public static void setSendToImUid(String uid) {
+        editor.putString(SEND_TO_IM_UID, uid)
+                .commit();
+    }
+
+    public static String getSendToImUid() {
+        return preferences.getString(SEND_TO_IM_UID, "");
     }
 }

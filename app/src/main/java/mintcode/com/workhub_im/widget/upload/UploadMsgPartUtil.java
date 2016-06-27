@@ -1,11 +1,13 @@
 package mintcode.com.workhub_im.widget.upload;
 
 import android.os.Handler;
+import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 
 
 import com.alibaba.fastjson.JSON;
+import com.orhanobut.logger.Logger;
 
 import org.apache.http.HttpStatus;
 
@@ -23,6 +25,7 @@ import java.nio.channels.FileChannel;
 
 import mintcode.com.workhub_im.activities.ChatActivity;
 import mintcode.com.workhub_im.db.MessageItem;
+import mintcode.com.workhub_im.im.pojo.AttachDetail;
 import mintcode.com.workhub_im.im.pojo.AttachDetailResponse;
 
 /**
@@ -70,8 +73,7 @@ public class UploadMsgPartUtil {
 	 * @return
 	 */
 	//TODO 头像分包上传
-	public static String uploadPic(String url, AttachDetailResponse detail, final File file, Handler handler, MessageItem item) {
-		detail.setSrcOffset(0);
+	public static String uploadPic(String url, AttachDetail detail, final File file, Handler handler, MessageItem item) { detail.setSrcOffset(0);
 //		detail.setFileUrl("");
 		detail.setFileStatus(0);
 		ResultActionEntity entity = uploadPart(url, file, detail,handler,item);
@@ -81,7 +83,7 @@ public class UploadMsgPartUtil {
 	}
 
 
-	public static ResultActionEntity uploadPart(String urlSpec,File file, AttachDetailResponse detail,Handler handler,MessageItem item){
+	public static ResultActionEntity uploadPart(String urlSpec,File file, AttachDetail detail,Handler handler,MessageItem item){
 		long filePosition = detail.getSrcOffset();
 
 		byte[] tmp = getByteByPosition(file, 0);
@@ -187,7 +189,7 @@ public class UploadMsgPartUtil {
 		return tmp;
 	}
 	
-	private static ResultActionEntity uploadPart(String urlSpec, final AttachDetailResponse detail,
+	private static ResultActionEntity uploadPart(String urlSpec, final AttachDetail detail,
 			final byte[] block) {
 		ResultActionEntity pojo = null;
 		pojo = upload(urlSpec, new WriteCallback() {
@@ -226,6 +228,7 @@ public class UploadMsgPartUtil {
 	public static ResultActionEntity upload(String urlSpec, WriteCallback callback) {
 		try {
 
+			Logger.i(urlSpec);
 			URL url = new URL(urlSpec);
 			HttpURLConnection connection = (HttpURLConnection) url
 					.openConnection();
@@ -263,6 +266,7 @@ public class UploadMsgPartUtil {
 			}
 			
 			String result = html.toString().trim();
+			Logger.json(result);
 //			Log.i("infossresult",  "====执行了===" + result);
 //			Log.i("infoss", LauchrConst.header.getAuthToken() + "====执行了===" + result);
 			in.close();

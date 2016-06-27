@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" >
-    
-    <stroke android:color="@color/gray_bar_launchr"/>
-    <solid android:color="@color/gray_bar_launchr"/>
-    <padding android:left="2dp" android:top="-2dp" android:right="2dp" android:bottom="0dp" />
-    <corners android:radius="5px"/>
-</shape>

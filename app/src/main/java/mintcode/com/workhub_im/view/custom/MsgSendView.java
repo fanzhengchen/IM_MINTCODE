@@ -1,5 +1,6 @@
 package mintcode.com.workhub_im.view.custom;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -24,6 +25,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+
+import com.mintcode.imkit.consts.IMConst;
 
 import java.io.File;
 import java.io.IOException;
@@ -263,8 +266,9 @@ public class MsgSendView extends RelativeLayout implements View.OnTouchListener,
     /** 选择相册照片*/
     private void AlbumPhoto() {
         Intent intent = new Intent(mContext, PhotoActivity.class);
-        mContext.startActivity(intent);
-//        ((Activity)mContext).startActivityForResult(intent,IMConst.REQ_FROM_GALLERY);
+//        mContext.startActivity(intent);
+//        ((Activity)mContext).startActivityForResult(intent,);
+        ((Activity)mContext).startActivityForResult(intent, IMConst.REQ_SELECT_IMAGE);
     }
     /** 拍照照片*/
     private void takePhoto() {

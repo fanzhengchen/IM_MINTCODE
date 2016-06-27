@@ -12,6 +12,7 @@ import java.io.File;
 import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.im.Command;
+import mintcode.com.workhub_im.im.pojo.AttachDetail;
 import mintcode.com.workhub_im.im.pojo.AttachDetailResponse;
 import mintcode.com.workhub_im.view.chatItemView.ChatViewUtil;
 
@@ -21,21 +22,21 @@ import mintcode.com.workhub_im.view.chatItemView.ChatViewUtil;
  */
 public class UploadFileTask extends AsyncTask<Object, Integer, String> {
 
-	private AttachDetailResponse detail;
+	private AttachDetail detail;
 //	private KeyValueDBService mValueDBService;
 	private File file;
 	private Handler mHandler;
 	private MessageItem item;
 	private String SERVER_PATH;
 
-	public UploadFileTask(Context context, AttachDetailResponse detail, File file,
+	public UploadFileTask(Context context, AttachDetail detail, File file,
 						  Handler mHandler, MessageItem item) {
 //		mValueDBService = KeyValueDBService.getInstance();
 		this.detail = detail;
 		this.file = file;
 		this.mHandler = mHandler;
 		this.item = item;
-		SERVER_PATH = AppConsts.ATTACH_PATH + "/launchr/api/upload";
+		SERVER_PATH = AppConsts.httpIp + "/launchr/api/upload";
 	}
 
 	@Override

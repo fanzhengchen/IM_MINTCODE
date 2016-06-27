@@ -16,6 +16,7 @@ import com.orhanobut.logger.Logger;
 import mintcode.com.workhub_im.Http.APIService;
 import mintcode.com.workhub_im.Http.IMService;
 import mintcode.com.workhub_im.Http.LogJsonInterceptor;
+import mintcode.com.workhub_im.beans.GlobalBeans;
 import mintcode.com.workhub_im.beans.UserPrefer;
 import mintcode.com.workhub_im.im.IMAPIProvider;
 import mintcode.com.workhub_im.util.DensityUtil;
@@ -35,6 +36,7 @@ public class App extends IMKitApplication {
     private static APIService apiService = null;
     private static IMService imService = null;
     private static Context context;
+    private static GlobalBeans globalBeans = null;
 
     @Override
     public void onCreate() {
@@ -44,6 +46,7 @@ public class App extends IMKitApplication {
         context = getApplicationContext();
         IMAPIProvider.init(context);
         Logger.init();
+        globalBeans = GlobalBeans.getInstance();
         httpClient = new OkHttpClient.Builder()
                 .addInterceptor(new LogJsonInterceptor())
                 .build();

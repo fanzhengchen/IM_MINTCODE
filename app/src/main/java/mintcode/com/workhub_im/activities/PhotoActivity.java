@@ -1,60 +1,41 @@
 package mintcode.com.workhub_im.activities;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.adapter.PhotoAdapter;
+import mintcode.com.workhub_im.callback.ChangeSelectedNumber;
 import mintcode.com.workhub_im.util.ImageFolder;
 
 import java.io.File;
 import java.io.FilenameFilter;
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
 
-import com.bumptech.glide.Glide;
-
 import android.content.ContentResolver;
-import android.content.Context;
-import android.content.Intent;
 import android.database.Cursor;
-import android.graphics.Color;
-import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
-import android.os.Bundle;
 import android.os.Environment;
-import android.os.Handler;
-import android.os.Message;
 import android.provider.MediaStore;
-import android.util.DisplayMetrics;
-import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.View.OnTouchListener;
-import android.view.WindowManager;
 import android.view.View.OnClickListener;
-import android.view.ViewGroup.LayoutParams;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.BaseAdapter;
-import android.widget.GridView;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.PopupWindow;
-import android.widget.PopupWindow.OnDismissListener;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.mintcode.imkit.consts.IMConst;
+
 
 
 /**
@@ -65,10 +46,12 @@ public class PhotoActivity extends Activity implements OnClickListener {
     private static final int SPAN = 3;
     @BindView(R.id.photo_recycler_view)
     RecyclerView recyclerView;
+    @BindView(R.id.confirm_image_selected)
+    TextView confirmImageSelected;
 
     private ImageView mIvBack;
-
     private TextView mTvNumber;
+    private Handler handler = new Handler();
 
     List<String> fList = new ArrayList<String>();
 
@@ -81,7 +64,7 @@ public class PhotoActivity extends Activity implements OnClickListener {
     /**
      * 存放扫描拿到的所有图片文件夹
      */
-    private List<ImageFolder> mFloaderList = new ArrayList<ImageFolder>();
+    private List<ImageFolder> mFolderList = new ArrayList<ImageFolder>();
 
     /**
      * 存储文件夹中的图片数量
@@ -157,8 +140,13 @@ public class PhotoActivity extends Activity implements OnClickListener {
 
 
         GridLayoutManager layoutManager = new GridLayoutManager(this, SPAN);
-
-        adapter = new PhotoAdapter(fList);
+        confirmImageSelected.setText(getString(R.string.num_image_selected, 0));
+        adapter = new PhotoAdapter(fList, new ChangeSelectedNumber() {
+            @Override
+            public void notifyNumberChanged(int number) {
+                confirmImageSelected.setText(getString(R.string.num_image_selected, number));
+            }
+        });
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
         SELECT_IMAGE_TYPE = getIntent().getIntExtra(SET_SELECT_IMAGE_TYPE, SELECT_TYPE.MUTIL_SELECT.ordinal());
@@ -177,7 +165,7 @@ public class PhotoActivity extends Activity implements OnClickListener {
         }
 
         // 显示所有图片
-        ImageFolder folder = mFloaderList.get(0);
+        ImageFolder folder = mFolderList.get(0);
         List<String> allList = folder.getAllPath();
 
 
@@ -268,7 +256,7 @@ public class PhotoActivity extends Activity implements OnClickListener {
 
                 // 拿到存放的图片的文件夹
                 imageFloader.setCount(picSize);
-                mFloaderList.add(imageFloader);
+                mFolderList.add(imageFloader);
 
                 //
                 if (picSize > mPicsSize) {
@@ -297,8 +285,8 @@ public class PhotoActivity extends Activity implements OnClickListener {
                     return false;
                 }
             };
-            for (int i = 0; i < mFloaderList.size(); i++) {
-                ImageFolder f = mFloaderList.get(i);
+            for (int i = 0; i < mFolderList.size(); i++) {
+                ImageFolder f = mFolderList.get(i);
                 File file = new File(f.getDir());
 
                 if (file.list(filter) != null) {
@@ -325,7 +313,7 @@ public class PhotoActivity extends Activity implements OnClickListener {
 
             folder.setCount(fList.size());
             folder.setName("/所有图片");
-            mFloaderList.add(0, folder);
+            mFolderList.add(0, folder);
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
@@ -336,8 +324,19 @@ public class PhotoActivity extends Activity implements OnClickListener {
             // 通知扫描完成
         }
 
-
     }
 
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+
+    @OnClick(R.id.confirm_image_selected)
+    public void confirmImageSelected() {
+        Intent intent = new Intent();
+        intent.putStringArrayListExtra(IMConst.SELECT_IMAGE_LIST, adapter.getImageSelected());
+        setResult(RESULT_OK, intent);
+        finish();
+    }
 }

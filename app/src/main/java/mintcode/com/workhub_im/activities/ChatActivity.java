@@ -2,9 +2,13 @@ package mintcode.com.workhub_im.activities;
 
 import android.app.Activity;
 import android.app.Service;
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.support.v4.os.AsyncTaskCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
@@ -15,6 +19,10 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.alibaba.fastjson.JSON;
+import com.mintcode.imkit.consts.IMConst;
+import com.orhanobut.logger.Logger;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,6 +30,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import mintcode.com.workhub_im.App;
 import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.adapter.UserChatAdapter;
@@ -34,6 +43,8 @@ import mintcode.com.workhub_im.im.Command;
 import mintcode.com.workhub_im.im.IMAPIProvider;
 import mintcode.com.workhub_im.im.IMManager;
 import mintcode.com.workhub_im.im.ServiceManager;
+import mintcode.com.workhub_im.im.image.MutiTaskUpLoad;
+import mintcode.com.workhub_im.im.pojo.AttachDetail;
 import mintcode.com.workhub_im.im.pojo.AttachDetailResponse;
 import mintcode.com.workhub_im.im.pojo.IMMessageResponse;
 import mintcode.com.workhub_im.view.chatItemView.ChatViewUtil;
@@ -49,6 +60,22 @@ import retrofit2.Response;
  * Created by mark on 16-6-17.
  */
 public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListener, SwipeRefreshLayout.OnRefreshListener {
+    /**
+     * msg type
+     */
+    public interface HandleMsgType {
+        public static final int TYPE_MSG_1 = 0x0001;
+        public static final int TYPE_SEND_IMAGE = 0x0002;
+        public static final int TYPE_REVIMAGE = 0x0003;
+        public static final int TYPE_SEND_AUDIO = 0x0004;
+        public static final int TYPE_REVAUDIO = 0x0005;
+        public static final int TYPE_RESEND_TEXT = 0x0006;
+        public static final int TYPE_SEND_VIDEO = 0x0007;
+        public static final int TYPE_REVVIDEO = 0x0008;
+        public static final int TYPE_FILE_UPLOAD = 0x0009;
+        public static final int TYPE_SEND_TO_TARGET = 0x0010;
+        int TYPE_HANDLE_DATA_FINISH = 0x0020;
+    }
 
 
     public static final String SESSION = "session";
@@ -78,6 +105,13 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
     SessionItem mSesssionItem;
     long endTimeStamp = -1;
 
+    private Handler handler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+        }
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -85,6 +119,7 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
         ButterKnife.bind(this);
         initData();
         fetchMessageItems();
+        UserPrefer.setSendToImUid(mStrTo);
         itemAnimator = new DefaultItemAnimator();
         refreshLayout.setOnRefreshListener(this);
         mChatAdapter = new UserChatAdapter(mMessageItems);
@@ -109,10 +144,11 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
         ServiceManager.getInstance().setChatMessageListener(new ChatMessageListener() {
             @Override
             public void receiveMessage(final MessageItem item) {
+                mMessageItems.add(0, item);
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        mMessageItems.add(0, item);
+
 //                        mChatAdapter.notifyDataSetChanged();
                         mChatAdapter.notifyItemInserted(0);
                         recyclerView.scrollToPosition(0);
@@ -252,5 +288,48 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
     @Override
     public void onRefresh() {
         fetchMessageItems();
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (resultCode != RESULT_OK) {
+            return;
+        }
+
+        if (requestCode == IMConst.REQ_SELECT_IMAGE) {
+            ArrayList<String> selected = data.getStringArrayListExtra(IMConst.SELECT_IMAGE_LIST);
+            Logger.json(JSON.toJSONString(selected));
+            for (String path : selected) {
+                MessageItem item = createMessageItem();
+                AttachDetail attachDetail = createAttachDetail(path);
+                MutiTaskUpLoad.getInstance().sendMsg(attachDetail, path, this, handler, item);
+            }
+            MutiTaskUpLoad.getInstance().startNextUpload(false);
+        }
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    private MessageItem createMessageItem() {
+        MessageItem item = new MessageItem();
+        item.setCmd(ChatViewUtil.TYPE_SEND);
+        item.setType(Command.IMAGE);
+        item.setSent(Command.STATE_SEND);
+        item.setClientMsgId(System.currentTimeMillis());
+        item.setCreateDate(System.currentTimeMillis());
+        item.setFrom(UserPrefer.getImUsername());
+        item.setTo(UserPrefer.getSendToImUid());
+        return item;
+    }
+
+    private AttachDetail createAttachDetail(String path) {
+        File file = new File(path);
+        AttachDetail attachDetail = new AttachDetail();
+        attachDetail.setUserToken(UserPrefer.getImToken());
+        attachDetail.setUserName(UserPrefer.getImUsername());
+        attachDetail.setSrcOffset(0);
+        attachDetail.setFileStatus(1);
+        attachDetail.setFileName(file.getName());
+        attachDetail.setAppName(AppConsts.appName);
+        return attachDetail;
     }
 }

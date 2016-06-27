@@ -11,8 +11,6 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/greendao" />
             <option value="$PROJECT_DIR$/imkit" />
-            <option value="$PROJECT_DIR$/mintcode_im_sdk" />
-            <option value="$PROJECT_DIR$/workhub" />
           </set>
         </option>
         <option name="myModules">
@@ -21,8 +19,6 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/greendao" />
             <option value="$PROJECT_DIR$/imkit" />
-            <option value="$PROJECT_DIR$/mintcode_im_sdk" />
-            <option value="$PROJECT_DIR$/workhub" />
           </set>
         </option>
       </GradleProjectSettings>

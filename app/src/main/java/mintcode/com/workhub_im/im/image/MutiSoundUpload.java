@@ -1,10 +1,11 @@
-package mintcode.com.workhub_im.widget.auido;
+package mintcode.com.workhub_im.im.image;
 
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
+
 
 import java.io.File;
 import java.util.LinkedList;
@@ -13,7 +14,6 @@ import java.util.concurrent.Executors;
 
 import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.im.pojo.AttachDetail;
-import mintcode.com.workhub_im.im.pojo.AttachDetailResponse;
 import mintcode.com.workhub_im.widget.upload.DownLoadAttachTask;
 import mintcode.com.workhub_im.widget.upload.UploadFileTask;
 

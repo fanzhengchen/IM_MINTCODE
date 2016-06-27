@@ -6,8 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/greendao/greendao.iml" filepath="$PROJECT_DIR$/greendao/greendao.iml" />
       <module fileurl="file://$PROJECT_DIR$/imkit/imkit.iml" filepath="$PROJECT_DIR$/imkit/imkit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mintcode_im_sdk/mintcode_im_sdk.iml" filepath="$PROJECT_DIR$/mintcode_im_sdk/mintcode_im_sdk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/workhub/workhub.iml" filepath="$PROJECT_DIR$/workhub/workhub.iml" />
     </modules>
   </component>
 </project>
