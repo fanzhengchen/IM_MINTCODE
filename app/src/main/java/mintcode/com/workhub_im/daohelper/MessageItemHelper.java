@@ -3,8 +3,10 @@ package mintcode.com.workhub_im.daohelper;
 import java.util.List;
 
 import de.greenrobot.dao.query.QueryBuilder;
+import de.greenrobot.dao.query.WhereCondition;
 import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.db.MessageItemDao;
+import mintcode.com.workhub_im.db.SessionItemDao;
 
 /**
  * Created by mark on 16-6-15.
@@ -18,7 +20,6 @@ public class MessageItemHelper extends BaseDaoHelper {
 
     public MessageItemHelper() {
         messageItemDao = daoSession.getMessageItemDao();
-
     }
 
     public static MessageItemHelper getInstance() {
@@ -36,7 +37,14 @@ public class MessageItemHelper extends BaseDaoHelper {
         if (items == null) {
             return;
         }
+    }
 
-
+    public void insert(MessageItem item) {
+        List<MessageItem> items = messageItemDao.queryBuilder().where(
+                properties.ClientMsgId.eq(item.getClientMsgId())
+        ).list();
+        if (items == null || items.isEmpty()) {
+            messageItemDao.insert(item);
+        }
     }
 }

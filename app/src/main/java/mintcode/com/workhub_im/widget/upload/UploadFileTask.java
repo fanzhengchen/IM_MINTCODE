@@ -7,6 +7,8 @@ import android.os.Message;
 import android.util.Log;
 
 
+import com.orhanobut.logger.Logger;
+
 import java.io.File;
 
 import mintcode.com.workhub_im.AppConsts;
@@ -50,7 +52,7 @@ public class UploadFileTask extends AsyncTask<Object, Integer, String> {
 	protected void onPostExecute(String result) {
 		super.onPostExecute(result);
 		if (result != null && !result.equals("null")) {
-			Log.d("upload", result);
+			Logger.json(result);
 			item.setContent(result);
 			Message msg = Message.obtain();
 			if(item.getType().equals(Command.VIDEO)){
@@ -61,8 +63,8 @@ public class UploadFileTask extends AsyncTask<Object, Integer, String> {
 				msg.what = ChatViewUtil.TYPE_SEND_IMAGE;
 			}
 			msg.obj = item;
-			Log.i("------task-load", "onPostExecute");
-//			mHandler.sendMessage(msg);
+			Logger.i("------task-load", "onPostExecute");
+			mHandler.sendMessage(msg);
 		}else{
 			item.setSent(Command.SEND_FAILED);
 			Message msg = Message.obtain();
@@ -74,7 +76,7 @@ public class UploadFileTask extends AsyncTask<Object, Integer, String> {
 				msg.what = ChatViewUtil.TYPE_SEND_IMAGE;
 			}
 			msg.obj = item;
-//			mHandler.sendMessage(msg);
+			mHandler.sendMessage(msg);
 		}
 	}
 

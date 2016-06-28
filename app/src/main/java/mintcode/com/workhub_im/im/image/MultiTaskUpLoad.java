@@ -29,9 +29,9 @@ import mintcode.com.workhub_im.widget.upload.UploadFileTask;
  *
  * @author ChristLu
  */
-public class MutiTaskUpLoad {
+public class MultiTaskUpLoad {
 
-    private static MutiTaskUpLoad sInstance;
+    private static MultiTaskUpLoad sInstance;
     /**
      * 任务队列
      */
@@ -70,18 +70,18 @@ public class MutiTaskUpLoad {
      */
 //	private Semaphore mSemaphorePoolThreadHandler = new Semaphore(0);
 //	private Semaphore mSemaphoreThreadPool;
-    public static MutiTaskUpLoad getInstance() {
+    public static MultiTaskUpLoad getInstance() {
         if (sInstance == null || mPoolThreadHandler == null) {
-            synchronized (MutiTaskUpLoad.class) {
+            synchronized (MultiTaskUpLoad.class) {
                 if (sInstance == null || mPoolThreadHandler == null) {
-                    sInstance = new MutiTaskUpLoad(4);
+                    sInstance = new MultiTaskUpLoad(4);
                 }
             }
         }
         return sInstance;
     }
 
-    private MutiTaskUpLoad(int mThreadCount) {
+    private MultiTaskUpLoad(int mThreadCount) {
         initBackThread();
     }
 

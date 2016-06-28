@@ -51,7 +51,6 @@ public class ServiceManager {
 
         @Override
         public void onMessage(String message) {
-            Logger.d(TAG + " message recevied " + message);
             Logger.json(message);
             handleMessage(message);
         }
@@ -63,7 +62,7 @@ public class ServiceManager {
 
         @Override
         public void onDisconnect(int code, String reason) {
-            Logger.w(TAG + " " + "code " + code + " reason " + reason);
+            Logger.w(TAG + " code " + code + " reason " + reason);
             connect();
         }
 
@@ -197,6 +196,7 @@ public class ServiceManager {
     }
 
     public void send(String msg) {
+        Logger.json(msg);
         webSocketClient.send(msg);
     }
 
@@ -228,6 +228,8 @@ public class ServiceManager {
         } else if (Command.isNormalMessage(type)) {
             if (chatMessageListener != null) {
                 item.setCmd(ChatViewUtil.TYPE_RECV);
+                Logger.i(TAG, "recevie message ");
+                Logger.json(JSON.toJSONString(item));
                 chatMessageListener.receiveMessage(item);
             }
         }

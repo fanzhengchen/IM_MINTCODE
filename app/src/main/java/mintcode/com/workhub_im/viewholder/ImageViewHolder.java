@@ -2,17 +2,14 @@ package mintcode.com.workhub_im.viewholder;
 
 import android.content.Context;
 import android.os.Handler;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.orhanobut.logger.Logger;
 
 
-import java.io.File;
 import java.util.HashSet;
 
 import butterknife.BindView;
@@ -21,14 +18,7 @@ import butterknife.OnClick;
 import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.beans.GlobalBeans;
-import mintcode.com.workhub_im.beans.UserPrefer;
 import mintcode.com.workhub_im.callback.ChangeSelectedNumber;
-import mintcode.com.workhub_im.db.MessageItem;
-import mintcode.com.workhub_im.im.Command;
-import mintcode.com.workhub_im.im.Uploader;
-import mintcode.com.workhub_im.im.image.MutiTaskUpLoad;
-import mintcode.com.workhub_im.im.pojo.AttachDetail;
-import mintcode.com.workhub_im.view.chatItemView.ChatViewUtil;
 
 /**
  * Created by mark on 16-6-23.
@@ -105,8 +95,8 @@ public class ImageViewHolder extends RecyclerView.ViewHolder {
 //        item.setFileName(path);
 //
 //
-//        MutiTaskUpLoad.getInstance().sendMsg(attachDetail, path, context, handler, item);
-//        MutiTaskUpLoad.getInstance().startNextUpload(false);
+//        MultiTaskUpLoad.getInstance().sendMsg(attachDetail, path, context, handler, item);
+//        MultiTaskUpLoad.getInstance().startNextUpload(false);
 //        Uploader.uploadPic(UPLOAD, file, )
     }
 

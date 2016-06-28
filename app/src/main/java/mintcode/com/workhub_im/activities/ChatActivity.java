@@ -1,14 +1,11 @@
 package mintcode.com.workhub_im.activities;
 
 import android.app.Activity;
-import android.app.Service;
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v4.os.AsyncTaskCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
@@ -25,12 +22,10 @@ import com.orhanobut.logger.Logger;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import mintcode.com.workhub_im.App;
 import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.adapter.UserChatAdapter;
@@ -41,17 +36,14 @@ import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.db.SessionItem;
 import mintcode.com.workhub_im.im.Command;
 import mintcode.com.workhub_im.im.IMAPIProvider;
-import mintcode.com.workhub_im.im.IMManager;
 import mintcode.com.workhub_im.im.ServiceManager;
-import mintcode.com.workhub_im.im.image.MutiTaskUpLoad;
+import mintcode.com.workhub_im.im.image.AttachItem;
+import mintcode.com.workhub_im.im.image.MultiTaskUpLoad;
 import mintcode.com.workhub_im.im.pojo.AttachDetail;
-import mintcode.com.workhub_im.im.pojo.AttachDetailResponse;
 import mintcode.com.workhub_im.im.pojo.IMMessageResponse;
 import mintcode.com.workhub_im.view.chatItemView.ChatViewUtil;
 import mintcode.com.workhub_im.view.custom.MsgSendView;
 import mintcode.com.workhub_im.widget.IMChatManager;
-import mintcode.com.workhub_im.widget.auido.AudioItem;
-import mintcode.com.workhub_im.widget.auido.MutiSoundUpload;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -108,7 +100,35 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
     private Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
-            super.handleMessage(msg);
+            int what = msg.what;
+            Logger.i("send message type " + msg.what);
+            Logger.json(JSON.toJSONString(msg.obj));
+            switch (what) {
+                case HandleMsgType.TYPE_MSG_1: {
+                    break;
+                }
+                case HandleMsgType.TYPE_SEND_IMAGE: {
+                    MessageItem imageItem = (MessageItem) msg.obj;
+                    if (imageItem.getSent() != Command.SEND_FAILED) {
+                        AttachDetail detail = JSON.parseObject(imageItem.getContent(), AttachDetail.class);
+                        AttachItem attach = JSON.parseObject(imageItem.getContent(), AttachItem.class);
+                        if (detail != null) {
+                            attach.setFileSize(detail.getFileSize());
+                            attach.setFileUrl(detail.getFileUrl());
+                            attach.setThumbnail(detail.getThumbnail());
+                        }
+
+                        if (attach != null) {
+                            imageItem.setContent(JSON.toJSONString(attach));
+                        }
+                        imageItem.setActionSend(Command.SEND_SUCCESS);
+                        imageItem.setToNickName(mStrTo);
+                        imageItem.setNickName(mStrMyName);
+                        ServiceManager.getInstance().sendMsg(imageItem);
+                    }
+                    break;
+                }
+            }
         }
     };
 
@@ -144,14 +164,11 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
         ServiceManager.getInstance().setChatMessageListener(new ChatMessageListener() {
             @Override
             public void receiveMessage(final MessageItem item) {
-                mMessageItems.add(0, item);
+
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-
-//                        mChatAdapter.notifyDataSetChanged();
-                        mChatAdapter.notifyItemInserted(0);
-                        recyclerView.scrollToPosition(0);
+                        addMessageItemToUi(item);
                     }
                 });
             }
@@ -213,10 +230,7 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
         if (TextUtils.isEmpty(msg)) {
             Toast.makeText(this, "消息为空", Toast.LENGTH_SHORT).show();
         } else {
-            mMessageItems.add(0, textMessage);
-//            mChatAdapter.notifyDataSetChanged();
-            mChatAdapter.notifyItemInserted(0);
-            recyclerView.scrollToPosition(0);
+            addMessageItemToUi(textMessage);
         }
         Toast.makeText(ChatActivity.this, "sending", Toast.LENGTH_SHORT).show();
         textMessage.setUserName(UserPrefer.getUserName());
@@ -300,17 +314,20 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
             ArrayList<String> selected = data.getStringArrayListExtra(IMConst.SELECT_IMAGE_LIST);
             Logger.json(JSON.toJSONString(selected));
             for (String path : selected) {
-                MessageItem item = createMessageItem();
+                MessageItem item = createMessageItem(path);
                 AttachDetail attachDetail = createAttachDetail(path);
-                MutiTaskUpLoad.getInstance().sendMsg(attachDetail, path, this, handler, item);
+                item.setContent(JSON.toJSONString(attachDetail));
+                MultiTaskUpLoad.getInstance().sendMsg(attachDetail, path, this, handler, item);
+                addMessageItemToUi(item);
             }
-            MutiTaskUpLoad.getInstance().startNextUpload(false);
+            MultiTaskUpLoad.getInstance().startNextUpload(false);
         }
         super.onActivityResult(requestCode, resultCode, data);
     }
 
-    private MessageItem createMessageItem() {
+    private MessageItem createMessageItem(String path) {
         MessageItem item = new MessageItem();
+        item.setContent(path);
         item.setCmd(ChatViewUtil.TYPE_SEND);
         item.setType(Command.IMAGE);
         item.setSent(Command.STATE_SEND);
@@ -331,5 +348,11 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
         attachDetail.setFileName(file.getName());
         attachDetail.setAppName(AppConsts.appName);
         return attachDetail;
+    }
+
+    private void addMessageItemToUi(MessageItem item) {
+        mMessageItems.add(0, item);
+        mChatAdapter.notifyItemInserted(0);
+        recyclerView.smoothScrollToPosition(0);
     }
 }

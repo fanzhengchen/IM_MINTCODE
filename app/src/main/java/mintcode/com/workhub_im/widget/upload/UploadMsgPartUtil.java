@@ -112,14 +112,14 @@ public class UploadMsgPartUtil {
 
 				// 发送进度消息
 				Message msg = Message.obtain();
-//				msg.what = ChatActivity.HandleMsgType.TYPE_FILE_UPLOAD;
+				msg.what = ChatActivity.HandleMsgType.TYPE_FILE_UPLOAD;
 				msg.obj = item;
 				long percent = (pojo.getFileSize() * 100) / file.length();
 				item.setPercent(percent + "");
 				handler.sendMessage(msg);
 
 				String result = JSON.toJSONString(pojo);
-				Log.i("upload", "开始//" + result + "---");
+				Logger.json(result);
 			} catch (Exception e) {
 				// TODO: handle exception
 				return null;
@@ -197,7 +197,7 @@ public class UploadMsgPartUtil {
 			@Override
 			public void write(OutputStream out) throws IOException {
 				String jsonStr = JSON.toJSONString(detail);
-				Log.i("infoss",  "-------" +  "====" + jsonStr);
+				Logger.json(jsonStr);
 //				System.out.println(jsonStr);
 				out.write(getWrappedBuffer(jsonStr));
 				out.write(block);
@@ -315,7 +315,7 @@ public class UploadMsgPartUtil {
 				in = connection.getInputStream();
 			in.read(temp);
 			result = new String(temp);
-			Log.e("result", result + "");
+			Logger.json(result);
 			in.close();
 			success = success && result.contains("2000");
 		} catch (MalformedURLException e) {

@@ -15,7 +15,7 @@ public class MutiTextUpload {
 
     public static MutiTextUpload getInstance() {
         if (sInstance == null) {
-            synchronized (MutiTaskUpLoad.class) {
+            synchronized (MultiTaskUpLoad.class) {
                 if (sInstance == null) {
                     sInstance = new MutiTextUpload();
                 }

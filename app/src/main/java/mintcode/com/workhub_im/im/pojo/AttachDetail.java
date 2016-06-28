@@ -13,6 +13,9 @@ public class AttachDetail {
     private int fileStatus;
     private String thumbnail;
     private int fileSize;
+    private String action;
+    private int code;
+    private String message;
 
     public String getAppName() {
         return appName;
@@ -84,5 +87,29 @@ public class AttachDetail {
 
     public void setFileSize(int fileSize) {
         this.fileSize = fileSize;
+    }
+
+    public String getAction() {
+        return action;
+    }
+
+    public void setAction(String action) {
+        this.action = action;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
