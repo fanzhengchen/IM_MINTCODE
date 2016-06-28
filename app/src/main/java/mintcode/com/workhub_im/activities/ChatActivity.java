@@ -327,7 +327,6 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
 
     private MessageItem createMessageItem(String path) {
         MessageItem item = new MessageItem();
-        item.setContent(path);
         item.setCmd(ChatViewUtil.TYPE_SEND);
         item.setType(Command.IMAGE);
         item.setSent(Command.STATE_SEND);
@@ -341,6 +340,7 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
     private AttachDetail createAttachDetail(String path) {
         File file = new File(path);
         AttachDetail attachDetail = new AttachDetail();
+        attachDetail.setFileUrl(path);
         attachDetail.setUserToken(UserPrefer.getImToken());
         attachDetail.setUserName(UserPrefer.getImUsername());
         attachDetail.setSrcOffset(0);

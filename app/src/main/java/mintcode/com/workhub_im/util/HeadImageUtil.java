@@ -353,52 +353,18 @@ public class HeadImageUtil {
      * @param iv
      * @param url
      */
-//    public void setChatImage(ImageView iv, String url, int placeholder, int width, int height) {
-//        final String username = AppConsts.header.getLoginName();
-//        GlideUrl glideUrl = new GlideUrl(url) {
-//            @Override
-//            public Map<String, String> getHeaders() {
-//                HashMap map = new HashMap();
-//                map.put("Cookie", "AppName=launchr;UserName=" + username);
-//                return map;
-//            }
-//        };
-//        int maxWidth = TTDensityUtil.dip2px(mContext, 140);
-//        int maxHeight = TTDensityUtil.dip2px(mContext, 260);
-//        if (width <= 0) {
-//            width = 1;
-//        }
-//        int h = maxWidth * height / width;
-//
-//        if (h > maxHeight) {
-//            h = maxHeight;
-//        }
-//        ViewGroup.LayoutParams p = iv.getLayoutParams();
-//        p.height = h;
-//        p.width = maxWidth;
-//        iv.setLayoutParams(p);
-//        iv.setScaleType(ImageView.ScaleType.FIT_XY);
-//        Glide.with(mContext).load(glideUrl).into(iv);
-//    }
-
-    /**
-     * 设置聊天图片
-     *
-     * @param iv
-     * @param url
-     */
-    public void setChatImageFile(ImageView iv, String url, int width, int height) {
-        int maxWidth = TTDensityUtil.dip2px(mContext, 140);
-        int maxHeight = TTDensityUtil.dip2px(mContext, 260);
-        iv.setScaleType(ImageView.ScaleType.FIT_XY);
+    public void setChatImage(ImageView iv, String url, int placeholder, int width, int height) {
+        final String username = UserPrefer.getImUsername();
         GlideUrl glideUrl = new GlideUrl(url) {
             @Override
             public Map<String, String> getHeaders() {
                 HashMap map = new HashMap();
-                map.put("Cookie", "AppName=launchr;UserName=" + UserPrefer.getImUsername());
+                map.put("Cookie", "AppName=launchr;UserName=" + username);
                 return map;
             }
         };
+        int maxWidth = TTDensityUtil.dip2px(mContext, 140);
+        int maxHeight = TTDensityUtil.dip2px(mContext, 260);
         if (width <= 0) {
             width = 1;
         }
@@ -411,7 +377,41 @@ public class HeadImageUtil {
         p.height = h;
         p.width = maxWidth;
         iv.setLayoutParams(p);
+        iv.setScaleType(ImageView.ScaleType.FIT_XY);
         Glide.with(mContext).load(glideUrl).into(iv);
+    }
+
+    /**
+     * 设置聊天图片
+     *
+     * @param iv
+     * @param url
+     */
+    public void setChatImageFile(ImageView iv, String url, int width, int height) {
+        int maxWidth = TTDensityUtil.dip2px(mContext, 140);
+        int maxHeight = TTDensityUtil.dip2px(mContext, 260);
+        iv.setScaleType(ImageView.ScaleType.FIT_XY);
+//        GlideUrl glideUrl = new GlideUrl(url) {
+//            @Override
+//            public Map<String, String> getHeaders() {
+//                HashMap map = new HashMap();
+//                map.put("Cookie", "AppName=launchr;UserName=" + UserPrefer.getImUsername());
+//                return map;
+//            }
+//        };
+//        if (width <= 0) {
+//            width = 1;
+//        }
+        int h = maxWidth * height / width;
+
+        if (h > maxHeight) {
+            h = maxHeight;
+        }
+        ViewGroup.LayoutParams p = iv.getLayoutParams();
+        p.height = h;
+        p.width = maxWidth;
+        iv.setLayoutParams(p);
+        Glide.with(mContext).load(url).into(iv);
     }
 
     /**
