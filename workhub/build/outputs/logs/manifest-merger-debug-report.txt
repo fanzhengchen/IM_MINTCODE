@@ -1,0 +1,867 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:2:1-470:12
+	package
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:5:5-41
+		INJECTED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.mixpanel.android:mixpanel-android:4.8.7] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.mixpanel.android\mixpanel-android\4.8.7\AndroidManifest.xml:11:5-13:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
+MERGED from [com.mixpanel.android:mixpanel-android:4.8.7] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.mixpanel.android\mixpanel-android\4.8.7\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:13:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:21:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:24:22-73
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:25:5-65
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:25:22-62
+uses-permission#android.permission.READ_SMS
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:26:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:27:5-80
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:27:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:28:5-71
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:28:22-68
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:29:5-84
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:29:22-81
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:31:5-72
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:31:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:32:5-73
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:32:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:34:5-66
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:34:22-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:36:5-68
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:36:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:37:5-81
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:37:22-78
+uses-permission#android.permission.DEVICE_POWER
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:39:5-71
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:39:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:40:5-80
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:40:22-77
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:41:5-75
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:41:22-72
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:44:5-85
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:44:22-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:45:5-68
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:45:22-65
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:46:5-76
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:46:22-73
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:47:5-73
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:47:22-70
+uses-feature#0x00020000
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:49:5-51:35
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:50:9-41
+	android:required
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:51:9-32
+application
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:56:5-468:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.mixpanel.android:mixpanel-android:4.8.7] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.mixpanel.android\mixpanel-android\4.8.7\AndroidManifest.xml:42:5-122:19
+	android:label
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:60:9-41
+	android:allowBackup
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:58:9-35
+	android:icon
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:59:9-46
+	android:largeHeap
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:61:9-33
+	android:theme
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:62:9-40
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:57:9-48
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:63:9-65:70
+	android:value
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:65:13-68
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:64:13-58
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:71:9-73:56
+	android:value
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:73:13-53
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:72:13-52
+meta-data#BUG_HD_SDK_GENERAL_KEY
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:76:9-78:64
+	android:value
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:78:13-61
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:77:13-50
+meta-data#UMENG_CHANNEL
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:80:9-82:33
+	android:value
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:82:13-30
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:81:13-41
+activity#com.mixpanel.android.surveys.SurveyActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:83:9-80
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:83:19-77
+meta-data#com.mixpanel.android.MPConfig.EnableDebugLogging
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:84:9-86:36
+	android:value
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:86:13-33
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:85:13-76
+meta-data#com.mixpanel.android.MPConfig.ResourcePackageName
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:87:9-127
+	android:value
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:87:85-124
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:87:20-84
+activity#com.mintcode.launchr.activity.StartPageActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:89:9-97:20
+	android:label
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:91:13-45
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:90:13-75
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:92:13-95:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:93:17-69
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:93:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:94:17-77
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:94:27-74
+activity#com.mintcode.launchr.activity.WelComActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:98:9-100:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:100:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:99:13-72
+activity#com.mintcode.launchr.activity.LoginActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:102:9-105:64
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:104:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:105:13-52
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:103:13-71
+activity#com.mintcode.launchr.activity.WebViewActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:108:9-110:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:110:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:109:13-73
+activity#com.mintcode.launchr.activity.LoginSelectTeamActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:112:9-114:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:113:13-81
+activity#com.mintcode.launchr.activity.MainActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:116:9-121:61
+	android:clearTaskOnLaunch
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:118:13-45
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:121:13-49
+	android:launchMode
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:120:13-44
+	android:configChanges
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:119:13-81
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:117:13-70
+activity#com.way.view.gesture.CreateGesturePasswordActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:122:9-124:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:124:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:123:13-78
+activity#com.way.view.gesture.UnlockGesturePasswordActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:125:9-127:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:127:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:126:13-78
+activity#com.way.view.gesture.AlterGesturePasswordActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:128:9-130:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:130:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:129:13-77
+activity#com.way.view.gesture.CreateAlterGesturePasswordActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:131:9-133:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:133:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:132:13-83
+activity#com.mintcode.launchr.app.newSchedule.activity.ScheduleMainActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:137:9-139:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:139:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:138:13-74
+activity#com.mintcode.launchr.app.newSchedule.activity.AddScheduleEventActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:140:9-142:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:142:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:141:13-78
+activity#com.mintcode.launchr.app.newSchedule.activity.ScheduleOneDayActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:144:9-147:56
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:146:13-49
+	android:theme
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:147:13-53
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:145:13-76
+activity#com.mintcode.launchr.app.newSchedule.activity.ScheduleEventDetailActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:148:9-150:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:150:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:149:13-81
+activity#com.mintcode.launchr.app.newSchedule.activity.FestivalDetailActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:151:9-153:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:153:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:152:13-76
+activity#com.mintcode.launchr.app.note.NoteActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:155:9-157:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:157:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:156:13-70
+activity#com.mintcode.launchr.app.meeting.activity.MeetingActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:158:9-161:20
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:160:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:159:13-65
+activity#com.mintcode.launchr.app.meeting.activity.MeetingDetailActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:162:9-164:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:164:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:163:13-71
+activity#com.mintcode.launchr.app.place.AddPlacesActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:165:9-167:51
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:167:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:166:13-76
+activity#com.mintcode.launchr.app.place.GooglePlacesActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:168:9-170:51
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:170:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:169:13-79
+activity#com.mintcode.launchr.app.meeting.activity.NewMeetingActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:171:9-174:64
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:173:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:174:13-52
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:172:13-88
+activity#com.mintcode.launchr.more.activity.SettingActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:175:9-177:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:177:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:176:13-78
+activity#com.mintcode.launchr.more.activity.NewMsgNoticeActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:179:9-181:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:181:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:180:13-83
+activity#com.mintcode.launchr.more.activity.AboutLaunchrActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:184:9-186:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:186:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:185:13-83
+activity#com.mintcode.launchr.more.activity.MySweepActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:188:9-190:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:190:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:189:13-78
+activity#com.mintcode.launchr.contact.activity.DepartmentActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:193:9-195:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:195:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:194:13-64
+activity#com.mintcode.launchr.contact.activity.ContactPersonOfDeptActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:196:9-198:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:198:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:197:13-73
+activity#com.mintcode.launchr.app.meeting.activity.RestartActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:205:9-207:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:207:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:206:13-65
+activity#com.mintcode.launchr.app.meeting.activity.RemindActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:208:9-210:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:210:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:209:13-64
+activity#com.mintcode.launchr.contact.activity.PersonDetailActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:211:9-213:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:213:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:212:13-66
+activity#com.mintcode.launchr.contact.activity.OrganizationActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:216:9-218:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:218:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:217:13-86
+activity#com.mintcode.launchr.contact.activity.ContactSearchActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:220:9-222:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:222:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:221:13-87
+activity#com.mintcode.chat.activity.ChatActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:225:9-228:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:228:13-49
+	android:configChanges
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:227:13-74
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:226:13-67
+activity#com.mintcode.chat.activity.GroupInfoListActivtiy
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:229:9-231:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:231:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:230:13-76
+activity#com.mintcode.chat.activity.TextActivtiy
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:234:9-238:72
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:237:13-49
+	android:configChanges
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:236:13-63
+	android:theme
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:238:13-60
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:235:13-67
+activity#com.mintcode.chat.image.ImageSelectedActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:239:9-243:72
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:242:13-49
+	android:configChanges
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:241:13-63
+	android:theme
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:243:13-60
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:240:13-73
+activity#com.mintcode.chat.image.SelectPhotoActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:244:9-248:72
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:247:13-49
+	android:configChanges
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:246:13-63
+	android:theme
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:248:13-60
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:245:13-71
+activity#com.mintcode.chat.activity.ImgPreviewActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:249:9-253:72
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:252:13-49
+	android:configChanges
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:251:13-63
+	android:theme
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:253:13-60
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:250:13-73
+activity#com.mintcode.chat.activity.PreviewLargeImageActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:254:9-258:72
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:257:13-49
+	android:configChanges
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:256:13-63
+	android:theme
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:258:13-60
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:255:13-80
+activity#com.mintcode.chat.imgshow.MCamera
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:259:9-261:62
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:261:13-50
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:260:13-61
+activity#com.mintcode.chat.imgshow.MCameraActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:262:9-264:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:264:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:263:13-69
+activity#com.mintcode.chat.imgshow.FileShow
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:265:9-268:72
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:267:13-49
+	android:theme
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:268:13-60
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:266:13-62
+activity#com.mintcode.launchr.app.newApproval.activity.ApprovalMainActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:270:9-273:55
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:272:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:273:13-52
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:271:13-94
+activity#com.mintcode.launchr.app.newApproval.activity.ApproveDetailActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:274:9-276:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:276:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:275:13-75
+activity#com.mintcode.launchr.app.newApproval.activity.CreateNewApplyActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:277:9-279:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:279:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:278:13-76
+activity#com.mintcode.launchr.app.newApproval.activity.ApprovalTypeActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:280:9-282:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:282:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:281:13-74
+activity#com.mintcode.launchr.app.newApproval.activity.CheckBoxFormActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:283:9-285:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:285:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:284:13-74
+activity#com.mintcode.launchr.app.newApproval.activity.ApproveSearchActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:287:9-289:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:289:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:288:13-75
+activity#com.mintcode.launchr.photo.activity.PhotoActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:295:9-297:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:297:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:296:13-57
+activity#com.mintcode.launchr.photo.activity.GalleryActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:298:9-300:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:300:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:299:13-59
+activity#com.mintcode.launchr.app.newTask.activity.NewTaskActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:303:9-305:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:305:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:304:13-85
+activity#com.mintcode.launchr.app.newTask.activity.ProjectDetailActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:306:9-308:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:308:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:307:13-91
+activity#com.mintcode.launchr.app.newTask.activity.ProjectListActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:309:9-311:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:311:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:310:13-89
+activity#com.mintcode.launchr.app.newTask.activity.TaskDetailActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:312:9-314:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:314:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:313:13-88
+activity#com.mintcode.launchr.app.newTask.activity.TaskMainActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:315:9-317:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:317:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:316:13-86
+activity#com.mintcode.launchr.app.account.setting.SettingLanguageActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:321:9-323:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:323:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:322:13-92
+activity#com.mintcode.launchr.app.account.setting.SettingInputActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:324:9-326:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:326:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:325:13-89
+activity#com.mintcode.launchr.app.account.setting.SettingMessageActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:327:9-329:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:329:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:328:13-91
+activity#com.mintcode.launchr.app.account.setting.SettingDeviceActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:330:9-332:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:332:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:331:13-90
+activity#com.mintcode.launchr.app.account.setting.SettingFeedBackActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:333:9-335:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:335:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:334:13-92
+activity#com.mintcode.launchr.app.my.MyTeamActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:339:9-341:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:341:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:340:13-70
+activity#com.mintcode.launchr.app.my.MyChangePhoneActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:342:9-344:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:344:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:343:13-77
+activity#com.mintcode.launchr.app.my.MyShareActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:345:9-347:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:347:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:346:13-71
+activity#com.mintcode.launchr.app.my.MyChangePasswordActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:348:9-350:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:350:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:349:13-80
+activity#com.mintcode.launchr.app.my.MyChangeMailActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:351:9-353:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:353:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:352:13-76
+activity#com.mintcode.launchr.lastMsg.activity.MessageRecordActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:357:9-359:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:359:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:358:13-67
+service#com.mintcode.im.service.PushService
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:361:9-364:47
+	android:enabled
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:363:13-35
+	android:exported
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:364:13-36
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:362:13-63
+service#com.mintcode.im.service.GuardService
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:365:9-369:55
+	android:enabled
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:367:13-35
+	android:process
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:369:13-44
+	android:exported
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:368:13-36
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:366:13-64
+receiver#com.mintcode.im.receiver.LaunchrBootReceiver
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:371:9-376:20
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:371:19-78
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.HOME
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:372:13-375:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:373:17-79
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:373:25-76
+category#android.intent.category.HOME
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:374:17-73
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:374:27-70
+activity#com.mintcode.launchr.lastMsg.activity.GroupSettingActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:378:9-380:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:380:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:379:13-66
+activity#com.mintcode.launchr.lastMsg.activity.PersonSettingActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:381:9-383:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:383:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:382:13-67
+activity#com.mintcode.launchr.lastMsg.activity.HistorySearchActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:384:9-386:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:386:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:385:13-67
+activity#com.mintcode.launchr.lastMsg.activity.SearchResultActiviy
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:387:9-389:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:389:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:388:13-65
+activity#com.mintcode.launchr.lastMsg.activity.CreateGroupActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:391:9-393:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:393:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:392:13-65
+activity#com.mintcode.launchr.lastMsg.activity.ChooseMemberActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:394:9-396:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:396:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:395:13-66
+activity#com.mintcode.launchr.lastMsg.activity.FileDetailActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:397:9-399:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:399:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:398:13-64
+activity#com.mintcode.launchr.app.my.MyChangeMobileActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:400:9-402:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:402:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:401:13-78
+activity#com.mintcode.launchr.app.my.MyChangeUserNameActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:403:9-405:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:405:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:404:13-80
+activity#com.mintcode.launchr.lastMsg.activity.LookMoreFriendsActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:406:9-408:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:408:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:407:13-69
+activity#com.mintcode.launchr.lastMsg.activity.VerifyFriendMessageActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:410:9-412:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:412:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:411:13-73
+activity#com.mintcode.launchr.contact.activity.MyGroupActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:414:9-416:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:416:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:415:13-61
+activity#com.mintcode.launchr.contact.activity.MyFriendActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:418:9-420:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:420:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:419:13-62
+activity#com.mintcode.launchr.contact.activity.FriendVerifyActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:422:9-424:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:424:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:423:13-66
+activity#com.mintcode.launchr.contact.activity.FriendDetailActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:426:9-428:61
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:428:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:427:13-66
+activity#com.mintcode.chat.activity.MergeMsgActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:430:9-432:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:432:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:431:13-71
+activity#com.mintcode.launchr.more.activity.AboutWorkHubActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:435:9-437:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:437:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:436:13-63
+activity#com.mintcode.launchr.activity.LoginWorkHubActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:438:9-440:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:440:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:439:13-58
+activity#com.mintcode.launchr.activity.workhub.WorkHubSignActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:441:9-443:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:443:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:442:13-65
+activity#com.mintcode.launchr.activity.workhub.ForgetPasswordActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:444:9-446:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:446:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:445:13-68
+activity#com.mintcode.launchr.activity.workhub.GetBackMailActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:447:9-449:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:449:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:448:13-65
+activity#com.mintcode.launchr.activity.workhub.GetBackPhoneActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:450:9-452:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:452:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:451:13-66
+activity#com.mintcode.launchr.activity.workhub.WorkHubMyTeamActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:453:9-455:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:455:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:454:13-67
+activity#com.mintcode.launchr.activity.workhub.WorkHubCreateTeamActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:456:9-458:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:458:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:457:13-71
+activity#com.mintcode.launchr.activity.workhub.WorkHubTeamCheckInfoActivity
+ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:459:9-461:52
+	android:screenOrientation
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:461:13-49
+	android:name
+		ADDED from C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\src\main\AndroidManifest.xml:460:13-74
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\JulyYu\Desktop\WorkHub-IM-Demo\WorkHub-IM-Demo\workhub\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:22:13-58

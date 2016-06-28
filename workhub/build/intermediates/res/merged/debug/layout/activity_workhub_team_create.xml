@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_launchr"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue_launchr"
+        >
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:src="@drawable/icon_white_back"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/create_team"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+    <include
+        layout="@layout/layout_workhub_create_team"
+        />
+
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:background="@drawable/bg_gray_round"
+        />
+</LinearLayout>

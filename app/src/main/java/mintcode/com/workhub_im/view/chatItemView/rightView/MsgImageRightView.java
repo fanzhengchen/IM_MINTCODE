@@ -1,6 +1,9 @@
 package mintcode.com.workhub_im.view.chatItemView.rightView;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.ImageView;
@@ -16,6 +19,7 @@ import mintcode.com.workhub_im.AppConsts;
 import mintcode.com.workhub_im.R;
 import mintcode.com.workhub_im.db.MessageItem;
 import mintcode.com.workhub_im.im.Command;
+import mintcode.com.workhub_im.im.image.AttachItem;
 import mintcode.com.workhub_im.im.image.MutiSoundUpload;
 import mintcode.com.workhub_im.im.pojo.AttachDetail;
 import mintcode.com.workhub_im.pojo.AttachMsgContent;
@@ -39,22 +43,19 @@ public class MsgImageRightView extends BaseRightChatView {
     @Override
     public void setData(MessageItem item) {
         super.setData(item);
-        AttachMsgContent msgContent = null;
-        Logger.json(JSON.toJSONString(item));
-        try {
-            msgContent = JSON.parseObject(item.getContent(), AttachMsgContent.class);
-        } catch (Exception e) {
-            e.printStackTrace();
+        String filename = item.getFileName();
+        if(TextUtils.isEmpty(filename)){
+            AttachItem attach = JSON.parseObject(item.getContent(), AttachItem.class);
+            if(attach != null){
+                String url = AppConsts.httpIp + "/launchr" + attach.getThumbnail();
+                HeadImageUtil.getInstance().setChatImage(mIvImage,url, attach.getThumbnailWidth(), attach.getThumbnailHeight());
+            }
+        }else{
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inJustDecodeBounds = true;
+            Bitmap bitmap = BitmapFactory.decodeFile(filename, options);// 此时返回的bitmap为null
+            HeadImageUtil.getInstance().setChatImageFile(mIvImage, filename,options.outWidth, options.outHeight);
         }
-        String url = AppConsts.httpIp + "/launchr";
-        if (item.getSent() == null) {
-            url += msgContent.getThumbnail();
-        } else if (item.getSent() == Command.STATE_SEND) {
-            url = msgContent.getFileUrl();
-        }
-        Logger.e("url " + url);
-        HeadImageUtil.getInstance().setChatImageFile(mIvImage, url,
-                msgContent.getThumbnailWidth(), msgContent.getThumbnailHeight());
     }
 
     @Override

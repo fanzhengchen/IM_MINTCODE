@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<RelativeLayout 
+	    android:id="@+id/rl_remark_null"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_alignParentTop="true"
+	    android:layout_above="@+id/content"
+	    android:background="#80000000" 
+	   
+	    >
+	    
+	</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white" >
+
+        <ImageButton
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/icon_refuse" />
+
+        <ImageButton
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/icon_blue_checked" />
+
+        <TextView
+            android:id="@+id/tv_approve_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/approval_remark"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edt_remark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rl_select_user_bottom"
+            android:layout_below="@+id/tv_approve_comment"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_remark"
+            android:maxEms="120"
+            android:gravity="top"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/edt_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@null" />
+
+        <RelativeLayout
+            android:id="@+id/rl_select_user_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp" >
+
+            <TextView
+                android:id="@+id/tv_select_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/background_blue_round"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/approval_select_next"
+                android:textColor="@color/white" />
+
+            <RelativeLayout
+                android:id="@+id/rel_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/approval_next" />
+
+                <ImageView
+                    android:id="@+id/iv_next_friend"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@+id/textView1"
+                    android:src="@drawable/icon_launchr" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="65dp"
+                    android:layout_toRightOf="@+id/textView1"
+                    android:text="三田太郎"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+<!--     <FrameLayout -->
+<!--         android:id="@+id/fragment_content" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="match_parent" > -->
+<!--     </FrameLayout> -->
+
+</RelativeLayout>

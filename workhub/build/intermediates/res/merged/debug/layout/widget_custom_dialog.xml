@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="horizontal" >
+
+    <ProgressBar
+        android:id="@+id/load_progressBar"
+        style="@style/progress_dialog_loading"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:padding="3dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

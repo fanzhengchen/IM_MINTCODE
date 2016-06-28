@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_grid_day"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:text="24" />
+    <LinearLayout 
+        android:id="@+id/LinearLayout_null"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_grid_day"
+        >
+         <ImageView 
+        android:id="@+id/iv_day_circle_event_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:src="@drawable/icon_circle_red"
+ 		android:visibility="gone"
+        />
+        <ImageView 
+        android:id="@+id/iv_day_circle_event_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:src="@drawable/icon_circle_gray"
+        android:visibility="gone"
+        />
+    </LinearLayout>
+    <View 
+        android:id="@+id/view_line"
+        android:layout_below="@+id/LinearLayout_null"
+        android:layout_width="match_parent"
+        android:background="@color/line_color"
+        android:layout_height="1px"
+        />
+
+</RelativeLayout>

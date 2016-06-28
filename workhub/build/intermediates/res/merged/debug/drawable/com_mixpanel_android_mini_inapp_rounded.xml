@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <solid android:color="#E6000000" />
+    <corners android:radius="6dp" />
+</shape>
+<!-- From: file:/Users/sergioalonso/dev/android/mixpanel-android/src/main/res/drawable/com_mixpanel_android_mini_inapp_rounded.xml -->

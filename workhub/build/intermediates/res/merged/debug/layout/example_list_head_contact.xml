@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:paddingBottom="10dp" >
+
+        <RadioButton
+            android:id="@+id/radioBtn_organization"
+            style="@style/MMTabButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:drawableTop="@drawable/example_icon_organization"
+            android:text="@string/contact_organization" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_sector"
+            style="@style/MMTabButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:drawableTop="@drawable/example_icon_sector"
+            android:text="@string/contact_mySector" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_favorite"
+            style="@style/MMTabButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:drawableTop="@drawable/example_icon_favorite"
+            android:text="@string/contact_favorite" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_group"
+            style="@style/MMTabButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:drawableTop="@drawable/example_icon_group"
+            android:text="@string/contact_group" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="7dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="7dp"
+        android:text="@string/contact_recent"
+        android:textSize="15sp" />
+
+</LinearLayout>

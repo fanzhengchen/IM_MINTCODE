@@ -313,10 +313,14 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
         if (requestCode == IMConst.REQ_SELECT_IMAGE) {
             ArrayList<String> selected = data.getStringArrayListExtra(IMConst.SELECT_IMAGE_LIST);
             Logger.json(JSON.toJSONString(selected));
-            for (String path : selected) {
+            for (int num = 0; num < selected.size(); num++) {
+                String path = selected.get(num);
                 MessageItem item = createMessageItem(path);
+                item.setClientMsgId(System.currentTimeMillis() + num * 50);
+//                item.setContent(path);
+                item.setFileName(path);
                 AttachDetail attachDetail = createAttachDetail(path);
-                item.setContent(JSON.toJSONString(attachDetail));
+                item.setContent(path);
                 MultiTaskUpLoad.getInstance().sendMsg(attachDetail, path, this, handler, item);
                 addMessageItemToUi(item);
             }
@@ -340,7 +344,7 @@ public class ChatActivity extends Activity implements MsgSendView.OnMsgSendListe
     private AttachDetail createAttachDetail(String path) {
         File file = new File(path);
         AttachDetail attachDetail = new AttachDetail();
-        attachDetail.setFileUrl(path);
+//        attachDetail.setFileUrl(path);
         attachDetail.setUserToken(UserPrefer.getImToken());
         attachDetail.setUserName(UserPrefer.getImUsername());
         attachDetail.setSrcOffset(0);

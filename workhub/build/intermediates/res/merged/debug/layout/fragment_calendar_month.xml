@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/white"
+        >
+        />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/calendar_week_text_size"
+            android:gravity="center"
+            android:textColor="@color/gray_launchr"
+            android:text="@string/calendar_sunday" />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/calendar_week_text_size"
+            android:gravity="center"
+            android:text="@string/calendar_mongday" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/calendar_week_text_size"
+            android:gravity="center"
+            android:text="@string/calendar_tuesday" />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/calendar_week_text_size"
+            android:gravity="center"
+            android:text="@string/calendar_wednesday" />
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/calendar_week_text_size"
+            android:gravity="center"
+            android:text="@string/calendar_thursday" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/calendar_week_text_size"
+            android:gravity="center"
+            android:text="@string/calendar_friday" />
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/calendar_week_text_size"
+            android:gravity="center"
+            android:textColor="@color/gray_launchr"
+            android:text="@string/calendar_saturday" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/gray"
+        />
+    <com.mintcode.launchr.app.newSchedule.adapter.VerticalViewPager
+        android:id="@+id/vertical_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </com.mintcode.launchr.app.newSchedule.adapter.VerticalViewPager>
+
+    <!--<com.mintcode.launchr.app.newSchedule.adapter.pager-->
+        <!--android:id="@+id/pager"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!-->-->
+
+    <!--</com.mintcode.launchr.app.newSchedule.adapter.pager>-->
+</LinearLayout>

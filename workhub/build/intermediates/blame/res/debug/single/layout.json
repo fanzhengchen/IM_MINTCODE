@@ -1,0 +1,1318 @@
+[
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_page.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_start_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_about_workhub.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_setting_about_workhub.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_team.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_team.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_project.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_project.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_preview_large.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_preview_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_friend_verify.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_friend_verify.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_crop.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_crop.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_task_subtask.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_task_subtask.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_workhub_loading.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_workhub_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_schedule_add_event.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_schedule_add_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plugin_camera_gallery_glide.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_plugin_camera_gallery_glide.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_agree.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\popwindow_agree.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_app.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_schedule.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listview_event_head.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listview_event_head.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_new_task.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_task_new_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_approve_detail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_approve_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\com_mixpanel_android_activity_notification_mini.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\layout\\com_mixpanel_android_activity_notification_mini.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_left_text.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_left_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_new_week.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_new_week.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_num_room.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_num_room.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_handle_meeting.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\popwindow_handle_meeting.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_sign_exist.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_sign_exist.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_add_time.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_add_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_event_alert.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_event_alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_opeartion_item.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_opeartion_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_delect.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_delect.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_meeting_timer.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_meeting_timer.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_press_message.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_press_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hello.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_hello.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_change_phone.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_my_change_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_project_detail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_task_project_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_event.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_input.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_setting_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\com_mixpanel_android_activity_survey.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\layout\\com_mixpanel_android_activity_survey.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listview_headerview.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listview_headerview.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\map_file_show.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\map_file_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_delect_event.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_delect_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plugin_camera_album.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_plugin_camera_album.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_img_preview.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_img_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_friend_search.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_friend_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_add_task.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_add_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_meeting.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_new_meeting.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_check_verify.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_check_verify.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_schedule_day.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_schedule_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_right_image.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_right_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_calendar_month.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_calendar_month.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_send_content.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_send_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_month_day.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_month_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_department.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_department.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_floder.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_list_floder.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_more.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_selectimg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_selectimg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_camera_select_folder.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_camera_select_folder.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\layout_message_list.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\layout_message_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_forget_back_phone.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_forget_back_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_preview_image.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_preview_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_alltask.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_task_alltask.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_timer.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_timer.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_weekgridview.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_weekgridview.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_message_record_app.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_message_record_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_verify_message.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_verify_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_approval_longclick.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_approval_longclick.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_single_pic.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_single_pic.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_expand_task.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_expand_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_task_expand.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_task_expand.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_right_text.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_right_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_approval_promise_detail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_approval_promise_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_personal_detail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_personal_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_group_info_list.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_group_info_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_search1.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_search1.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_festival_deatil.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_festival_deatil.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_add_time.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\popwindow_add_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_google_place.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_add_google_place.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_person_setting.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_person_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_edit_subtask.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\popwindow_edit_subtask.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_choose.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_form_checkbox.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_form_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_workhub_team_create.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_workhub_team_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\remind_list_item.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\remind_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_popupwindows.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_popupwindows.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_message.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_setting_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_select_person.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_select_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_tabhost.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_tabhost.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_task_menu.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_task_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listview_headview_textview.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listview_headview_textview.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listview_event_empty_view.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listview_event_empty_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\head_search1.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\head_search1.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_message_add.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\popwindow_message_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_right_audio.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_right_audio.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_right_merge.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_right_merge.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contact.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_change_mobile.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_my_change_mobile.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_approval_search.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_approval_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_group.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_my_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_schedule_main.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_schedule_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\list_dir_pop_view.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\list_dir_pop_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\view_date_timer.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\view_date_timer.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_subtask.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_list_subtask.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_accpet_list.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_accpet_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_new.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_login_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_alltask_list_item.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_task_alltask_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_textview.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_textview.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_gridview_day.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_gridview_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_left_file.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_left_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_type_select.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_type_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_feed_back.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_setting_feed_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_container_view.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\popwindow_container_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\view_timer.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\view_timer.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_organization.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_organization.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\layout_workhub_phone_password.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\layout_workhub_phone_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\com_mixpanel_android_question_card.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\layout\\com_mixpanel_android_question_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_left_audio.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_left_audio.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact_person_of_dept.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_contact_person_of_dept.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_message_record.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_message_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_schedule_week.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_schedule_week.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forget_password.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_forget_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_event_approve.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_event_approve.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\layout_workhub_create_team.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\layout_workhub_create_team.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_approval_apply_request.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_approval_apply_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_drag_whiteboard.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_drag_whiteboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listview_event_child_body.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listview_event_child_body.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_language.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_setting_language.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_change_password.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_my_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_gridview_week.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_gridview_week.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_grid.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_image_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_project_member.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\popwindow_project_member.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcom.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_welcom.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_team.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_select_team.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_speach_message.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_speach_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_approval_apply.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_new_approval_apply.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_form_box_select.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_form_box_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_message_record_app.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_message_record_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_approve_menu.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_approve_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_promise_content.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_promise_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_schedule_oneday.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_schedule_oneday.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_update.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_friend.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_my_friend.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_message_record_pic.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_message_record_pic.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_camera_select_imageview.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_camera_select_imageview.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\gesturepassword_create.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\gesturepassword_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_bucket.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_image_bucket.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_confirm.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_left_merge.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_left_merge.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_time_task.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_time_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_event_schedule.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_event_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_message_record_file.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_message_record_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_mark.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_mark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\send_msg_tool.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\send_msg_tool.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_new_task_tag.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_task_new_task_tag.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_share.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_my_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_result.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_search_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_schedule_add.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\popwindow_schedule_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recycle_item.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_recycle_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\window_chat_more.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\window_chat_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listview_month.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listview_month.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\map_video.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\map_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_call.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_webview.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_group_person.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_group_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_restart.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_restart.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contact_dept.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_contact_dept.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_workhub_my_team.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_workhub_my_team.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_merge_msg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_merge_msg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_approval.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_approval.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_rbtn.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_rbtn.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_chat_search.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_chat_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_add_task.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\popwindow_add_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_show_meeting_sc.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_show_meeting_sc.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_change_mail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_my_change_mail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\view_more_textview.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\view_more_textview.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_group.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_create_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_new_task_project.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_task_new_task_project.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_schedule_alert.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_schedule_alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_feed_back_item.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_setting_feed_back_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_merge_msg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_merge_msg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_event_task.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_event_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\grid_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_loading_plane.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_loading_plane.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_loading_wait.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_loading_wait.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_approval_type.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_approval_type.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\layout_send_message.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\layout_send_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_contact.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_change_username.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_my_change_username.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_whiteboard.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_whiteboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_main.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_task_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_person_detail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_person_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_schedule_event_detail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_schedule_event_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_right_file.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_right_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_add_schedule.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\popwindow_add_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\com_mixpanel_android_activity_notification_full.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\layout\\com_mixpanel_android_activity_notification_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_places.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_add_places.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\com_mixpanel_android_middle_choice_answer.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\layout\\com_mixpanel_android_middle_choice_answer.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\head_search2.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\head_search2.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_popwindow.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dropdown_popwindow.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listfooter_load_more.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listfooter_load_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_person.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_message.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listview_new_week.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listview_new_week.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_department.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_department.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_about_launchr.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_setting_about_launchr.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\com_mixpanel_android_first_choice_answer.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\layout\\com_mixpanel_android_first_choice_answer.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_device.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_setting_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_add_whiteboard.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_add_whiteboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_approval_send.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_approval_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_setting.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_group_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plugin_camera_image_file.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_plugin_camera_image_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_label.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_label.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_myqr.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_myqr.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plugin_camera_show_all_photo.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_plugin_camera_show_all_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_file_detail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_file_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plugin_camera_gallery.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_plugin_camera_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_task_today.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_task_today.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_session.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_session.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\view_last.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\view_last.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_message_record_pic.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_message_record_pic.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\gesturepassword_unlock.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\gesturepassword_unlock.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_meeting_detail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_meeting_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_published_grida.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_published_grida.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_task_project.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_task_project.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_left_image.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_left_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_session_list.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_session_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_taskmenu_selector.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_taskmenu_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_remark.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_remark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_message_record_file.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_message_record_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_remark.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_remark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_grid.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_image_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_person_remark.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_person_remark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_map_search_result.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_map_search_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\view_date_timer_new.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\view_date_timer_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_app.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_workhub_check_info.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_workhub_check_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_schedule_calendar.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_schedule_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chat_friend_verify.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listitem_chat_friend_verify.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_add_evnet.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\popwindow_add_evnet.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_detail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_personal_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_info_list.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_group_info_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_forget_back_mail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_forget_back_mail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_myteam.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_my_myteam.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_search2.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_search2.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\example_list_head_contact.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\example_list_head_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_new_workhub.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_login_new_workhub.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_detail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_task_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat_search.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_chat_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listview_new_day.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listview_new_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_task.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\view_select_time_take_shrink.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\view_select_time_take_shrink.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_approval_type.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_approval_type.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\listview_new_day_item.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\listview_new_day_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_look_more_friends.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_look_more_friends.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\msg_face_gridview.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\msg_face_gridview.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_copy_list.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_copy_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_listview_selecttime.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_listview_selecttime.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_workhub_sign.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_workhub_sign.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_person_event_detail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_person_event_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\map_file_item.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\map_file_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\com_mixpanel_android_last_choice_answer.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\layout\\com_mixpanel_android_last_choice_answer.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\layout_workhub_check_info.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\layout_workhub_check_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_bucket.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_image_bucket.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat_big_text.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_chat_big_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_schedule_day.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_schedule_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\face_item.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\face_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_all_list.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_all_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\layout_workhub_phone_sign.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\layout_workhub_phone_sign.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_google_map.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_google_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_edit_task.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\popwindow_edit_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contact_name.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_contact_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_new_task_finaltime.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\dialog_new_task_finaltime.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\view_myprogressbar.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\view_myprogressbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_friend_detail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_friend_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_whiteboard.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_whiteboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\widget_custom_dialog.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\widget_custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_month_week_event.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_month_week_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_detail.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_user_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_alart.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_alart.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_approval_accpet.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\fragment_approval_accpet.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\item_team_workhub.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\item_team_workhub.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_msg_notice.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\layout\\activity_new_msg_notice.xml"
+    }
+]

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rel_language"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/setting_title"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/iv_language_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/setting_language"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="20dp"
+        android:background="@color/line_color" />
+
+   
+	
+    
+
+    
+	<RelativeLayout
+	    android:id="@+id/rl_language_system"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height"
+        android:background="@color/white"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/tv_language_system"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/language_system"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/ch_language_system"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:button="@drawable/setting_language_checkbox"
+            android:contentDescription="@null" />
+    </RelativeLayout>
+   <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+
+   <RelativeLayout
+       android:id="@+id/rl_language_japan"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height"
+        android:background="@color/white"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/tv_language_japan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/language_japan"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/ch_language_japan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:button="@drawable/setting_language_checkbox"
+            android:contentDescription="@null" />
+    </RelativeLayout>
+     
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+     
+    <RelativeLayout
+        android:id="@+id/rl_language_english"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height"
+        android:background="@color/white"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/tv_language_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/language_english"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/ch_language_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:button="@drawable/setting_language_checkbox"
+            android:contentDescription="@null" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+   <RelativeLayout
+       android:id="@+id/rl_language_Chinese"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height"
+        android:background="@color/white"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/tv_language_Chinese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/language_chinese"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/ch_language_Chinses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:button="@drawable/setting_language_checkbox"
+            android:contentDescription="@null" />
+    </RelativeLayout>
+    
+      
+
+</LinearLayout>

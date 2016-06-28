@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl_month_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.mintcode.launchr.app.newSchedule.view.NoTouchGridView
+            android:id="@+id/gv_calendar_week"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="7"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="1dp"
+            android:listSelector="#00000000"
+            >
+
+        </com.mintcode.launchr.app.newSchedule.view.NoTouchGridView>
+        <com.mintcode.launchr.app.newSchedule.view.ScheduleEventView
+            android:id="@+id/view_week_event"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        </com.mintcode.launchr.app.newSchedule.view.ScheduleEventView>
+
+    </RelativeLayout>
+

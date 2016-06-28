@@ -35,7 +35,7 @@ public class MsgImageLeftView extends BaseLeftChatView {
         String content = item.getContent();
         AttachMsgContent msgContent = JSON.parseObject(content, AttachMsgContent.class);
         String url = AppConsts.httpIp + "/launchr" + msgContent.getThumbnail();
-        HeadImageUtil.getInstance().setChatImageFile(mIvImage, url,
+        HeadImageUtil.getInstance().setChatImage(mIvImage, url,
                 msgContent.getThumbnailWidth(), msgContent.getThumbnailHeight());
     }
 

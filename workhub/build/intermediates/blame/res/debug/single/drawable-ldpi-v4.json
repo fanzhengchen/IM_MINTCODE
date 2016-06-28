@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\com_mixpanel_android_arrowright.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-ldpi\\com_mixpanel_android_arrowright.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\com_mixpanel_android_logo.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-ldpi\\com_mixpanel_android_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\com_mixpanel_android_checkmark.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-ldpi\\com_mixpanel_android_checkmark.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\com_mixpanel_android_arrowleft.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-ldpi\\com_mixpanel_android_arrowleft.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\com_mixpanel_android_arrowright_faded.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-ldpi\\com_mixpanel_android_arrowright_faded.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\com_mixpanel_android_arrowleft_faded.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-ldpi\\com_mixpanel_android_arrowleft_faded.png"
+    }
+]

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <com.mintcode.launchr.view.RoundRectImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/icon_head_default"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+        <TextView android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="Kevin"
+            android:ellipsize="end"
+            android:singleLine="true"
+            />
+        <TextView android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="number"
+            android:ellipsize="end"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_add"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/my_friend_add"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_blue_round"
+
+        />
+
+
+</LinearLayout>

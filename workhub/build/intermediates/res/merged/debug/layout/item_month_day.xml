@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_grid_day"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/tv_grid_day"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:text="24" />
+</LinearLayout>

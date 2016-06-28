@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical"
+        >
+        <RelativeLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+            <ImageView 
+                android:id="@+id/iv_user_head"
+                android:layout_width="50dp"
+                android:layout_height="50dp" 
+                android:src="@drawable/icon_launchr"              
+                />
+            <TextView 
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_user_head"
+                android:paddingTop="10dp"
+                android:paddingLeft="15dp"
+                android:text="name"
+                android:textSize="15sp"
+                />
+            <TextView 
+                android:id="@+id/tv_user_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_user_head"
+                android:layout_below="@+id/tv_user_name"
+                android:paddingTop="5dp"
+                android:paddingLeft="15dp"
+                android:text="Lauchr ID:23332"
+                android:textSize="12sp"
+                android:textColor="@color/gray"
+                />
+            <ImageView 
+            android:id="@+id/iv_user_qr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_user_id"
+            android:paddingTop="15dp"
+            /> 
+             <ProgressBar 
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+             android:paddingTop="15dp"
+            android:layout_below="@+id/tv_user_id"
+            style="@style/progress_loading_wait"
+            android:layout_centerInParent="true"
+            android:id="@+id/pic_loading"
+            android:visibility="gone"
+            />
+        </RelativeLayout>
+    
+        
+            
+       
+        
+    </LinearLayout>
+
+</LinearLayout>

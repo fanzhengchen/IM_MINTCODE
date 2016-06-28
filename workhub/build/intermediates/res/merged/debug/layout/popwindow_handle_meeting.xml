@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_message_menu"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_gray"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_meeting_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon_pen"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:text="@string/calendar_edit"
+        android:textColor="@color/black" />
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_gray" />
+
+    <TextView
+        android:id="@+id/tv_meeting_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon_trash"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:text="@string/del"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_gray"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_meeting_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon_share"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:text="@string/send_to_other"
+        android:textColor="@color/black"
+        android:visibility="gone"/>
+
+</LinearLayout>

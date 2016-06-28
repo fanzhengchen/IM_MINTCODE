@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/new_task_height"
+        android:background="#ffffff" >
+
+        <TextView
+            android:id="@+id/new_tag_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/new_task_left"
+            android:text="@string/new_task_back"
+            android:textColor="#707070"
+            android:textSize="@dimen/new_task_textsize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/task_new_tag"
+            android:textColor="#0099ff"
+            android:textSize="@dimen/new_task_textsize" />
+
+        <TextView
+            android:id="@+id/new_tag_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/new_task_right"
+            android:text="@string/new_task_save"
+            android:textColor="#707070"
+            android:textSize="@dimen/new_task_textsize" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/new_task_backcolor" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/new_task_height"
+        android:background="#ffffff" >
+
+        <EditText
+            android:id="@+id/new_tag_title_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/new_task_left"
+            android:layout_marginRight="@dimen/new_task_right"
+            android:background="@drawable/task_newtask_title"
+            android:gravity="center_vertical"
+            android:hint="@string/new_task_title"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@color/new_task_textcolor"
+            android:textSize="@dimen/new_task_textsize" />
+    </RelativeLayout>
+
+</LinearLayout>

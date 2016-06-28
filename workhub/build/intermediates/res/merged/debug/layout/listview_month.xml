@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/tv_month"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="11月"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:gravity="center"
+        />	
+    <com.mintcode.launchr.app.schedule.view.ScheduleGridView
+        android:id="@+id/gv_month_of_day"
+        android:layout_below="@+id/tv_month"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="7"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1dp"
+        android:listSelector="#00000000"  
+         >       
+    </com.mintcode.launchr.app.schedule.view.ScheduleGridView>
+
+</RelativeLayout>

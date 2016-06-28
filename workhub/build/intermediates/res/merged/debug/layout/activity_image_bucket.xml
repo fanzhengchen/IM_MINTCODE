@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/rel_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/miui_top"
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:background="#0f00"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/blue" >
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:contentDescription="@null"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp"
+                android:src="@drawable/icon_left_deriction" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:text="相册"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:horizontalSpacing="20dp"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:verticalSpacing="20dp" >
+    </GridView>
+
+</LinearLayout>

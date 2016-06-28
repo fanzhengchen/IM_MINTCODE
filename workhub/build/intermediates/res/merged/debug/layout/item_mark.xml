@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp" >
+
+        <ImageView
+            android:id="@+id/iv_message_record_app_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/icon_circle_red"
+            android:visibility="gone" />
+
+        <com.mintcode.launchr.view.RoundRectImageView
+            android:id="@+id/message_head_iv"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:contentDescription="@null"
+            android:src="@drawable/icon_app_apply" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/message_head_iv"
+            android:layout_toRightOf="@id/message_head_iv" >
+
+            <TextView
+                android:id="@+id/message_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:singleLine="true"
+                android:maxWidth="120dp"
+                android:ellipsize="end"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/message_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text=""
+                android:textColor="@color/blue_launchr"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/message_head_iv"
+            android:layout_toRightOf="@id/message_head_iv" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/message_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text=""
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="@color/chat_below_text"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_message_record_app_finish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/icon_datareport"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_message_record_app_finish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:text=""
+                    android:textColor="@color/chat_below_text"
+                    android:textSize="10sp"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_message_record_app_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/icon_meeting_blue_point"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_message_record_app_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text=""
+                    android:textColor="@color/chat_below_text"
+                    android:textSize="10sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/iv_message_record_app_right_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/icon_meeting_blue_point"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_message_record_paper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/icon_paper_clip"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_message_record_app_speach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/icon_speach"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

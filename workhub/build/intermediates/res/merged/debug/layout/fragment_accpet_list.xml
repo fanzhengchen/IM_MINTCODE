@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<!--     <RelativeLayout -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:background="@color/white" -->
+<!--         android:orientation="vertical" > -->
+
+        <RadioGroup
+            android:id="@+id/rg_approval_selector_handle"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:visibility="gone">
+		<RelativeLayout 
+		    android:id="@+id/rl_promise_need_deal"
+		    android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+		    >
+		     <RadioButton
+                android:id="@+id/rbtn_promise_need_deal"
+                style="@style/approval_top_bar_raido_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:checked="true"
+                android:text="@string/approval_should_deal" />
+		    	<TextView
+                android:id="@+id/tv_need_deal_tagrt"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:background="@drawable/circle_red"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/rbtn_promise_need_deal"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:gravity="center"
+                />
+		</RelativeLayout>
+           
+		<RelativeLayout 
+		    android:id="@+id/rl_promise_deal"
+		    android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+		    >
+		    <RadioButton
+                android:id="@+id/rbtn_promise_deal"
+                style="@style/approval_top_bar_raido_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/approval_deal" />
+        	
+		    <TextView
+                android:id="@+id/tv_promise_deal_tagrt"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:background="@drawable/circle_red"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/rbtn_promise_deal"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:gravity="center"
+                />
+		</RelativeLayout>
+      </RadioGroup>      
+      
+      	
+        <LinearLayout
+            android:id="@+id/ll_accpet_list_null"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+              android:layout_below="@+id/rg_approval_selector_handle"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_deal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/blue_launchr" />
+
+            <ImageView
+                android:id="@+id/iv_finish"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_accpect_null"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+             android:layout_below="@+id/ll_accpet_list_null"
+            android:background="@color/line_color" />
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/lv_approval_list"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" 
+            android:layout_below="@+id/iv_accpect_null"
+            >
+        </com.handmark.pulltorefresh.library.PullToRefreshListView>
+<!--     </LinearLayout> -->
+
+<!--     <FrameLayout -->
+<!--         android:id="@+id/fragment_content" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="match_parent" > -->
+<!--     </FrameLayout> -->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_accpect_line"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1px"-->
+        <!--android:layout_above="@+id/tv_show_finish_deal"-->
+        <!--android:background="@color/line_color" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_show_finish_deal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/show_deal_finish"/>-->
+</RelativeLayout>

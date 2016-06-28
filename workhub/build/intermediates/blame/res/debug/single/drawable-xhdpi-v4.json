@@ -1,0 +1,2162 @@
+[
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_qr_code.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_qr_code.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_green_checked.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_green_checked.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_plane_6.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_plane_6.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3b5.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3b5.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f60f.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f60f.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_add_bule.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_add_bule.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_ic_trophy.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_ic_trophy.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_logo.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_checkbox_blue.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_checkbox_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f35c.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f35c.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f442.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f442.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_app_apply.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_app_apply.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_private_event_blue.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_private_event_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f437.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f437.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_launchr.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_launchr.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4bb.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4bb.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f42e.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f42e.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f6bd.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f6bd.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_private_event_white.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_private_event_white.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_clock_menu.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_clock_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_project.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_project.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_tool_place.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\chat_tool_place.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub2.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub2.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_2728.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_2728.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_down_direction.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_down_direction.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_bottom_approvel_press.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_bottom_approvel_press.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3c0.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3c0.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_new_event.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_new_event.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_2615.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_2615.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_tomorrow.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_tomorrow.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f61a.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f61a.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f40d.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f40d.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\input_green.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\input_green.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_bottom_approvel.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_bottom_approvel.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_file_pdf.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_file_pdf.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3e8.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3e8.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f353.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f353.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_ic_inbox.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_ic_inbox.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_ic_sync.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_ic_sync.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_tool_camera.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\chat_tool_camera.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f34a.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f34a.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_search_message_undefined.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\chat_search_message_undefined.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f623.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f623.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_clock.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_clock.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_contact_checked.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_contact_checked.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_more_checked.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_more_checked.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_mail_exist.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_mail_exist.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4a4.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4a4.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_for_project.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_for_project.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_eye_gray.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_eye_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_ic_bell.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_ic_bell.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f466.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f466.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_copy_to.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_copy_to.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub5.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub5.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f480.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f480.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_file_xsl.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_file_xsl.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_target_gray.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_target_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f433.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f433.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f378.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f378.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_login_back_mail1.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_login_back_mail1.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_eye_white_true.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_eye_white_true.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_deadline.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_deadline.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub6.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub6.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f34e.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f34e.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f61e.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f61e.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_file_html5.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_file_html5.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_send_gray.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_send_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_ic_sale_tag.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_ic_sale_tag.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_refuse.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_refuse.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_3297.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_3297.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_share.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_share.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_head_default.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_head_default.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pointer_2.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\pointer_2.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f31f.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f31f.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_tool_photo.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\chat_tool_photo.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f462.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f462.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_chat_edit_input.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\bg_chat_edit_input.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_meeting_blue_point.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_meeting_blue_point.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_google_schedule.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_google_schedule.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f451.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f451.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_trash_white.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_trash_white.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f382.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f382.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_group_header_default.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_group_header_default.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_pass.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_pass.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_more.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_more.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_2600.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_2600.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4bf.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4bf.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f197.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f197.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3ea.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3ea.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f697.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f697.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f389.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f389.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f449.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f449.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f6ba.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f6ba.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f467.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f467.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_message_no_inform.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\chat_message_no_inform.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_schedule_moth_blue.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_schedule_moth_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3b8.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3b8.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_login_eye_open.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_login_eye_open.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_recall.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_recall.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f40e.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f40e.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_circle_red.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_circle_red.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\s1.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\s1.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_file_txt.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_file_txt.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_qr_logo.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_qr_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f354.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f354.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\v_cn_3.jpg",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\v_cn_3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f373.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f373.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f52b.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f52b.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_ic_clipboard_checkmark.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_ic_clipboard_checkmark.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_pencil_menu.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_pencil_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f42d.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f42d.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_calender.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_calender.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub13.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub13.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gesture_pattern_selected_wrong.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\gesture_pattern_selected_wrong.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3e0.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3e0.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f455.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f455.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f35d.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f35d.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emotionstore_progresscancelbtn.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emotionstore_progresscancelbtn.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_file_doc.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_file_doc.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_26f5.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_26f5.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_270a.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_270a.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_new_meetin.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_new_meetin.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f45c.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f45c.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_plane_5.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_plane_5.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_login_lock.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_login_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3e7.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3e7.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f684.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f684.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_263a.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_263a.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f457.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f457.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_file_ppt.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_file_ppt.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f525.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f525.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_no_data_app.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_no_data_app.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f443.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f443.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f339.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f339.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub1.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub1.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_270c.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_270c.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_add.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_add.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_schedule_week_black.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_schedule_week_black.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\v_cn_1.jpg",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\v_cn_1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\v_3.jpg",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\v_3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3c6.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3c6.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_unchecked.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_unchecked.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f419.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f419.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_schedule_week_blue.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_schedule_week_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f460.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f460.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_2668.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_2668.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_ic_vip.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_ic_vip.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub8.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub8.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3a4.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3a4.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_pen_white.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_pen_white.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f349.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f349.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_bottom_task_press.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_bottom_task_press.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub14.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub14.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_square_nodropshadow.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_square_nodropshadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_add_gray.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_add_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_device.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_device.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_square_dropshadow.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_square_dropshadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_ic_coin.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_ic_coin.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f488.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f488.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_menu.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_datareport_menu.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_datareport_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f340.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f340.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f380.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f380.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_checkmark.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_checkmark.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_file_image.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_file_image.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f463.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f463.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f302.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f302.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_search_app_undefined.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\chat_search_app_undefined.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\about_launchr_logo.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\about_launchr_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\no_task_notifcation.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\no_task_notifcation.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_plane_1.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_plane_1.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\v_1.jpg",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\v_1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f44e.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f44e.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_2708.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_2708.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_pen.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_pen.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\event_calendar.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\event_calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pointer.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\pointer.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_checked.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_checked.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_file_xml.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_file_xml.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_26a0.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_26a0.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_checked_gray.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_checked_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_promise.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_promise.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_device_quit.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_device_quit.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_ic_rocket.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_ic_rocket.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f6a5.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f6a5.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f435.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f435.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_plane_3.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_plane_3.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f613.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f613.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_pass_white.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_pass_white.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f621.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f621.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4e0.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4e0.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_login_back_mail.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_login_back_mail.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f319.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f319.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4a9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4a9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f427.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f427.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f41b.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f41b.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_message_checked.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_message_checked.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f60c.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f60c.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4f7.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4f7.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_check_false_gray.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_check_false_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f618.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f618.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f367.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f367.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_no_data_ask.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_no_data_ask.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_arrowleft_faded.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_arrowleft_faded.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_login_back_phone.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_login_back_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4eb.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4eb.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f603.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f603.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_app_task.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_app_task.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f61c.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f61c.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f631.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f631.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_icloud.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_icloud.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f628.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f628.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_pointer.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_pointer.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub3.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub3.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f420.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f420.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f47e.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f47e.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_project_edit.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_project_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_promise2.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_promise2.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_login_account.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_login_account.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_no_data_point.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_no_data_point.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub16.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub16.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_chat_text_send.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\btn_chat_text_send.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f493.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f493.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_speach.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_speach.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_search_paper_clip_undefined.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\chat_search_paper_clip_undefined.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_emoji.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_emoji.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_270b.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_270b.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\places_ic_clear.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xhdpi\\places_ic_clear.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_red_on.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_red_on.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_recall_white.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_recall_white.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_clock.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_clock.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gesture_pattern_item_bg.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\gesture_pattern_item_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_app_checked.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_app_checked.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_ic_megaphone.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_ic_megaphone.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_sub_project.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_sub_project.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f42c.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f42c.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_tool_file.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\chat_tool_file.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f637.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f637.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub11.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub11.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_user_password.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_user_password.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f37b.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f37b.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_plane_8.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_plane_8.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4a2.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4a2.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f468.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f468.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_chat_microphone.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\btn_chat_microphone.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f512.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f512.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f41a.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f41a.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_2663.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_2663.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_sc.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_sc.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\green_circle.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\green_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f440.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f440.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_arrowright.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_arrowright.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f388.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f388.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\powered_by_google_light.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xhdpi\\powered_by_google_light.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_no_data_file.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_no_data_file.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_arrowleft.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_arrowleft.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_tool_task.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\chat_tool_task.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f683.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f683.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_mark_msg.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_mark_msg.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_plane_4.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_plane_4.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f444.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f444.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f604.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f604.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_more_white.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_more_white.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f6b2.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f6b2.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f35a.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f35a.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\add_friend_blue.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\add_friend_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_00ae.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_00ae.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f630.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f630.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f359.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f359.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_add.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_add.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f47c.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f47c.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_file_rar.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_file_rar.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_chat_send.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\btn_chat_send.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_accpet_gray.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_accpet_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\v_cn_2.jpg",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\v_cn_2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gesture_pattern_selected.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\gesture_pattern_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_file_unknown.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_file_unknown.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_right_on.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_right_on.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f384.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f384.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_login_eye_closed.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_login_eye_closed.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f601.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f601.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\workhub_icon.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\workhub_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f62a.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f62a.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_refuse_white.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_refuse_white.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\blue_circle.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\blue_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4a6.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4a6.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f447.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f447.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f60a.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f60a.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f633.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f633.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_group_del.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_group_del.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f64f.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f64f.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_small_msg.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_small_msg.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_ic_warning.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_ic_warning.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_contact.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_contact.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_off.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_off.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_26a1.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_26a1.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f44d.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f44d.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f334.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f334.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_delete.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f448.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f448.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4b0.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4b0.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f6ac.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f6ac.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f692.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f692.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f459.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f459.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_app.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_app.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_small_clock.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_small_clock.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3ca.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3ca.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\failed.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\failed.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\s2.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\s2.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\start_page_view.jpg",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\start_page_view.jpg"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_no_data_pic.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_no_data_pic.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_launchr_big_logo.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_launchr_big_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f363.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f363.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub7.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub7.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f616.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f616.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_take_photo.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_take_photo.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f691.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f691.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f452.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f452.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\frist_page_guide.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\frist_page_guide.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f6c0.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f6c0.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f44c.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f44c.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_no_data_message.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_no_data_message.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\event_place.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\event_place.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f48a.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f48a.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_274c.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_274c.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f414.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f414.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_much_gray.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_much_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_user_mail.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_user_mail.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_paper_clip.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_paper_clip.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_eye_blue.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_eye_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_2601.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_2601.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_loop_blue.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_loop_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_26ea.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_26ea.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f47b.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f47b.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f6a7.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f6a7.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\input_blue.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\input_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3e6.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3e6.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\workhub_lauch_bg.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\workhub_lauch_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_303d.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_303d.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4de.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4de.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_plane_10.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_plane_10.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\event_money.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\event_money.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f35e.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f35e.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_26c4.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_26c4.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_oneday.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_oneday.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f438.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f438.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_close_new.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_close_new.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\powered_by_google_dark.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xhdpi\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_group_add.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_group_add.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3e5.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3e5.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f511.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f511.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_bottom_schedule_press.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_bottom_schedule_press.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f48d.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f48d.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_app_schedule.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_app_schedule.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f44a.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f44a.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub12.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub12.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_loop_gray.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_loop_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f484.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f484.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_my_schedule.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_my_schedule.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4aa.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4aa.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_christ_mao.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_christ_mao.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f35f.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f35f.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_checkbox_gray.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_checkbox_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_ic_phone.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_ic_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f424.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f424.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f42f.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f42f.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_loop_black.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_loop_black.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_add_project.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_add_project.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_check_true_gray.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_check_true_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\places_ic_search.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xhdpi\\places_ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_plane_11.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_plane_11.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_target_blue.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_target_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_file_folder.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_file_folder.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_my_send.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_my_send.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3b0.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3b0.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f614.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f614.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f62d.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f62d.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f620.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f620.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_unspeach.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_unspeach.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_schedule_today_blue.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_schedule_today_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_add_black.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_add_black.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f693.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f693.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_26bd.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_26bd.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f428.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f428.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_plane_7.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_plane_7.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_menu_blue.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_menu_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_workhub.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_workhub.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_arrowright_faded.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_arrowright_faded.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_message.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_message.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_ic_flag.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_ic_flag.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_datareport.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_datareport.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f469.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f469.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_finish.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_finish.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_bottom_task.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_bottom_task.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f44f.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f44f.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f61d.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f61d.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f494.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f494.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub17.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub17.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f680.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f680.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f47f.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f47f.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_list_blue.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_list_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_chat_bottom_schedule.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_chat_bottom_schedule.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\red_clock.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\red_clock.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_white_back.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_white_back.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_login_bg.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_login_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_login_phone.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_login_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_send_blue.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_send_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub15.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub15.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_00a9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_00a9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f446.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f446.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_back.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_back.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f602.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f602.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4a8.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4a8.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f632.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f632.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4f1.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4f1.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f366.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f366.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f6b9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f6b9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub4.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub4.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_copy_to2.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_copy_to2.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_2614.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_2614.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_task_today.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_task_today.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_2b55.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_2b55.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_plane_9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_plane_9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f489.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f489.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f436.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f436.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f45f.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f45f.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f622.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f622.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_friend_message.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_friend_message.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f60d.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f60d.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_blue_checked.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_blue_checked.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f4a3.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f4a3.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_mixpanel_android_ic_gear.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable-xhdpi\\com_mixpanel_android_ic_gear.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f609.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f609.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3be.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3be.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_schedule_today_black.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_schedule_today_black.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_plane_2.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_plane_2.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f3a5.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f3a5.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\v_2.jpg",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\v_2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f49d.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f49d.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f004.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f004.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_schedule_month_black.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_schedule_month_black.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f6a4.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f6a4.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_drop_down.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_drop_down.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_2755.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_2755.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f612.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f612.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_chat_keyboard_pressed.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\btn_chat_keyboard_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_my_friend.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_my_friend.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_anim_workhub10.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_anim_workhub10.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_left_direction.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_left_direction.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_accpet_blue.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_accpet_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_trash.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_trash.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_261d.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_261d.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_app_meeting.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_app_meeting.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_2122.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_2122.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\input_selected.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\input_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_blue_on.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_blue_on.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_eye_white_false.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\icon_eye_white_false.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_1f37a.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable-xhdpi\\emoji_1f37a.png"
+    }
+]

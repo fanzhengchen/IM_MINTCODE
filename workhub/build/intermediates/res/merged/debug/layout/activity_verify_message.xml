@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_launchr"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/standard_image_side"
+            android:layout_height="@dimen/standard_image_side"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@null"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="center"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/tv_unread_num"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/img_back"
+            android:gravity="center"
+            android:textColor="@color/blue_launchr"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="@string/friend_verify" />
+
+
+    </RelativeLayout>
+
+    <com.mintcode.chat.widget.ChatListView
+        android:id="@+id/chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:listSelector="@color/transparent"
+        />
+
+</LinearLayout>

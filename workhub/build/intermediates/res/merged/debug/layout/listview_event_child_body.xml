@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/rl_event_content"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        <LinearLayout 
+                        android:id="@+id/ll_event_title_ll"
+            	android:layout_width="wrap_content"
+            	android:layout_height="fill_parent" 
+            	android:layout_alignParentLeft="true"         	
+            	android:orientation="horizontal"
+            >
+            	<ImageView
+		            android:id="@+id/iv_event_hint"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:paddingTop="17dp"
+		            android:layout_marginLeft="10dp"
+		            android:src="@drawable/text_event_attribute_bule" />
+            <LinearLayout 
+            	android:layout_width="wrap_content"
+            	android:layout_height="fill_parent"
+            	android:layout_marginLeft="6dp"
+            	android:orientation="vertical"
+            	android:gravity="center_vertical"
+            >            	
+	            <TextView 
+	            android:id="@+id/tv_date_event"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:gravity="bottom"
+	            android:layout_weight="1"           
+	            android:text="13:10"
+	            android:textSize="13sp"
+	            />
+	            <TextView 
+	            android:id="@+id/tv_event_duration"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_vertical"
+	            android:layout_weight="1"  
+	            android:text="1小时"
+	            android:textSize="13sp"
+	            android:textColor="@color/gray_launchr"
+            /> 
+	           
+	       </LinearLayout>
+        <LinearLayout 
+            	android:layout_width="wrap_content"
+            	android:layout_height="fill_parent"
+            	android:orientation="vertical"
+            	android:layout_marginLeft="25dp"
+            	android:gravity="center_vertical"
+            >
+	            <TextView 
+	                android:id="@+id/tv_event_title"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="bottom"
+	            android:layout_weight="1"  
+	            android:text="会议执行"
+	            android:textSize="13sp"
+	            />
+        
+          <TextView 
+            android:id="@+id/tv_event_site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_weight="1"  
+            android:text="文化广场"
+            android:textSize="12sp"
+            android:textColor="@color/gray_launchr"
+            />     
+            </LinearLayout>
+
+       
+      
+        </LinearLayout>
+         <TextView
+             android:id="@+id/tv_event_isimprotant"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="bottom"
+            android:layout_toRightOf="@+id/ll_event_title_ll"
+            android:paddingLeft="15dp"
+            android:text="@string/calendar_improtant"
+            android:textSize="12sp" 
+            android:textColor="@color/red_launchr"
+            android:visibility="invisible"
+            />
+        <ImageView 
+            android:id="@+id/iv_site_pointer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_pointer"
+            />
+
+        
+
+    </RelativeLayout>
+
+</RelativeLayout>

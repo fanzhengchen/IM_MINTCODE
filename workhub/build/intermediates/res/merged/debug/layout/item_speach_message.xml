@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/iv_item_message_head"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/item_message_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="name"
+                    android:textSize="13sp"
+                    android:textColor="@color/chat_below_text"
+                    />
+                <TextView
+                    android:id="@+id/item_message_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="right"
+                    android:text="time"
+                    android:textSize="13sp"
+                    android:textColor="@color/chat_below_text"
+                    />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:id="@+id/iv_item_message_attment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/chat_search_paper_clip_undefined"
+                    android:visibility="gone"
+                    />
+                <TextView
+                    android:id="@+id/item_message_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/iv_item_message_attment"
+                    android:text="content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:id="@+id/item_message_pic_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:visibility="gone"
+                        android:scaleType="fitXY"
+                        />
+                    <ProgressBar
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        style="@style/progress_loading_wait"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/item_pic_loading"
+                        android:visibility="gone"
+                        />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

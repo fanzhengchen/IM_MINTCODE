@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mintcode.launchr.mt"
+    android:versionCode="411"
+    android:versionName="4.1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- External storage for caching. -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- My Location -->
+    <!-- My Location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- IM -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
+    <!-- 百度地图 -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <!-- googlge key AIzaSyCV_LWsb4MxGFJUuom9e_kbgiZ4Rmhhsvw	 client id  ==769575316034-hol7ct6sorvudi6klp12jvn1avkl40c7.apps.googleusercontent.com -->
+    <!-- f8879b8590207c8c9856843a9777b892 mixpanel token -->
+    <!-- app_name_xihu -->
+    <application
+        android:name="com.mintcode.launchr.App"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_workhub"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCOa4VoxLV2zLPW1GWLYgXTA6l2n2kNBAg" />
+        <!-- android:value="AIzaSyCV_LWsb4MxGFJUuom9e_kbgiZ4Rmhhsvw" -->
+        <!-- icon_launchr     <meta-data -->
+        <!-- android:name="com.google.android.gms.version" -->
+        <!-- android:value="@integer/google_play_services_version" /> -->
+        <!-- 百度地图 cYqrqArDs0sNj4unErTF57Pl -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="cYqrqArDs0sNj4unErTF57Pl" />
+
+        <!-- Launchr -->
+        <meta-data
+            android:name="BUG_HD_SDK_GENERAL_KEY"
+            android:value="b1f0d0e6fb862bef8896b2379635dd5d" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="r" />
+
+        <activity android:name="com.mixpanel.android.surveys.SurveyActivity" />
+
+        <meta-data
+            android:name="com.mixpanel.android.MPConfig.EnableDebugLogging"
+            android:value="true" />
+        <meta-data
+            android:name="com.mixpanel.android.MPConfig.ResourcePackageName"
+            android:value="com.mintcode.launchr.mt" />
+
+        <activity
+            android:name="com.mintcode.launchr.activity.StartPageActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mintcode.launchr.activity.WelComActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.mintcode.launchr.activity.WebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.activity.LoginSelectTeamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.activity.MainActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="locale|orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.way.view.gesture.CreateGesturePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.way.view.gesture.UnlockGesturePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.way.view.gesture.AlterGesturePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.way.view.gesture.CreateAlterGesturePasswordActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 日程部分 -->
+
+        <activity
+            android:name="com.mintcode.launchr.app.newSchedule.activity.ScheduleMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.newSchedule.activity.AddScheduleEventActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.newSchedule.activity.ScheduleOneDayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Translucent" />
+        <activity
+            android:name="com.mintcode.launchr.app.newSchedule.activity.ScheduleEventDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.newSchedule.activity.FestivalDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.note.NoteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.meeting.activity.MeetingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mintcode.launchr.app.meeting.activity.MeetingDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.place.AddPlacesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.place.GooglePlacesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.meeting.activity.NewMeetingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.mintcode.launchr.more.activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.more.activity.NewMsgNoticeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.more.activity.AboutLaunchrActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.more.activity.MySweepActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- ===========通讯录=============== -->
+        <activity
+            android:name="com.mintcode.launchr.contact.activity.DepartmentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.contact.activity.ContactPersonOfDeptActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- ===========通讯录=============== -->
+
+
+        <!-- android:theme="@style/Anim_fade" -->
+        <activity
+            android:name="com.mintcode.launchr.app.meeting.activity.RestartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.meeting.activity.RemindActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.contact.activity.PersonDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.contact.activity.OrganizationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.contact.activity.ContactSearchActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 聊天界面 -->
+        <activity
+            android:name="com.mintcode.chat.activity.ChatActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.chat.activity.GroupInfoListActivtiy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.chat.activity.TextActivtiy"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.mintcode.chat.image.ImageSelectedActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.mintcode.chat.image.SelectPhotoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.mintcode.chat.activity.ImgPreviewActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.mintcode.chat.activity.PreviewLargeImageActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.mintcode.chat.imgshow.MCamera"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.mintcode.chat.imgshow.MCameraActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.chat.imgshow.FileShow"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.mintcode.launchr.app.newApproval.activity.ApprovalMainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.mintcode.launchr.app.newApproval.activity.ApproveDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.newApproval.activity.CreateNewApplyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.newApproval.activity.ApprovalTypeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.newApproval.activity.CheckBoxFormActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.newApproval.activity.ApproveSearchActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 审批部分 -->
+
+
+        <!-- 相册部分 -->
+        <activity
+            android:name="com.mintcode.launchr.photo.activity.PhotoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.photo.activity.GalleryActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 任务 -->
+        <activity
+            android:name="com.mintcode.launchr.app.newTask.activity.NewTaskActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.newTask.activity.ProjectDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.newTask.activity.ProjectListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.newTask.activity.TaskDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.newTask.activity.TaskMainActivity"
+            android:screenOrientation="portrait" />
+        <!-- 任务 -->
+
+        <activity
+            android:name="com.mintcode.launchr.app.account.setting.SettingLanguageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.account.setting.SettingInputActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.account.setting.SettingMessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.account.setting.SettingDeviceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.account.setting.SettingFeedBackActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 我 -->
+        <activity
+            android:name="com.mintcode.launchr.app.my.MyTeamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.my.MyChangePhoneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.my.MyShareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.my.MyChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.my.MyChangeMailActivity"
+            android:screenOrientation="portrait" />
+        <!-- 相册部分 -->
+
+
+        <!-- 消息记录 -->
+        <activity
+            android:name="com.mintcode.launchr.lastMsg.activity.MessageRecordActivity"
+            android:screenOrientation="portrait" />
+        <!-- IM注册 -->
+        <service
+            android:name="com.mintcode.im.service.PushService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.mintcode.im.service.GuardService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":guardService" />
+
+        <receiver android:name="com.mintcode.im.receiver.LaunchrBootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.mintcode.launchr.lastMsg.activity.GroupSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.lastMsg.activity.PersonSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.lastMsg.activity.HistorySearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.lastMsg.activity.SearchResultActiviy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.lastMsg.activity.CreateGroupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.lastMsg.activity.ChooseMemberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.lastMsg.activity.FileDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.my.MyChangeMobileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.app.my.MyChangeUserNameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.lastMsg.activity.LookMoreFriendsActivity"
+            android:screenOrientation="portrait" />
+        <!-- 好友验证页面 -->
+        <activity
+            android:name="com.mintcode.launchr.lastMsg.activity.VerifyFriendMessageActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的群组 -->
+        <activity
+            android:name="com.mintcode.launchr.contact.activity.MyGroupActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的好友 -->
+        <activity
+            android:name="com.mintcode.launchr.contact.activity.MyFriendActivity"
+            android:screenOrientation="portrait" />
+        <!-- 好友验证界面 -->
+        <activity
+            android:name="com.mintcode.launchr.contact.activity.FriendVerifyActivity"
+            android:screenOrientation="portrait" />
+        <!-- 好友详情界面 -->
+        <activity
+            android:name="com.mintcode.launchr.contact.activity.FriendDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.chat.activity.MergeMsgActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- WorkHub -->
+        <activity
+            android:name="com.mintcode.launchr.more.activity.AboutWorkHubActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.activity.LoginWorkHubActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.activity.workhub.WorkHubSignActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.activity.workhub.ForgetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.activity.workhub.GetBackMailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.activity.workhub.GetBackPhoneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.activity.workhub.WorkHubMyTeamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.activity.workhub.WorkHubCreateTeamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mintcode.launchr.activity.workhub.WorkHubTeamCheckInfoActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 百度地图定位的Service -->
+        <!-- <service -->
+        <!-- android:name="com.baidu.location.f" -->
+        <!-- android:enabled="true" -->
+        <!-- android:process=":remote"></service> -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

@@ -1,0 +1,938 @@
+[
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_square_yellow.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_square_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_week_nobackground_blue.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_week_nobackground_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_left_white.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_round_left_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_alltask_choose.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_alltask_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_approval_refuse.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_approval_refuse.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_newtask_prior_low_press.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_newtask_prior_low_press.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\blue_color.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\blue_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\com_mixpanel_android_choice_first_states.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable\\com_mixpanel_android_choice_first_states.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_blue_round_border.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_blue_round_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\com_mixpanel_android_arrowleft_states.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable\\com_mixpanel_android_arrowleft_states.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_right_gray.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_round_right_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_square_gray.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_square_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\com_mixpanel_android_nocolor_list.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable\\com_mixpanel_android_nocolor_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\exzaple_selector_tabtext.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\exzaple_selector_tabtext.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_chat_input.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_chat_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_attend_press.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\btn_attend_press.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\popwindow_border.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\popwindow_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\background_red_round.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\background_red_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_white_color.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\gray_white_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\view_index_btn_2_5_bg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\view_index_btn_2_5_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\arc_hf_btn_video_stop.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\arc_hf_btn_video_stop.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\arc_hf_img_del.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\arc_hf_img_del.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\com_mixpanel_android_arrowleft_insets.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable\\com_mixpanel_android_arrowleft_insets.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_newtask_prior_low.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_newtask_prior_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_gray.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\circle_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_loading.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\progress_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_headview.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_headview.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_select_attend_red.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\btn_select_attend_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_line_gray.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_line_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_newtask_prior_middle_color.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_newtask_prior_middle_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\meeting_line_bg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\meeting_line_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_record_bg_color.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\msg_record_bg_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_unselect_event.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_unselect_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\map_example.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\map_example.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\event_card_bg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\event_card_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_line_yellow.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_line_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_newtask_prior_middle.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_newtask_prior_middle.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_red.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_round_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\white_radius_line.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\white_radius_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\anim_playing_left.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\anim_playing_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\com_mixpanel_android_cta_button.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable\\com_mixpanel_android_cta_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\background_text_gray.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\background_text_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_finish_task_state.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_finish_task_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\arc_hf_img_return.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\arc_hf_img_return.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_alltask_new_task.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_alltask_new_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\tablhost_main_textcolor.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\tablhost_main_textcolor.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_press_bule_gray.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_press_bule_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_event_attribute_green.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_event_attribute_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\example_base_tabpager_indicator_selected.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\example_base_tabpager_indicator_selected.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_yellow.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_round_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\my_change_see_password_login.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\my_change_see_password_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_schedule_blue_black_selector.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_schedule_blue_black_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_chat_read.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_chat_read.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_record_right_bg_color.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\msg_record_right_bg_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_line_red.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_line_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\white_border.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\white_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_alert_bg_color.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\msg_alert_bg_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_white.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_round_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_message_attribute_red.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_message_attribute_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_chat_bottom_approvel.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_chat_bottom_approvel.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_month_week_day_selector.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_month_week_day_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_schedule_month_selector.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\icon_schedule_month_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\select_login_text_color.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\select_login_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_select_time_false_border.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\radio_select_time_false_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\example_base_action_bar_bg.9.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\example_base_action_bar_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_red.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\circle_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_bar_border.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\layout_bar_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\button_blue.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\button_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\background_gray_round.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\background_gray_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_alltask_menu.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_alltask_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\sidebar_background.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\sidebar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_chat_send_sound.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_chat_send_sound.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_add_task.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_add_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_schedule_selector_circle.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\icon_schedule_selector_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_main_message.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_main_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\rbtn_left_wihte_blue_bg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\rbtn_left_wihte_blue_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_event_attribute_bule.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_event_attribute_bule.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_alltask_choose_normal.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_alltask_choose_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\select_login_eye.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\select_login_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\select_login_identify.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\select_login_identify.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\white_color.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\white_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_icon_send.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\radio_icon_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_seletor_blue.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\checkbox_seletor_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_chat_bottom_task.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_chat_bottom_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_gray_black_selector.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_gray_black_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_newtask_prior_middle_normal.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_newtask_prior_middle_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\anim_playing_plane.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\anim_playing_plane.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_newtask_title.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_newtask_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_state_color_gray.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_state_color_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_border_gray.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_round_border_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_blue_round.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_blue_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_person_send_message.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_person_send_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\btn_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\com_mixpanel_android_choice_middle_states.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable\\com_mixpanel_android_choice_middle_states.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_line_blue.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_line_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_language_checkbox.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\setting_language_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\background_gray_border.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\background_gray_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_attend_red.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\btn_attend_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_main_more.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_main_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_month_week_day__selector.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\icon_month_week_day__selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_chat_sound_press.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_chat_sound_press.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_approval_recall.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_approval_recall.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\com_mixpanel_android_checkmark_states.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable\\com_mixpanel_android_checkmark_states.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_select_time_start_or_over.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_select_time_start_or_over.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\background_blue_round.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\background_blue_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\backgroud_with_shadow.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\backgroud_with_shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_main_contact.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_main_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\my_change_password.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\my_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\login_bg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\login_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\rbtn_left_bg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\rbtn_left_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_schedule_week_selector.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\icon_schedule_week_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_event_attribute_pink.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_event_attribute_pink.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_blue.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\circle_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_attend_green.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\btn_attend_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_border_green.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_border_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\rbtn_right_blue_white_bg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\rbtn_right_blue_white_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_loading_bg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\progress_loading_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\login_cursor.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\login_cursor.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\com_mixpanel_android_cta_button_highlight.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable\\com_mixpanel_android_cta_button_highlight.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_newtask_prior_height_press.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_newtask_prior_height_press.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_white_login.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_round_white_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_chat_bottom_schedule.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_chat_bottom_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_newtask_prior_height_normal.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_newtask_prior_height_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_select_time_true_border.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\radio_select_time_true_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_state_color_blue.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_state_color_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_press_add_event.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\btn_press_add_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\com_mixpanel_android_mini_inapp_rounded.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable\\com_mixpanel_android_mini_inapp_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\blue_border.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\blue_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_schedule_today_selector.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\icon_schedule_today_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\meeting_preview_btn_bg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\meeting_preview_btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_square_red.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_square_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_approval_accept.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_approval_accept.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_week_green.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_week_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\toggle_button.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\toggle_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_week_blue.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_week_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_chat_left_more.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\btn_chat_left_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\anim_playing_right.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\anim_playing_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_grey.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_round_grey.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_bg_select.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\gray_bg_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\com_mixpanel_android_arrowright_states.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable\\com_mixpanel_android_arrowright_states.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_newtask_prior_height_color.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_newtask_prior_height_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_newtask_prior_middle_press.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_newtask_prior_middle_press.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\com_mixpanel_android_arrowright_insets.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable\\com_mixpanel_android_arrowright_insets.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\my_change_see_password.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\my_change_see_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_select_time_border.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\radio_select_time_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_today_border.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_today_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\rbtn_right_bg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\rbtn_right_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_main_app.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_main_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\com_mixpanel_android_choice_last_states.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable\\com_mixpanel_android_choice_last_states.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_press_today.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\btn_press_today.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_blue_select.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\checkbox_blue_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\exzaple_tab_indicator.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\exzaple_tab_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gesture_view.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_gesture_view.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_record_left_bg_color.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\msg_record_left_bg_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_unselect_event_all.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_unselect_event_all.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_copy_border.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\btn_copy_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_select_attend_green.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\btn_select_attend_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_newtask_prior_low_normal.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_newtask_prior_low_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bg_round.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\dialog_bg_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\anim_playing_workhub.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\anim_playing_workhub.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_state_color_red.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_state_color_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_newtask_prior_height.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_newtask_prior_height.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_right_white.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_round_right_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_icon_accpet.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\radio_icon_accpet.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_event_attribute_gray.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_event_attribute_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_seletor_press_blue_white.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_seletor_press_blue_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_newtask_prior_low_color.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_newtask_prior_low_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_bar_bottom_select.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\icon_bar_bottom_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_week_nobackground_green.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_week_nobackground_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_approvel_title.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_approvel_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gray_round.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_gray_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gray_mark.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_gray_mark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_icon_add.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\radio_icon_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\my_change_password_color.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\my_change_password_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\meeting_rbtn_bg.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\meeting_rbtn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_expand_or_fewer.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\checkbox_expand_or_fewer.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bg_gray_round.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\dialog_bg_gray_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_approvel_title_text.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_approvel_title_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_state_color_orange.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_state_color_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_chat_send.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_chat_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_checked.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_checked.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_indicate.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_indicate.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_line_green.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_line_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_seletor_red.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\checkbox_seletor_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\anim_playing_sound.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\anim_playing_sound.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_white_blue.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_white_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_finish_select_state.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_finish_select_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\text_state_color_green.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\text_state_color_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\white_bg_selected.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\white_bg_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_left_gray.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_round_left_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\meeting_textcolor_selector.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\meeting_textcolor_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\background_search.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\background_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\background_remark.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\background_remark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\com_mixpanel_android_text_answer_border.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.mixpanel.android\\mixpanel-android\\4.8.7\\res\\drawable\\com_mixpanel_android_text_answer_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\task_alltask_choose_press.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\task_alltask_choose_press.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\select_login_account.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\select_login_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_msg_record.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\bg_msg_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\arc_hf_btn_img.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\arc_hf_btn_img.png"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_week_red.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\shape_week_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\build\\intermediates\\res\\merged\\debug\\drawable\\arc_hf_btn_video_start.png",
+        "source": "C:\\Users\\JulyYu\\Desktop\\WorkHub-IM-Demo\\WorkHub-IM-Demo\\workhub\\src\\main\\res\\drawable\\arc_hf_btn_video_start.png"
+    }
+]

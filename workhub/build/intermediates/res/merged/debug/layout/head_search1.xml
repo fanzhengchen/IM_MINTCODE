@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp" >
+
+<!--     <TextView -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_gravity="center_vertical" -->
+<!--         android:paddingBottom="10dp" -->
+<!--         android:paddingTop="10dp" -->
+<!--         android:text="@string/task_include" -->
+<!--         android:textColor="@color/gray" /> -->
+
+    <TextView
+        android:id="@+id/tv_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:text="@string/task_include_filed_approval"
+        android:textColor="@color/gray" />
+
+<!--     <TextView -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_gravity="center_vertical" -->
+<!--         android:paddingBottom="10dp" -->
+<!--         android:paddingTop="10dp" -->
+<!--         android:text="@string/task_filed_approval" -->
+<!--         android:textColor="@color/gray" /> -->
+
+</LinearLayout>

@@ -25,6 +25,7 @@ import mintcode.com.workhub_im.view.chatItemView.leftView.MsgAudioLeftView;
 import mintcode.com.workhub_im.view.chatItemView.leftView.MsgFileLeftView;
 import mintcode.com.workhub_im.view.chatItemView.leftView.MsgImageLeftView;
 import mintcode.com.workhub_im.view.chatItemView.leftView.MsgMergeLeftView;
+import mintcode.com.workhub_im.view.chatItemView.leftView.MsgTaskLeftView;
 import mintcode.com.workhub_im.view.chatItemView.leftView.MsgTextLeftView;
 import mintcode.com.workhub_im.view.chatItemView.rightView.MsgAudioRightView;
 import mintcode.com.workhub_im.view.chatItemView.rightView.MsgFileRightView;
@@ -304,11 +305,11 @@ public class ChatViewUtil {
                 break;
             // 任务消息
             case TYPE_MSG_EVENT_TASK:
-//                        view = new MsgTaskLeftView(viewGroup.getContext(),null);
+                        view = new MsgTaskLeftView(viewGroup.getContext(),null);
                 break;
             // 日程消息
             case TYPE_MSG_EVENT_SCHEDULE:
-//                        view = new ScheduleEventView(viewGroup.getContext(),null);
+                        view = new MsgScheduleView(viewGroup.getContext(),null);
                 break;
             // 审批消息
             case TYPE_MSG_EVENT_APPROVE:

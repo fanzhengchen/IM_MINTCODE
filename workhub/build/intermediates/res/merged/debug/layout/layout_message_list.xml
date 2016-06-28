@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+        <com.mintcode.launchr.view.ViewPagerIndicator
+            android:id="@+id/indicator_message_select"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+        </com.mintcode.launchr.view.ViewPagerIndicator>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:src="@color/line_color"
+            />
+    </LinearLayout>
+        <com.mintcode.launchr.view.NoscrollListView
+            android:id="@+id/lv_approval_speach_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            >
+        </com.mintcode.launchr.view.NoscrollListView>
+
+</LinearLayout>

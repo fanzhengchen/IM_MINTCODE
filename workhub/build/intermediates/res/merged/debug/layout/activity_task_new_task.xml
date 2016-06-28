@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/new_task_backcolor"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/new_task_assign_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="@dimen/new_task_left"
+        android:paddingRight="@dimen/new_task_right"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/new_task_back"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/new_task_height"
+            android:gravity="center_vertical"
+            android:text="@string/new_task_back"
+            android:textColor="@color/blue_launchr"
+            android:textSize="@dimen/new_task_textsize" />
+
+        <TextView
+            android:id="@+id/tv_new_task_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/new_task_new"
+            android:textColor="@color/black"
+            android:textSize="@dimen/new_task_textsize" />
+
+        <TextView
+            android:id="@+id/new_task_save"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/new_task_height"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:text="@string/new_task_save"
+            android:textColor="@color/blue_launchr"
+            android:textSize="@dimen/new_task_textsize" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:fillViewport="false"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_task_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/new_task_backcolor" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_task_height"
+                android:paddingLeft="@dimen/new_task_left"
+                android:paddingRight="@dimen/new_task_right"
+                android:background="@color/white">
+
+                <EditText
+                    android:id="@+id/new_task_title_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:textColorHint="@color/new_task_textcolor"
+                    android:hint="@string/new_task_title"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:maxEms="100"
+                    android:textSize="@dimen/new_task_textsize" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/new_task_backcolor" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="@dimen/new_task_left"
+                android:paddingRight="@dimen/new_task_right"
+                android:background="@color/white">
+
+                <EditText
+                    android:id="@+id/et_remark"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="@drawable/task_newtask_title"
+                    android:gravity="top|left"
+                    android:hint="@string/new_task_detail"
+                    android:textColorHint="@color/new_task_textcolor"
+                    android:paddingTop="10dp"
+                    android:paddingRight="15dp"
+                    android:maxHeight="500dp"
+                    android:textColor="@color/black"
+                    android:maxEms="120"
+                    android:textSize="@dimen/new_task_textsize" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/new_task_backcolor" />
+
+            <RelativeLayout
+                android:id="@+id/new_task_starttime"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_task_height"
+                android:paddingLeft="@dimen/new_task_left"
+                android:paddingRight="@dimen/new_task_right"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/star_time"
+                    android:textColor="@color/chat_below_text"
+                    android:textSize="@dimen/new_task_textsize" />
+
+                <TextView
+                    android:id="@+id/new_task_starttime_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/iv_right_start"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/new_task_textsize"
+                    android:text="@string/no_set_time"/>
+
+                <ImageView
+                    android:id="@+id/iv_right_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/icon_right_on" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/new_task_backcolor" />
+
+            <RelativeLayout
+                android:id="@+id/new_task_finaltime"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_task_height"
+                android:paddingLeft="@dimen/new_task_left"
+                android:paddingRight="@dimen/new_task_right"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/end_time"
+                    android:textColor="@color/chat_below_text"
+                    android:textSize="@dimen/new_task_textsize" />
+
+                <TextView
+                    android:id="@+id/new_task_finaltime_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/iv_right_final"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/new_task_textsize"
+                    android:text="@string/no_set_time"/>
+
+                <ImageView
+                    android:id="@+id/iv_right_final"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/icon_right_on" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/new_task_backcolor" />
+
+            <LinearLayout
+                android:id="@+id/new_task_assign"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_task_height"
+                android:paddingLeft="@dimen/new_task_left"
+                android:paddingRight="@dimen/new_task_right"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/new_task_assign"
+                    android:textColor="@color/chat_below_text"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="@dimen/new_task_textsize" />
+
+                <TextView
+                    android:id="@+id/new_task_assign_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/new_task_textsize" />
+
+                <ImageView
+                    android:id="@+id/iv_right_assign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@null"
+                    android:src="@drawable/icon_right_on" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/new_task_backcolor" />
+
+            <RelativeLayout
+                android:id="@+id/new_task_prior"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_task_height"
+                android:paddingLeft="@dimen/new_task_left"
+                android:paddingRight="@dimen/new_task_right"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/new_task_prior"
+                    android:textColor="@color/chat_below_text"
+                    android:textSize="@dimen/new_task_textsize" />
+
+                <RadioGroup
+                    android:id="@+id/new_task_prior_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/task_newtask_prior_low"
+                        android:drawableLeft="@drawable/shape_round_red"
+                        android:drawablePadding="5dp"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="@string/new_task_prior_height"
+                        android:textColor="@drawable/task_newtask_prior_low_color"
+                        android:id="@+id/rbtn_high"
+                        android:textSize="@dimen/new_task_textsize" />
+
+                    <RadioButton
+                        android:id="@+id/rbtn_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/task_newtask_prior_low"
+                        android:drawableLeft="@drawable/shape_round_yellow"
+                        android:drawablePadding="5dp"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="@string/new_task_prior_middle"
+                        android:textColor="@drawable/task_newtask_prior_low_color"
+                        android:textSize="@dimen/new_task_textsize" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/task_newtask_prior_low"
+                        android:drawableLeft="@drawable/shape_round_grey"
+                        android:drawablePadding="5dp"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="@string/new_task_prior_low"
+                        android:textColor="@drawable/task_newtask_prior_low_color"
+                        android:id="@+id/rbtn_low"
+                        android:textSize="@dimen/new_task_textsize" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/task_newtask_prior_low"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="@string/calendar_nothing"
+                        android:textColor="@drawable/task_newtask_prior_low_color"
+                        android:id="@+id/rbtn_none"
+                        android:textSize="@dimen/new_task_textsize"
+                        android:checked="false" />
+                </RadioGroup>
+            </RelativeLayout>
+
+            
+            <RelativeLayout
+                android:id="@+id/new_task_tag"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_task_height"
+                android:layout_marginLeft="@dimen/new_task_left"
+                android:visibility="gone"
+                android:layout_marginRight="@dimen/new_task_right" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/new_task_tag"
+                    android:textColor="@color/chat_below_text"
+                    android:textSize="@dimen/new_task_textsize" />
+
+                <TextView
+                    android:id="@+id/new_task_tag_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="80dp"
+                    android:textColor="@color/new_task_textcolor"
+                    android:textSize="@dimen/new_task_textsize" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/icon_right_on" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/new_task_backcolor" />
+
+            <RelativeLayout
+                android:id="@+id/new_task_repeat"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="@dimen/new_task_height"
+                android:layout_marginLeft="@dimen/new_task_left"
+                android:layout_marginRight="@dimen/new_task_right" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/new_task_repeat"
+                    android:textColor="@color/chat_below_text"
+                    android:textSize="@dimen/new_task_textsize" />
+
+                <TextView
+                    android:id="@+id/new_task_repeat_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="80dp"
+                    android:textColor="@color/new_task_textcolor"
+                    android:textSize="@dimen/new_task_textsize" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/icon_right_on" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/new_task_project"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_task_height"
+                android:paddingLeft="@dimen/new_task_left"
+                android:paddingRight="@dimen/new_task_right"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/tv_main_task"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/new_task_task"
+                    android:textColor="@color/chat_below_text"
+                    android:textSize="@dimen/new_task_textsize" />
+
+                <TextView
+                    android:id="@+id/new_task_project_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/iv_roght_project"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/new_task_textsize"
+                    android:text="@string/calendar_nothing"/>
+
+                <ImageView
+                    android:id="@+id/iv_roght_project"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/icon_right_on" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/new_task_backcolor" />
+
+            <RelativeLayout
+                android:id="@+id/new_task_label"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_task_height"
+                android:layout_marginLeft="@dimen/new_task_left"
+                android:layout_marginRight="@dimen/new_task_right"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/new_task_label"
+                    android:textColor="@color/chat_below_text"
+                    android:textSize="@dimen/new_task_textsize" />
+
+                <TextView
+                    android:id="@+id/new_task_label_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="80dp"
+                    android:textColor="@color/new_task_textcolor"
+                    android:textSize="@dimen/new_task_textsize" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/icon_right_on" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/new_task_backcolor" />
+
+
+            <RelativeLayout
+                android:id="@+id/new_task_remind"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_task_height"
+                android:paddingLeft="@dimen/new_task_left"
+                android:paddingRight="@dimen/new_task_right"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/new_task_remind"
+                    android:textColor="@color/chat_below_text"
+                    android:textSize="@dimen/new_task_textsize" />
+
+                <TextView
+                    android:id="@+id/new_task_remind_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/iv_roght_remind"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/calendar_not_remind"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/new_task_textsize" />
+
+                <ImageView
+                    android:id="@+id/iv_roght_remind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/icon_right_on" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/new_task_backcolor" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
